@@ -1,0 +1,18 @@
+{% extends '_layouts/base.nunjucks' %} 
+{% block content %}
+
+<div class="master text-center">
+  <header class="header">
+    <h1 class="logo animated bounceIn"><img src="images/logo.svg" alt="Hello victor" class="img-responsive" /></h1>
+  </header>
+  <a href="http://eepurl.com/cwWklz" class="btn btn-default btn-contact hvr-bounce-to-right ">Je souhaite rester informé</a>
+  <div class="main-content">
+    <div class="smartphone "><img src="images/smartphone.png" alt="smartphone" class="" /></div>
+    <div class="waiting-message">Bientôt disponible sur votre smartphone</div>
+    <div class="smartphone">
+      <img src="images/btn-app.png" alt="App store - Google Play" />
+    </div>
+  </div>
+</div>
+
+{% endblock %}
