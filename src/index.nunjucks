@@ -187,6 +187,52 @@
         </div>
       </div>
     </section>
+    <section class="section">
+      <header class="section-header">
+        <h2 class="section-title small-title">Pourcentage de personnes ayant quitté <br/>leurs compagnies d'assurance pour Hello Victor</h2>
+      </header>
+      <div class="section-content text-center">
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">14</span>%</div>
+            <div class="percentage-legend">AXA</div>
+          </div>
+        </div>
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">11</span>%</div>
+            <div class="percentage-legend">Generali</div>
+          </div>
+        </div>
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">10</span>%</div>
+            <div class="percentage-legend">Allianz</div>
+          </div>
+        </div>
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">16</span>%</div>
+            <div class="percentage-legend">Groupama</div>
+          </div>
+        </div>
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">8</span>%</div>
+            <div class="percentage-legend">Maif</div>
+          </div>
+        </div>
+        <div class="percentage-item">
+          <div class="percentage-inner">
+            <div class="percentage-number"><span class="text-bold">41</span>%</div>
+            <div class="percentage-legend">Autre</div>
+          </div>
+        </div>
+        <div class="link-bottom">
+          <a href="#" class="btn btn-light">Restez informé</a>
+        </div>
+      </div>
+    </section>
   </div>
 </div>
 
