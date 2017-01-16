@@ -15,4 +15,11 @@
   .text-heading{
     font-size: 20px;
   }
+  @media(max-width: $screen-sm-max){
+    .section-header{
+      br{
+        display:none;
+      }
+    }
+  }
 }
