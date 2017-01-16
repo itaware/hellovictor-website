@@ -16,85 +16,112 @@
     </div>
   </header>
   <div class="main-content">
-    <section class="section">
-      <header class="section-header text-center">
-
+    <section id="section-contract" class="section">
+      <header class="section-header container">
         <h2 class="section-title high-title">Hello Victo une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens</h2>
         <div class="text-heading">Une assurance innovante qui protège les choses que vous possédez à la maison et partout ailleurs</div>
-        <div class="container container-contract">
-          <div class="contract col-xs-12 col-sm-4">
-            <div class="inner">
-              <div class="top">
-                <h3 class="contract-title">&Eacute;tudiants</h3>
-              </div>
-              <div class="bottom">
-                <div class="contract-img">
-                  <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
-                </div>
-                <div class="contract-price">
-                  <div class="from">à partir de</div>
-                  <div class="price clearfix">
-                    <span class="price-value pull-left">5</span>
-                    <div class="price-infos pull-left text-left ">
-                      <div class="price-currency">€</div>
-                      <div class="price-period">/mois</div>
-                    </div>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
-              </div>
+      </header>
+      <div class="section-content container container-contract">
+        <div class="contract col-xs-12 col-sm-4">
+          <div class="inner">
+            <div class="top">
+              <h3 class="contract-title">&Eacute;tudiants</h3>
             </div>
-          </div>
-          <div class="contract col-xs-12 col-sm-4">
-            <div class="inner">
-              <div class="top">
-                <h3 class="contract-title">Couples</h3>
+            <div class="bottom">
+              <div class="contract-img">
+                <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
               </div>
-              <div class="bottom">
-                <div class="contract-img">
-                  <img src="images/contract/contract-2.png" alt="&Eacute;tudiants" class="img-responsive" />
-                </div>
-                <div class="contract-price">
-                  <div class="from">à partir de</div>
-                  <div class="price clearfix">
-                    <span class="price-value pull-left">15</span>
-                    <div class="price-infos pull-left text-left ">
-                      <div class="price-currency">€</div>
-                      <div class="price-period">/mois</div>
-                    </div>
+              <div class="contract-price">
+                <div class="from">à partir de</div>
+                <div class="price clearfix">
+                  <span class="price-value pull-left">5</span>
+                  <div class="price-infos pull-left text-left ">
+                    <div class="price-currency">€</div>
+                    <div class="price-period">/mois</div>
                   </div>
                 </div>
-                <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
               </div>
-            </div>
-          </div>
-          <div class="contract col-xs-12 col-sm-4">
-            <div class="inner">
-              <div class="top">
-                <h3 class="contract-title">Familles</h3>
-              </div>
-              <div class="bottom">
-                <div class="contract-img">
-                  <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
-                </div>
-                <div class="contract-price">
-                  <div class="from">à partir de</div>
-                  <div class="price clearfix">
-                    <span class="price-value pull-left">25</span>
-                    <div class="price-infos pull-left text-left ">
-                      <div class="price-currency">€</div>
-                      <div class="price-period">/mois</div>
-                    </div>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
-              </div>
+              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
             </div>
           </div>
         </div>
-      </header>
+        <div class="contract col-xs-12 col-sm-4">
+          <div class="inner">
+            <div class="top">
+              <h3 class="contract-title">Couples</h3>
+            </div>
+            <div class="bottom">
+              <div class="contract-img">
+                <img src="images/contract/contract-2.png" alt="&Eacute;tudiants" class="img-responsive" />
+              </div>
+              <div class="contract-price">
+                <div class="from">à partir de</div>
+                <div class="price clearfix">
+                  <span class="price-value pull-left">15</span>
+                  <div class="price-infos pull-left text-left ">
+                    <div class="price-currency">€</div>
+                    <div class="price-period">/mois</div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
+            </div>
+          </div>
+        </div>
+        <div class="contract col-xs-12 col-sm-4">
+          <div class="inner">
+            <div class="top">
+              <h3 class="contract-title">Familles</h3>
+            </div>
+            <div class="bottom">
+              <div class="contract-img">
+                <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
+              </div>
+              <div class="contract-price">
+                <div class="from">à partir de</div>
+                <div class="price clearfix">
+                  <span class="price-value pull-left">25</span>
+                  <div class="price-infos pull-left text-left ">
+                    <div class="price-currency">€</div>
+                    <div class="price-period">/mois</div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-<div class="slogan">Nous ne sommes pas un assureur, <br/> mais votre <span class="text-bold">Ange Gardien...</span></div>
+    <section id="section-insurance-level" class="section">
+      <header class="section-header container">
+        <h2 class="section-title blue-title">Pour chaque objet à assurer vous <br/> pouvez choisir de l'assurer à 3 niveaux</h2>
+      </header>
+      <div class="section-content container">
+        <div class="insurance-level col-xs-12 col-sm-4">
+          <img src="images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
+          <div class="title">à l'intérieur de l'habitation : </div>
+          <div class="desc">
+            l'objet est assuré selon la couverture de votre habitation : vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe)
+          </div>
+        </div>
+        <div class="insurance-level col-xs-12 col-sm-4">
+          <img src="images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
+          <div class="title">à l'extérieur de l'habitation : </div>
+          <div class="desc">
+            l'objet est assuré en cas de vol ou de dégâts survenu en dehors de l'habitation (tél, vélo, ordinateur portable).
+          </div>
+        </div>
+        <div class="insurance-level col-xs-12 col-sm-4">
+          <img src="images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
+          <div class="title">en extension de garantie : </div>
+          <div class="desc">
+            l'objet est assuré en cas de panne au delà de sa période de garantie.
+          </div>
+        </div>
+      </div>
+    </section>
+  <div class="slogan">Nous ne sommes pas un assureur, <br/> mais votre <span class="text-bold">Ange Gardien...</span></div>
   </div>
 </div>
 

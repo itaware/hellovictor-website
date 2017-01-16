@@ -1,0 +1,17 @@
+.insurance-level{
+  padding: 15px 35px;
+  .title{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .desc{
+    font-size: 18px;
+    text-align: justify;
+  }
+  @media(max-width: $screen-sm-max){
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

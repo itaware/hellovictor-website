@@ -2,19 +2,11 @@
   padding: 40px 0;
 }
 .contract{
-  padding: 25px 2%;
+  padding: 25px 20px;
+  text-align: center;
   .inner{
     border: 1px solid $contract-border-color;
     border-radius: $contract-border-radius;
-  }
-  &-img{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 50%;
-    margin: auto;
-    transform: translateY(-50%);
   }
   .top{
     border-radius: ($contract-border-radius - 1) ($contract-border-radius - 1) 0 0;
@@ -28,11 +20,23 @@
     padding: $contract-space-img $contract-padding-horizontal 0;
     background: $contract-bottom-bg;
   }
-  .contract-title{
+  &-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+  }
+  &-title{
     font-size: 38px;
     text-transform: uppercase;
+    @media(max-width: $screen-sm-max){
+      font-size: 34px;
+    }    
   }
-  .contract-price{
+  &-price{
     .price{
       display:inline-block;
     }
