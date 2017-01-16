@@ -4,21 +4,21 @@
 <div class="master">
   <header class="header-site text-center">
     <h1 class="logo animated bounceIn"><img src="images/logo-hv.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
-    <div class="slogan">Hello Victo une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens.</div>
+    <div class="slogan">Hello Victor une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens.</div>
     <div class="baseline">Assurez en quelques clics votre appartement et ce qu'il contient à tarif angélique <img class="emoji" src="images/emoji.png" alt="Emoji ange gardien" /></div>
     <div class="block-btn">
       <div>
         <a href="#" class="btn btn-default ">J'assure</a>
       </div>
       <div>
-        <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+        <a href="#" class="link link-video"><i class="icon icon-play"></i> Voir la vidéo</a>
       </div>
     </div>
   </header>
   <div class="main-content">
     <section id="section-contract" class="section">
       <header class="section-header container">
-        <h2 class="section-title high-title">Hello Victo une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens</h2>
+        <h2 class="section-title high-title">Hello Victor une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens</h2>
         <div class="text-heading">Une assurance innovante qui protège les choses que vous possédez à la maison et partout ailleurs</div>
       </header>
       <div class="section-content container container-contract">
