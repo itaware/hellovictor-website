@@ -4,4 +4,34 @@
 .link{
   font-size: 22px;
   color: $main-color;
+  &:hover{
+    text-decoration: none;
+  }
+  .icon, .glyphicon{
+    color: #000;
+    font-size: 25px;
+    line-height: 1;
+    vertical-align: middle;
+    margin-right: 12px;
+    &.center-block{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
+.no-padding{
+  padding: 0;
+}
+.align-items{
+  font-size: 0;
+  .align-item{
+    float:none;
+    display: inline-block;
+    font-size: inherit;
+  }
+  &.middle{
+    .align-item{
+      vertical-align: middle;
+    }
+  }
 }

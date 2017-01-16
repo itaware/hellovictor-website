@@ -11,7 +11,7 @@
         <a href="#" class="btn btn-default ">J'assure</a>
       </div>
       <div>
-        <a href="#" class="link link-video"><i class="icon icon-play"></i> Voir la vidéo</a>
+        <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
       </div>
     </div>
   </header>
@@ -127,7 +127,64 @@
         <div class="text-heading">N'attendez pas un sinistre pour faire l'inventaire de vos biens, recensez et valoriez rapidement votre patrimoine <br/> pour être remboursé en temps réel.</div>
       </header>
       <div class="section-content container">
-
+        <img src="images/inventory/appli.svg" alt="Une application innovante" class="img-responsive" />
+        <div class="link-bottom text-center">
+          <a href="#" class="link">Une application innovante<i class="center-block glyphicon glyphicon-menu-down"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <header class="section-header container">
+        <h2 class="section-title high-title">Faire l'inventaire de vos biens en quelques minutes.</h2>
+        <div class="text-heading">Avec l'app mobile de reconnaissance d'objets, photographiez tous vos biens, enregistrez vos <br/>factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée.</div>
+      </header>
+      <div class="align-items middle container-inventory section-content container clearfix">
+        <div class="clearfix">
+          <div class="align-item hidden-xs col-sm-12 col-md-6">
+            <img src="images/inventory/htc-hv.jpg" alt="Appli Hello victor" class="img-responsive" />
+          </div>
+          <div class="align-item clearfix no-padding col-xs-12 col-md-6">
+            <div class="inventory-step col-xs-12 col-sm-6">
+              <div class="inventory-step-number">1</div>
+              <div class="inventory-step-preview col-xs-4">
+                <img src="images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
+              </div>
+              <div class="inventory-step-instructions col-xs-8">
+                Lancez l'application Hello Victor sur votre smartphone
+              </div>
+            </div>
+            <div class="inventory-step col-xs-12 col-sm-6">
+              <div class="inventory-step-number">2</div>
+              <div class="inventory-step-preview col-xs-4">
+                <img src="images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
+              </div>
+              <div class="inventory-step-instructions col-xs-8">
+                Cadrez l'objet à ajouter à votre inventaire
+              </div>
+            </div>
+            <div class="inventory-step col-xs-12 col-sm-6">
+              <div class="inventory-step-number">3</div>
+              <div class="inventory-step-preview col-xs-4">
+                <img src="images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
+              </div>
+              <div class="inventory-step-instructions col-xs-8">
+                L'application reconnait l'objet vous avez juste à valider
+              </div>
+            </div>
+            <div class="inventory-step col-xs-12 col-sm-6">
+              <div class="inventory-step-number">4</div>
+              <div class="inventory-step-preview col-xs-4">
+                <img src="images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>
+              </div>
+              <div class="inventory-step-instructions col-xs-8">
+                Ajoutez éventuellement une description et une pièce jointe (facture, expertise) et voilà !
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="link-bottom text-center">
+          <a href="#" class="link"><i class="icon icon-play"></i>Voir la vidéo</a>
+        </div>
       </div>
     </section>
   </div>

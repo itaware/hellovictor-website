@@ -1,8 +1,10 @@
 .section{
-  padding: 50px 0;
-  text-align: center;
+  padding: 25px 0;
   +.section{
     border-top: 1px solid $gallery;
+  }
+  .section-header{
+    text-align: center;
   }
   .section-title{
     font-size: 40px;
@@ -20,6 +22,13 @@
       br{
         display:none;
       }
+    }
+  }
+  .section-content{
+    padding: 40px 0 0;
+
+    .link-bottom{
+      padding: 30px 0 0;
     }
   }
 }
