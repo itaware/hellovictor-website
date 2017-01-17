@@ -6,7 +6,11 @@ $gallery: #ecebeb;
 $shakespeare : #3A96D0;
 $link-water: #D5E7F2;
 $jordy-blue: #98D0F2;
+$tropical-blue: #D7EDFA;
+$sail: #B6DEF6;
 
+// green
+$atlantis: #81BD23;
 
 $main-color: $shakespeare;
 $gray: $alto;
@@ -35,6 +39,17 @@ $contract-bottom-bg: #fff;
 $contract-border-radius: 6px;
 $contract-padding-horizontal: 15px;
 $contract-space-img: 32%;
+
+// check
+$check-size: 30px;
+$check-color: #fff;
+$check-border-color: #fff;
+$check-border-width: 3px;
+$check-bg: $shakespeare;
+$check-font-size: 18px;
+
+$separatop-check-height : 240px;
+
 //== Media queries breakpoints
 // Extra small screen / phone
 $screen-xs:                  480px !default;

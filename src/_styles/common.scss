@@ -27,11 +27,39 @@
   .align-item{
     float:none;
     display: inline-block;
-    font-size: inherit;
+    font-size: initial;
   }
   &.middle{
     .align-item{
       vertical-align: middle;
     }
   }
+}
+.element-overlap{
+  position: relative;
+  z-index: 10;
+  + .element-overlap{
+    margin-left: -18%;
+  }
+}
+
+$max-element : 4;
+@for $i from 1 through $max-element{
+  .element-overlap:nth-child(#{$i}){
+    z-index: $max-element - $i;
+    margin-top: ($i - 1 ) * 11%;
+  }
+}
+
+.check{
+  display: block;
+  background: $check-bg;
+  width: $check-size;
+  height: $check-size;
+  line-height: $check-font-size;
+  border: $check-border-width solid $check-border-color;
+  font-size: $check-font-size;
+  color: $check-color;
+  text-align: center;
+  border-radius: 50%;
 }

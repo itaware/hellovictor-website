@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-20 -440 1000 1000" enable-background="new -20 -440 1000 1000" xml:space="preserve">
-<g>
-	<path id="Facebook__x28_alt_x29_" d="M980-265c0-85.2-79.1-162-166.7-162H146.7C59.1-427-20-350.2-20-265v648.1
-		c0,85.2,79.1,162,166.7,162H480V177.9H357.7v-162H480v-63.1c0-108.9,84.1-207,187.5-207h134.8v162H667.6
-		c-14.8,0-31.9,17.4-31.9,43.4v64.6h166.6v162H635.6v367.2h177.7c87.6,0,166.7-76.8,166.7-162V-265z"/>
-</g>
+
+<svg width="1001px" height="1001px" viewBox="1220 13658 1001 1001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Facebook-color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1220.000000, 13658.000000)">
+        <g id="Icons" fill="#FFFFFF">
+            <g>
+                <g id="Color-">
+                    <path d="M534.132396,1000 L55.1923333,1000 C24.7015208,1000 0,975.283167 0,944.804229 L0,55.1918958 C0,24.7052083 24.7053958,0 55.1923333,0 L944.811563,0 C975.290729,0 1000,24.7052083 1000,55.1918958 L1000,944.804229 C1000,975.287042 975.286854,1000 944.811563,1000 L689.985521,1000 L689.985521,612.744896 L819.969188,612.744896 L839.432396,461.824708 L689.985521,461.824708 L689.985521,365.471688 C689.985521,321.776813 702.119,292.000208 764.776875,292.000208 L844.693979,291.965271 L844.693979,156.981062 C830.872625,155.141833 783.433,151.032708 728.240667,151.032708 C613.017375,151.032708 534.132396,221.365125 534.132396,350.525188 L534.132396,461.824708 L403.815042,461.824708 L403.815042,612.744896 L534.132396,612.744896 L534.132396,1000 L534.132396,1000 Z" id="Facebook"></path>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -1,0 +1,18 @@
+
+@mixin dash($color: #000, $margin: 20px 0, $width: 40px, $height: 1px){
+    display:block;
+    width: $width;
+    height: $height;
+    @include dash-color($color);
+    @include dash-margin($margin);
+}
+@mixin dash-color($color){
+    background: $color;
+}
+@mixin dash-margin($margin){
+    margin: $margin;
+}
+
+.dash{
+    @include dash();
+}

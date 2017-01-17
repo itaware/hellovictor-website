@@ -144,8 +144,8 @@
             <img src="images/inventory/htc-hv.jpg" alt="Appli Hello victor" class="img-responsive" />
           </div>
           <div class="align-item clearfix no-padding col-xs-12 col-md-6">
-            <div class="inventory-step col-xs-12 col-sm-6">
-              <div class="inventory-step-number">1</div>
+            <div class="inventory-step col-xs-6 col-sm-6">
+              <div class="bubble-item inventory-step-number">1</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
               </div>
@@ -153,8 +153,8 @@
                 Lancez l'application Hello Victor sur votre smartphone
               </div>
             </div>
-            <div class="inventory-step col-xs-12 col-sm-6">
-              <div class="inventory-step-number">2</div>
+            <div class="inventory-step col-xs-6 col-sm-6">
+              <div class="bubble-item inventory-step-number">2</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
               </div>
@@ -162,8 +162,8 @@
                 Cadrez l'objet à ajouter à votre inventaire
               </div>
             </div>
-            <div class="inventory-step col-xs-12 col-sm-6">
-              <div class="inventory-step-number">3</div>
+            <div class="inventory-step col-xs-6 col-sm-6">
+              <div class="bubble-item inventory-step-number">3</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
               </div>
@@ -171,8 +171,8 @@
                 L'application reconnait l'objet vous avez juste à valider
               </div>
             </div>
-            <div class="inventory-step col-xs-12 col-sm-6">
-              <div class="inventory-step-number">4</div>
+            <div class="inventory-step col-xs-6 col-sm-6">
+              <div class="bubble-item inventory-step-number">4</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>
               </div>
@@ -185,6 +185,97 @@
         <div class="link-bottom text-center">
           <a href="#" class="link"><i class="icon icon-play"></i>Voir la vidéo</a>
         </div>
+      </div>
+    </section>
+    <section class="section section-claim-declaration">
+      <header class="section-header">
+        <h2 class="section-title">Vos déclarations de sinistres en ligne 24h/24h - 7/7 j</h2>
+        <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée et soyez remboursé instantanément.</div>
+      </header>
+      <div class="section-content">
+          <div class="declaration-step step-declare">
+            <div class="declaration-step-container align-items middle">
+              <div class="align-item declaration-step-header col-xs-12 col-sm-5">
+                <div class="declaration-step-title">Déclaration de sinistre</div>
+                <div class="declaration-step-subtitle">Par messagerie en moins de 2 mn</div>
+                <div class="declaration-step-tags">#pascool #seum #vol</div>
+              </div>
+              <div class="align-item col-xs-12 col-sm-4">
+                <div class="talk clearfix">
+                  <div class="message message-empty"></div>
+                  <div class="message person-1">Bonjour Mathilde <br/> comment puis-je vous aider ? </div>
+                  <div class="message person-2">On m'a volé mon portable !  </div>
+                  <div class="message person-1">Oh non, c'est pas de chance,<br/> où et quand cela s'est il passé ? </div>
+                  <div class="message person-2">Hier, dans ma voiture Avenue<br/> des Champs Elysés</div>
+                  <div class="message person-1">Ne vous inquiètez pas, on s'en<br/> occupe dès aujourd'hui !</div>
+                  <div class="message message-empty">...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="separator-check">
+            <div class="container">
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check"><i class="icon icon-check"></i></div>
+            </div>
+          </div>
+          <div class="declaration-step step-payment">
+            <div class="houses-front houses"></div>
+            <div class="houses-back houses"></div>
+            <div class="declaration-step-container align-items middle">
+              <div class="align-item declaration-step-header col-xs-12 col-sm-4">
+                <div class="declaration-step-title">Remboursé aussitôt</div>
+                <div class="declaration-step-subtitle">en 3mn chrono !</div>
+                <div class="declaration-step-tags">#happy #chance #getpaid</div>
+              </div>
+              <div class="align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
+                  <div class="col-xs-7 no-padding element-1 element-overlap">
+                    <img src="images/declaration/Smartphone-TOP.png" alt="Validation" class="img-responsive" />
+                  </div>
+                  <div class="col-xs-7 no-padding element-2 element-overlap">
+                    <img src="images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive" />
+                  </div>
+              </div>
+              <div class="align-item col-xs-12 col-sm-4 declaration-process">
+                <div class="bubble-item">...</div>
+                <ul class="declaration-instructions">
+                  <li>
+                    <div class="check"><i class="icon icon-check"></i></div>
+                    Déclarer par chat ce qu'on vous a volé ou ce qui est déterioré
+                  </li>
+                  <li>
+                    <div class="check"><i class="icon icon-check"></i></div>
+                    Vali dez et envoyer votre déclaration...
+                  </li>
+                  <li>
+                    <div class="check"><i class="icon icon-check"></i></div>
+                    Vous êtes remboursé immédiatement et sans délais
+                  </li>
+                  <li>
+                    <div class="check"><i class="icon icon-check"></i></div>
+                    <div class="text-bold">C'est terminé !</div>
+                    Vous avez la tête disponible pour d'autres choses...
+                  </li>
+                </ul>
+                <div class="block-share">
+                  <div class="dash"></div>
+                  <div class="block-share-label">
+                    Faites en profiter vos amis
+                  </div>
+                  <a href="#"><i class="icon icon-facebook"></i></a>
+                  <a href="#"><i class="icon icon-twitter"></i></a>
+                  <a href="#"><i class="icon icon-googleplus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
     <section class="section">

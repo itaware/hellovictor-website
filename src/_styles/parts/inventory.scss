@@ -4,16 +4,7 @@
 .inventory-step{
   margin: 30px 0;
   &-number{
-    width: 68px;
-    height: 78px;
-    margin-bottom: 20px;
-    background: url(../images/inventory/bubble.svg) center center no-repeat;
-    background-size: contain;
-    line-height: 60px;
-    font-size: 52px;
-    font-family: $font-raleway;
-    color: #fff;
-    text-align: center;
+
   }
   &-preview{
     padding: 0;
@@ -23,4 +14,16 @@
     font-weight: 400;
     font-size: 14px;
   }
+}
+.bubble-item {
+  width: 68px;
+  height: 78px;
+  margin-bottom: 20px;
+  background: url(../images/inventory/bubble.svg) center center no-repeat;
+  background-size: contain;
+  line-height: 60px;
+  font-size: 52px;
+  font-family: $font-raleway;
+  color: #fff;
+  text-align: center;
 }
