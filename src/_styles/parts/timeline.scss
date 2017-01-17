@@ -1,0 +1,63 @@
+.step-timeline{
+  position: relative;
+  font-size: 0;
+  &-progress{
+    content: '';
+    z-index: 10;
+    border: 1px dashed $jordy-blue;
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: $check-size / 2 - 1;
+  }
+  &-item{
+    position: relative;
+  }
+  .step-name{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .step-desc{
+    font-size: 16px;
+  }
+  .check {
+    position: relative;
+    z-index: 20;
+    background: $atlantis;
+  }
+  @media(min-width: $screen-sm-min){
+    &-progress{
+      top: 40px;
+      left: $timeline-item-width / 2;
+      right: $timeline-item-width / 2;
+      bottom: auto;
+    }
+    &-item{
+      width: $timeline-item-width;
+      padding: 0 15px;
+      float:left;
+      text-align: center;
+      &-longer{
+        width: 100% - $timeline-item-width * 3;
+      }
+    }
+    .step-desc{
+      max-width: 240px;
+      margin: auto;
+    }
+    .check{
+      margin: auto;
+    }
+  }
+  @media(max-width:$screen-xs-max){
+    &-item{
+      margin-bottom: 30px;
+    }
+    .check{
+      float:left;
+    }
+    .step-name, .step-desc{
+      padding-left: $check-size + 15;
+    }
+  }
+}

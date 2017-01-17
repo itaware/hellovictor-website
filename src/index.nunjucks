@@ -278,6 +278,47 @@
           </div>
       </div>
     </section>
+    <section class="section section-transfer">
+      <header class="section-header container">
+        <h2 class="section-title high-title">Vous êtes <u>déjà</u> assuré ? <br/> changer pour Hello Victor, on s'occupe de tout !</h2>
+        <div class="text-heading">Depuis l'entrée en vigueur du décret n°2014-1685 au 1er janvier 2015. Plus besoin d'attendre la date anniversaire de votre contrat ni d'envoyer de lettre recommandée, il vous suffit de suivre la procédure en 30 jours !</div>
+      </header>
+      <div class="section-content">
+        <div class="container">
+          <div class="step-timeline clearfix">
+            <div class="step-timeline-progress"></div>
+            <div class="step-timeline-item">
+              <div class="step-name">Jour J</div>
+              <div class="step-point">
+                <div class="check"><i class="icon icon-check"></i></div>
+              </div>
+              <div class="step-desc">Vous souscrivez à <br/> Hello Victor</div>
+            </div>
+            <div class="step-timeline-item step-timeline-item-longer">
+              <div class="step-name">J à J+30</div>
+              <div class="step-point">
+                <div class="check"><i class="icon icon-check"></i></div>
+              </div>
+              <div class="step-desc">Nous nous occupons de toutes<br/> les démarches de résiliation</div>
+            </div>
+            <div class="step-timeline-item">
+              <div class="step-name">J+30</div>
+              <div class="step-point">
+                <div class="check"><i class="icon icon-check"></i></div>
+              </div>
+              <div class="step-desc">Votre contrat avec votre ancien assureur se termine</div>
+            </div>
+            <div class="step-timeline-item">
+              <div class="step-name">J+30</div>
+              <div class="step-point">
+                <div class="check"><i class="icon icon-check"></i></div>
+              </div>
+              <div class="step-desc text-bold">Votre contrat avec Hello Victor débute</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="section">
       <header class="section-header">
         <h2 class="section-title small-title">Pourcentage de personnes ayant quitté <br/>leurs compagnies d'assurance pour Hello Victor</h2>
@@ -322,9 +363,44 @@
         <div class="link-bottom">
           <a href="#" class="btn btn-light">Restez informé</a>
         </div>
+        <div class="slogan">Nous ne sommes pas un assureur, <br/> mais votre <span class="text-bold">Ange Gardien...</span></div>
       </div>
     </section>
   </div>
+  <footer class="footer-site clearfix">
+      <div class="footer-block pull-left">
+        <div class="footer-block-inner">
+        <div>&copy;Hello Victor 2017</div>
+        <ul class="menu-footer">
+          <li>
+            <a href="#">Termes & Services</a>
+          </li>
+          <li>
+            <a href="#">Mentions légales</a>
+          </li>
+          <li>
+            <a href="#">CGV</a>
+          </li>
+          <li>
+            <a href="#">Contactez-nous</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer-block  pull-right hidden-xs">
+        <div class="footer-block-inner">
+        <div class="block-share">
+          <a href="#"><i class="icon icon-facebook"></i></a>
+          <a href="#"><i class="icon icon-twitter"></i></a>
+        </div>
+      </div>
+      </div>
+      <div class="footer-block logo text-center">
+        <div class="footer-block-inner">
+        <img src="images/logo-footer.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
+      </div>
+      </div>
+  </footer>
 </div>
 
 {% endblock %}
