@@ -1,0 +1,51 @@
+.product{
+  .product-header{
+    height: 100vh;
+    line-height: 100vh;
+    @include cover();
+    .heading-title{
+      position: relative;
+      display:inline-block;
+      vertical-align: bottom;
+      padding: 5% 5%;
+      color: #fff;
+      width: 100%;
+      @media(max-width: $screen-sm-max){
+        text-align: center;
+      }
+      .heading-left, .heading-right{
+        line-height: 1;
+      }
+      .btn{
+        margin-top: 15%;
+        padding: 10px 25px;
+        font-size: 18px;
+        min-width: 0;
+      }
+    }
+  }
+
+  &-title{
+    margin: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+  &-subtitle{
+    font-size: 40px;
+  }
+
+  @media(min-width: $screen-md-min){
+    .heading-left{
+      float: left;
+    }
+    .heading-right{
+      float: right;
+    }
+  }
+}
+.block-talk{
+  background: url(../images/declaration/bg-talk.svg) center top no-repeat;
+  background-size: 90%;
+  margin-top: -15%;
+  padding: 20% 0;
+}

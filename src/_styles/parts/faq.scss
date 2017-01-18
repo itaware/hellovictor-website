@@ -1,0 +1,17 @@
+.faq{
+  border-left: 1px solid $dusty-gray;
+  padding-left: 30px;
+  width: calc(100% - 30px);
+  max-width: 940px;
+  margin: auto;
+
+  dt{
+    font-size: 16px;
+    font-weight: 500;
+    color: $dove-gray;
+  }
+  dd{
+    margin-bottom: 30px;
+    line-height: 1.7;
+  }
+}

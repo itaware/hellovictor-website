@@ -3,6 +3,9 @@
   +.section{
     border-top: 1px solid $gallery;
   }
+  &.section-gray{
+    background: $gallery;
+  }
   .section-header{
     text-align: center;
   }

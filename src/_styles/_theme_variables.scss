@@ -1,7 +1,15 @@
 ////// colors ///////
+// black
+//
+//
 // gray
 $alto: #d8d8d8;
 $gallery: #ecebeb;
+$manatee: #8C8F9D;
+$dusty-gray: #979797;
+$gallery: #f0f0f0;
+$dove-gray: #6e6e6e;
+
 // blue
 $shakespeare : #3A96D0;
 $link-water: #D5E7F2;
@@ -52,6 +60,12 @@ $check-bg: $shakespeare;
 $check-font-size: 18px;
 
 $separatop-check-height : 240px;
+
+$block-chat-icon-size: 85px;
+$block-chat-icon-size-mobile: 50px;
+
+$list-square-size: 12px;
+$list-square-bg: $main-color;
 
 //== Media queries breakpoints
 // Extra small screen / phone

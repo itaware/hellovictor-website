@@ -1,0 +1,176 @@
+
+{% extends '_layouts/base.nunjucks' %}
+{# Custom Configuration #}
+{% block config %}
+  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+  {# Otherwise default to relative pathing #}
+  {% set baseUrl = '/' %}
+{% endblock %}
+
+{% block content %}
+  <article class="product">
+    <header class="product-header">
+      <div class="cover">
+        <img src="{{baseUrl}}images/product/student/header-product.jpg" />
+      </div>
+      <div class="heading-title clearfix">
+        <div class="heading-left">
+          <h1 class="product-title">&Eacute;tudiants</h1>
+          <h2 class="product-subtitle">Seul ou en colocation, <br/> assurez juste le nécessaire</h2>
+        </div>
+        <div class="heading-right">
+          <a href="#" class="pull-right btn btn-default text-center ">Vérifiez la disponibilité<br/> du service dans votre ville</a>
+        </div>
+      </div>
+    </header>
+    <div class="product-detail">
+        <section class="section container">
+          <div class="form form-subscribe">
+            <form>
+                <div class="form-container clearfix">
+                  <div class="form-group col-xs-12 col-sm-4">
+                    <label for="nom">Mon prénom</label>
+                    <input type="text" name="prenom" id="prenom" class="form-control col-xs-12" />
+                  </div>
+                  <div class="form-group col-xs-12 col-sm-4">
+                    <label for="nom">Mon adresse email</label>
+                    <input type="text" name="email" id="email" class="form-control col-xs-12" />
+                  </div>
+                  <div class="form-group col-xs-12 col-sm-4">
+                    <label for="ville">Ma ville</label>
+                    <input type="text" name="ville" id="ville" class="form-control col-xs-12" />
+                  </div>
+                </div>
+              <div class="form-submit text-center">
+                <input type="submit" value="Envoyer" class="btn btn-default" />
+              </div>
+            </form>
+          </div>
+        </section>
+
+  {% include '_components/insurance-level.nunjucks' %}
+  <div class="link-bottom text-center">
+    <a href="#" class="link">Assurez juste le nécessaire<i class="center-block glyphicon glyphicon-menu-down"></i></a>
+  </div>
+  <section class="section">
+    <div class="section-content container">
+      <div class="col-sm-3 hidden-xs">
+        <div class="col-xs-11">
+          <img src="{{baseUrl}}images/product/student/htc_one.jpg" alt="Application Hello Victor" class="img-responsive" />
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-9">
+        <div class="section-header">
+          <div class="section-title">Assurez le nécessaire, Payez le juste prix</div>
+        </div>
+        <div class="list-square">
+          <ul>
+            <li>Faites l'inventaire de vos biens</li>
+            <li>Préciser le niveaux de couverture pour chaque objet</li>
+            <li>Indiquez la période de couverture</li>
+            <li>C'est tout, vous êtes assuré !</li>
+          </ul>
+        </div>
+        <p>
+          Assurez ce qui est important et économisez sur votre assurance, nous adaptons le prix au plus juste. Votre canapé est trop vieux, faites le calcul de vétusté automoatiquement et choisissez de l'assurer ou pas. Ajouter ou supprimer des biens à votre inventaire au cours du temps, votre prime sera recalculée instantanément.
+        </p>
+        <div class="link-bottom">
+          <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-content container">
+      <div class="col-xs-12 col-sm-9">
+        <div class="section-header">
+          <div class="section-title">Faites-vous rembourser immédiatement</div>
+        </div>
+        <div class="list-square col-sm-10">
+          <ul>
+            <li>Vous pouvez demander un remboursement pour un objet particulier ou un groupe d'objets.</li>
+            <li>Pour chaque objet nous comparons la déclaration lors de l'inventaire avec l'état après sinistre et évaluons votre remboursement</li>
+          </ul>
+        </div>
+        <div class="block-chat col-sm-9">
+          Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée et soyez remboursé instantanément.
+        </div>
+      </div>
+      <div class="col-sm-3 hidden-xs">
+        <div class="block-talk">
+          <div class="col-xs-7 no-padding element-1 element-overlap">
+            <img src="{{baseUrl}}images/declaration/Smartphone-TOP.png" alt="Validation" class="img-responsive">
+          </div>
+          <div class="col-xs-7 no-padding element-2 element-overlap">
+            <img src="{{baseUrl}}images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section-gray">
+    <header class="section-header">
+      <div class="section-title">Les avantages de l'inventaire</div>
+    </header>
+    <div class="section-content container">
+      <div class="inventory-step col-xs-6 col-sm-3">
+        <div class="bubble-item inventory-step-number">1</div>
+        <div class="inventory-step-preview col-xs-4">
+          <img src="{{baseUrl}}images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
+        </div>
+        <div class="inventory-step-instructions col-xs-8">
+          Lancez l'application Hello Victor sur votre smartphone
+        </div>
+      </div>
+      <div class="inventory-step col-xs-6 col-sm-3">
+        <div class="bubble-item inventory-step-number">2</div>
+        <div class="inventory-step-preview col-xs-4">
+          <img src="{{baseUrl}}images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
+        </div>
+        <div class="inventory-step-instructions col-xs-8">
+          Cadrez l'objet à ajouter à votre inventaire
+        </div>
+      </div>
+      <div class="inventory-step col-xs-6 col-sm-3">
+        <div class="bubble-item inventory-step-number">3</div>
+        <div class="inventory-step-preview col-xs-4">
+          <img src="{{baseUrl}}images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
+        </div>
+        <div class="inventory-step-instructions col-xs-8">
+          L'application reconnait l'objet vous avez juste à valider
+        </div>
+      </div>
+      <div class="inventory-step col-xs-6 col-sm-3">
+        <div class="bubble-item inventory-step-number">4</div>
+        <div class="inventory-step-preview col-xs-4">
+          <img src="{{baseUrl}}images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>
+        </div>
+        <div class="inventory-step-instructions col-xs-8">
+          Ajoutez éventuellement une description et une pièce jointe (facture, expertise) et voilà !
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <header class="section-header">
+      <h2 class="section-title">Des questions & des réponses</h2>
+    </header>
+    <div class="section-content container">
+      <div class="faq">
+        <dl>
+          <dt>Vous avez perdu votre facture ?</dt>
+          <dd>Vous ne savez plus quel est le prix d'achat de votre bien ? <br/>Pas de souci nous recherchons pour vous la valeur du bien à la date approximative de l'achat et nous vous suggérons une valeur et un calcul de vétusté.</dd>
+          <dt>Justificatif d'achat</dt>
+          <dd>Nous acceptons aussi les références sur internet de vos achats, combiné à une photo nous nous basons sur le prix affiché sur internet et sauvegardons la page comme justificatif.</dd>
+          <dt>Livre</dt>
+          <dd>Scannez le code barre et nous calculons automatiquement la valeur et la vétusté</dd>
+          <dt>Vétusté</dt>
+          <dd>Pour chaque catégorie de produuit un calcul de vétusté est appliqué, vous pouvez visualiser le montant de remboursement en temps réel même sir le calcul peut évoluer celui fixé à la date du contrat reste le même pour toute la durée du contrat.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</div>
+</article>
+
+{% endblock %}

@@ -1,21 +1,25 @@
 {% extends '_layouts/base.nunjucks' %}
-{% block content %}
-
-<div class="master">
-  <header class="header-site text-center">
-    <h1 class="logo animated bounceIn"><img src="images/logo-hv.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
-    <div class="slogan">Hello Victor une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens.</div>
-    <div class="baseline">Assurez en quelques clics votre appartement et ce qu'il contient à tarif angélique <img class="emoji" src="images/emoji.png" alt="Emoji ange gardien" /></div>
-    <div class="block-btn">
-      <div>
-        <a href="#" class="btn btn-default ">J'assure</a>
-      </div>
-      <div>
-        <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
-      </div>
+{% block config %}
+  {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+  {# Otherwise default to relative pathing #}
+  {% set bodyClass = 'home' %}
+{% endblock %}
+{% block header %}
+<header class="header-site text-center">
+  <h1 class="logo animated bounceIn"><img src="{{baseUrl}}images/logo-hv.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
+  <div class="slogan">Hello Victor une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens.</div>
+  <div class="baseline">Assurez en quelques clics votre appartement et ce qu'il contient à tarif angélique <img class="emoji" src="images/emoji.png" alt="Emoji ange gardien" /></div>
+  <div class="block-btn">
+    <div>
+      <a href="#" class="btn btn-default ">J'assure</a>
     </div>
-  </header>
-  <div class="main-content">
+    <div>
+      <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+    </div>
+  </div>
+</header>
+  {% endblock %}
+{% block content %}
     <section id="section-contract" class="section">
       <header class="section-header container">
         <h2 class="section-title">Une assurance innovante qui protège les choses que vous possédez à la maison et partout ailleurs</h2>
@@ -92,34 +96,7 @@
         </div>
       </div>
     </section>
-    <section id="section-insurance-level" class="section">
-      <header class="section-header container">
-        <h2 class="section-title blue-title">Pour chaque objet à assurer vous <br/> pouvez choisir de l'assurer à 3 niveaux</h2>
-      </header>
-      <div class="section-content container">
-        <div class="insurance-level col-xs-12 col-sm-4">
-          <img src="images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
-          <div class="title">à l'intérieur de l'habitation </div>
-          <div class="desc hidden-xs">
-            l'objet est assuré selon la couverture de votre habitation : vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe)
-          </div>
-        </div>
-        <div class="insurance-level col-xs-12 col-sm-4">
-          <img src="images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
-          <div class="title">à l'extérieur de l'habitation </div>
-          <div class="desc hidden-xs">
-            l'objet est assuré en cas de vol ou de dégâts survenu en dehors de l'habitation (tél, vélo, ordinateur portable).
-          </div>
-        </div>
-        <div class="insurance-level col-xs-12 col-sm-4">
-          <img src="images/insurance-level/warranty.png" alt="Salon" class="img-responsive" />
-          <div class="title">en extension de garantie </div>
-          <div class="desc hidden-xs">
-            l'objet est assuré en cas de panne au delà de sa période de garantie.
-          </div>
-        </div>
-      </div>
-    </section>
+    {% include '_components/insurance-level.nunjucks' %}
     <section class="section">
       <header class="section-header container">
         <h2 class="section-title high-title">Faire l'inventaire de ses biens n'a jamais été aussi simple</h2>
@@ -245,11 +222,11 @@
                 <ul class="declaration-instructions">
                   <li>
                     <div class="check"><i class="icon icon-check"></i></div>
-                    Déclarer par chat ce qu'on vous a volé ou ce qui est déterioré
+                    Déclarez par chat ce qu'on vous a volé ou ce qui est déterioré
                   </li>
                   <li>
                     <div class="check"><i class="icon icon-check"></i></div>
-                    Vali dez et envoyer votre déclaration...
+                    Validez et envoyez votre déclaration...
                   </li>
                   <li>
                     <div class="check"><i class="icon icon-check"></i></div>
@@ -363,41 +340,4 @@
         <div class="slogan">Nous ne sommes pas un assureur, <br/> mais votre <span class="text-bold">Ange Gardien...</span></div>
       </div>
     </section>
-  </div>
-  <footer class="footer-site clearfix">
-      <div class="footer-block pull-left">
-        <div class="footer-block-inner">
-        <div>&copy;Hello Victor 2017</div>
-        <ul class="menu-footer">
-          <li>
-            <a href="#">Termes & Services</a>
-          </li>
-          <li>
-            <a href="#">Mentions légales</a>
-          </li>
-          <li>
-            <a href="#">CGV</a>
-          </li>
-          <li>
-            <a href="#">Contactez-nous</a>
-          </li>
-        </ul>
-      </div>
-      </div>
-      <div class="footer-block  pull-right">
-        <div class="footer-block-inner">
-          <div class="block-share">
-            <a href="#"><i class="icon icon-facebook"></i></a>
-            <a href="#"><i class="icon icon-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-block logo text-center">
-        <div class="footer-block-inner">
-        <img src="images/logo-footer.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
-      </div>
-      </div>
-  </footer>
-</div>
-
 {% endblock %}

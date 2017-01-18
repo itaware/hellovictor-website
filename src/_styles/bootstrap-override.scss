@@ -36,3 +36,22 @@ h6,
 .h6 {
   font-weight: 300;
 }
+.form-container{
+  margin: 40px 0;
+}
+label{
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.form-control{
+  border-radius: 0;
+  border-color: $manatee;
+}
+.form-submit{
+  .btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
