@@ -1,8 +1,13 @@
 .footer-site{
   background: $main-color;
   color: #fff;
-  padding: 15px 30px;
+  padding: 15px 15px;
   line-height: 70px;
+  @media(max-width: $screen-xs-max){
+    .footer-block{
+      line-height: 1;
+    }
+  }
   .footer-block-inner{
     display:inline-block;
     vertical-align: middle;
@@ -45,6 +50,8 @@
 
     @media(max-width: $screen-xs-max){
       float:right;
+      clear: right;
+      margin-top: 10px;
     }
   }
 }
