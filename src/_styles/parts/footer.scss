@@ -9,13 +9,14 @@
     line-height: 1;
   }
   .menu-footer{
+    display:inline-block;
     margin-top: 5px;
     margin-bottom: 0;
     padding: 0;
     li{
       list-style:none;
-      display: inline-block;
-      padding: 0 10px;
+      display: block;
+      margin-bottom: 5px;
       &:first-child{
         padding-left: 0;
       }
@@ -23,10 +24,27 @@
         color: #fff;
       }
     }
+    @media(min-width: $screen-lg-min){
+      li{
+        display: inline-block;
+        margin: 0;
+        + li{
+          &:before{
+            content: '|';
+            margin: 0 12px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
   }
   .logo{
     display:block;
     margin: auto;
     width: 150px;
+
+    @media(max-width: $screen-xs-max){
+      float:right;
+    }
   }
 }

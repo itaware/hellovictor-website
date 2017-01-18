@@ -15,7 +15,7 @@
     }
   }
   .baseline {
-    font-size: 20px;
+    font-size: 16px;
     .emoji {
       display:inline-block;
       vertical-align: bottom;
@@ -35,6 +35,9 @@
       margin-top: 5vh;
       margin-bottom: 5vh;
     }
+    .baseline{
+      font-size: 20px;
+    }
   }
 }
 .slogan {
@@ -44,7 +47,8 @@
   font-family: $font-serif;
   font-weight: 300;
   @media(max-width: $screen-xs-max){
-    font-size: 27px;
+    font-size: 22px;
+    padding: 0 15px;
     br{
       display: none;
     }

@@ -18,8 +18,7 @@
   <div class="main-content">
     <section id="section-contract" class="section">
       <header class="section-header container">
-        <h2 class="section-title high-title">Hello Victor une assurance habitation <br/>entièrement en ligne qui couvre 100% de vos biens</h2>
-        <div class="text-heading">Une assurance innovante qui protège les choses que vous possédez à la maison et partout ailleurs</div>
+        <h2 class="section-title">Une assurance innovante qui protège les choses que vous possédez à la maison et partout ailleurs</h2>
       </header>
       <div class="section-content container container-contract">
         <div class="contract col-xs-12 col-sm-4">
@@ -100,22 +99,22 @@
       <div class="section-content container">
         <div class="insurance-level col-xs-12 col-sm-4">
           <img src="images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
-          <div class="title">à l'intérieur de l'habitation : </div>
-          <div class="desc">
+          <div class="title">à l'intérieur de l'habitation </div>
+          <div class="desc hidden-xs">
             l'objet est assuré selon la couverture de votre habitation : vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe)
           </div>
         </div>
         <div class="insurance-level col-xs-12 col-sm-4">
           <img src="images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
-          <div class="title">à l'extérieur de l'habitation : </div>
-          <div class="desc">
+          <div class="title">à l'extérieur de l'habitation </div>
+          <div class="desc hidden-xs">
             l'objet est assuré en cas de vol ou de dégâts survenu en dehors de l'habitation (tél, vélo, ordinateur portable).
           </div>
         </div>
         <div class="insurance-level col-xs-12 col-sm-4">
-          <img src="images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
-          <div class="title">en extension de garantie : </div>
-          <div class="desc">
+          <img src="images/insurance-level/warranty.png" alt="Salon" class="img-responsive" />
+          <div class="title">en extension de garantie </div>
+          <div class="desc hidden-xs">
             l'objet est assuré en cas de panne au delà de sa période de garantie.
           </div>
         </div>
@@ -144,7 +143,7 @@
             <img src="images/inventory/htc-hv.jpg" alt="Appli Hello victor" class="img-responsive" />
           </div>
           <div class="align-item clearfix no-padding col-xs-12 col-md-6">
-            <div class="inventory-step col-xs-6 col-sm-6">
+            <!--<div class="inventory-step col-xs-6 col-sm-6">
               <div class="bubble-item inventory-step-number">1</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
@@ -152,9 +151,9 @@
               <div class="inventory-step-instructions col-xs-8">
                 Lancez l'application Hello Victor sur votre smartphone
               </div>
-            </div>
+            </div>-->
             <div class="inventory-step col-xs-6 col-sm-6">
-              <div class="bubble-item inventory-step-number">2</div>
+              <div class="bubble-item inventory-step-number">1</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
               </div>
@@ -163,7 +162,7 @@
               </div>
             </div>
             <div class="inventory-step col-xs-6 col-sm-6">
-              <div class="bubble-item inventory-step-number">3</div>
+              <div class="bubble-item inventory-step-number">2</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
               </div>
@@ -171,7 +170,7 @@
                 L'application reconnait l'objet vous avez juste à valider
               </div>
             </div>
-            <div class="inventory-step col-xs-6 col-sm-6">
+            <!--<div class="inventory-step col-xs-6 col-sm-6">
               <div class="bubble-item inventory-step-number">4</div>
               <div class="inventory-step-preview col-xs-4">
                 <img src="images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>
@@ -179,7 +178,7 @@
               <div class="inventory-step-instructions col-xs-8">
                 Ajoutez éventuellement une description et une pièce jointe (facture, expertise) et voilà !
               </div>
-            </div>
+            </div>-->
           </div>
         </div>
         <div class="link-bottom text-center">
@@ -198,7 +197,6 @@
               <div class="align-item declaration-step-header col-xs-12 col-sm-5">
                 <div class="declaration-step-title">Déclaration de sinistre</div>
                 <div class="declaration-step-subtitle">Par messagerie en moins de 2 mn</div>
-                <div class="declaration-step-tags">#pascool #seum #vol</div>
               </div>
               <div class="align-item col-xs-12 col-sm-4">
                 <div class="talk clearfix">
@@ -218,12 +216,12 @@
               <div class="check"><i class="icon icon-check"></i></div>
               <div class="check"><i class="icon icon-check"></i></div>
               <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check hidden-xs"><i class="icon icon-check"></i></div>
+              <div class="check hidden-xs"><i class="icon icon-check"></i></div>
               <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check hidden-xs"><i class="icon icon-check"></i></div>
               <div class="check"><i class="icon icon-check"></i></div>
-              <div class="check"><i class="icon icon-check"></i></div>
-              <div class="check"><i class="icon icon-check"></i></div>
-              <div class="check"><i class="icon icon-check"></i></div>
-              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="check hidden-xs"><i class="icon icon-check"></i></div>
             </div>
           </div>
           <div class="declaration-step step-payment">
@@ -233,7 +231,6 @@
               <div class="align-item declaration-step-header col-xs-12 col-sm-4">
                 <div class="declaration-step-title">Remboursé aussitôt</div>
                 <div class="declaration-step-subtitle">en 3mn chrono !</div>
-                <div class="declaration-step-tags">#happy #chance #getpaid</div>
               </div>
               <div class="align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
                   <div class="col-xs-7 no-padding element-1 element-overlap">
@@ -280,7 +277,7 @@
     </section>
     <section class="section section-transfer">
       <header class="section-header container">
-        <h2 class="section-title high-title">Vous êtes <u>déjà</u> assuré ? <br/> changer pour Hello Victor, on s'occupe de tout !</h2>
+        <h2 class="section-title high-title">Vous êtes <u>déjà</u> assuré ? <br class="visible-xs"/> changer pour Hello Victor, on s'occupe de tout !</h2>
         <div class="text-heading">Depuis l'entrée en vigueur du décret n°2014-1685 au 1er janvier 2015. Plus besoin d'attendre la date anniversaire de votre contrat ni d'envoyer de lettre recommandée, il vous suffit de suivre la procédure en 30 jours !</div>
       </header>
       <div class="section-content">

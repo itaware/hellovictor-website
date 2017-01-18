@@ -18,7 +18,7 @@
   &-tags{
     padding: 20px 0;
     font-size: 24px;
-    color: #fff;
+    color: $jordy-blue;
   }
   @media(max-width: $screen-xs-max){
     &-header{
@@ -26,6 +26,16 @@
     }
     &-content{
       padding: 10%;
+    }
+    &-title{
+      font-size: 25px;
+    }
+    &-subtitle{
+      font-size: 18px;
+    }
+    &-tags{
+      padding: 15px 0;
+      font-size: 18px;
     }
   }
   .bubble-item{
@@ -89,6 +99,10 @@
     &:nth-child(1){
       top: 50%;
       left: 0%;
+      @media(max-width: $screen-xs-max){
+        left: 40%;
+        top: 35%;
+      }
     }
     &:nth-child(2){
       top: 25%;
@@ -128,6 +142,9 @@
 .declaration-process{
   vertical-align: top !important;
   margin-top: 10%;
+  @media(max-width: $screen-xs-max){
+    margin-top: 0;
+  }
 }
 .declaration-instructions{
   padding: 0 0 0 22px;
@@ -173,6 +190,9 @@
     margin-right: 15px;
     &:hover{
       text-decoration:none;
+    }
+    @media(max-width: $screen-xs-max){
+      margin-right: 30px;
     }
   }
 }

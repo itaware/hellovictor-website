@@ -5,6 +5,7 @@
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
   }
   .desc{
     font-size: 18px;
@@ -13,5 +14,7 @@
   @media(max-width: $screen-sm-max){
     padding-left: 20px;
     padding-right: 20px;
+    .title{
+    }
   }
 }
