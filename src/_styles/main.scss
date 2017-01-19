@@ -4,7 +4,6 @@
 @import 'node_modules/bootstrap/dist/css/bootstrap';
 @import 'src/_styles/iconfont';
 
-
 @import '_theme_variables';
 @import 'bootstrap-override';
 @import 'mixins';
@@ -20,6 +19,8 @@
 @import 'parts/percentage';
 @import 'parts/product';
 @import 'parts/faq';
+
+@import 'counter';
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Work+Sans:300,400,500,600,700|Raleway:300');
 

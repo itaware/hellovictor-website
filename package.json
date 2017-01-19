@@ -5,8 +5,9 @@
     "bootstrap": "^3.3.7",
     "gulp-iconfont": "^8.0.1",
     "gulp-iconfont-css": "^2.1.0",
-    "jquery": "~2.2.0",
-    "normalize.css": "~3.0.3"
+    "jquery": "^2.2.4",
+    "normalize.css": "~3.0.3",
+    "scrollme": "^0.1.1"
   },
   "devDependencies": {
     "lodash": "~4.0.0",

@@ -1,20 +1,20 @@
-<section id="section-insurance-level" class="section">
+<section class="section" id="oe-{{page}}-niveau">
   <header class="section-header container">
-    <h2 class="section-title blue-title">Pour chaque objet à assurer vous <br/> pouvez choisir de l'assurer à 3 niveaux</h2>
+    <h2 class="section-title blue-title">Choisissez le niveau de couverture par objet</h2>
   </header>
   <div class="section-content container">
     <div class="insurance-level col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
       <div class="title">à l'intérieur de l'habitation </div>
       <div class="desc hidden-xs">
-        l'objet est assuré selon la couverture de votre habitation : vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe)
+        l'objet est assuré en cas de vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe) à l'intérieur du domicile.
       </div>
     </div>
     <div class="insurance-level col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
       <div class="title">à l'extérieur de l'habitation </div>
       <div class="desc hidden-xs">
-        l'objet est assuré en cas de vol ou de dégâts survenu en dehors de l'habitation (tél, vélo, ordinateur portable).
+        l'objet est assuré en cas de vol ou de dégâts survenu en dehors du domicile (tél, vélo, ordinateur portable).
       </div>
     </div>
     <div class="insurance-level col-xs-12 col-sm-4">

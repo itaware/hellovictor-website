@@ -1,48 +1,48 @@
 'use strict';
+global.jQuery = require('jquery');
+require('./jquery.counter');
+require('./jquery.scrollme.min');
 
-var io = new IntersectionObserver(function(entries) {
-  entries.forEach(function(entry) {
+var io = new IntersectionObserver(function (entries) {
+  entries.forEach(function (entry) {
     if (entry.intersectionRatio > 0.5) {
       dataLayer.push({
         event: 'impression',
         element: entry.target.id.substring(3)
       })
     }
-  }); 
+  });
 }, {
   threshold: [0.5]
 });
 
-document.querySelectorAll('[id^="oe-"]').forEach(function(element) {
+document.querySelectorAll('[id^="oe-"]').forEach(function (element) {
   io.observe(element);
 });
 
-jQuery(document).ready(function($){
+jQuery(document).ready(function ($) {
   $('.percentage-number').counter({
     minForIncrement: 0
   });
 
   var bg_pos_init_x = $('.home .header-site').css('background-position-x');
   var offsetTop;
-  if($('body').hasClass('home')){
-    $(window).on('scroll', function(){
+  if ($('body').hasClass('home')) {
+    $(window).on('scroll', function () {
       offsetTop = $('.home .header-site').offset().top;
 
-      if(
-          (offsetTop < $(window).scrollTop()
-              || offsetTop > $(window).scrollTop()
-              && offsetTop < $(window).scrollTop() + $(window).height()
-          )
-        ){
-          var vitesse = window.innerWidth < 768 ? 1 : 2;
-          console.log(vitesse);
-          var position = -((((($(window).scrollTop()) - offsetTop)  * 100 /  $('.home .header-site').outerHeight() ) + parseInt(bg_pos_init_x)) * vitesse);
-      //    var position = ((($(window).scrollTop()) - offsetTop)  * 100 /  $('.home .header-site').outerHeight() );
+      if ((offsetTop < $(window).scrollTop() ||
+          offsetTop > $(window).scrollTop() &&
+          offsetTop < $(window).scrollTop() + $(window).height())) {
+        var vitesse = window.innerWidth < 768 ? 1 : 2;
+        console.log(vitesse);
+        var position = -((((($(window).scrollTop()) - offsetTop) * 100 / $('.home .header-site').outerHeight()) + parseInt(bg_pos_init_x)) * vitesse);
+        //    var position = ((($(window).scrollTop()) - offsetTop)  * 100 /  $('.home .header-site').outerHeight() );
 
-          position = parseInt(position);
-          position += '%';
-          $('.home .header-site').css('background-position',  position + ' bottom');
-        }
+        position = parseInt(position);
+        position += '%';
+        $('.home .header-site').css('background-position', position + ' bottom');
+      }
     });
   }
 });
