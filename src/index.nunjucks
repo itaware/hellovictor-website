@@ -14,7 +14,7 @@
       <a href="#" class="btn btn-default ">J'assure</a>
     </div>
     <div>
-      <a href="#" class="link link-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+      <a href="#" class="link link-video" id="video-lien1"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
   </div>
 </header>
@@ -27,7 +27,7 @@
       <div class="scrollme section-content container container-contract">
         <div class="animateme contract col-xs-12 col-sm-4"  data-when="enter"
         data-from="0.6"
-        data-to="0" data-translatey="600" >
+        data-to="0" data-translatey="600" id="oe-offre-etudiant">
           <div class="inner">
             <div class="top">
               <h3 class="contract-title">&Eacute;tudiants</h3>
@@ -46,20 +46,20 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
+              <a href="#" class="btn btn-default btn-block" id="offre-edudiant-lien">Je choisis cette formule</a>
             </div>
           </div>
         </div>
         <div class="animateme contract col-xs-12 col-sm-4" data-when="enter"
         data-from="0.8"
-        data-to="0" data-translatey="600">
+        data-to="0" data-translatey="600" id="oe-offre-couple">
           <div class="inner">
             <div class="top">
               <h3 class="contract-title">Couples</h3>
             </div>
             <div class="bottom">
               <div class="contract-img">
-                <img src="images/contract/contract-2.png" alt="&Eacute;tudiants" class="img-responsive" />
+                <img src="images/contract/contract-2.png" alt="Couple" class="img-responsive" />
               </div>
               <div class="contract-price">
                 <div class="from">à partir de</div>
@@ -71,20 +71,20 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
+              <a href="#" class="btn btn-default btn-block" id="offre-couple-lien">Je choisis cette formule</a>
             </div>
           </div>
         </div>
         <div class="animateme contract col-xs-12 col-sm-4" data-when="enter"
         data-from="1"
-        data-to="0" data-translatey="600">
+        data-to="0" data-translatey="600" id="oe-offre-famille">
           <div class="inner">
             <div class="top">
               <h3 class="contract-title">Familles</h3>
             </div>
             <div class="bottom">
               <div class="contract-img">
-                <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
+                <img src="images/contract/contract-1.png" alt="Famille" class="img-responsive" />
               </div>
               <div class="contract-price">
                 <div class="from">à partir de</div>
@@ -96,14 +96,14 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="btn btn-default btn-block">Je choisis cette formule</a>
+              <a href="#" class="btn btn-default btn-block" id="offre-famille-lien">Je choisis cette formule</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     {% include '_components/insurance-level.nunjucks' %}
-    <section class="section">
+    <section class="section" id="oe-inventaire">
       <header class="section-header container">
         <h2 class="section-title high-title">Faire l'inventaire de ses biens n'a jamais été aussi simple</h2>
         <div class="text-heading">N'attendez pas un sinistre pour faire l'inventaire de vos biens, recensez et valoriez rapidement votre patrimoine <br/> pour être remboursé en temps réel.</div>
@@ -115,7 +115,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="oe-inventaire-detail">
       <header class="section-header container">
         <h2 class="section-title high-title">Faire l'inventaire de vos biens en quelques minutes.</h2>
         <div class="text-heading">Avec l'app mobile de reconnaissance d'objets, photographiez tous vos biens, enregistrez vos <br/>factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée.</div>
@@ -165,7 +165,7 @@
           </div>
         </div>
         <div class="link-bottom text-center">
-          <a href="#" class="link"><i class="icon icon-play"></i>Voir la vidéo</a>
+          <a href="#" class="link" id="video-lien2"><i class="icon icon-play"></i>Voir la vidéo</a>
         </div>
       </div>
     </section>
@@ -175,7 +175,7 @@
         <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée et soyez remboursé instantanément.</div>
       </header>
       <div class="section-content">
-        <div class="declaration-step step-declare">
+        <div class="declaration-step step-declare" id="oe-declaration-chat">
           <div class="declaration-step-container align-items middle">
             <div class="align-item declaration-step-header col-xs-12 col-sm-5">
               <div class="declaration-step-title">Déclaration de sinistre</div>
@@ -207,7 +207,7 @@
             <div class="check hidden-xs"><i class="icon icon-check"></i></div>
           </div>
         </div>
-        <div class="declaration-step step-payment">
+        <div class="declaration-step step-payment" id="oe-declaration-paiement">
           <div class="houses-front houses"></div>
           <div class="houses-back houses"></div>
           <div class="declaration-step-container align-items middle">
@@ -262,7 +262,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-transfer">
+    <section class="section section-transfer" id="oe-transfert">
       <header class="section-header container">
         <h2 class="section-title high-title">Vous êtes <span class="text-bold">déjà</span> assuré ? <br class="no-hidden"/>Changez pour Hello Victor, on s'occupe de tout !</h2>
         <div class="text-heading">Depuis l'entrée en vigueur du décret n°2014-1685 au 1er janvier 2015. Plus besoin d'attendre la date anniversaire de votre contrat ni d'envoyer de lettre recommandée, il vous suffit de suivre la procédure en 30 jours !</div>
@@ -303,7 +303,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="oe-transfert-stat">
       <header class="section-header">
         <h2 class="section-title small-title">Pourcentage de personnes ayant quitté <br/>leurs compagnies d'assurance pour Hello Victor</h2>
       </header>

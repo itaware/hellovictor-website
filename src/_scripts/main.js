@@ -1,7 +1,21 @@
-// Main javascript entry point
-// Should handle bootstrapping/starting application
-
 'use strict';
+
+var io = new IntersectionObserver(function(entries) {
+  entries.forEach(function(entry) {
+    if (entry.intersectionRatio > 0.5) {
+      dataLayer.push({
+        event: 'impression',
+        element: entry.target.id.substring(3)
+      })
+    }
+  }); 
+}, {
+  threshold: [0.5]
+});
+
+document.querySelectorAll('[id^="oe-"]').forEach(function(element) {
+  io.observe(element);
+});
 
 jQuery(document).ready(function($){
   $('.percentage-number').counter({
