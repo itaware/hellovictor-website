@@ -86,6 +86,9 @@ $max-element : 4;
       top: 8px;
       left: 0;
     }
+    @media(max-width: $screen-xs-max){
+      font-size: 16px;
+    }
   }
 }
 
@@ -111,7 +114,8 @@ $max-element : 4;
 
   @media(max-width: $screen-xs-max){
     padding-right: 30px;
-    padding: 15px 25px 15px ($block-chat-icon-size-mobile + 15);
+    padding: 15px 25px 15px ($block-chat-icon-size-mobile + 10);
+    font-size: 16px;
     &:before{
       top: 15px;
       left: 5px;

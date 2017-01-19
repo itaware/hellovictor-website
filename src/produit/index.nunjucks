@@ -19,7 +19,7 @@
           <h2 class="product-subtitle">Seul ou en colocation, <br/> assurez juste le nécessaire</h2>
         </div>
         <div class="heading-right">
-          <a href="#" class="pull-right btn btn-default text-center ">Vérifiez la disponibilité<br/> du service dans votre ville</a>
+          <a href="#" class="btn btn-default text-center ">Vérifiez la disponibilité<br/> du service dans votre ville</a>
         </div>
       </div>
     </header>
@@ -42,7 +42,7 @@
                   </div>
                 </div>
               <div class="form-submit text-center">
-                <input type="submit" value="Envoyer" class="btn btn-default" />
+                <button type="submit" class="btn btn-default" />Envoyer</button>
               </div>
             </form>
           </div>
@@ -54,14 +54,14 @@
   </div>
   <section class="section">
     <div class="section-content container">
-      <div class="col-sm-3 hidden-xs">
-        <div class="col-xs-11">
+      <div class="col-sm-3 hidden-xs scrollme">
+        <div class="animateme col-xs-11" data-when="view" data-to="0" data-from="1" data-translatey="300">
           <img src="{{baseUrl}}images/product/student/htc_one.jpg" alt="Application Hello Victor" class="img-responsive" />
         </div>
       </div>
       <div class="col-xs-12 col-sm-9">
         <div class="section-header">
-          <div class="section-title">Assurez le nécessaire, Payez le juste prix</div>
+          <div class="section-title">Assurez le nécessaire, <br class="visible-xs" /> Payez le juste prix</div>
         </div>
         <div class="list-square">
           <ul>
@@ -97,11 +97,11 @@
         </div>
       </div>
       <div class="col-sm-3 hidden-xs">
-        <div class="block-talk">
-          <div class="col-xs-7 no-padding element-1 element-overlap">
+        <div class="scrollme block-talk clearfix">
+          <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="view" data-to="0" data-from="0.5" data-translatey="300">
             <img src="{{baseUrl}}images/declaration/Smartphone-TOP.png" alt="Validation" class="img-responsive">
           </div>
-          <div class="col-xs-7 no-padding element-2 element-overlap">
+          <div class="animateme col-xs-7 no-padding element-2 element-overlap" data-when="view" data-to="0" data-from="1" data-translatey="300">
             <img src="{{baseUrl}}images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive">
           </div>
         </div>
@@ -113,7 +113,7 @@
       <div class="section-title">Les avantages de l'inventaire</div>
     </header>
     <div class="section-content container">
-      <div class="inventory-step col-xs-6 col-sm-3">
+      <div class="inventory-step col-xs-6 col-sm-3 hidden-xs">
         <div class="bubble-item inventory-step-number">1</div>
         <div class="inventory-step-preview col-xs-4">
           <img src="{{baseUrl}}images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
@@ -123,7 +123,7 @@
         </div>
       </div>
       <div class="inventory-step col-xs-6 col-sm-3">
-        <div class="bubble-item inventory-step-number">2</div>
+        <div class="bubble-item inventory-step-number hidden-xs">2</div>
         <div class="inventory-step-preview col-xs-4">
           <img src="{{baseUrl}}images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
         </div>
@@ -132,7 +132,7 @@
         </div>
       </div>
       <div class="inventory-step col-xs-6 col-sm-3">
-        <div class="bubble-item inventory-step-number">3</div>
+        <div class="bubble-item inventory-step-number hidden-xs">3</div>
         <div class="inventory-step-preview col-xs-4">
           <img src="{{baseUrl}}images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
         </div>
@@ -140,7 +140,7 @@
           L'application reconnait l'objet vous avez juste à valider
         </div>
       </div>
-      <div class="inventory-step col-xs-6 col-sm-3">
+      <div class="inventory-step col-xs-6 col-sm-3 hidden-xs">
         <div class="bubble-item inventory-step-number">4</div>
         <div class="inventory-step-preview col-xs-4">
           <img src="{{baseUrl}}images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>

@@ -4,10 +4,35 @@
   max-width: 100%;
   font-size: 24px;
   font-weight: 300;
+  position: relative;
+  border: 0;
+  transform: perspective(1px) translateZ(0);
   @media(min-width: $breakpoint_mobile){
     min-width: 375px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #005388;
+    border-radius: 4px;
+    transform: scaleX(0);
+    transform-origin: 50%;
+    transition: transform 0.3s ease-out;
+  }
+  &:hover{
+    color: #fff;
+    background-color: $main-color;
+
+    &::before{
+      transform: scale(1);
+    }
   }
 }
 .btn-default{
@@ -18,7 +43,16 @@
 .btn-light{
   background: #fff;
   color: $main-color;
-  border-color: $main-color;
+  border: 1px solid $main-color;
+
+  &:hover{
+    color: #fff;
+    background-color: #fff;
+    border-color: #005388;
+    &::before{
+      transform: scale(1);
+    }
+  }
 }
 
 
@@ -38,6 +72,9 @@ h6,
 }
 .form-container{
   margin: 40px 0;
+  @media(max-width: $screen-xs-max){
+    margin-bottom: 0;
+  }
 }
 label{
   margin-bottom: 15px;

@@ -54,4 +54,15 @@
       margin-top: 10px;
     }
   }
+  .legal-text{
+    clear: both;
+    font-size: 11px;
+    color: #d3e8f5;
+    line-height: 1;
+    @media(max-width: $screen-xs-max){
+      padding-top: 15px;
+      text-align: center;
+      font-size: 9px;
+    }
+  }
 }

@@ -72,8 +72,14 @@
       <img src="{{baseUrl}}images/logo-footer.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
     </div>
     </div>
+    <div class="legal-text">
+      Liberty finances capital 1 000 000 €
+    </div>
 </footer>
   {% endblock %}
+    <script src="{{baseUrl}}scripts/jquery-1.12.4.min.js"></script>
+    <script src="{{baseUrl}}scripts/jquery.scrollme.min.js"></script>
+    <script src="{{baseUrl}}scripts/counter/jquery.counter.js"></script>
     <script src="{{baseUrl}}scripts/main.js"></script>
     {% block scripts %}{% endblock %}
   </body>
