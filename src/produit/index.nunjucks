@@ -1,11 +1,11 @@
- {% extends '_layouts/base.nunjucks' %} 
- {# Custom Configuration #} 
- {% block config %} 
- {# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
- {# Otherwise default to relative pathing #} 
- {% set baseUrl = '/' %} 
-{% set page = 'offre-etudiant' %} 
-{% endblock %} 
+ {% extends '_layouts/base.nunjucks' %}
+ {# Custom Configuration #}
+ {% block config %}
+ {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+ {# Otherwise default to relative pathing #}
+ {% set baseUrl = '/' %}
+{% set page = 'offre-etudiant' %}
+{% endblock %}
 {% block content %}
 <article class="product">
   <header class="product-header">
@@ -13,14 +13,11 @@
       <img src="{{baseUrl}}images/product/student/header-product.jpg" />
     </div>
     <div class="heading-title clearfix">
-      <div class="heading-left">
         <h1 class="product-title">&Eacute;tudiants</h1>
-        <h2 class="product-subtitle">Seul ou en colocation, <br/> assurez juste le nécessaire</h2>
-      </div>
-      <div class="heading-right">
+        <h2 class="product-subtitle">Seul ou en colocation, assurez juste le nécessaire</h2>
+
         <a href="#" class="btn btn-default text-center" id="lien-offre-etudiant-dispo">Vérifiez la disponibilité<br/> du service dans votre ville</a>
       </div>
-    </div>
   </header>
   <div class="product-detail" id="oe-form">
     <section class="section container">
