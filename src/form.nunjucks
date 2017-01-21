@@ -3,7 +3,6 @@
  {% block config %} 
  {# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
  {# Otherwise default to relative pathing #} 
- {% set baseUrl = '/' %} 
 {% set page = 'offre-etudiant' %} 
 {% endblock %} 
 {% block content %}
