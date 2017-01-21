@@ -71,13 +71,13 @@ h6,
   font-weight: 300;
 }
 .form-container{
-  margin: 40px 0;
+  margin: 10px 0px 20px 0px;
   @media(max-width: $screen-xs-max){
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
 }
 label{
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;

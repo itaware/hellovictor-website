@@ -1,0 +1,44 @@
+<section class="section section-transfer" id="oe-transfert">
+  <header class="section-header container">
+    <h2 class="section-title high-title">Vous êtes <span class="text-bold">déjà</span> assuré ? <br class="no-hidden"/>Changez pour Hello Victor, on s'occupe de tout !</h2>
+    <div class="text-heading">Depuis l'entrée en vigueur du décret n°2014-1685 au 1er janvier 2015. Plus besoin d'attendre la date anniversaire de votre contrat ni d'envoyer de lettre recommandée, il vous suffit de suivre la procédure en 30 jours !</div>
+  </header>
+  <div class="section-content">
+    <div class="container">
+      <div class="step-timeline clearfix">
+        <div class="step-timeline-progress"></div>
+        <div class="step-timeline-item">
+          <div class="step-name">Jour J</div>
+          <div class="step-point">
+            <div class="check"><i class="icon icon-check"></i></div>
+          </div>
+          <div class="step-desc">Vous souscrivez à <br/> Hello Victor</div>
+        </div>
+        <div class="step-timeline-item step-timeline-item-longer">
+          <div class="step-name">J à J+30</div>
+          <div class="step-point">
+            <div class="check"><i class="icon icon-check"></i></div>
+          </div>
+          <div class="step-desc">Nous nous occupons de toutes<br/> les démarches de résiliation</div>
+        </div>
+        <div class="step-timeline-item">
+          <div class="step-name">J+30</div>
+          <div class="step-point">
+            <div class="check"><i class="icon icon-check"></i></div>
+          </div>
+          <div class="step-desc">Votre contrat avec votre ancien assureur se termine</div>
+        </div>
+        <div class="step-timeline-item">
+          <div class="step-name">J+30</div>
+          <div class="step-point">
+            <div class="check"><i class="icon icon-check"></i></div>
+          </div>
+          <div class="step-desc text-bold">Votre contrat avec Hello Victor débute</div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="form.html" class="btn btn-default ">Je change</a>
+      </div>
+    </div>
+  </div>
+</section>

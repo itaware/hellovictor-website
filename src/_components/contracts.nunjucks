@@ -1,0 +1,79 @@
+<section id="section-contract" class="section">
+  <header class="section-header container">
+    <h2 class="section-title">Protégez ce qui est important chez vous et partout ailleurs</h2>
+  </header>
+  <div class="scrollme section-content container container-contract">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" id="oe-offre-etudiant">
+      <div class="inner">
+        <div class="top">
+          <h5 class="contract-title">seul ou en colocation</h5>
+          <h3>Assurer l'essentiel</h3>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">3,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-edudiant">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" id="oe-offre-couple">
+      <div class="inner">
+        <div class="top">
+          <h5 class="contract-title">en couple</h5>
+          <h3>Adapter le tarif</h3>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/contract-2.png" alt="Couple" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">14,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-couple">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" id="oe-offre-famille">
+      <div class="inner">
+        <div class="top">
+          <h5 class="contract-title">en famille</h5>
+          <h3>Payer le juste prix</h3>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/contract-1.png" alt="Famille" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">19,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-famille">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

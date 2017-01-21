@@ -1,0 +1,18 @@
+{% extends '_layouts/base.nunjucks' %} 
+{% block config %} 
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
+{# Otherwise default to relative pathing #} 
+{% set bodyClass = 'home' %} 
+{% set page = 'accueil' %} 
+{% endblock %} 
+{% block header %}
+  <div class="slogan">Votre assureur <p></p>est un enfoiré ?</div>
+  <div class="block-btn">
+    <div>
+      <a href="form.html" class="btn btn-default" id="lien-vp-enfoire">Changez !</a> <br>
+    </div>
+    <div>
+      <a href="#" class="link link-video" id="lien-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+    </div>
+  </div>
+{% endblock %} 

@@ -1,0 +1,43 @@
+<section class="section" id="oe-transfert-stat">
+  <header class="section-header">
+    <h2 class="section-title small-title">Pourcentage de personnes ayant quitté <br/>leurs compagnies d'assurance pour Hello Victor</h2>
+  </header>
+  <div class="section-content text-center">
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">14</span>%</div>
+        <div class="percentage-legend">AXA</div>
+      </div>
+    </div>
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">11</span>%</div>
+        <div class="percentage-legend">Generali</div>
+      </div>
+    </div>
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">10</span>%</div>
+        <div class="percentage-legend">Allianz</div>
+      </div>
+    </div>
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">16</span>%</div>
+        <div class="percentage-legend">Groupama</div>
+      </div>
+    </div>
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">8</span>%</div>
+        <div class="percentage-legend">Maif</div>
+      </div>
+    </div>
+    <div class="percentage-item">
+      <div class="percentage-inner">
+        <div class="percentage-number counter-item"><span class="text-bold counter-number">41</span>%</div>
+        <div class="percentage-legend">Autre</div>
+      </div>
+    </div>
+  </div>
+</section>

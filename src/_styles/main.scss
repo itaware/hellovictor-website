@@ -40,6 +40,17 @@ body {
   font-weight: 300;
 }
 
+.form {
+  a {
+    text-decoration: underline;
+  }
+  margin-bottom: 10px;
+}
+
+header.form h3 {
+  font-size: 20px;
+  padding: 0px 10px;
+}
 
 // Styling on warning for users on IE7 or below
 .browsehappy {
