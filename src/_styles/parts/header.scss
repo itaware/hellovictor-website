@@ -49,6 +49,14 @@
     }
   }
 }
+.form-title {
+  @extend .slogan;
+  font-size: 44px;
+  @media(max-width: $screen-xs-max){
+    font-size: 18px;
+  }
+}
+
 .home{
   .header-site{
     height: 100vh;
@@ -62,7 +70,7 @@
   }
 }
 
-body:not(.home){
+/*body:not(.home){
   .header-site{
     position: fixed;
     top: 0;
@@ -78,4 +86,4 @@ body:not(.home){
     }
 
   }
-}
+}*/

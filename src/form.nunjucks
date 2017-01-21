@@ -1,17 +1,16 @@
- {% extends '_layouts/base.nunjucks' %} 
- {# Custom Configuration #} 
- {% block config %} 
- {# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
- {# Otherwise default to relative pathing #} 
-{% set page = 'offre-etudiant' %} 
+{% extends '_layouts/base.nunjucks' %} 
+{% block config %} 
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
+{# Otherwise default to relative pathing #} 
+{% set bodyClass = 'form' %} 
+{% set page = 'form' %} 
 {% endblock %} 
-{% block content %}
-<header class="form text-center">
-  <h1 class="logo animated bounceIn"><img src="{{baseUrl}}images/logo-hv.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
-  <h3>Suite au <u>succès</u> de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un <u>service client de qualité</u>. 
+{% block header %}
+  <div class="form-title">Suite au <u>succès</u> de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un <u>service client de qualité</u>. 
     <br>Pour être le <u>prochain</u> sur la liste inscrivez-vous sur la <u>liste d’attente</u>.
-  </h3>
-</header>
+  </div>
+{% endblock %}
+{% block content %}
 <section class="container">
   <div class="form form-subscribe">
     <form action="https://hellovictor.us14.list-manage.com/subscribe/post?u=3a311fd8a4bd2ba1d322aa1fa&id=06ec1d1ca4" method="post">
@@ -37,5 +36,4 @@
     </form>
   </div>
 </section>
-
 {% endblock %}
