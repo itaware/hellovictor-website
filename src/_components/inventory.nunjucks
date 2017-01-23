@@ -1,13 +1,12 @@
 <section class="section" id="oe-inventaire">
   <header class="section-header container">
     <h2 class="section-title high-title">Faire l'inventaire de ses biens n'a jamais été aussi simple</h2>
-    <div class="text-heading">N'attendez pas un sinistre pour faire l'inventaire de vos biens, recensez et valoriez rapidement votre patrimoine <br/> pour être remboursé rapidement.</div>
+    <div class="text-heading">Grâce à l'application Hello Victor, n'attendez pas un sinistre pour faire l'inventaire de vos biens, recensez et valorisez simplement ce qui vous appartient pour être remboursé rapidement.</div>
   </header>
   <div class="section-content container">
     <img src="images/inventory/appli.svg" alt="Une application innovante" class="img-responsive"/>
     <div class="link-bottom text-center">
       <a href="form.html" class="btn btn-default" id="lien-telecharger-app">Télécharger l'application</a>
-      <i class="center-block glyphicon glyphicon-menu-down"></i>
     </div>
   </div>
 </section>

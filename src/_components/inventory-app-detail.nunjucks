@@ -1,0 +1,53 @@
+<section class="section" id="oe-inventaire-detail">
+  <header class="section-header container">
+    <div class="text-heading">Avec l'app mobile de reconnaissance d'objets, photographiez tous vos biens, enregistrez vos <br/>factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée.</div>
+  </header>
+  <div class="align-items middle container-inventory section-content container clearfix">
+    <div class="clearfix">
+      <div class="scrollme align-item hidden-xs hidden-sm col-md-6">
+        <img src="images/inventory/htc-hv.png" alt="Appli Hello victor" class="animateme img-responsive"  data-when="exit" data-from="0.5" data-to="0" data-translatey="-50" />
+      </div>
+      <div class="align-item clearfix no-padding col-xs-12 col-md-6">
+        <!--<div class="inventory-step col-xs-6 col-sm-6">
+          <div class="bubble-item inventory-step-number">1</div>
+          <div class="inventory-step-preview col-xs-4">
+            <img src="images/inventory/smart-1.svg" alt="étape 1"  class="img-responsive"/>
+          </div>
+          <div class="inventory-step-instructions col-xs-8">
+            Lancez l'application Hello Victor sur votre smartphone
+          </div>
+        </div>-->
+        <div class="inventory-step col-xs-6 col-sm-6">
+          <div class="bubble-item inventory-step-number">1</div>
+          <div class="inventory-step-preview col-xs-4">
+            <img src="images/inventory/smart-2.svg" alt="étape 2"  class="img-responsive"/>
+          </div>
+          <div class="inventory-step-instructions col-xs-8">
+            Cadrez l'objet à ajouter à votre inventaire
+          </div>
+        </div>
+        <div class="inventory-step col-xs-6 col-sm-6">
+          <div class="bubble-item inventory-step-number">2</div>
+          <div class="inventory-step-preview col-xs-4">
+            <img src="images/inventory/smart-3.svg" alt="étape 3"  class="img-responsive"/>
+          </div>
+          <div class="inventory-step-instructions col-xs-8">
+            L'application reconnait l'objet vous avez juste à valider
+          </div>
+        </div>
+        <!--<div class="inventory-step col-xs-6 col-sm-6">
+          <div class="bubble-item inventory-step-number">4</div>
+          <div class="inventory-step-preview col-xs-4">
+            <img src="images/inventory/smart-4.svg" alt="étape 1"  class="img-responsive"/>
+          </div>
+          <div class="inventory-step-instructions col-xs-8">
+            Ajoutez éventuellement une description et une pièce jointe (facture, expertise) et voilà !
+          </div>
+        </div>-->
+      </div>
+    </div>
+    <div class="link-bottom text-center">
+      <a href="#" class="link" id="lien-video2"><i class="icon icon-play"></i>Voir la vidéo</a>
+    </div>
+  </div>
+</section>

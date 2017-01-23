@@ -6,10 +6,12 @@
 {% endblock %} 
 {% block header %}
   <div class="form-title"> 
-    <br>Inscrivez-vous sur la <u>liste d’attente</u>.
+    Inscrivez-vous sur la liste d’attente.
   </div>
-  <p>Suite au succès de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un service client de qualité.</p>
+  <p>Suite au succès de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un service client de qualité.
+    <br>Nous vous contacterons très prochainement pour vous proposer de nous rejoindre
+  </p>
 {% endblock %}
 {% block content %}
-{% include "_components/form.nunjucks" %}
+  {% include "_components/form.nunjucks" %}
 {% endblock %}

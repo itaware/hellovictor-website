@@ -6,7 +6,7 @@
 {% set page = 'vp-inventaire' %} 
 {% endblock %} 
 {% block header %}
-  <div class="slogan">L'assurance qui s'occupe de votre inventaire</div>
+  <div class="slogan">L'assurance qui fait l'inventaire pour vous</div>
   <div class="block-btn">
     <div>
       <a href="form.html" class="btn btn-default" id="lien-{{page}}">Je m'assure</a> <br>

@@ -6,7 +6,8 @@
 {% set page = 'vp-rapide' %} 
 {% endblock %} 
 {% block header %}
-  <div class="slogan">Le premier assureur à rembourser en quelques minutes</div>
+  <div class="slogan">Le 1er assureur 
+    <br>qui vous rembourse en quelques heures</div>
   <div class="block-btn">
     <div>
       <a href="form.html" class="btn btn-default" id="lien-{{page}}">Je m'assure !</a> <br>

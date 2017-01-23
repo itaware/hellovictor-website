@@ -1,7 +1,7 @@
 <section class="section section-claim-declaration">
   <header class="section-header">
-    <h2 class="section-title">Vos déclarations de sinistres en ligne 24h/24h - 7/7 j</h2>
-    <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée et soyez remboursé de suite.</div>
+    <h2 class="section-title">Être remboursé rapidement</h2>
+    <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
   </header>
   <div class="section-content">
     <div class="declaration-step step-declare" id="oe-declaration-chat">
@@ -15,7 +15,7 @@
             <div class="message message-empty"></div>
             <div class="message person-1">Bonjour Mathilde <br/> comment puis-je vous aider ? </div>
             <div class="message person-2">On m'a volé mon portable !  </div>
-            <div class="message person-1">Ok, où et quand cela <br>s'est il passé ? </div>
+            <div class="message person-1">Où et quand cela <br>s'est il passé ? </div>
             <div class="message person-2">Hier, dans ma voiture Avenue<br/> des Champs Elysés</div>
             <div class="message person-1">Ne vous inquiètez pas, on s'en<br/> occupe dès aujourd'hui !</div>
             <div class="message message-empty">...</div>
@@ -42,7 +42,7 @@
       <div class="declaration-step-container align-items middle">
         <div class="align-item declaration-step-header col-xs-12 col-sm-4">
           <div class="declaration-step-title">Remboursé aussitôt</div>
-          <div class="declaration-step-subtitle">en quelques minutes !</div>
+          <div class="declaration-step-subtitle">en quelques heures !</div>
         </div>
         <div class="scrollme align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
             <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">

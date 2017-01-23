@@ -1,13 +1,12 @@
 <section id="section-contract" class="section">
   <header class="section-header container">
-    <h2 class="section-title">Protégez ce qui est important chez vous et partout ailleurs</h2>
+    <h2 class="section-title">Protégez ce qui est important.</h2>
   </header>
   <div class="scrollme section-content container container-contract">
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" id="oe-offre-etudiant">
       <div class="inner">
         <div class="top">
-          <h5 class="contract-title">seul ou en colocation</h5>
-          <h3>Assurer l'essentiel</h3>
+          <h3>Assurez juste l'essentiel</h3><span>(ex: vélo, smartphone, ...)</span>
         </div>
         <div class="bottom">
           <div class="contract-img">
@@ -30,8 +29,7 @@
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" id="oe-offre-couple">
       <div class="inner">
         <div class="top">
-          <h5 class="contract-title">en couple</h5>
-          <h3>Adapter le tarif</h3>
+          <h3>Assurez-vous de manière évolutive</h3>
         </div>
         <div class="bottom">
           <div class="contract-img">
@@ -54,12 +52,11 @@
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" id="oe-offre-famille">
       <div class="inner">
         <div class="top">
-          <h5 class="contract-title">en famille</h5>
-          <h3>Payer le juste prix</h3>
+          <h3>Assurez la totale !</h3>
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/contract-1.png" alt="Famille" class="img-responsive" />
+            <img src="images/contract/contract-3.png" alt="Famille" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>

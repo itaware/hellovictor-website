@@ -6,7 +6,9 @@
 {% set page = 'vp-tarif-evolutif' %} 
 {% endblock %} 
 {% block header %}
-  <div class="slogan">L'assurance habitation à tarif évolutif</div>
+  <h1>L'assurance habitation <br>au juste prix</h1>
+  <h5><i>à partir de</i></h5>
+  <h2><span style="font-size: 40px;">3,90</span> €/mois</h2>
   <div class="block-btn">
     <div>
       <a href="form.html" class="btn btn-default" id="lien-{{page}}">Je m'assure</a> <br>

@@ -82,7 +82,7 @@
     <div class="footer-block  pull-right">
       <div class="footer-block-inner">
         <div class="block-share">
-          <a href="http://facebook.com/hellovictorassurances" target="_blank"><i class="icon icon-facebook"></i></a>
+          <a href="http://facebook.com/hellovictorassurance" target="_blank"><i class="icon icon-facebook"></i></a>
           <a href="http://twitter.com/_myvictor" target="_blank"><i class="icon icon-twitter"></i></a>
         </div>
       </div>
@@ -93,7 +93,7 @@
       </div>
     </div>
     <div class="legal-text">
-      Liberty finances capital 1 000 000 €
+      Concept Marque & Projet : Liberty Finances, société au capital de 1 000 000 €
     </div>
   </footer>
   <script src="{{baseUrl}}scripts/main.js"></script> 
