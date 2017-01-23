@@ -2,38 +2,14 @@
 {% block config %} 
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
 {# Otherwise default to relative pathing #} 
-{% set bodyClass = 'form' %} 
 {% set page = 'form' %} 
 {% endblock %} 
 {% block header %}
-  <div class="form-title">Suite au <u>succès</u> de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un <u>service client de qualité</u>. 
-    <br>Pour être le <u>prochain</u> sur la liste inscrivez-vous sur la <u>liste d’attente</u>.
+  <div class="form-title"> 
+    <br>Inscrivez-vous sur la <u>liste d’attente</u>.
   </div>
+  <p>Suite au succès de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un service client de qualité.</p>
 {% endblock %}
 {% block content %}
-<section class="container">
-  <div class="form form-subscribe">
-    <form action="https://hellovictor.us14.list-manage.com/subscribe/post?u=3a311fd8a4bd2ba1d322aa1fa&id=06ec1d1ca4" method="post">
-      <div class="form-container clearfix">
-        <div class="form-group col-xs-12 col-sm-4">
-          <label for="nom">Mon prénom</label>
-          <input type="text" name="FIRSTNAME" id="prenom" class="form-control col-xs-12" />
-        </div>
-        <div class="form-group col-xs-12 col-sm-4">
-          <label for="nom">Mon adresse email</label>
-          <input type="email" name="EMAIL" id="email" class="form-control col-xs-12" />
-        </div>
-        <div class="form-group col-xs-12 col-sm-4">
-          <label for="ville">Ma ville</label>
-          <input type="text" name="CITY" id="ville" class="form-control col-xs-12" />
-        </div>
-      </div>
-      <div class="form-submit text-center">
-        <button type="submit" class="btn btn-default" id="lien-offre-etudiant-form">Je m'inscris</button>
-        <br>
-        <a href="/">Non merci, ça ne m'intéresse pas</a>
-      </div>
-    </form>
-  </div>
-</section>
+{% include "_components/form.nunjucks" %}
 {% endblock %}

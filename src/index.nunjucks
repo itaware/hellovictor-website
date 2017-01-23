@@ -10,7 +10,7 @@
   <!--<div class="baseline">Assurez en quelques clics votre appartement et ce qu'il contient à tarif angélique <img class="emoji" src="images/emoji.png" alt="Emoji ange gardien" /></div>-->
   <div class="block-btn">
     <div>
-      <a href="form.html" class="btn btn-default ">Je m'assure</a> <br>
+      <a href="form.html" class="btn btn-default" id="lien-assure-1">Je m'assure</a> <br>
     </div>
     <div>
       <a href="#" class="link link-video" id="lien-video"><i class="icon icon-play"></i>Voir la vidéo</a>

@@ -3,16 +3,16 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #} 
 {# Otherwise default to relative pathing #} 
 {% set bodyClass = 'home' %} 
-{% set page = 'vp-enfoire' %} 
+{% set page = 'vp-inventaire' %} 
 {% endblock %} 
 {% block header %}
-  <div class="slogan">Votre assureur <p></p>est un enfoiré ?</div>
+  <div class="slogan">L'assurance qui s'occupe de votre inventaire</div>
   <div class="block-btn">
     <div>
-      <a href="form.html" class="btn btn-default" id="lien-{{page}}">Changez !</a> <br>
+      <a href="form.html" class="btn btn-default" id="lien-{{page}}">Je m'assure</a> <br>
     </div>
     <div>
-      <a href="#" class="link link-video" id="lien-video"><i class="icon icon-play"></i>Voir la vidéo</a>
+      <a href="#" class="link link-video" id="lien-video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
   </div>
 {% endblock %} 

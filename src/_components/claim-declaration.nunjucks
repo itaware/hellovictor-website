@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class="link-bottom text-center">
-        <a href="form.html" class="btn btn-default" id="lien-telecharger-app">Je m'assure</a>
+        <a href="form.html" class="btn btn-default" id="lien-declaration-sinistre">Je m'assure</a>
       </div>
     </div>
   </div>
