@@ -45,6 +45,11 @@ body {
     text-decoration: underline;
   }
   margin-bottom: 10px;
+  @media(max-width: $screen-sm-max){
+      h2 {
+        font-size: 20px;
+      }
+    }  
 }
 
 header.form h3 {

@@ -3,16 +3,13 @@
     <form action="https://hellovictor.us14.list-manage.com/subscribe/post?u=3a311fd8a4bd2ba1d322aa1fa&id=06ec1d1ca4" method="post">
       <div class="form-container clearfix">
         <div class="form-group col-xs-12 col-sm-4">
-          <label for="nom">Mon prénom</label>
-          <input type="text" name="FIRSTNAME" id="prenom" class="form-control col-xs-12" />
+          <input type="text" placeholder="MON PRÉNOM" name="FIRSTNAME" id="prenom" class="form-control col-xs-12" />
         </div>
         <div class="form-group col-xs-12 col-sm-4">
-          <label for="nom">Mon adresse email</label>
-          <input type="email" name="EMAIL" id="email" class="form-control col-xs-12" />
+          <input type="email" placeholder="MON ADRESSE EMAIL" name="EMAIL" id="email" class="form-control col-xs-12" />
         </div>
         <div class="form-group col-xs-12 col-sm-4">
-          <label for="ville">Ma ville</label>
-          <input type="text" name="CITY" id="ville" class="form-control col-xs-12" />
+          <input type="text" placeholder="MA VILLE" name="CITY" id="ville" class="form-control col-xs-12" />
         </div>
       </div>
       <div class="form-submit text-center">

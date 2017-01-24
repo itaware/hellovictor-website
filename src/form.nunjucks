@@ -5,11 +5,12 @@
 {% set page = 'form' %} 
 {% endblock %} 
 {% block header %}
-  <div class="form-title"> 
-    Inscrivez-vous sur la liste d’attente.
-  </div>
-  <p>Suite au succès de notre offre nous avons dû limiter les abonnements pour pouvoir assurer un service client de qualité.
-    <br>Nous vous contacterons très prochainement pour vous proposer de nous rejoindre
+  <h2> 
+        Le succès de notre offre nous oblige à limiter les abonnements.
+  </h2>
+  <h4><b>Inscrivez-vous sur la liste d’attente.</b></h4>
+  <p>        
+     Nous vous contacterons rapidement <br> pour vous proposer de nous rejoindre.
   </p>
 {% endblock %}
 {% block content %}

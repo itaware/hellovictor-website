@@ -54,7 +54,7 @@
     <![endif]-->
   <div class="main-content">
     <header class="header-site text-center">
-      <h1 class="logo animated bounceIn"><img src="{{baseUrl}}images/logo-hv.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
+      <h1 class="logo animated bounceIn"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></h1>
       {% block header %}{% endblock %}
     </header>
     {% block content %}{% endblock %}
@@ -89,7 +89,7 @@
     </div>
     <div class="footer-block logo text-center">
       <div class="footer-block-inner">
-        <img src="{{baseUrl}}images/logo-footer.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
+        <img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
       </div>
     </div>
     <div class="legal-text">
