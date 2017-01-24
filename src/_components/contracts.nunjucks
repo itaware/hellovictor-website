@@ -3,15 +3,12 @@
     <h2 class="section-title">Protégez ce qui est important.</h2>
   </header>
   <div class="scrollme section-content container container-contract">
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" id="oe-offre-etudiant">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" data-print="true" id="essentiel">
       <div class="inner">
         <div class="top">
           <h3>Assurez juste l'essentiel</h3><span>(ex: vélo, smartphone, ...)</span>
         </div>
         <div class="bottom">
-          <div class="contract-img">
-            <img src="images/contract/contract-1.png" alt="&Eacute;tudiants" class="img-responsive" />
-          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
@@ -22,19 +19,16 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-edudiant">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="essentiel">Je m'assure</a>
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" id="oe-offre-couple">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="evolutif">
       <div class="inner">
         <div class="top">
           <h3>Assurez-vous de manière évolutive</h3>
         </div>
         <div class="bottom">
-          <div class="contract-img">
-            <img src="images/contract/contract-2.png" alt="Couple" class="img-responsive" />
-          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
@@ -45,19 +39,16 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-couple">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" id="oe-offre-famille">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="total">
       <div class="inner">
         <div class="top">
           <h3>Assurez la totale !</h3>
         </div>
         <div class="bottom">
-          <div class="contract-img">
-            <img src="images/contract/contract-3.png" alt="Famille" class="img-responsive" />
-          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
@@ -68,7 +59,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="lien-offre-famille">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="total">Je m'assure</a>
         </div>
       </div>
     </div>

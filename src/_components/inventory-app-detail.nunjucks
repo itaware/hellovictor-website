@@ -1,4 +1,4 @@
-<section class="section" id="oe-inventaire-detail">
+<section class="section" data-print="true" id="inventaire-detail">
   <header class="section-header container">
     <div class="text-heading">Avec l'app mobile de reconnaissance d'objets, photographiez tous vos biens, enregistrez vos <br/>factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée.</div>
   </header>
@@ -47,7 +47,7 @@
       </div>
     </div>
     <div class="link-bottom text-center">
-      <a href="#" class="link" id="lien-video2"><i class="icon icon-play"></i>Voir la vidéo</a>
+      <a href="#" class="link" id="video-inventaire"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
   </div>
 </section>

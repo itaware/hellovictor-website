@@ -1,4 +1,4 @@
-<section class="section" id="oe-transfert-stat">
+<section class="section" data-print="true" id="transfert-stat">
   <header class="section-header">
     <h2 class="section-title small-title">Pourcentage de personnes ayant quitté <br/>leurs compagnies d'assurance pour Hello Victor</h2>
   </header>

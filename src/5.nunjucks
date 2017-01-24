@@ -10,10 +10,10 @@
     <br>qui vous rembourse en quelques heures</div>
   <div class="block-btn">
     <div>
-      <a href="form.html" class="btn btn-default" id="lien-{{page}}">Je m'assure !</a> <br>
+      <a href="form.html" class="btn btn-default" id="{{page}}">Je m'assure !</a> <br>
     </div>
     <div>
-      <a href="#" class="link link-video" id="lien-video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
+      <a href="#" class="link link-video" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
   </div>
 {% endblock %} 

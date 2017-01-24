@@ -8,16 +8,17 @@ var io = new IntersectionObserver(function (entries) {
     if (entry.intersectionRatio > 0.5) {
       dataLayer.push({
         event: 'impression',
-        element: entry.target.id.substring(3)
-      })
+        elementID: entry.target.id
+      });
     }
   });
 }, {
   threshold: [0.5]
 });
 
-document.querySelectorAll('[id^="oe-"]').forEach(function (element) {
+document.querySelectorAll('[data-print="true"]').forEach(function (element) {
   io.observe(element);
+  console.log(element);
 });
 
 jQuery(document).ready(function ($) {
@@ -35,7 +36,6 @@ jQuery(document).ready(function ($) {
           offsetTop > $(window).scrollTop() &&
           offsetTop < $(window).scrollTop() + $(window).height())) {
         var vitesse = window.innerWidth < 768 ? 1 : 2;
-        console.log(vitesse);
         var position = -((((($(window).scrollTop()) - offsetTop) * 100 / $('.home .header-site').outerHeight()) + parseInt(bg_pos_init_x)) * vitesse);
         //    var position = ((($(window).scrollTop()) - offsetTop)  * 100 /  $('.home .header-site').outerHeight() );
 

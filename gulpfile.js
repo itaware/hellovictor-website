@@ -64,7 +64,7 @@ gulp.task('serve', [
   'watch'
 ]);
 
-gulp.task('deploy', [], function() {
+gulp.task('ghpages', [], function() {
   return gulp.src('./build/**/*').pipe(ghPages());
 })
 

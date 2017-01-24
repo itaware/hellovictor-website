@@ -16,10 +16,10 @@
         <h1 class="product-title">&Eacute;tudiants</h1>
         <h2 class="product-subtitle">Seul ou en colocation, assurez juste le nécessaire</h2>
 
-        <a href="#" class="btn btn-default text-center" id="lien-offre-etudiant-dispo">Vérifiez la disponibilité<br/> du service dans votre ville</a>
+        <a href="#" class="btn btn-default text-center" id="disponibilite">Vérifiez la disponibilité<br/> du service dans votre ville</a>
       </div>
   </header>
-  <div class="product-detail" id="oe-form">
+  <div class="product-detail" data-print="true" id="form">
     <section class="section container">
       <div class="form form-subscribe">
         <form>
@@ -47,7 +47,7 @@
     <div class="link-bottom text-center">
       <a href="#" class="link">Assurez juste le nécessaire<i class="center-block glyphicon glyphicon-menu-down"></i></a>
     </div>
-    <section class="section" id="oe-offre-etudiant-detail">
+    <section class="section" data-print="true" id="etudiant">
       <div class="section-content container">
         <div class="col-sm-3 hidden-xs scrollme">
           <div class="animateme col-xs-11" data-when="view" data-to="0" data-from="1" data-translatey="300">
@@ -77,7 +77,7 @@
         </div>
       </div>
     </section>
-    <section class="section" id="oe-offre-etudiant-declaration">
+    <section class="section" data-print="true" id="etudiant-declaration">
       <div class="section-content container">
         <div class="col-xs-12 col-sm-9">
           <div class="section-header">
@@ -106,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-gray" id="oe-offre-etudiant-inventaire">
+    <section class="section section-gray" data-print="true" id="etudiant-inventaire">
       <header class="section-header">
         <div class="section-title">Les avantages de l'inventaire</div>
       </header>
@@ -149,7 +149,7 @@
         </div>
       </div>
     </section>
-    <section class="section" id="oe-offre-etudiant-faq">
+    <section class="section" data-print="true" id="etudiant-faq">
       <header class="section-header">
         <h2 class="section-title">Des questions & des réponses</h2>
       </header>

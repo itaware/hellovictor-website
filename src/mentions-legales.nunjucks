@@ -1,0 +1,39 @@
+{% extends '_layouts/base.nunjucks' %} 
+{% block config %} 
+{% set bodyClass = '' %} 
+{% set page = 'politique-confidentialite' %} 
+{% endblock %} 
+{% block header %}
+  <h1>MENTIONS LÉGALES</h1>
+{% endblock %}
+{% block content %}
+<div class="container">
+<p>Le site hellovictor.fr est édité par Liberty Finances, société par actions simplifiée au capital de 1.000.000 euros, immatriculée auprès du registre du commerce et des sociétés de Strasbourg sous le numéro 499912855, dont le siège social est situé 59 rue du Conseil des Quinze, 67000 Strasbourg, France.
+</p>
+<ul>
+  <li>
+E-mail : <a href="mailto:contact@hellovictor.fr" id="contact_mail_mentions_legales">contact@hellovictor.fr</a>
+  </li>
+  <li>
+    Responsable de la publication : monsieur Franck Ohrel
+  </li>
+</ul>
+
+<ul>
+  <li>Hébergement :  Gandi
+</li>
+  <li>Dénomination sociale:  Gandi SAS
+</li>
+  <li>Siège social : 63-65 boulevard Massena - 75013 Paris - France
+</li>
+  <li>Site internet http://gandi.net
+</li>
+</ul>
+
+<h3>Propriété intellectuelle et contrefaçons</h3>
+<p>
+L’ensemble de ce site relève des législations française et internationale sur le droit d’auteur et la propriété intellectuelle.
+La reproduction ou l’utilisation, sous quelque forme que ce soit des contenus, y compris pour les documents iconographiques et photographiques est interdite sans notre autorisation et entrainera des poursuites conformément  aux dispositions des articles l.335-2 et suivants du code de propriété intellectuelle.
+</p>
+</div>
+{% endblock %}

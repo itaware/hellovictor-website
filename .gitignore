@@ -5,3 +5,5 @@ tmp
 .grunt
 .DS_Store
 .publish
+.build
+.tmp
