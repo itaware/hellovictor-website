@@ -3,7 +3,6 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #} 
 {% set baseUrl = config.baseUrl or './' %} 
-{% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 <!DOCTYPE html>
 <!--[if lt IE 9]>
@@ -22,14 +21,14 @@
 
   <meta property="og:url" content="http://hellovictor.fr" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Hello Victor" />
-  <meta property="og:description" content="{{slogan}}" />
+  <meta property="og:title" content="L'assurance 100% en ligne" />
+  <meta property="og:description" content="qui couvre tous vos biens et vous rembourse rapidement" />
   <meta property="og:image" content="http://hellovictor.fr/images/hello-victor.png" />
   <meta property="og:locale" content="fr_FR" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_myvictor" />
-  <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
+  <meta name="twitter:title" content="L'assurance 100% en ligne" />
   <meta name="twitter:description" content="{{slogan}}" />
   <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor.png" />
 
