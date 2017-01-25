@@ -1,6 +1,6 @@
 <section class="section" data-print="true" id="niveau">
   <header class="section-header container">
-    <h2 class="section-title blue-title">Choisissez le niveau de couverture par objet</h2>
+    <h2 class="section-title">Choisissez le niveau de couverture par objet</h2>
   </header>
   <div class="section-content container">
     <div class="insurance-level col-xs-12 col-sm-4">

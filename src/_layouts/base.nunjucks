@@ -29,7 +29,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_myvictor" />
   <meta name="twitter:title" content="L'assurance 100% en ligne" />
-  <meta name="twitter:description" content="{{slogan}}" />
+  <meta name="twitter:description" content="qui couvre tous vos biens et vous rembourse rapidement" />
   <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor.png" />
 
   <link rel="stylesheet" href="{{baseUrl}}styles/main.css" /> 
