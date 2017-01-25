@@ -6,9 +6,13 @@
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" data-print="true" id="essentiel">
       <div class="inner">
         <div class="top">
-          <h3>Assurez juste l'essentiel</h3><span>(ex: vélo, smartphone, ...)</span>
+          <h3>Assurez juste l'essentiel</h3>
+          <span>(Vélo, Smartphone, ...)</span>
         </div>
         <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/essentiel.png" alt="essentiel" class="img-responsive" />
+          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
@@ -27,8 +31,12 @@
       <div class="inner">
         <div class="top">
           <h3>Assurez-vous de manière évolutive</h3>
+          <span>(Au fil de vos acquisitions)</span>
         </div>
         <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/evolutif.png" alt="evolutif" class="img-responsive" />
+          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
@@ -47,12 +55,16 @@
       <div class="inner">
         <div class="top">
           <h3>Assurez la totale !</h3>
+          <span>(Assurance + télésurveillance à votre domicile inclus 24h/24)</span>
         </div>
         <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/total.png" alt="total" class="img-responsive" />
+          </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
-              <span class="price-value pull-left">19,90</span>
+              <span class="price-value pull-left">39,90</span>
               <div class="price-infos pull-left text-left ">
                 <div class="price-currency">€</div>
                 <div class="price-period">/mois</div>

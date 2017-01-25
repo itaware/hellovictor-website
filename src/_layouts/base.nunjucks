@@ -15,8 +15,8 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>Hello Victor - l'assurance entièrement en ligne qui couvre 100% de vos biens avec un remboursement rapide</title>
-  <meta name="description" content="Hello Victor - l'assurance entièrement en ligne qui couvre 100% de vos biens avec un remboursement rapide" />
+  <title>Hello Victor - l'assurance 100% en ligne qui couvre tous vos biens - remboursé rapidement</title>
+  <meta name="description" content="Hello Victor - l'assurance 100% en ligne qui couvre tous vos biens - remboursé rapidement" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="{{baseUrl}}styles/main.css" /> 
   {% block stylesheets %}{% endblock %}
@@ -101,6 +101,8 @@
   <script src="{{baseUrl}}scripts/main.js"></script> 
   {% block scripts %}{% endblock %}
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
+
+  <script type="text/javascript">$crisp=[];CRISP_WEBSITE_ID="5f944519-41b9-4abf-8fc1-2635e3daf0e5";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.im/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 </body>
 
