@@ -79,10 +79,10 @@
               Faites en profiter vos amis
             </div>
             <a href="https://www.facebook.com/sharer/sharer.php?u=https://goo.gl/SPLfiU" target="_blank" id="partage_facebook"><i class="icon icon-facebook"></i></a>
-            <a href="https://twitter.com/intent/tweet/?url=https://goo.gl/SPLfiU&text=Hello%20Victor%2C%20une%20assurance%20en%20ligne%20qui%20couvre%20tous%20vos%20biens" target="_blank" id="partage_twitter"><i class="icon icon-twitter"></i></a>
-            <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://hellovictor.fr&title=L'assurance 100% ligne&summary=Une assurance 100% en ligne qui couvre tous vos biens, incluant une app mobile d'inventaire et qui rembourse rapidement" id="partage_linkedin" target="_blank"><i class="icon icon-linkedin"></i></a>
-            <a href="https://plus.google.com/share?url=http://hellovictor.fr&hl=fr" target="_blank" id="partage_gplus"><i class="icon icon-googleplus"></i></a>
-            <a href="https://pinterest.com/pin/create/button/?url=http://hellovictor.fr&media=http://hellovictor.fr/images/hello-victor.png&description=Hello Victor, une assurance habitation 100% en ligne qui couvre tous vos biens" target="_blank" id="partage_pinterest"><i class="icon icon-pinterest"></i></a>
+            <a href="https://twitter.com/intent/tweet/?url=https://goo.gl/jOlqSX&text=Hello%20Victor%2C%20une%20assurance%20en%20ligne%20qui%20couvre%20tous%20vos%20biens%20%23insurtech" target="_blank" id="partage_twitter"><i class="icon icon-twitter"></i></a>
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://goo.gl/4gy7Wc&title=L'assurance 100% ligne&summary=Une assurance 100% en ligne qui couvre tous vos biens, incluant une app mobile d'inventaire et qui rembourse rapidement" id="partage_linkedin" target="_blank"><i class="icon icon-linkedin"></i></a>
+            <a href="https://plus.google.com/share?url=https://goo.gl/ZixcFo&hl=fr" target="_blank" id="partage_gplus"><i class="icon icon-googleplus"></i></a>
+            <a href="https://pinterest.com/pin/create/button/?url=https://goo.gl/SotLJI&media=http://hellovictor.fr/images/hello-victor.png&description=Hello Victor, une assurance habitation 100% en ligne qui couvre tous vos biens" target="_blank" id="partage_pinterest"><i class="icon icon-pinterest"></i></a>
             <a href="mailto:?subject=Hello%20Victor%2C%20une%20assurance%20100%25%20en%20ligne%20qui%20couvre%20tous%20vos%20biens&body=Bonjour%2C%0A%0AHello%20Victor%20http%3A%2F%2Fhellovictor.fr%20est%20une%20assurance%20100%25%20en%20ligne%20qui%20couvre%20tous%20vos%20biens%2C%20vous%20permet%20de%20faire%20votre%20inventaire%20via%20une%20app%20mobile%20et%20qui%20rembourse%20rapidement%0A" target="_blank" id="partage_mail"><i class="icon icon-email"></i></a>
           </div>
         </div>
