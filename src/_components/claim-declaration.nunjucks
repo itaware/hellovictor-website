@@ -15,7 +15,7 @@
             <div class="message message-empty"></div>
             <div class="message person-1">Bonjour Mathilde <br/> comment puis-je vous aider ? </div>
             <div class="message person-2">On m'a volé mon portable !  </div>
-            <div class="message person-1">Où et quand cela <br>s'est il passé ? </div>
+            <div class="message person-1">Où et quand cela <br>s'est-il passé ? </div>
             <div class="message person-2">Hier, dans ma voiture Avenue<br/> des Champs Elysés</div>
             <div class="message person-1">Ne vous inquiètez pas, on s'en<br/> occupe dès aujourd'hui !</div>
             <div class="message message-empty">...</div>

@@ -71,9 +71,9 @@
             vieux, faites le calcul de vétusté automoatiquement et choisissez de l'assurer ou pas. Ajouter ou supprimer des
             biens à votre inventaire au cours du temps, votre prime sera recalculée instantanément.
           </p>
-          <div class="link-bottom">
+          <!--<div class="link-bottom">
             <a href="#" class="link link-video" id="lien-offre-etudiant-video"><i class="icon icon-play"></i>Voir la vidéo</a>
-          </div>
+          </div>-->
         </div>
       </div>
     </section>

@@ -13,9 +13,9 @@
     <div>
       <a href="form.html" class="btn btn-default" id="assure">Je m'assure</a> <br>
     </div>
-    <div>
+    <!--<div>
       <a href="#" class="link link-video" id="video-demo"><i class="icon icon-play"></i>Voir la vidéo</a>
-    </div>
+    </div>-->
   </div>
 {% endblock %} 
 {% block content %}
