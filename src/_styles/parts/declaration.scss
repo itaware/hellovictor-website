@@ -178,24 +178,6 @@
   }
 }
 
-.block-share{
-  padding-left: 65px;
-  &-label{
-    margin-bottom: 15px;
-    text-transform: uppercase;
-  }
-  a{
-    color: #fff;
-    font-size: 25px;
-    margin-right: 15px;
-    &:hover{
-      text-decoration:none;
-    }
-    @media(max-width: $screen-xs-max){
-      margin-right: 30px;
-    }
-  }
-}
 .houses{
   position: absolute;
   top:0;

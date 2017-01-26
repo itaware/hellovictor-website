@@ -25,4 +25,5 @@
 {% include '_components/inventory-app-detail.nunjucks' %} 
 {% include '_components/claim-declaration.nunjucks' %} 
 {% include '_components/transfer.nunjucks'%}
+{% include '_components/share.nunjucks' %} 
 {% endblock %}
