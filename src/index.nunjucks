@@ -14,6 +14,7 @@
 <div class="header-site-bottom">
   <div class="container-fluid product-list">
     <div class="col-xs-12 col-sm-4 objects container-object">
+      <a href="{{baseUrl}}/objets-courants.html">
         <div class="object-item">
           <img src="{{baseUrl}}images/fb-ads/camera.svg" alt="Appareil photo" />
           <img src="{{baseUrl}}images/fb-ads/watch.svg" alt="Montre" />
@@ -22,22 +23,27 @@
         <div class="object-name">
           Objets courant
         </div>
+      </a>
     </div>
     <div class="col-xs-12 col-sm-4 digital container-object">
+      <a href="{{baseUrl}}/risques-digitaux.html">
         <div class="object-item">
           <img src="{{baseUrl}}images/fb-ads/thief.svg" alt="Voleur" />
         </div>
         <div class="object-name">
           Risques digitaux
         </div>
+      </a>
     </div>
     <div class="col-xs-12 col-sm-4 house container-object">
-      <div class="object-item">
-        <img src="{{baseUrl}}images/fb-ads/house.svg" alt="Maison" />
-      </div>
-      <div class="object-name">
-        Habitation
-      </div>
+      <a href="{{baseUrl}}/habitation.html">
+        <div class="object-item">
+          <img src="{{baseUrl}}images/fb-ads/house.svg" alt="Maison" />
+        </div>
+        <div class="object-name">
+          Habitation
+        </div>
+      </a>
     </div>
   </div>
   </div>

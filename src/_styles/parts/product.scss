@@ -118,6 +118,7 @@
 }
 .container-object{
   margin: 10% auto;
+  color: #fff;
   img{
     margin: 0 15px;
   }
@@ -125,6 +126,12 @@
     margin: 8% 0 0;
     font-size: 18px;
     text-transform: uppercase;
+  }
+  a{
+    color: inherit;
+    &:hover{
+      text-decoration: none;
+    }
   }
 }
 .product-list{
@@ -144,7 +151,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+
     &.objects{
       background-image: url(../images/product-type/product-object.jpg);
     }
