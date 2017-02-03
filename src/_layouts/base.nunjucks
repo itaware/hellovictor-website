@@ -1,8 +1,8 @@
-{# Custom Configuration #} 
-{% block config %} 
+{# Custom Configuration #}
+{% block config %}
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
-{# Otherwise default to relative pathing #} 
-{% set baseUrl = config.baseUrl or './' %} 
+{# Otherwise default to relative pathing #}
+{% set baseUrl = config.baseUrl or './' %}
 {% endblock %}
 <!DOCTYPE html>
 <!--[if lt IE 9]>
@@ -32,7 +32,7 @@
   <meta name="twitter:description" content="qui couvre tous vos biens et vous rembourse rapidement" />
   <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor.png" />
 
-  <link rel="stylesheet" href="{{baseUrl}}styles/main.css" /> 
+  <link rel="stylesheet" href="{{baseUrl}}styles/main.css" />
   {% block stylesheets %}{% endblock %}
 
   <!-- Google Tag Manager -->
@@ -57,7 +57,6 @@
     <![endif]-->
   <div class="main-content">
     <header class="header-site text-center">
-      <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
       {% block header %}{% endblock %}
     </header>
     {% block content %}{% endblock %}
@@ -97,7 +96,7 @@
     </div>
   </footer>
 
-  <script src="{{baseUrl}}scripts/main.js"></script> 
+  <script src="{{baseUrl}}scripts/main.js"></script>
   {% block scripts %}{% endblock %}
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 

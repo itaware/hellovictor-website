@@ -1,0 +1,29 @@
+{% extends '_layouts/base.nunjucks' %}
+{% block config %}
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+{# Otherwise default to relative pathing #}
+{% set bodyClass = 'product-page product-house' %}
+{% set page = 'objects-courant' %}
+{% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
+{% endblock %}
+{% block header %}
+<div class="header-site-inner">
+<div class="header-site-top">
+  <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
+  <div class="slogan">L'assurance 100% en ligne qui couvre tous vos biens.</div>
+</div>
+<div class="header-site-bottom">
+  <div class="container-object">
+      <div class="object-item">
+        <img src="{{baseUrl}}images/fb-ads/house.svg" alt="Maison" />
+      </div>
+      <div class="object-name">
+        Habitation
+      </div>
+  </div>
+</div>
+</div>
+{% endblock %}
+{% block content %}
+
+{% endblock %}
