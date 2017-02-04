@@ -5,6 +5,7 @@
 {% set page = 'form' %} 
 {% endblock %} 
 {% block header %}
+  <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
   <h2> 
         Le succès de notre offre nous oblige à limiter les abonnements.
   </h2>

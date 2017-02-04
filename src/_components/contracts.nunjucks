@@ -1,7 +1,4 @@
 <section id="section-contract" class="section">
-  <header class="section-header container">
-    <h2 class="section-title">Protégez ce qui est important.</h2>
-  </header>
   <div class="scrollme section-content container container-contract">
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" data-print="true" id="essentiel">
       <div class="inner">

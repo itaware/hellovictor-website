@@ -7,7 +7,6 @@ module.exports = function (gulp, plugins, args, config, taskTarget, browserSync)
   var entries = config.entries;
 
   var user = '1216793';
-  //var sshKey = '/Users/sebmade/.ssh/hhgandi_rsa';
   var vhost = (args.production && !args.undertest) ? 'hellovictor.fr' : 'test.hellovictor.fr';
 
   gulp.task('deploy', function() {

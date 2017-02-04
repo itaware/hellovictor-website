@@ -88,7 +88,7 @@
     </div>
     <div class="footer-block logo text-center">
       <div class="footer-block-inner">
-        <img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" />
+        <a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello Victor - Votre ange gardien" class="img-responsive" /></a>
       </div>
     </div>
     <div class="legal-text">
