@@ -1,0 +1,85 @@
+{% extends '_layouts/base.nunjucks' %}
+{% block config %}
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+{# Otherwise default to relative pathing #}
+{% set bodyClass = 'product-page product-digital' %}
+{% set page = 'objects-courant' %}
+{% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
+{% endblock %}
+{% block header %}
+<div class="header-site-inner">
+<div class="header-site-top">
+  <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
+  <div class="slogan">Vos données personnelles sont un bien précieux.</div>
+</div>
+<div class="header-site-bottom">
+  <div class="container-object">
+      <div class="object-item">
+        <img src="{{baseUrl}}images/product-type/thief.svg" alt="Voleur" />
+      </div>
+      <div class="object-name">
+        <a href="form.html" class="btn btn-default">Assurez vos données</a>
+      </div>
+  </div>
+</div>
+</div>
+{% endblock %}
+{% block content %}
+<div class="digital-risk container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
+    </div>
+    <div class="col-md-8">
+      <p class="">
+        <h2>Piratage informatique</h2>
+        <ul>
+          <li>prise en charge des frais nécessaires pour mettre fin à la menace</li>
+          <li>gestion de la récupération des données et de la remise en ordre de votre informatique</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">
+      <p class="">
+        <h2>Atteinte à votre réputation et votre image</h2>
+        <ul>
+          <li>gestion et prise en charge des frais pour réaliser une demande d’effacement de données auprès d’un acteur de l’internet (Google, Facebook, Instagram…)</li>
+        </ul>
+      </p>
+    </div>
+    <div class="col-md-4">
+      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
+    </div>
+    <div class="col-md-8">
+      <p class="">
+        <h2>Achats de biens et services sur internet</h2>
+        <ul>
+          <li>prise en charge des frais juridiques pour la gestion du litige</li>
+          <li>remboursement du bien le cas échéant</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="text-center">Services inclus</h2>
+      <ul>
+        <li>conseils par messagerie sécurisée disponible 24h/24 7j/7</li>
+        <li>prévention des risques via nos newsletters, blog, webinars et vidéo youtube pour apprendre à bien gérer ses données</li>
+        <li>mise en place d’outils de protection adaptés à vos terminaux (Windows, Mac, Linux, Smartphone) : gestion de mots de passe, pare-feu, anti-virus, anti-spam </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% include '_components/claim-declaration.nunjucks' %} 
+{% include '_components/transfer.nunjucks'%}
+{% include '_components/share.nunjucks' %} 
+{% endblock %}

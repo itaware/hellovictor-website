@@ -1,0 +1,35 @@
+{% extends '_layouts/base.nunjucks' %}
+{% block config %}
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+{# Otherwise default to relative pathing #}
+{% set bodyClass = 'product-page product-house' %}
+{% set page = 'objects-courant' %}
+{% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
+{% endblock %}
+{% block header %}
+<div class="header-site-inner">
+<div class="header-site-top">
+  <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
+  <div class="slogan">Protégez ce qui est important.</div>
+</div>
+<div class="header-site-bottom">
+  <div class="container-object">
+      <div class="object-item">
+        <img src="{{baseUrl}}images/product-type/house.svg" alt="Maison" />
+      </div>
+      <div class="object-name">
+        <a href="form.html" class="btn btn-default">Assurez votre habitation</a>
+      </div>
+  </div>
+</div>
+</div>
+{% endblock %}
+{% block content %}
+{% include '_components/contracts.nunjucks' %} 
+{% include '_components/insurance-level.nunjucks' %} 
+{% include '_components/inventory.nunjucks' %} 
+{% include '_components/inventory-app-detail.nunjucks' %} 
+{% include '_components/claim-declaration.nunjucks' %} 
+{% include '_components/transfer.nunjucks'%}
+{% include '_components/share.nunjucks' %} 
+{% endblock %}
