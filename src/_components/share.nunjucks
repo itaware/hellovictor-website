@@ -1,6 +1,8 @@
 <section class="section container">
   <header class="section-header">
     <h2 class="section-title">
+      <img src="/images/happy.svg" alt="" style="height: 20px;">
+      <br>
       Parlez-en avec vos amis
     </h2>
   </header>
