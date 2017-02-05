@@ -1,0 +1,84 @@
+<section class="section section-claim-declaration">
+  <header class="section-header">
+    <h2 class="section-title">Être remboursé rapidement</h2>
+    <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
+  </header>
+  <div class="section-content">
+    <div class="declaration-step step-declare" data-print="true" id="declaration-chat">
+      <div class="declaration-step-container align-items middle">
+        <div class="align-item declaration-step-header col-xs-12 col-sm-5">
+          <div class="declaration-step-title">Déclaration de sinistre</div>
+          <div class="declaration-step-subtitle">Par messagerie en moins de 2 mn</div>
+        </div>
+        <div class="align-item col-xs-12 col-sm-4">
+          <div class="talk clearfix">
+            <div class="message message-empty"></div>
+            <div class="message person-1">Bonjour Sam <br/> comment puis-je vous aider ? </div>
+            <div class="message person-2">On a fait un photomontage de ma fille sur Instagram !</div>
+            <div class="message person-1">Pourriez-vous me donner la référence (URL) de la page ? </div>
+            <div class="message person-2">http://instagr.am/KiboSM6e</div>
+            <div class="message person-1">Notre service juridique s'en occupe dès maintenant</div>
+            <div class="message person-1">Souhaitez-vous un soutien psychologique ?</div>
+            <div class="message message-empty">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="separator-check">
+      <div class="container">
+        <div class="check"><i class="icon icon-check"></i></div>
+        <div class="check"><i class="icon icon-check"></i></div>
+        <div class="check"><i class="icon icon-check"></i></div>
+        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
+        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
+        <div class="check"><i class="icon icon-check"></i></div>
+        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
+        <div class="check"><i class="icon icon-check"></i></div>
+        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
+      </div>
+    </div>
+    <div class="declaration-step step-payment" data-print="true" id="declaration-paiement">
+      <div class="houses-front houses"></div>
+      <div class="houses-back houses"></div>
+      <div class="declaration-step-container align-items middle">
+        <div class="align-item declaration-step-header col-xs-12 col-sm-4">
+          <div class="declaration-step-title">Action</div>
+          <div class="declaration-step-subtitle">immédiate !</div>
+        </div>
+        <div class="scrollme align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
+            <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">
+              <img src="images/declaration/Smartphone-TOP.png" alt="Validation" class="img-responsive animateme"/>
+            </div>
+            <div class="animateme col-xs-7 no-padding element-2 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="500">
+              <img src="images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive" />
+            </div>
+        </div>
+        <div class="align-item col-xs-12 col-sm-4 declaration-process">
+          <div class="bubble-item">...</div>
+          <ul class="declaration-instructions">
+            <li>
+              <div class="check"><i class="icon icon-check"></i></div>
+              Déclarez par chat la nature du litige
+            </li>
+            <li>
+              <div class="check"><i class="icon icon-check"></i></div>
+              Validez et précisez votre déclaration
+            </li>
+            <li>
+              <div class="check"><i class="icon icon-check"></i></div>
+              Vous êtes assisté immédiatement
+            </li>
+            <li>
+              <div class="check"><i class="icon icon-check"></i></div>
+              <div class="text-bold">C'est terminé !</div>
+              Nous nous occupons de vous et votre fille ...
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="link-bottom text-center">
+        <a href="form.html" class="btn btn-default" id="declaration_sinistre">Je m'assure</a>
+      </div>
+    </div>
+  </div>
+</section>
