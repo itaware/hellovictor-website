@@ -10,7 +10,7 @@
 <div class="header-site-inner">
 <div class="header-site-top">
   <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
-  <div class="slogan">Certains de vos biens sont plus importants que les autres.</div>
+  <div class="slogan">Certains de vos objets sont plus importants que les autres.</div>
 </div>
 <div class="header-site-bottom">
   <div class="container-object">
@@ -20,14 +20,14 @@
         <img src="{{baseUrl}}images/product-type/smartphone.svg" alt="Téléphone" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default">Assurez vos objets précieux</a>
+        <a href="form.html" class="btn btn-default">Assurez vos objets</a>
       </div>
   </div>
 </div>
 </div>
 {% endblock %}
 {% block content %}
-{% include '_components/insurance-level.nunjucks' %} 
+{% include '_components/insurance-level-objets.nunjucks' %} 
 {% include '_components/inventory.nunjucks' %} 
 {% include '_components/inventory-app-detail.nunjucks' %} 
 {% include '_components/claim-declaration.nunjucks' %} 

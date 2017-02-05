@@ -1,0 +1,28 @@
+<section class="section" data-print="true" id="niveau">
+  <header class="section-header container">
+    <h2 class="section-title">Définissez votre niveau de couverture</h2>
+  </header>
+  <div class="section-content container">
+    <div class="insurance-level col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
+      <div class="title">chez vous</div>
+      <div class="desc hidden-xs">
+        vos objets sont assurés en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile. <a href="/form.html"><b>En savoir +</b></a>
+      </div>
+    </div>
+    <div class="insurance-level col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
+      <div class="title">en dehors</div>
+      <div class="desc hidden-xs">
+        vos objets sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable). <a href="/form.html"><b>En savoir +</b></a>
+      </div>
+    </div>
+    <div class="insurance-level col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/insurance-level/warranty.png" alt="Salon" class="img-responsive" />
+      <div class="title">en extension de garantie </div>
+      <div class="desc hidden-xs">
+        vos objets sont assurés en cas de panne au delà de sa période de garantie. <a href="/form.html"><b>En savoir +</b></a>
+      </div>
+    </div>
+  </div>
+</section>
