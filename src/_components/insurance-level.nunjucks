@@ -1,27 +1,27 @@
 <section class="section" data-print="true" id="niveau">
   <header class="section-header container">
-    <h2 class="section-title">Choisissez le niveau de couverture par objet</h2>
+    <h2 class="section-title">Choisissez le niveau de couverture par bien</h2>
   </header>
   <div class="section-content container">
     <div class="insurance-level col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/insurance-level/homesweethome.png" alt="Salon" class="img-responsive" />
       <div class="title">à l'intérieur de l'habitation </div>
       <div class="desc hidden-xs">
-        l'objet est assuré en cas de vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe) à l'intérieur du domicile.
+        vos biens sont assurés en cas de vol, incendie, dégats des eaux, catastrophes naturelles (ex télévision, meubles, livres, ordinateur fixe) à l'intérieur du domicile.
       </div>
     </div>
     <div class="insurance-level col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/insurance-level/parc.png" alt="Salon" class="img-responsive" />
       <div class="title">à l'extérieur de l'habitation </div>
       <div class="desc hidden-xs">
-        l'objet est assuré en cas de vol ou de dégâts survenu en dehors du domicile (tél, vélo, ordinateur portable).
+        vos biens sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).
       </div>
     </div>
     <div class="insurance-level col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/insurance-level/warranty.png" alt="Salon" class="img-responsive" />
       <div class="title">en extension de garantie </div>
       <div class="desc hidden-xs">
-        l'objet est assuré en cas de panne au delà de sa période de garantie.
+        vos biens sont assurés en cas de panne au delà de sa période de garantie.
       </div>
     </div>
   </div>
