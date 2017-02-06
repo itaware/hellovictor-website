@@ -79,12 +79,6 @@
     </div>
   </div>
 </div>
-<<<<<<< HEAD
-{% include '_components/claim-declaration.nunjucks' %}
-{% include '_components/transfer.nunjucks'%}
+{% include '_components/claim-declaration-datarisk.nunjucks' %}
 {% include '_components/share.nunjucks' %}
-=======
-{% include '_components/claim-declaration-datarisk.nunjucks' %} 
-{% include '_components/share.nunjucks' %} 
->>>>>>> 9caf7895fe72e30d373abfdacd86c6ee2f38626d
 {% endblock %}
