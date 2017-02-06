@@ -125,3 +125,20 @@ $max-element : 4;
     }
   }
 }
+
+.alternate-item{
+  .row{
+    font-size: 0;
+    > div{
+      display: inline-block;
+      float:none;
+      font-size: initial;
+      direction: ltr;
+    }
+    @media(min-width: $screen-sm-min){
+      &:nth-child(odd){
+        direction: rtl;
+      }
+    }
+  }
+}

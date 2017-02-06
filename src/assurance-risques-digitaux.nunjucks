@@ -22,10 +22,11 @@
       </div>
   </div>
 </div>
+<div class="glyphicon glyphicon-menu-down"></div>
 </div>
 {% endblock %}
 {% block content %}
-<div class="digital-risk container">
+<div class="digital-risk container alternate-item">
   <div class="row">
     <div class="col-md-4">
       <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
@@ -41,6 +42,9 @@
     </div>
   </div>
   <div class="row">
+    <div class="col-md-4">
+      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
+    </div>
     <div class="col-md-8">
       <p class="">
         <h2>Atteinte à votre réputation et votre image</h2>
@@ -48,9 +52,6 @@
           <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet (Google, Facebook, Instagram, Snapchat ...)</li>
         </ul>
       </p>
-    </div>
-    <div class="col-md-4">
-      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
     </div>
   </div>
   <div class="row">

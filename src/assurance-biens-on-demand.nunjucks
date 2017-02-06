@@ -24,6 +24,7 @@
       </div>
   </div>
 </div>
+<div class="glyphicon glyphicon-menu-down"></div>
 </div>
 {% endblock %}
 {% block content %}
