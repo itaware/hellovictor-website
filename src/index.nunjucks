@@ -9,7 +9,7 @@
 {% block header %}
   <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <div class="slogan">L'assurance 100% en ligne <br>qui couvre tous vos biens.</div>
+  <div class="slogan">L'assurance 100% numérique</div>
 </div>
 <div class="header-site-bottom">
   <div class="container-fluid product-list">
@@ -21,7 +21,9 @@
           <img src="{{baseUrl}}images/product-type/smartphone.svg" alt="Téléphone" />
         </div>
         <div class="object-name">
-          Objets précieux
+          Objets
+          <br>
+          <a href="assurance-biens-on-demand.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
     </div>
@@ -31,7 +33,9 @@
           <img src="{{baseUrl}}images/product-type/thief.svg" alt="Voleur" />
         </div>
         <div class="object-name">
-          Risques digitaux
+          Risques numériques
+          <br>
+          <a href="assurance-risques-digitaux.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
     </div>
@@ -42,6 +46,8 @@
         </div>
         <div class="object-name">
           Habitation
+          <br>
+          <a href="assurance-habitation.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
     </div>

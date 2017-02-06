@@ -35,7 +35,7 @@
         <h2>Piratage informatique</h2>
         <ul>
           <li>prise en charge des frais nécessaires pour mettre fin à la menace</li>
-          <li>gestion de la récupération des données et de la remise en ordre de votre informatique</li>
+          <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <br>(<sup>*</sup>cloud, disques durs, ...)</li>
         </ul>
       </p>
     </div>
@@ -45,7 +45,7 @@
       <p class="">
         <h2>Atteinte à votre réputation et votre image</h2>
         <ul>
-          <li>gestion et prise en charge des frais pour réaliser une demande d’effacement de données auprès d’un acteur de l’internet (Google, Facebook, Instagram…)</li>
+          <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet (Google, Facebook, Instagram, Snapchat ...)</li>
         </ul>
       </p>
     </div>
@@ -79,7 +79,12 @@
     </div>
   </div>
 </div>
+<<<<<<< HEAD
 {% include '_components/claim-declaration.nunjucks' %}
 {% include '_components/transfer.nunjucks'%}
 {% include '_components/share.nunjucks' %}
+=======
+{% include '_components/claim-declaration-datarisk.nunjucks' %} 
+{% include '_components/share.nunjucks' %} 
+>>>>>>> 9caf7895fe72e30d373abfdacd86c6ee2f38626d
 {% endblock %}

@@ -1,30 +1,6 @@
 <section id="section-contract" class="section">
   <div class="scrollme section-content container container-contract">
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.6" data-to="0" data-translatey="600" data-print="true" id="essentiel">
-      <div class="inner">
-        <div class="top">
-          <h3>Assurez juste l'essentiel</h3>
-          <span>(Vélo, Smartphone, Ordi ...)</span>
-        </div>
-        <div class="bottom">
-          <div class="contract-img">
-            <img src="images/contract/essentiel.png" alt="essentiel" class="img-responsive" />
-          </div>
-          <div class="contract-price">
-            <div class="from">à partir de</div>
-            <div class="price clearfix">
-              <span class="price-value pull-left">3,90</span>
-              <div class="price-infos pull-left text-left ">
-                <div class="price-currency">€</div>
-                <div class="price-period">/mois</div>
-              </div>
-            </div>
-          </div>
-          <a href="form.html" class="btn btn-default btn-block" id="essentiel">Je m'assure</a>
-        </div>
-      </div>
-    </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="evolutif">
+    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="evolutif">
       <div class="inner">
         <div class="top">
           <h3>Assurez-vous de manière évolutive</h3>
@@ -48,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="total">
+    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="total">
       <div class="inner">
         <div class="top">
           <h3>Assurez la totale !</h3>
