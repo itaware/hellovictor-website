@@ -8,7 +8,7 @@
 {% endblock %}
 {% block header %}
   <div class="header-site-top">
-  <h1 class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></h1>
+  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <div class="slogan">L'assurance 100% en ligne <br>qui couvre tous vos biens.</div>
 </div>
 <div class="header-site-bottom">
