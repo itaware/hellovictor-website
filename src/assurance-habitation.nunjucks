@@ -10,7 +10,7 @@
 <div class="header-site-inner">
 <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <div class="slogan">Protégez ce qui est important.</div>
+  <h1 class="slogan">Protégez ce qui est important.</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-object">

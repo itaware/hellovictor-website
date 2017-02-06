@@ -10,7 +10,7 @@
 <div class="header-site-inner">
 <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <div class="slogan">Certains de vos objets sont plus importants que les autres.</div>
+  <h1 class="slogan">Certains de vos objets sont plus importants que les autres.</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-object">
@@ -27,9 +27,9 @@
 </div>
 {% endblock %}
 {% block content %}
-{% include '_components/insurance-level-objets.nunjucks' %} 
-{% include '_components/inventory.nunjucks' %} 
-{% include '_components/inventory-app-detail.nunjucks' %} 
-{% include '_components/claim-declaration.nunjucks' %} 
-{% include '_components/share.nunjucks' %} 
+{% include '_components/insurance-level-objets.nunjucks' %}
+{% include '_components/inventory.nunjucks' %}
+{% include '_components/inventory-app-detail.nunjucks' %}
+{% include '_components/claim-declaration.nunjucks' %}
+{% include '_components/share.nunjucks' %}
 {% endblock %}

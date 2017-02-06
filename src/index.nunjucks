@@ -9,47 +9,42 @@
 {% block header %}
   <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <div class="slogan">L'assurance 100% numérique</div>
+  <h1 class="slogan">L'assurance 100% numérique</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-fluid product-list">
     <div class="col-xs-12 col-sm-4 objects container-object">
       <a href="{{baseUrl}}/assurance-biens-on-demand.html">
         <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/camera.svg" alt="Appareil photo" />
-          <img src="{{baseUrl}}images/product-type/watch.svg" alt="Montre" />
-          <img src="{{baseUrl}}images/product-type/smartphone.svg" alt="Téléphone" />
+          <img src="{{baseUrl}}images/product-type/OBJETS.svg" alt="Objets" class="img-responsive" />
         </div>
         <div class="object-name">
           Objets
-          <br>
-          <a href="assurance-biens-on-demand.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
+      <a href="assurance-biens-on-demand.html" class="btn-sm btn-info">Découvrir</a>
     </div>
     <div class="col-xs-12 col-sm-4 digital container-object">
       <a href="{{baseUrl}}/assurance-risques-digitaux.html">
         <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/thief.svg" alt="Voleur" />
+          <img src="{{baseUrl}}images/product-type/DIGITAL.svg" alt="Voleur" class="img-responsive" />
         </div>
         <div class="object-name">
           Risques numériques
-          <br>
-          <a href="assurance-risques-digitaux.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
+      <a href="assurance-risques-digitaux.html" class="btn-sm btn-info">Découvrir</a>
     </div>
     <div class="col-xs-12 col-sm-4 house container-object">
       <a href="{{baseUrl}}/assurance-habitation.html">
         <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/house.svg" alt="Maison" />
+          <img src="{{baseUrl}}images/product-type/HABITATION.svg" alt="Maison" class="img-responsive" />
         </div>
         <div class="object-name">
           Habitation
-          <br>
-          <a href="assurance-habitation.html" class="btn-sm btn-default">Découvrir</a>
         </div>
       </a>
+      <a href="assurance-habitation.html" class="btn-sm btn-info">Découvrir</a>
     </div>
   </div>
   </div>

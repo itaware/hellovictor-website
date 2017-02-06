@@ -118,21 +118,13 @@
 }
 .container-object{
   margin: 10% auto;
-  color: #fff;
-  img{
-    margin: 0 15px;
-  }
-  .object-item{
-    min-height:140px;
-    line-height: 140px;
-  }
   .object-name{
-    margin: 8% 0 0;
+    color: #fff;
+    margin: 0 0 15px;
     font-size: 18px;
     text-transform: uppercase;
   }
   a{
-    color: inherit;
     &:hover{
       text-decoration: none;
     }

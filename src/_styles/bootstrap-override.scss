@@ -40,6 +40,19 @@
   color: #fff;
   border-color: transparent;
 }
+.btn-info{
+  background: #fff;
+  color: $main-color;
+  border: 1px solid #fff;
+  &:hover{
+    color: #fff;
+    background-color: #005388;
+    border-color: #005388;
+    &::before{
+      transform: scale(1);
+    }
+  }
+}
 .btn-light{
   background: #fff;
   color: $main-color;

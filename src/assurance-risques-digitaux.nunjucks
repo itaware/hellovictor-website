@@ -10,7 +10,7 @@
 <div class="header-site-inner">
 <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <div class="slogan">Vos données personnelles sont un bien précieux.</div>
+  <h1 class="slogan">Vos données personnelles sont un bien précieux.</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-object">
