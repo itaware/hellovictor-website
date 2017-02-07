@@ -1,6 +1,9 @@
 .text-bold {
   font-weight: 400;
 }
+.text-light {
+  font-weight: 300;
+}
 .link{
   font-size: 22px;
   color: $main-color;
@@ -89,6 +92,7 @@ $max-element : 4;
     @media(max-width: $screen-xs-max){
       font-size: 16px;
     }
+
   }
 }
 
@@ -129,16 +133,70 @@ $max-element : 4;
 .alternate-item{
   .row{
     font-size: 0;
+    padding: 50px 0;
     > div{
       display: inline-block;
       float:none;
       font-size: initial;
       direction: ltr;
+      vertical-align: middle;
     }
     @media(min-width: $screen-sm-min){
-      &:nth-child(odd){
+      &:nth-child(even){
         direction: rtl;
       }
     }
+    +.row{
+      border-top: 1px solid #eee;
+    }
   }
+}
+
+.block-bg-color{
+  padding-bottom: 25px;
+  .block-title{
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      transform: translateY(-50%);
+    }
+    span{
+      position: relative;
+      display: inline-block;
+      padding: 5px 25px;
+      font-size: 30px;
+      font-weight: 500;
+      text-transform: uppercase;
+      //text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    }
+  }
+  &.block-gray{
+    background: #8c8f9d;
+    color: #fff;
+    .block-title{
+      span{
+        background: #8c8f9d;
+      }
+      &:before{
+        background-color: #fff;
+      }
+    }
+    @media(max-width: $screen-xs-max){
+      li {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .icon{
+    margin-bottom: 15px;
+  }
+}
+.icon-large{
+  line-height: 1;
+  font-size: 40px;
 }

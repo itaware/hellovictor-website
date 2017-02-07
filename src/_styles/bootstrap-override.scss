@@ -83,12 +83,17 @@ h6,
 .h6 {
   font-weight: 300;
 }
+h2{
+  margin-bottom: 30px;
+  font-size: 38px;
+}
 .form-container{
   margin: 10px 0px 20px 0px;
   @media(max-width: $screen-xs-max){
     margin-bottom: 0px;
   }
 }
+
 label{
   margin-bottom: 5px;
   font-size: 18px;

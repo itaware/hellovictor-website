@@ -85,6 +85,27 @@ body {
   .row {
     margin-top: 20px;
     margin-bottom: 20px;
+
+    @media(max-width: $screen-xs-max){
+      margin-left: 0;
+      margin-right: 0;
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+}
+.service-include{
+  li{
+    padding: 0 35px;
+  }
+  @media(max-width: $screen-xs-max){
+    li{
+      display: block;
+      max-width: 280px;
+      margin: 0 auto 30px;
+      float: none;
+    }
   }
 }
 

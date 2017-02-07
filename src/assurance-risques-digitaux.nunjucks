@@ -28,55 +28,61 @@
 {% block content %}
 <div class="digital-risk container alternate-item">
   <div class="row">
-    <div class="col-md-4">
-      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
+    <div class="col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/piratage.svg" alt="" class="img-responsive center-block" >
     </div>
-    <div class="col-md-8">
-      <p class="">
-        <h2>Piratage informatique</h2>
-        <ul>
-          <li>prise en charge des frais nécessaires pour mettre fin à la menace</li>
-          <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <br>(<sup>*</sup>cloud, disques durs, ...)</li>
-        </ul>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
-    </div>
-    <div class="col-md-8">
-      <p class="">
-        <h2>Atteinte à votre réputation et votre image</h2>
-        <ul>
-          <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet (Google, Facebook, Instagram, Snapchat ...)</li>
-        </ul>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="{{baseUrl}}images/contract/contract-1.png" alt="">
-    </div>
-    <div class="col-md-8">
-      <p class="">
-        <h2>Achats de biens et services sur internet</h2>
-        <ul>
-          <li>prise en charge des frais juridiques pour la gestion du litige</li>
-          <li>remboursement du bien le cas échéant</li>
-        </ul>
-      </p>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="text-center">Services inclus</h2>
-      <ul>
-        <li>conseils par messagerie sécurisée disponible 24h/24 7j/7</li>
-        <li>prévention des risques via nos newsletters, blog, webinars et vidéo youtube pour apprendre à bien gérer ses données</li>
-        <li>mise en place d’outils de protection adaptés à vos terminaux (Windows, Mac, Linux, Smartphone) : gestion de mots de passe, pare-feu, anti-virus, anti-spam </li>
+    <div class="col-xs-12 col-sm-8">
+      <h2>Piratage informatique</h2>
+      <ul class="list-square no-padding">
+        <li>prise en charge des frais nécessaires pour mettre fin à la menace</li>
+        <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <span class="text-light">(<sup>*</sup>cloud, disques durs, ...)</span></li>
       </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/my-social.svg" alt="" class="img-responsive center-block" >
+    </div>
+    <div class="col-xs-12 col-sm-8">
+      <h2>Atteinte à votre réputation et votre image</h2>
+      <ul class="list-square no-padding">
+        <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet <span class="text-light">(Google, Facebook, Instagram, Snapchat ...)</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <img src="{{baseUrl}}images/smartphone.svg" alt="" class="img-responsive center-block" >
+    </div>
+    <div class="col-xs-12 col-sm-8">
+      <h2>Achats de biens et services sur internet</h2>
+      <ul class="list-square no-padding">
+        <li>prise en charge des frais juridiques pour la gestion du litige</li>
+        <li>remboursement du bien le cas échéant</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="service-include block-bg-color block-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="block-title text-center"><span>Services inclus</span></h2>
+        <ul class="list-inline clearfix">
+          <li class="col-xs-12 col-sm-4 text-center text-bold">
+            <div class="icon icon-large icon-check-marked-outline"></div>
+            Conseils par messagerie sécurisée disponible 24h/24 7j/7.
+          </li>
+          <li class="col-xs-12 col-sm-4 text-center text-bold">
+            <div class="icon icon-large icon-check-marked-outline"></div>
+            Prévention des risques via nos newsletters, blog, webinars et vidéo youtube pour apprendre à bien gérer ses données.
+          </li>
+          <li class="col-xs-12 col-sm-4 text-center text-bold">
+            <div class="icon icon-large icon-check-marked-outline"></div>
+            Mise en place d'outils de protection adaptés à vos terminaux (Windows, Mac, Linux, Smartphone) : gestion de mots de passe, pare-feu, anti-virus, anti-spam.
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
