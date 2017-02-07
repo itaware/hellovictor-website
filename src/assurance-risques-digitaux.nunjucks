@@ -34,7 +34,7 @@
     <div class="col-xs-12 col-sm-8">
       <h2>Piratage informatique</h2>
       <ul class="list-square no-padding">
-        <li>prise en charge des frais nécessaires pour mettre fin à la menace</li>
+        <li>prise en charge des frais nécessaires pour mettre fin à une menace</li>
         <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <span class="text-light">(<sup>*</sup>cloud, disques durs, ...)</span></li>
       </ul>
     </div>
@@ -55,7 +55,7 @@
       <img src="{{baseUrl}}images/smartphone.svg" alt="" class="img-responsive center-block" >
     </div>
     <div class="col-xs-12 col-sm-8">
-      <h2>Achats de biens et services sur internet</h2>
+      <h2>Achats et ventes de biens et services sur internet</h2>
       <ul class="list-square no-padding">
         <li>prise en charge des frais juridiques pour la gestion du litige</li>
         <li>remboursement du bien le cas échéant</li>
