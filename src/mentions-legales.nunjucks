@@ -4,6 +4,7 @@
 {% set page = 'politique-confidentialite'%} 
 {% endblock %} 
 {% block header %}
+  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
 <h1>MENTIONS LÉGALES</h1>
 {% endblock %} 
 {% block content %}

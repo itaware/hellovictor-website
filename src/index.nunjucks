@@ -7,8 +7,8 @@
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 {% block header %}
-  <div class="header-site-top">
-  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+<div class="header-site-top">
+<div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <h1 class="slogan">L'assurance 100% numérique</h1>
 </div>
 <div class="header-site-bottom">
