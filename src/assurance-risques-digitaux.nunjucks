@@ -3,7 +3,7 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-digital' %}
-{% set page = 'objects-courant' %}
+{% set page = 'risques-numeriques' %}
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 {% block header %}
@@ -15,7 +15,7 @@
 <div class="header-site-bottom">
   <div class="container-object">
       <div class="object-item">
-        <img src="{{baseUrl}}images/product-type/thief.svg" alt="Voleur" />
+        <img src="{{baseUrl}}images/product-type/thief.svg" />
       </div>
       <div class="object-name">
         <a href="form.html" class="btn btn-default">Assurez vos données</a>
@@ -71,7 +71,7 @@
         <ul class="list-inline clearfix">
           <li class="col-xs-12 col-sm-4 text-center text-bold">
             <div class="icon icon-large icon-check-marked-outline"></div>
-            Conseils par messagerie sécurisée disponible 24h/24 7j/7.
+            Conseils par messagerie sécurisée disponible 7j/7.
           </li>
           <li class="col-xs-12 col-sm-4 text-center text-bold">
             <div class="icon icon-large icon-check-marked-outline"></div>

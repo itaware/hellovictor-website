@@ -4,7 +4,7 @@
     <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
   </header>
   <div class="section-content">
-    <div class="declaration-step step-declare" data-print="true" id="declaration-chat">
+    <div class="declaration-step step-declare" data-print="true" id="declaration-chat-{{page}}">
       <div class="declaration-step-container align-items middle">
         <div class="align-item declaration-step-header col-xs-12 col-sm-5">
           <div class="declaration-step-title">Déclaration du litige</div>
@@ -37,7 +37,7 @@
         <div class="check hidden-xs"><i class="icon icon-check"></i></div>
       </div>
     </div>
-    <div class="declaration-step step-payment" data-print="true" id="declaration-paiement">
+    <div class="declaration-step step-payment" data-print="true" id="declaration-paiement-{{page}}">
       <div class="houses-front houses"></div>
       <div class="houses-back houses"></div>
       <div class="declaration-step-container align-items middle">
@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="link-bottom text-center">
-        <a href="form.html" class="btn btn-default" id="declaration_sinistre">Je m'assure</a>
+        <a href="form.html" class="btn btn-default" id="declaration_sinistre-{{page}}">Je m'assure</a>
       </div>
     </div>
   </div>

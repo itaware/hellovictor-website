@@ -67,13 +67,13 @@
         <div>&copy;Hello Victor 2017</div>
         <ul class="menu-footer">
           <li>
-            <a href="mentions-legales.html" id="mentions_legales">Mentions légales</a>
+            <a href="mentions-legales.html" id="mentions_legales-{{page}}">Mentions légales</a>
           </li>
           <li>
-            <a href="politique-confidentialite.html" id="politique_confidentialite">Politique de Confidentialité</a>
+            <a href="politique-confidentialite.html" id="politique_confidentialite-{{page}}">Politique de Confidentialité</a>
           </li>
           <li>
-            <a href="mailto:contact@hellovictor.fr" id="contact_mail">Contactez-nous</a>
+            <a href="mailto:contact@hellovictor.fr" id="contact_mail-{{page}}">Contactez-nous</a>
           </li>
         </ul>
       </div>

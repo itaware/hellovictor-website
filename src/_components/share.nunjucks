@@ -1,4 +1,4 @@
-<section class="section container">
+<section class="section container" id="share-{{page}}">
   <header class="section-header">
     <h2 class="section-title">
       <img src="/images/happy.svg" alt="" style="height: 20px;">

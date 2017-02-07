@@ -1,4 +1,4 @@
-<section class="section" data-print="true" id="niveau">
+<section class="section" data-print="true" id="niveau-{{page}}">
   <header class="section-header container">
     <h2 class="section-title">Choisissez le niveau de couverture par bien</h2>
   </header>

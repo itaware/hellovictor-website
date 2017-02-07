@@ -3,7 +3,7 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-objects' %}
-{% set page = 'objects-courant' %}
+{% set page = 'objets' %}
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 {% block header %}
@@ -15,9 +15,7 @@
 <div class="header-site-bottom">
   <div class="container-object">
       <div class="object-item">
-        <img src="{{baseUrl}}images/product-type/camera.svg" alt="Appareil photo" />
-        <img src="{{baseUrl}}images/product-type/watch.svg" alt="Montre" />
-        <img src="{{baseUrl}}images/product-type/smartphone.svg" alt="Téléphone" />
+        <img src="{{baseUrl}}images/product-type/OBJETS.svg" />
       </div>
       <div class="object-name">
         <a href="form.html" class="btn btn-default">Assurez vos objets</a>

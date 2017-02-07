@@ -3,7 +3,7 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-house' %}
-{% set page = 'objects-courant' %}
+{% set page = 'habitation' %}
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 {% block header %}

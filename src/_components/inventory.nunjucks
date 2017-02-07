@@ -1,12 +1,16 @@
-<section class="section" data-print="true" id="inventaire">
+<section class="section" data-print="true" id="inventaire-{{page}}">
   <header class="section-header container">
     <h2 class="section-title high-title">Faire l'inventaire de ses objets n'a jamais été aussi <span class="text-bold">simple</span></h2>
     <div class="text-heading">Grâce à l'application Hello Victor, n'attendez pas un sinistre avant de faire l'inventaire de vos objets, recensez et valorisez simplement ce qui vous appartient pour être remboursé rapidement.</div>
+    <div>
+      <br>
+      <a href="#" class="link link-video" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
+    </div>
   </header>
   <div class="section-content container">
     <img src="images/inventory/appli.png" alt="Une application innovante" class="img-responsive"/>
     <div class="link-bottom text-center">
-      <a href="form.html" class="btn btn-default" id="telecharger_app">Télécharger l'application</a>
+      <a href="form.html" class="btn btn-default" id="telecharger_app-{{page}}">Télécharger l'application</a>
     </div>
   </div>
 </section>
