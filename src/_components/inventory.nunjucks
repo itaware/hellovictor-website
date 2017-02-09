@@ -4,7 +4,7 @@
     <div class="text-heading">Grâce à l'application Hello Victor, n'attendez pas un sinistre avant de faire l'inventaire de vos objets, recensez et valorisez simplement ce qui vous appartient pour être remboursé rapidement.</div>
     <div>
       <br>
-      <a href="#" class="link link-video" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
+      <a href="https://www.youtube.com/embed/TEDpIJhgAhA?autoplay=1" class="link link-video fancybox fancybox.iframe" rel="group" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
   </header>
   <div class="section-content container">

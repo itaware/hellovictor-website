@@ -2,6 +2,7 @@
 global.jQuery = require('jquery');
 require('./jquery.counter');
 require('./jquery.scrollme.min');
+require('fancybox')(jQuery);
 
 var io = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
@@ -18,7 +19,6 @@ var io = new IntersectionObserver(function (entries) {
 
 document.querySelectorAll('[data-print="true"]').forEach(function (element) {
   io.observe(element);
-  console.log(element);
 });
 
 jQuery(document).ready(function ($) {
@@ -45,4 +45,9 @@ jQuery(document).ready(function ($) {
       }
     });
   }
+
+  // video modal fancybox
+  $('a[id^="video"]').fancybox({
+    padding: 0
+  });
 });
