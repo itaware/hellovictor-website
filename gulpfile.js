@@ -27,6 +27,7 @@ config.defaultNotification = function(err) {
 var args = minimist(process.argv.slice(2));
 var dirs = config.directories;
 var taskTarget = args.production ? dirs.destination : dirs.temporary;
+config.offline = args.offline?true:false;
 
 // Create a new browserSync instance
 var browserSync = browserSyncLib.create();

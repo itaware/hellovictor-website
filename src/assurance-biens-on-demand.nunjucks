@@ -26,6 +26,7 @@
 </div>
 {% endblock %}
 {% block content %}
+{% include '_components/objets-offres.nunjucks' %}
 {% include '_components/insurance-level-objets.nunjucks' %}
 {% include '_components/inventory.nunjucks' %}
 {% include '_components/inventory-app-detail.nunjucks' %}

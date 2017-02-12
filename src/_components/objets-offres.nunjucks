@@ -1,0 +1,76 @@
+<section id="section-objets-offres" class="section">
+  <div class="scrollme section-content container container-contract">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone">
+      <div class="inner">
+        <div class="top">
+          <h3>Assurez mon smartphone</h3>
+          <span>(vol, bris, ...)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/essentiel.png" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">4,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo">
+      <div class="inner">
+        <div class="top">
+          <h3>Assurez mon vélo</h3>
+          <span>(vol, bris, ...)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/evolutif.png" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">7,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi">
+      <div class="inner">
+        <div class="top">
+          <h3>Assurez mon ordinateur portable</h3>
+          <span>(vol, bris, ...)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/total.png" alt="total" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">6,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="form.html" class="btn btn-default btn-block" id="total">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

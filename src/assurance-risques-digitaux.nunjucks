@@ -37,6 +37,11 @@
         <li>prise en charge des frais nécessaires pour mettre fin à une menace</li>
         <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <span class="text-light">(<sup>*</sup>cloud, disques durs, ...)</span></li>
       </ul>
+      <div class="object-name text-center">
+        <span style="font-size: 12px; font-style: italic;">à partir de 5,90€</span>
+        <br>
+        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -48,6 +53,11 @@
       <ul class="list-square no-padding">
         <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet <span class="text-light">(Google, Facebook, Instagram, Snapchat ...)</span></li>
       </ul>
+      <div class="object-name text-center">
+        <span style="font-size: 12px; font-style: italic;">à partir de 3,90€</span>
+        <br>
+        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+      </div>
     </div>
   </div>
   <div class="row">
@@ -60,6 +70,11 @@
         <li>prise en charge des frais juridiques pour la gestion du litige</li>
         <li>remboursement du bien le cas échéant</li>
       </ul>
+      <div class="object-name text-center">
+        <span style="font-size: 12px; font-style: italic;">à partir de 6,90€</span>
+        <br>
+        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+      </div>
     </div>
   </div>
 </div>
