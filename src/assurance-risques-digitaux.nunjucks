@@ -9,7 +9,7 @@
 {% block header %}
 <div class="header-site-inner">
 <div class="header-site-top">
-  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+  <div class="logo animated bounceIn"><a href="/" id="back-home-risk-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <h1 class="slogan">Vos données personnelles sont un bien précieux.</h1>
 </div>
 <div class="header-site-bottom">
@@ -18,7 +18,7 @@
         <img src="{{baseUrl}}images/product-type/thief.svg" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default">Assurez vos données</a>
+        <a href="form.html" class="btn btn-default" id="assure-risques-digital">Assurez vos données</a>
       </div>
   </div>
 </div>
@@ -27,7 +27,7 @@
 {% endblock %}
 {% block content %}
 <div class="digital-risk container alternate-item">
-  <div class="row">
+  <div class="row" data-print="true" id="risque-digital-1-impr">
     <div class="col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/piratage.svg" alt="" class="img-responsive center-block" >
     </div>
@@ -38,13 +38,13 @@
         <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <span class="text-light">(<sup>*</sup>cloud, disques durs, ...)</span></li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 12px; font-style: italic;">à partir de 5,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de 9,90€</span>
         <br>
-        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+        <a href="form.html" class="btn btn-default" id="risque-digital-1">je choisis cette offre</a>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" data-print="true" id="risque-digital-2-impr">
     <div class="col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/my-social.svg" alt="" class="img-responsive center-block" >
     </div>
@@ -54,13 +54,13 @@
         <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet <span class="text-light">(Google, Facebook, Instagram, Snapchat ...)</span></li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 12px; font-style: italic;">à partir de 3,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de 8,90€</span>
         <br>
-        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+        <a href="form.html" class="btn btn-default" id="risque-digital-2">je choisis cette offre</a>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row" data-print="true" id="risque-digital-3-impr">
     <div class="col-xs-12 col-sm-4">
       <img src="{{baseUrl}}images/smartphone.svg" alt="" class="img-responsive center-block" >
     </div>
@@ -71,16 +71,16 @@
         <li>remboursement du bien le cas échéant</li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 12px; font-style: italic;">à partir de 6,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de 6,90€</span>
         <br>
-        <a href="form.html" class="btn btn-default">je choisis cette offre</a>
+        <a href="form.html" class="btn btn-default" id="risque-digital-3">je choisis cette offre</a>
       </div>
     </div>
   </div>
 </div>
 <div class="service-include block-bg-color block-gray">
   <div class="container">
-    <div class="row">
+    <div class="row" data-print="true" id="risque-digital-services-impr">
       <div class="col-md-12">
         <h2 class="block-title text-center"><span>Services inclus</span></h2>
         <ul class="list-inline clearfix">

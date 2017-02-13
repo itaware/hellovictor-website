@@ -9,7 +9,7 @@
 {% block header %}
 <div class="header-site-inner">
 <div class="header-site-top">
-  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+  <div class="logo animated bounceIn"><a href="/" id="back-home-header-objets"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <h1 class="slogan">Certains de vos objets sont plus importants que les autres.</h1>
 </div>
 <div class="header-site-bottom">
@@ -18,7 +18,7 @@
         <img src="{{baseUrl}}images/product-type/OBJETS-lh.svg" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default">Assurez vos objets</a>
+        <a href="form.html" class="btn btn-default" id="assure-objets">Assurez vos objets</a>
       </div>
   </div>
 </div>

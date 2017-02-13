@@ -1,6 +1,6 @@
 <section id="section-objets-offres" class="section">
   <div class="scrollme section-content container container-contract">
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone-impr">
       <div class="inner">
         <div class="top">
           <h3>Assurez mon smartphone</h3>
@@ -8,7 +8,7 @@
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/essentiel.png" class="img-responsive" />
+            <img src="images/contract/smartphone.svg" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
@@ -20,19 +20,19 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo-impr">
       <div class="inner">
         <div class="top">
-          <h3>Assurez mon vélo</h3>
-          <span>(vol, bris, ...)</span>
+          <h3>Assurez mon<br> vélo</h3>
+          <span>(vol, dégradation, ...)</span>
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/evolutif.png" class="img-responsive" />
+            <img src="images/contract/velo.svg" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
@@ -44,11 +44,11 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi">
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi-impr">
       <div class="inner">
         <div class="top">
           <h3>Assurez mon ordinateur portable</h3>
@@ -56,7 +56,7 @@
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/total.png" alt="total" class="img-responsive" />
+            <img src="images/contract/ordi.svg" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
@@ -68,7 +68,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="total">Je m'assure</a>
+          <a href="form.html" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
         </div>
       </div>
     </div>

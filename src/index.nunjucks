@@ -8,13 +8,13 @@
 {% endblock %}
 {% block header %}
 <div class="header-site-top">
-<div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+<div class="logo animated bounceIn"><a href="/" id="back-home-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <h1 class="slogan">L'assurance 100% numérique</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-fluid product-list">
     <div class="col-xs-12 col-sm-4 objects container-object">
-      <a href="{{baseUrl}}/assurance-biens-on-demand.html">
+      <a href="{{baseUrl}}/assurance-biens-on-demand.html" id="home-objets">
         <div class="object-item">
           <img src="{{baseUrl}}images/product-type/OBJETS.svg" alt="Objets" class="img-responsive" />
         </div>
@@ -22,10 +22,10 @@
           Objets
         </div>
       </a>
-      <a href="assurance-biens-on-demand.html" class="btn-sm btn-info">Découvrir</a>
+      <a href="assurance-biens-on-demand.html" class="btn-sm btn-info" id="home-objets">Découvrir</a>
     </div>
     <div class="col-xs-12 col-sm-4 digital container-object">
-      <a href="{{baseUrl}}/assurance-risques-digitaux.html">
+      <a href="{{baseUrl}}/assurance-risques-digitaux.html" id="home-risques-digitaux">
         <div class="object-item">
           <img src="{{baseUrl}}images/product-type/DIGITAL.svg" alt="Voleur" class="img-responsive" />
         </div>
@@ -33,10 +33,10 @@
           Risques numériques
         </div>
       </a>
-      <a href="assurance-risques-digitaux.html" class="btn-sm btn-info">Découvrir</a>
+      <a href="assurance-risques-digitaux.html" class="btn-sm btn-info" id="home-risques-digitaux">Découvrir</a>
     </div>
     <div class="col-xs-12 col-sm-4 house container-object">
-      <a href="{{baseUrl}}/assurance-habitation.html">
+      <a href="{{baseUrl}}/assurance-habitation.html" id="home-habitation">
         <div class="object-item">
           <img src="{{baseUrl}}images/product-type/HABITATION.svg" alt="Maison" class="img-responsive" />
         </div>
@@ -44,7 +44,7 @@
           Habitation
         </div>
       </a>
-      <a href="assurance-habitation.html" class="btn-sm btn-info">Découvrir</a>
+      <a href="assurance-habitation.html" class="btn-sm btn-info" id="home-habitation">Découvrir</a>
     </div>
   </div>
   </div>

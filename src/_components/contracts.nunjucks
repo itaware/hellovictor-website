@@ -1,6 +1,6 @@
 <section id="section-contract" class="section">
   <div class="scrollme section-content container container-contract">
-    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="evolutif">
+    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="evolutif-impr">
       <div class="inner">
         <div class="top">
           <h3>Assurez-vous de manière évolutive</h3>
@@ -13,7 +13,7 @@
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
-              <span class="price-value pull-left">14,90</span>
+              <span class="price-value pull-left">8,90</span>
               <div class="price-infos pull-left text-left ">
                 <div class="price-currency">€</div>
                 <div class="price-period">/mois</div>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="total">
+    <div class="animateme contract col-xs-12 col-sm-6" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="total-impr">
       <div class="inner">
         <div class="top">
           <h3>Assurez la totale !</h3>
