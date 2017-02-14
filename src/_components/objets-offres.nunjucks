@@ -1,4 +1,7 @@
 <section id="section-objets-offres" class="section">
+  <header class="section-header">
+    <h2 class="section-title">Assurez ce que vous voulez, exemples :</h2>
+  </header>
   <div class="scrollme section-content container container-contract">
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone-impr">
       <div class="inner">
@@ -73,4 +76,7 @@
       </div>
     </div>
   </div>
+ <footer class="section-header">
+    <h2 class="section-title">ou tout autre objet de votre choix</h2>
+  </footer>
 </section>

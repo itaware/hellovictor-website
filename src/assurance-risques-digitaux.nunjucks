@@ -18,14 +18,17 @@
         <img src="{{baseUrl}}images/product-type/thief.svg" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default" id="assure-risques-digital">Assurez vos données</a>
+        <a href="#detail" class="btn btn-default" id="assure-risques-digital">Assurez vos données</a>
       </div>
   </div>
 </div>
-<div class="glyphicon glyphicon-menu-down"></div>
+<a href="#detail">
+  <div class="glyphicon glyphicon-menu-down"></div>
+</a>
 </div>
 {% endblock %}
 {% block content %}
+<a name="detail"></a>
 <div class="digital-risk container alternate-item">
   <div class="row" data-print="true" id="risque-digital-1-impr">
     <div class="col-xs-12 col-sm-4">

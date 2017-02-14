@@ -18,14 +18,17 @@
         <img src="{{baseUrl}}images/product-type/OBJETS-lh.svg" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default" id="assure-objets">Assurez vos objets</a>
+        <a href="#detail" class="btn btn-default" id="assure-objets">Assurez vos objets</a>
       </div>
   </div>
 </div>
-<div class="glyphicon glyphicon-menu-down"></div>
+<a href="#detail">
+  <div class="glyphicon glyphicon-menu-down"></div>
+</a>
 </div>
 {% endblock %}
 {% block content %}
+<a name="detail"></a>
 {% include '_components/objets-offres.nunjucks' %}
 {% include '_components/insurance-level-objets.nunjucks' %}
 {% include '_components/inventory.nunjucks' %}

@@ -18,14 +18,17 @@
         <img src="{{baseUrl}}images/product-type/house.svg" alt="Maison" />
       </div>
       <div class="object-name">
-        <a href="form.html" class="btn btn-default" id="assure-habitation">Assurez votre habitation</a>
+        <a href="#detail" class="btn btn-default" id="assure-habitation">Assurez votre habitation</a>
       </div>
   </div>
 </div>
-<div class="glyphicon glyphicon-menu-down"></div>
+<a href="#detail">
+  <div class="glyphicon glyphicon-menu-down"></div>
+</a>
 </div>
 {% endblock %}
 {% block content %}
+<a name="detail"></a>
 {% include '_components/contracts.nunjucks' %}
 {% include '_components/insurance-level.nunjucks' %}
 {% include '_components/inventory.nunjucks' %}
