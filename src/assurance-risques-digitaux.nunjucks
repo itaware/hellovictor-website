@@ -41,7 +41,7 @@
         <li>gestion de la récupération des données<sup>*</sup> et de la remise en état de votre système informatique <span class="text-light">(<sup>*</sup>cloud, disques durs, ...)</span></li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 16px; font-style: italic;">à partir de 9,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de <b>9,90 €/mois</b></span>
         <br>
         <a href="form.html" class="btn btn-default" id="risque-digital-1">je choisis cette offre</a>
       </div>
@@ -57,7 +57,7 @@
         <li>gestion et prise en charge des frais juridiques pour réaliser votre demande d’effacement de données auprès d’un acteur de l’internet <span class="text-light">(Google, Facebook, Instagram, Snapchat ...)</span></li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 16px; font-style: italic;">à partir de 8,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de <b>8,90 €/mois</b></span>
         <br>
         <a href="form.html" class="btn btn-default" id="risque-digital-2">je choisis cette offre</a>
       </div>
@@ -74,7 +74,7 @@
         <li>remboursement du bien le cas échéant</li>
       </ul>
       <div class="object-name text-center">
-        <span style="font-size: 16px; font-style: italic;">à partir de 6,90€</span>
+        <span style="font-size: 16px; font-style: italic;">à partir de <b>6,90 €/mois</b></span>
         <br>
         <a href="form.html" class="btn btn-default" id="risque-digital-3">je choisis cette offre</a>
       </div>

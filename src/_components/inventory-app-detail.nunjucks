@@ -1,5 +1,6 @@
 <section class="section" data-print="true" id="inventaire-detail-{{page}}">
   <header class="section-header container">
+    <h2 class="section-title high-title">Faites l'inventaire de vos objets <span class="text-bold">simplement</span></h2>
     <div class="text-heading">Avec l'app mobile de reconnaissance d'objets, photographiez tous vos biens, enregistrez vos <br/>factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
   </header>
   <div class="align-items middle container-inventory section-content container clearfix">

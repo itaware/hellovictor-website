@@ -31,8 +31,8 @@
 <a name="detail"></a>
 {% include '_components/objets-offres.nunjucks' %}
 {% include '_components/insurance-level-objets.nunjucks' %}
-{% include '_components/inventory.nunjucks' %}
 {% include '_components/inventory-app-detail.nunjucks' %}
+{% include '_components/inventory.nunjucks' %}
 {% include '_components/claim-declaration.nunjucks' %}
 {% include '_components/share.nunjucks' %}
 {% endblock %}

@@ -31,8 +31,8 @@
 <a name="detail"></a>
 {% include '_components/contracts.nunjucks' %}
 {% include '_components/insurance-level.nunjucks' %}
-{% include '_components/inventory.nunjucks' %}
 {% include '_components/inventory-app-detail.nunjucks' %}
+{% include '_components/inventory.nunjucks' %}
 {% include '_components/claim-declaration.nunjucks' %}
 {% include '_components/transfer.nunjucks'%}
 {% include '_components/share.nunjucks' %}

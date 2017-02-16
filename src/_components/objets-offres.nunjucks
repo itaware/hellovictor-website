@@ -8,6 +8,7 @@
         <div class="top">
           <h3>Assurez mon smartphone</h3>
           <span>(vol, bris, ...)</span>
+          <br><br>
         </div>
         <div class="bottom">
           <div class="contract-img">
@@ -32,6 +33,7 @@
         <div class="top">
           <h3>Assurez mon<br> vélo</h3>
           <span>(vol, dégradation, ...)</span>
+          <br><br>
         </div>
         <div class="bottom">
           <div class="contract-img">
@@ -54,12 +56,12 @@
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi-impr">
       <div class="inner">
         <div class="top">
-          <h3>Assurez mon ordinateur portable</h3>
+          <h3>Assurez les numériques de la famille</h3>
           <span>(vol, bris, ...)</span>
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/ordi.svg" class="img-responsive" />
+            <img src="images/contract/pack-famille-numerique.svg" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
