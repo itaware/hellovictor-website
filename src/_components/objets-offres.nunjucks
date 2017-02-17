@@ -56,8 +56,8 @@
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi-impr">
       <div class="inner">
         <div class="top">
-          <h3>Assurez les numériques de la famille</h3>
-          <span>(vol, bris, ...)</span>
+          <h3>Pack tribu numérique </h3>
+          <span>(Couvrant l'ensemble des smartphones, ordi et tablettes de la Famille)</span>
         </div>
         <div class="bottom">
           <div class="contract-img">

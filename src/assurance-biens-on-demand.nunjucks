@@ -10,7 +10,7 @@
 <div class="header-site-inner">
 <div class="header-site-top">
   <div class="logo animated bounceIn"><a href="/" id="back-home-header-objets"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <h1 class="slogan">Certains de vos objets sont plus importants que les autres.</h1>
+  <h1 class="slogan">Parce que certains de vos objets sont plus importants que d'autres.</h1>
 </div>
 <div class="header-site-bottom">
   <div class="container-object">
