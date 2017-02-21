@@ -97,6 +97,14 @@
       Concept Marque & Projet : Liberty Finances, société au capital de 1 000 000 €
     </div>
   </footer>
+  <div style="display: none;"><div id="registerForm">
+    <div class="logo animated bounceIn"><a href="/" id="back-home-form-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+    <h2 class="text-center"> 
+          Offre bientôt disponible !
+    </h2>
+    <h4 class="text-center"><b>Pour être notifié du lancement, inscrivez-vous</b></h4>
+    {% include "_components/form.nunjucks" %}
+  </div></div>
 
   <script src="{{baseUrl}}scripts/main.js"></script>
   {% block scripts %}{% endblock %}

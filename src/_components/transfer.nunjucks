@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="form.html" class="btn btn-default" id="change">Je change</a>
+        <a href="#registerForm" class="btn btn-default" id="change">Je change</a>
       </div>
     </div>
   </div>

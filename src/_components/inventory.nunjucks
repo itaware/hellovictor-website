@@ -9,7 +9,7 @@
   <div class="section-content container">
     <img src="images/inventory/appli.png" alt="Une application innovante" class="img-responsive"/>
     <div class="link-bottom text-center">
-      <a href="form.html" class="btn btn-default" id="telecharger_app-{{page}}">Télécharger l'application</a>
+      <a href="#registerForm" class="btn btn-default" id="telecharger_app-{{page}}">Télécharger l'application</a>
     </div>
   </div>
 </section>

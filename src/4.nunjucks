@@ -9,7 +9,7 @@
   <div class="slogan">L'assurance qui fait l'inventaire pour vous</div>
   <div class="block-btn">
     <div>
-      <a href="form.html" class="btn btn-default" id="{{page}}">Je m'assure</a> <br>
+      <a href="#registerForm" class="btn btn-default" id="{{page}}">Je m'assure</a> <br>
     </div>
     <div>
       <a href="#" class="link link-video" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>

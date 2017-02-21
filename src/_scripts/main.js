@@ -50,4 +50,7 @@ jQuery(document).ready(function ($) {
   $('a[id^="video"]').fancybox({
     padding: 0
   });
+  $('a[href="#registerForm"]').fancybox({
+    'hideOnContentClick': true
+  })
 });

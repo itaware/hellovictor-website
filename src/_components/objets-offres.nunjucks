@@ -24,7 +24,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -49,7 +49,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -73,7 +73,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
         </div>
       </div>
     </div>
