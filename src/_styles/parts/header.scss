@@ -58,14 +58,14 @@
 }
 .home{
   .header-site{
-    padding: 0;
-    @media(min-width:$screen-sm-min){
-
-    height: 100vh;
-    &-top, &-bottom{
-      height: 50vh;
+   height: 100vh;
+    min-height: 680px;
+    background: url(../images/bg-header.png) center bottom repeat-x;
+    background-size: auto 30vh;
+    padding-bottom: 30vh;
+    @media(min-width: $breakpoint_mobile){
+      min-height: 845px;
     }
-  }
   }
 }
 /*body:not(.home){

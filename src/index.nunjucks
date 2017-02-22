@@ -7,48 +7,33 @@
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
 {% block header %}
-<div class="header-site-top">
-<div class="logo animated bounceIn"><a href="/" id="back-home-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <h1 class="slogan">L'assurance 100% numérique</h1>
-</div>
-<div class="header-site-bottom">
-  <div class="container-fluid product-list">
-    <div class="col-xs-12 col-sm-4 objects container-object">
-      <a href="{{baseUrl}}/assurance-biens-on-demand.html" id="home-objets">
-        <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/OBJETS.svg" alt="Objets" class="img-responsive" />
-        </div>
-        <div class="object-name">
-          Objets
-        </div>
-      </a>
-      <a href="assurance-biens-on-demand.html" class="btn-sm btn-info" id="home-objets">Découvrir</a>
+  <div class="logo animated bounceIn"><a href="/" id="back-home-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+  <h1 class="slogan">L'assurance 100% numérique <br>qui couvre tous vos biens.</h1>
+  <div class="block-btn">
+    <div>
+      <a href="#detail" class="btn btn-default" id="assure">Je m'assure</a> <br>
     </div>
-    <div class="col-xs-12 col-sm-4 digital container-object">
-      <a href="{{baseUrl}}/assurance-risques-digitaux.html" id="home-risques-digitaux">
-        <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/DIGITAL.svg" alt="Voleur" class="img-responsive" />
-        </div>
-        <div class="object-name">
-          Risques numériques
-        </div>
-      </a>
-      <a href="assurance-risques-digitaux.html" class="btn-sm btn-info" id="home-risques-digitaux">Découvrir</a>
+    <div>
+      <a href="https://www.youtube.com/embed/YmbaM0gYACc?autoplay=1" class="link link-video fancybox fancybox.iframe" rel="group" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>
-    <div class="col-xs-12 col-sm-4 house container-object">
-      <a href="{{baseUrl}}/assurance-habitation.html" id="home-habitation">
-        <div class="object-item">
-          <img src="{{baseUrl}}images/product-type/HABITATION.svg" alt="Maison" class="img-responsive" />
-        </div>
-        <div class="object-name">
-          Habitation
-        </div>
-      </a>
-      <a href="assurance-habitation.html" class="btn-sm btn-info" id="home-habitation">Découvrir</a>
-    </div>
-  </div>
   </div>
 {% endblock %}
 {% block content %}
-
+<a name="detail"></a>
+{% include '_components/objets-offres.nunjucks' %} 
+{% include '_components/insurance-level-objets.nunjucks' %} 
+{% include '_components/inventory-app-detail.nunjucks' %} 
+{% include '_components/claim-declaration.nunjucks' %} 
+<section class="section text-center" style="background-image: url(images/product-type/product-digital.jpg);">
+  <h3 style="color: white;"><i>Service complémentaire</i></h3>
+  <h2 style="color: white; padding: 0px 10px;">Vos données personnelles sont un bien précieux</h2>
+  <div class="object-item">
+    <img src="{{baseUrl}}images/product-type/thief.svg" />
+  </div>
+  <div class="object-name">
+    <a href="#registerForm" class="btn btn-default" id="assure-risques-digital">Assurez vos données</a>
+  </div>
+</section>
+{% include '_components/transfer.nunjucks'%}
+{% include '_components/share.nunjucks' %} 
 {% endblock %}

@@ -1,12 +1,90 @@
 <section id="section-objets-offres" class="section">
   <header class="section-header">
-    <h2 class="section-title">Assurez ce que vous voulez, exemples :</h2>
+    <h2 class="section-title">Assurez ce que vous voulez</h2>
   </header>
+   <div class="scrollme section-content container container-contract">
+    <h3 class="text-center">Logement</h3>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-studio-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Studio</h3>
+          <span>(juste l'essentiel)</span>
+          <br><br>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/evolutif.png" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">6,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-studio">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-3pieces-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Appartement</h3>
+          <span>(au fil de vos acquisitions)</span>
+          <br><br>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/evolutif.png" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">12,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-3pieces">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-total-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Sérénité</h3>
+          <span>(Votre appartement et son contenu + télésurveillance inclus 24h/24)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/total.png" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">30,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-total">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="scrollme section-content container container-contract">
+    <h3 class="text-center">Numériques</h3>
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone-impr">
       <div class="inner">
         <div class="top">
-          <h3>Assurez mon smartphone</h3>
+          <h3>Smartphone</h3>
           <span>(vol, bris, ...)</span>
           <br><br>
         </div>
@@ -28,36 +106,11 @@
         </div>
       </div>
     </div>
-    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo-impr">
-      <div class="inner">
-        <div class="top">
-          <h3>Assurez mon<br> vélo</h3>
-          <span>(vol, dégradation, ...)</span>
-          <br><br>
-        </div>
-        <div class="bottom">
-          <div class="contract-img">
-            <img src="images/contract/velo.svg" class="img-responsive" />
-          </div>
-          <div class="contract-price">
-            <div class="from">à partir de</div>
-            <div class="price clearfix">
-              <span class="price-value pull-left">7,90</span>
-              <div class="price-infos pull-left text-left ">
-                <div class="price-currency">€</div>
-                <div class="price-period">/mois</div>
-              </div>
-            </div>
-          </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
-        </div>
-      </div>
-    </div>
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-ordi-impr">
       <div class="inner">
         <div class="top">
-          <h3>Pack tribu<br>numérique </h3>
-          <span>(Couvrant l'ensemble des smartphones, ordi et tablettes de la Famille)</span>
+          <h3>Appareils mobiles</h3>
+          <span>(Couvrant l'ensemble des smartphones, ordi et tablettes de la famille)</span>
         </div>
         <div class="bottom">
           <div class="contract-img">
@@ -77,8 +130,108 @@
         </div>
       </div>
     </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-musique-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Appareils numériques</h3>
+          <span>(vol, bris, ...)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/pack-musicien.svg" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">7,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-musique">Je m'assure</a>
+        </div>
+      </div>
+    </div>
   </div>
- <footer class="section-header">
-    <h2 class="section-title">ou tout autre objet de votre choix</h2>
+   <div class="scrollme section-content container container-contract">
+    <h2 class="text-center">Loisirs</h2>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Objets précieux</h3>
+          <span>(vol, dégradation, ...)</span>
+          <br><br>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/pack-luxe.svg" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">7,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-voyage-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>À l'étranger</h3>
+          <span>(Couvrant vos affaires pour le vol, la casse, toute la durée de votre séjour à l'étranger)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/pack-voyage.svg" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">4,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-voyage">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+    <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="1" data-to="0" data-translatey="600" data-print="true" id="objet-sport-impr">
+      <div class="inner">
+        <div class="top">
+          <h3>Equipements sportifs</h3>
+          <span>(Couvrant l'ensemble des équipements sportifs de la famille, pour le loisir et la compétition)</span>
+        </div>
+        <div class="bottom">
+          <div class="contract-img">
+            <img src="images/contract/pack-sport.svg" class="img-responsive" />
+          </div>
+          <div class="contract-price">
+            <div class="from">à partir de</div>
+            <div class="price clearfix">
+              <span class="price-value pull-left">10,90</span>
+              <div class="price-infos pull-left text-left ">
+                <div class="price-currency">€</div>
+                <div class="price-period">/mois</div>
+              </div>
+            </div>
+          </div>
+          <a href="#registerForm" class="btn btn-default btn-block" id="objet-sport">Je m'assure</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<footer class="section-header">
+    <h2 class="section-title">ou tout autre lot d'objets de votre choix</h2>
   </footer>
 </section>
