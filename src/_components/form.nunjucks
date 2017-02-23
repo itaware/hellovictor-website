@@ -14,7 +14,7 @@
       <div class="form-submit text-center">
         <button type="submit" class="btn btn-default" id="form_submit">Je m'inscris</button>
         <br>
-        <a href="javascript://" onclick="jQuery.fancybox.close();" id="pas_interesse">Non merci, ça ne m'intéresse pas</a>
+        <a href="javascript://" data-dismiss="modal" id="pas_interesse">Non merci, ça ne m'intéresse pas</a>
       </div>
     </form>
   </div>

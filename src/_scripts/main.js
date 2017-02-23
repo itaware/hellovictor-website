@@ -3,6 +3,7 @@ global.jQuery = require('jquery');
 require('./jquery.counter');
 require('./jquery.scrollme.min');
 require('fancybox')(jQuery);
+require('bootstrap');
 
 var io = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
@@ -50,7 +51,7 @@ jQuery(document).ready(function ($) {
   $('a[id^="video"]').fancybox({
     padding: 0
   });
-  $('a[href="#registerForm"]').fancybox({
-    'hideOnContentClick': true
+  $('a[href="#registerForm"]').on('click', function() {
+    $('#registerForm').modal('toggle');
   })
 });

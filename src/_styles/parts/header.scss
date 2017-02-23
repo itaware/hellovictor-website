@@ -1,15 +1,16 @@
+.logo {
+  margin: 0;
+  padding: 30px 0 0;
+  @media(max-width: $screen-xs-max){
+    img{
+      max-width: 60%;
+    }
+  }
+}
+
 .header-site {
   padding: 0 15px;
 
-  .logo {
-    margin: 0;
-    padding: 30px 0 0;
-    @media(max-width: $screen-xs-max){
-      img{
-        max-width: 60%;
-      }
-    }
-  }
   .baseline {
     font-size: 16px;
     .emoji {

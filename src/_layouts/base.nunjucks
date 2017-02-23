@@ -57,6 +57,20 @@
       You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
+  
+  <div class="modal fade" id="registerForm" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="logo animated bounceIn"><a href="/" id="back-home-form-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+        <h2 class="text-center"> 
+              Offre bientôt disponible !
+        </h2>
+        <h4 class="text-center"><b>Pour être notifié du lancement, inscrivez-vous</b></h4>
+        {% include "_components/form.nunjucks" %}
+      </div>
+    </div>
+  </div>
+
   <div class="main-content">
     <header class="header-site text-center">
       {% block header %}{% endblock %}
@@ -97,36 +111,13 @@
       Concept Marque & Projet : Liberty Finances, société au capital de 1 000 000 €
     </div>
   </footer>
-  <div style="display: none;"><div id="registerForm">
-    <div class="logo animated bounceIn"><a href="/" id="back-home-form-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-    <h2 class="text-center"> 
-          Offre bientôt disponible !
-    </h2>
-    <h4 class="text-center"><b>Pour être notifié du lancement, inscrivez-vous</b></h4>
-    {% include "_components/form.nunjucks" %}
-  </div></div>
 
-  <script src="{{baseUrl}}scripts/main.js"></script>
-  {% block scripts %}{% endblock %}
   {% if not config.offline %}
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
   {% endif %}
+  <script src="{{baseUrl}}scripts/main.js"></script>
+  {% block scripts %}{% endblock %}
 
-  {% if not config.offline %}
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/58906f9c8bfe600a6b44d69c/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
-  {% endif %}
 </body>
 
 </html>
