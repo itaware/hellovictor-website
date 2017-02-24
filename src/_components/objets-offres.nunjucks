@@ -1,9 +1,12 @@
 <section id="section-objets-offres" class="section">
   <header class="section-header">
-    <h2 class="section-title">Assurez ce que vous voulez</h2>
+    <h2 class="section-title">CE QUE NOUS PROTÉGEONS</h2>
+    <h3 class="text-center">nous travaillons dur pour créer de nouvelles offres qui auront du sens pour vous <img src="images/smiley-sueur.png" style="height: 20px;"></h3>
   </header>
+</section>
+<section id="section-objets-offres1" class="section">
    <div class="scrollme section-content container container-contract">
-    <h3 class="text-center">Logement</h3>
+    <h3 class="text-center">LOGEMENT</h3>
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-studio-impr">
       <div class="inner">
         <div class="top">
@@ -13,7 +16,7 @@
         </div>
         <div class="bottom">
           <div class="contract-img">
-            <img src="images/contract/evolutif.png" class="img-responsive" />
+            <img src="images/contract/pack-studio.svg" class="img-responsive" />
           </div>
           <div class="contract-price">
             <div class="from">à partir de</div>
@@ -25,7 +28,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-studio">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-studio.svg" class="btn btn-default btn-block" id="objet-studio">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -50,7 +53,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-3pieces">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/evolutif.png" class="btn btn-default btn-block" id="objet-3pieces">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -74,13 +77,15 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-total">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/total.png" class="btn btn-default btn-block" id="objet-total">Je m'assure</a>
         </div>
       </div>
     </div>
   </div>
+</section>
+<section id="section-objets-offres2" class="section">
   <div class="scrollme section-content container container-contract">
-    <h3 class="text-center">Numériques</h3>
+    <h3 class="text-center">NUMÉRIQUES</h3>
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-smartphone-impr">
       <div class="inner">
         <div class="top">
@@ -102,7 +107,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/smartphone.svg" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -126,7 +131,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-famille-numerique.svg" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -150,13 +155,15 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-musique">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-musicien.svg" class="btn btn-default btn-block" id="objet-musique">Je m'assure</a>
         </div>
       </div>
     </div>
   </div>
+</section>
+<section id="section-objets-offres3" class="section">
    <div class="scrollme section-content container container-contract">
-    <h3 class="text-center">Loisirs</h3>
+    <h3 class="text-center">OBJETS & LOISIRS</h3>
     <div class="animateme contract col-xs-12 col-sm-4" data-when="enter" data-from="0.8" data-to="0" data-translatey="600" data-print="true" id="objet-velo-impr">
       <div class="inner">
         <div class="top">
@@ -178,7 +185,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-luxe.svg" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -202,7 +209,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-voyage">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-voyage.svg" class="btn btn-default btn-block" id="objet-voyage">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -226,12 +233,9 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="objet-sport">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-sport.svg" class="btn btn-default btn-block" id="objet-sport">Je m'assure</a>
         </div>
       </div>
     </div>
   </div>
-<footer class="section-header">
-    <h2 class="section-title">ou tout autre lot d'objets de votre choix</h2>
-  </footer>
 </section>

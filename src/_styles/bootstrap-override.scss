@@ -1,4 +1,4 @@
-.btn{
+.btn {
   margin: 20px auto;
   padding: 10px 40px;
   max-width: 100%;
@@ -7,12 +7,12 @@
   position: relative;
   border: 0;
   transform: perspective(1px) translateZ(0);
-  @media(min-width: $breakpoint_mobile){
+  @media(min-width: $breakpoint_mobile) {
     min-width: 375px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  &:before{
+  &:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -26,48 +26,48 @@
     transform-origin: 50%;
     transition: transform 0.3s ease-out;
   }
-  &:hover{
+  &:hover {
     color: #fff;
     background-color: $main-color;
-
-    &::before{
+    &::before {
       transform: scale(1);
     }
   }
 }
-.btn-default{
+
+.btn-default {
   background: $main-color;
   color: #fff;
   border-color: transparent;
 }
-.btn-info{
+
+.btn-info {
   background: #fff;
   color: $main-color;
   border: 1px solid #fff;
-  &:hover{
+  &:hover {
     color: #fff;
     background-color: #005388;
     border-color: #005388;
-    &::before{
+    &::before {
       transform: scale(1);
     }
   }
 }
-.btn-light{
+
+.btn-light {
   background: #fff;
   color: $main-color;
   border: 1px solid $main-color;
-
-  &:hover{
+  &:hover {
     color: #fff;
     background-color: #fff;
     border-color: #005388;
-    &::before{
+    &::before {
       transform: scale(1);
     }
   }
 }
-
 
 h1,
 h2,
@@ -83,30 +83,36 @@ h6,
 .h6 {
   font-weight: 300;
 }
-h2{
+
+h2 {
   margin-bottom: 30px;
   font-size: 38px;
 }
-.form-container{
-  margin: 10px 0px 20px 0px;
-  @media(max-width: $screen-xs-max){
-    margin-bottom: 0px;
+
+.form-container {
+  margin: 20px 100px;
+  @media(max-width: $screen-xs-max) {
+    margin: 20px 20px;
   }
 }
 
-label{
+label {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 300;
   text-transform: uppercase;
 }
-.form-control{
+
+.form-control {
   border-radius: 0;
   border-color: $manatee;
 }
-.form-submit{
-  .btn{
+
+.form-submit {
+  .btn {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 0 0 10px 0;
+    min-width: 100%;
   }
 }

@@ -12,12 +12,19 @@
   padding: 0 15px;
 
   .baseline {
-    font-size: 16px;
-    .emoji {
-      display:inline-block;
-      vertical-align: bottom;
-      height: 25px;
-      width: auto;
+    margin-top: 100px;
+      @media(max-width: $screen-xs-max) {
+        margin-top: 10px;
+      }
+    h2 {
+      @media(max-width: $screen-xs-max) {
+        font-size: 16px;
+      }
+    }
+    h3 {
+      @media(max-width: $screen-xs-max) {
+        font-size: 14px;
+      }
     }
   }
   .block-btn{

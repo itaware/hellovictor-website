@@ -51,7 +51,10 @@ jQuery(document).ready(function ($) {
   $('a[id^="video"]').fancybox({
     padding: 0
   });
-  $('a[href="#registerForm"]').on('click', function() {
+  $('a[href="#registerForm"]').on('click', function(event) {
+    var button = $(event.target);
+    var image = button.data('img');
+    $('#registerForm').find('.contract-img img').attr('src', image);
     $('#registerForm').modal('toggle');
   })
 });

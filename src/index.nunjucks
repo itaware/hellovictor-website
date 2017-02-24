@@ -8,14 +8,18 @@
 {% endblock %}
 {% block header %}
   <div class="logo animated bounceIn"><a href="/" id="back-home-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <h1 class="slogan">L'assurance 100% numérique <br>qui couvre tous vos biens.</h1>
+  <h1 class="slogan">L'assurance 100% numérique</h1>
   <div class="block-btn">
     <div>
-      <a href="#detail" class="btn btn-default" id="assure">Je m'assure</a> <br>
+      <a href="https://www.youtube.com/embed/YmbaM0gYACc?autoplay=1" class="btn btn-default fancybox fancybox.iframe" rel="group" id="video-{{page}}"><i class="icon icon-play"></i>&nbsp;&nbsp;Voir la vidéo</a>
     </div>
-    <div>
-      <a href="https://www.youtube.com/embed/YmbaM0gYACc?autoplay=1" class="link link-video fancybox fancybox.iframe" rel="group" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>
+    <div class="baseline">
+      <h2>Assurez à la demande ce que vous voulez, quand vous voulez</h2>
+      <h3>et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px;"></h3>
     </div>
+    <a href="#detail">
+      <div class="glyphicon glyphicon-menu-down" style="color: #3A96D0; font-size: 22px; margin-top: 100px;"></div>
+    </a>
   </div>
 {% endblock %}
 {% block content %}

@@ -1,9 +1,7 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
-
 @import 'node_modules/bootstrap/dist/css/bootstrap';
 @import 'src/_styles/iconfont';
-
 @import '_theme_variables';
 @import 'bootstrap-override';
 @import 'mixins';
@@ -19,14 +17,10 @@
 @import 'parts/percentage';
 @import 'parts/product';
 @import 'parts/faq';
-
 @import 'counter';
-
 @import 'node_modules/fancybox/dist/css/jquery.fancybox';
-
 //@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Work+Sans:300,400,500,600,700|Raleway:300');
 @import '../fonts/fonts.css';
-
 // Box sizing partial styles:
 // Apply a natural box layout model to all elements
 *,
@@ -56,20 +50,25 @@ body {
   a {
     text-decoration: underline;
   }
-  margin-bottom: 10px;
-  @media(max-width: $screen-sm-max){
-      h2 {
-        font-size: 20px;
-      }
+  @media(max-width: $screen-sm-max) {
+    h2 {
+      font-size: 20px;
     }
-    .form-group {
-      margin-bottom: 45px;
-    }
+  }
+}
+
+.modal-dialog {
+  .contract {
+    padding: 0;
+  }
+  .bottom {
+    padding:15% 15px 0;
+  }
 }
 
 .block-share {
   text-align: center;
-  &-label{
+  &-label {
     margin-bottom: 15px;
     text-transform: uppercase;
   }
@@ -77,10 +76,10 @@ body {
     //color: #fff;
     font-size: 25px;
     margin-right: 15px;
-    &:hover{
-      text-decoration:none;
+    &:hover {
+      text-decoration: none;
     }
-    @media(max-width: $screen-xs-max){
+    @media(max-width: $screen-xs-max) {
       margin-right: 30px;
     }
   }
@@ -90,8 +89,7 @@ body {
   .row {
     margin-top: 20px;
     margin-bottom: 20px;
-
-    @media(max-width: $screen-xs-max){
+    @media(max-width: $screen-xs-max) {
       margin-left: 0;
       margin-right: 0;
       h2 {
@@ -100,12 +98,13 @@ body {
     }
   }
 }
-.service-include{
-  li{
+
+.service-include {
+  li {
     padding: 0 35px;
   }
-  @media(max-width: $screen-xs-max){
-    li{
+  @media(max-width: $screen-xs-max) {
+    li {
       display: block;
       max-width: 280px;
       margin: 0 auto 30px;

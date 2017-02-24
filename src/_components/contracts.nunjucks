@@ -20,7 +20,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/evolutif.png" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
         </div>
       </div>
     </div>
@@ -44,7 +44,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" class="btn btn-default btn-block" id="total">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/total.png" class="btn btn-default btn-block" id="total">Je m'assure</a>
         </div>
       </div>
     </div>
