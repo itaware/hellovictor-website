@@ -3,7 +3,7 @@
 $email = $_POST["email"];
 $fname = isset($_POST["fname"])?$_POST["fname"]:'';
 $city = $_POST["city"];
-$apikey = 'adc0062975b31739e4fefce25da4529a-us14';
+$apikey = '966a2e69d374b3d22790304e48edb18b-us14';
 $listid = '06ec1d1ca4';
 $server = 'us14.';
 
