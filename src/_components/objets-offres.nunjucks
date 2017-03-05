@@ -28,7 +28,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-studio.svg" class="btn btn-default btn-block" id="objet-studio">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-studio.svg" class="btn btn-default btn-block" id="objet-studio">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/evolutif.png" class="btn btn-default btn-block" id="objet-3pieces">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/evolutif.png" class="btn btn-default btn-block" id="objet-3pieces">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/total.png" class="btn btn-default btn-block" id="objet-total">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/total.png" class="btn btn-default btn-block" id="objet-total">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/smartphone.svg" class="btn btn-default btn-block" id="objet-smartphone">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/smartphone.svg" class="btn btn-default btn-block" id="objet-smartphone">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-famille-numerique.svg" class="btn btn-default btn-block" id="objet-ordi">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-famille-numerique.svg" class="btn btn-default btn-block" id="objet-ordi">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -155,7 +155,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-musicien.svg" class="btn btn-default btn-block" id="objet-musique">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-musicien.svg" class="btn btn-default btn-block" id="objet-musique">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -185,7 +185,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-luxe.svg" class="btn btn-default btn-block" id="objet-velo">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-luxe.svg" class="btn btn-default btn-block" id="objet-velo">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -209,7 +209,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-voyage.svg" class="btn btn-default btn-block" id="objet-voyage">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-voyage.svg" class="btn btn-default btn-block" id="objet-voyage">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -233,7 +233,7 @@
               </div>
             </div>
           </div>
-          <a href="#registerForm" data-img="images/contract/pack-sport.svg" class="btn btn-default btn-block" id="objet-sport">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/pack-sport.svg" class="btn btn-default btn-block" id="objet-sport">En savoir plus</a>
         </div>
       </div>
     </div>

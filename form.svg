@@ -1,0 +1,1056 @@
+
+<svg width="1637px" height="1363px" viewBox="4743 1019 1637 1363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="360 0 0 0 0 80 360 80"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="273" y="16" width="16" height="16" rx="2"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <ellipse id="path-5" cx="180" cy="24" rx="8" ry="8"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M85.2719481,15.2473593 C86.2263246,14.695639 86.9999997,15.1409225 86.9999997,16.2463373 L87,30.7555624 C87,31.859003 86.2280325,32.3072478 85.2719485,31.7545403 L72.7227789,24.4999276 C71.7684024,23.9482072 71.7666949,23.0546789 72.7227789,22.5019715 L85.2719481,15.2473593 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="17" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <circle id="path-9" cx="28" cy="28" r="28"></circle>
+        <rect id="path-11" x="0" y="742" width="360" height="568"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="360" height="568" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="10" y="24" width="360" height="568"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="360" height="568" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <linearGradient x1="50%" y1="74.8804223%" x2="50%" y2="100%" id="linearGradient-15">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.0595844656" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-16" x="0" y="0" width="95" height="36" rx="2"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="95" height="36" fill="white">
+            <use xlink:href="#path-16"></use>
+        </mask>
+        <rect id="path-19" x="0" y="0" width="95" height="36" rx="2"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="95" height="36" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.0214445%" id="linearGradient-22">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-23">
+            <stop stop-color="#FFFFFF" stop-opacity="0.12" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.06" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-24" cx="28" cy="28" rx="28" ry="28"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-25">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter4" in2="SourceAlpha" operator="out" result="shadowBlurOuter4"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="56" fill="white">
+            <use xlink:href="#path-24"></use>
+        </mask>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="56" height="56" fill="white">
+            <use xlink:href="#path-24"></use>
+        </mask>
+        <ellipse id="path-28" cx="15" cy="15" rx="15" ry="15"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-29">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter4" in2="SourceAlpha" operator="out" result="shadowBlurOuter4"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <mask id="mask-31" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <polygon id="path-32" points="360 0 0 0 0 80 360 80"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-33">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-34" x="273" y="16" width="16" height="16" rx="2"></rect>
+        <mask id="mask-35" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-34"></use>
+        </mask>
+        <ellipse id="path-36" cx="180" cy="24" rx="8" ry="8"></ellipse>
+        <mask id="mask-37" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-36"></use>
+        </mask>
+        <path d="M85.2719481,15.2473593 C86.2263246,14.695639 86.9999997,15.1409225 86.9999997,16.2463373 L87,30.7555624 C87,31.859003 86.2280325,32.3072478 85.2719485,31.7545403 L72.7227789,24.4999276 C71.7684024,23.9482072 71.7666949,23.0546789 72.7227789,22.5019715 L85.2719481,15.2473593 Z" id="path-38"></path>
+        <mask id="mask-39" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="17" fill="white">
+            <use xlink:href="#path-38"></use>
+        </mask>
+        <polygon id="path-40" points="360 0 0 0 0 80 360 80"></polygon>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-41">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-42" x="273" y="16" width="16" height="16" rx="2"></rect>
+        <mask id="mask-43" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-42"></use>
+        </mask>
+        <ellipse id="path-44" cx="180" cy="24" rx="8" ry="8"></ellipse>
+        <mask id="mask-45" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-44"></use>
+        </mask>
+        <path d="M85.2719481,15.2473593 C86.2263246,14.695639 86.9999997,15.1409225 86.9999997,16.2463373 L87,30.7555624 C87,31.859003 86.2280325,32.3072478 85.2719485,31.7545403 L72.7227789,24.4999276 C71.7684024,23.9482072 71.7666949,23.0546789 72.7227789,22.5019715 L85.2719481,15.2473593 Z" id="path-46"></path>
+        <mask id="mask-47" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="17" fill="white">
+            <use xlink:href="#path-46"></use>
+        </mask>
+        <rect id="path-48" x="0" y="0" width="236" height="36" rx="2"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-49">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="236" height="36" fill="white">
+            <use xlink:href="#path-48"></use>
+        </mask>
+        <rect id="path-51" x="279" y="67" width="60" height="47"></rect>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="47" fill="white">
+            <use xlink:href="#path-51"></use>
+        </mask>
+        <rect id="path-53" x="94" y="1026" width="156" height="123"></rect>
+        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="156" height="123" fill="white">
+            <use xlink:href="#path-53"></use>
+        </mask>
+        <rect id="path-55" x="273" y="16" width="16" height="16" rx="2"></rect>
+        <mask id="mask-56" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-55"></use>
+        </mask>
+        <ellipse id="path-57" cx="180" cy="24" rx="8" ry="8"></ellipse>
+        <mask id="mask-58" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-57"></use>
+        </mask>
+        <path d="M85.2719481,15.2473593 C86.2263246,14.695639 86.9999997,15.1409225 86.9999997,16.2463373 L87,30.7555624 C87,31.859003 86.2280325,32.3072478 85.2719485,31.7545403 L72.7227789,24.4999276 C71.7684024,23.9482072 71.7666949,23.0546789 72.7227789,22.5019715 L85.2719481,15.2473593 Z" id="path-59"></path>
+        <mask id="mask-60" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="17" fill="white">
+            <use xlink:href="#path-59"></use>
+        </mask>
+        <rect id="path-61" x="273" y="16" width="16" height="16" rx="2"></rect>
+        <mask id="mask-62" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-61"></use>
+        </mask>
+        <ellipse id="path-63" cx="180" cy="24" rx="8" ry="8"></ellipse>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <path d="M85.2719481,15.2473593 C86.2263246,14.695639 86.9999997,15.1409225 86.9999997,16.2463373 L87,30.7555624 C87,31.859003 86.2280325,32.3072478 85.2719485,31.7545403 L72.7227789,24.4999276 C71.7684024,23.9482072 71.7666949,23.0546789 72.7227789,22.5019715 L85.2719481,15.2473593 Z" id="path-65"></path>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="15" height="17" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <ellipse id="path-67" cx="15" cy="15" rx="15" ry="15"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-68">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter4" in2="SourceAlpha" operator="out" result="shadowBlurOuter4"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-69" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <ellipse id="path-71" cx="15" cy="15" rx="15" ry="15"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-72">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.237601902 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter3" in2="SourceAlpha" operator="out" result="shadowBlurOuter3"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter4"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter4" result="shadowBlurOuter4"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter4" in2="SourceAlpha" operator="out" result="shadowBlurOuter4"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter4" result="shadowMatrixOuter4"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter4"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-73" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+        <mask id="mask-74" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="30" height="30" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+    </defs>
+    <g id="Group-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(4743.000000, 1023.000000)">
+        <g id="screen" transform="translate(407.000000, 0.000000)">
+            <g id="app-bar">
+                <g id="app-bar-bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#6FA3AD" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Ordinateur-portable" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="24" y="69">Ordinateur portable - Objet nomade</tspan>
+                </text>
+                <text id="€/mois" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="286" y="69">€/mois</tspan>
+                </text>
+                <text id="Mac-Book-Pro" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="24" y="45">Mac Book Pro</tspan>
+                </text>
+                <text id="1,90" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="291.693359" y="45">1,90</tspan>
+                </text>
+            </g>
+            <g id="Material/Android/Status-bar-360dp-black">
+                <rect id="status-bar-bg" fill="#000000" x="0" y="0" width="360" height="24"></rect>
+                <g id="Material/Android/Status-bar-content-light" transform="translate(242.000000, 0.000000)" stroke-width="1">
+                    <g id="time" opacity="0.9" transform="translate(74.000000, 4.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                        <text id="12:30">
+                            <tspan x="0.418945312" y="15">12:30</tspan>
+                        </text>
+                    </g>
+                    <g id="battery" transform="translate(55.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="9 1.875 9 1 6 1 6 1.875 3 1.875 3 15 12 15 12 1.875"></polygon>
+                    </g>
+                    <g id="cellular" transform="translate(35.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                    </g>
+                    <g id="wifi" transform="translate(14.000000, 4.000000)">
+                        <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                        <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Material/Android/Navbar-360dp-black" transform="translate(0.000000, 592.000000)">
+                <rect id="navbar-bg" fill="#000000" fill-rule="evenodd" x="0" y="0" width="360" height="48"></rect>
+                <use id="recent" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                <use id="home" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="4" xlink:href="#path-5"></use>
+                <use id="back" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+            </g>
+        </g>
+        <g id="Material/Light/Radio-button-off" transform="translate(1013.000000, 100.000000)" fill="#010101" opacity="0.54">
+            <path d="M12,2 C6.5,2 2,6.5 2,12 C2,17.5 6.5,22 12,22 C17.5,22 22,17.5 22,12 C22,6.5 17.5,2 12,2 L12,2 Z M12,20 C7.6,20 4,16.4 4,12 C4,7.6 7.6,4 12,4 C16.4,4 20,7.6 20,12 C20,16.4 16.4,20 12,20 L12,20 Z" id="Shape"></path>
+        </g>
+        <g id="Material/Light/Checkbox-off" transform="translate(425.000000, 384.000000)" fill="#010101" opacity="0.54">
+            <path d="M19,5 L19,19 L5,19 L5,5 L19,5 L19,5 Z M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 L19,3 Z" id="Shape"></path>
+        </g>
+        <g id="avatar" transform="translate(531.000000, 481.000000)">
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <use id="Mask" fill-opacity="0.38" fill="#000000" xlink:href="#path-9"></use>
+        </g>
+        <g id="mail" transform="translate(442.000000, 531.785047)" font-size="12" font-family="Roboto-Regular, Roboto" fill-opacity="0.54" fill="#000000" font-weight="normal">
+            <text id="Preuve-d’achat">
+                <tspan x="1.41992188" y="13">Preuve</tspan>
+                <tspan x="0.245117188" y="29">d’achat</tspan>
+            </text>
+        </g>
+        <g id="mail" transform="translate(540.000000, 548.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill-opacity="0.54" fill="#000000" font-weight="normal">
+            <text id="Photo">
+                <tspan x="0.8515625" y="13">Photo</tspan>
+            </text>
+        </g>
+        <rect id="row-bounds" x="407" y="243" width="360" height="56.7850467"></rect>
+        <rect id="row-bounds" x="407" y="243" width="360" height="56.7850467"></rect>
+        <text id="Extension-de-garanti" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="479.0001" y="277.238318">Extension de garantie</tspan>
+        </text>
+        <g id="Material/Icons-black/data-usage" opacity="0.54" transform="translate(423.000000, 259.224299)" fill="#000000">
+            <path d="M13,2 L13,5.02158273 C16.1757111,5.52517986 18.8221371,8.44604317 18.8221371,11.971223 C18.8221371,12.8776978 18.2928519,13.6834532 17.9752808,14.4892086 L20.6217067,16 C21.2568489,14.7913669 21.9978482,13.381295 21.9978482,11.8705036 C22.1037052,6.73381295 18.2928519,2.50359712 13,2 L13,2 Z M11.6067416,18.9849246 C7.66292135,18.9849246 5.03370787,15.8693467 5.03370787,11.9497487 C5.03370787,8.4321608 7.56179775,5.51758794 11.6067416,5.01507538 L11.6067416,2 C6.5505618,2.40201005 2,6.72361809 2,11.9497487 C2,17.4773869 6.24719101,22 11.9101124,22 C15.247191,22 18.0786517,20.3919598 20,17.879397 L17.2696629,16.3718593 C15.9550562,17.9798995 13.8314607,18.9849246 11.6067416,18.9849246 L11.6067416,18.9849246 Z" id="Shape"></path>
+        </g>
+        <text id="Vous-êtes-couvert-en" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+            <tspan x="477" y="215.785047">Vous êtes couvert en cas de casse en tout lieu, remboursement </tspan>
+            <tspan x="477" y="229.785047">sur justificatif et description écrite des circonstances du </tspan>
+            <tspan x="477" y="243.785047">sinistre avec témoignage d’un tiers</tspan>
+        </text>
+        <g id="row" transform="translate(407.000000, 166.177570)">
+            <rect id="row-bounds" x="0" y="0" width="360" height="56.7850467"></rect>
+            <text id="Couverture-Casse" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+                <tspan x="72.0001" y="34.2383178">Couverture Casse</tspan>
+            </text>
+            <g id="Material/Icons-black/bluetooth" opacity="0.54" transform="translate(16.000000, 16.224299)" fill="#000000">
+                <path d="M18,7.7 L12.1653543,2 L11.1417323,2 L11.1417323,9.6 L6.43307087,5 L5,6.4 L10.7322835,12 L5,17.6 L6.43307087,19 L11.1417323,14.4 L11.1417323,22 L12.1653543,22 L18,16.3 L13.5984252,12 L18,7.7 L18,7.7 Z M13,6 L15,8 L13,10 L13,6 L13,6 Z M15,16 L13,18 L13,14 L15,16 L15,16 Z" id="Shape"></path>
+            </g>
+        </g>
+        <g id="Material/Light/Checkbox-on" transform="translate(425.000000, 141.000000)" fill="#009688">
+            <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+        </g>
+        <g id="Material/Light/Checkbox-on" transform="translate(425.000000, 225.000000)" fill="#009688">
+            <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+        </g>
+        <g id="row" transform="translate(407.000000, 320.000000)">
+            <rect id="row-bounds" x="0" y="0" width="360" height="56.7850467"></rect>
+            <text id="Remplacement-à-neuf" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+                <tspan x="72.0001" y="32.2383178">Remplacement à neuf</tspan>
+            </text>
+            <g id="Material/Icons-black/bluetooth" opacity="0.54" transform="translate(16.000000, 16.224299)" fill="#000000">
+                <path d="M18,7.7 L12.1653543,2 L11.1417323,2 L11.1417323,9.6 L6.43307087,5 L5,6.4 L10.7322835,12 L5,17.6 L6.43307087,19 L11.1417323,14.4 L11.1417323,22 L12.1653543,22 L18,16.3 L13.5984252,12 L18,7.7 L18,7.7 Z M13,6 L15,8 L13,10 L13,6 L13,6 Z M15,16 L13,18 L13,14 L15,16 L15,16 Z" id="Shape"></path>
+            </g>
+        </g>
+        <g id="row" transform="translate(407.000000, 81.000000)">
+            <rect id="row-bounds" x="0" y="0" width="360" height="56.7850467"></rect>
+            <text id="Couverture-Vol" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+                <tspan x="72" y="34.2383178">Couverture Vol</tspan>
+            </text>
+            <g id="Material/Icons-black/signal-wifi-3-bar" opacity="0.54" transform="translate(16.000000, 16.224299)" fill="#000000">
+                <path d="M12.01,21.49 L23.64,7 C23.19,6.66 18.71,3 12,3 C5.28,3 0.81,6.66 0.36,7 L11.99,21.49 L12,21.5 L12.01,21.49 L12.01,21.49 Z" id="Shape" fill-opacity="0.3"></path>
+                <path d="M3.53,10.95 L11.99,21.49 L12,21.5 L12.01,21.49 L20.47,10.95 C20.04,10.62 16.81,8 12,8 C7.19,8 3.96,10.62 3.53,10.95 L3.53,10.95 Z" id="Shape"></path>
+            </g>
+        </g>
+        <text id="Vous-êtes-couvert-en" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+            <tspan x="477" y="130">Vous êtes couvert en cas de vol en tout lieu, remboursement sur</tspan>
+            <tspan x="477" y="144">justificatif et description écrite des circonstances du vol avec </tspan>
+            <tspan x="477" y="158">témoignage d’un tiers</tspan>
+        </text>
+        <text id="Vous-êtes-couvert-en" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+            <tspan x="477" y="292">Vous êtes couvert en cas de panne, remboursement de la  </tspan>
+            <tspan x="477" y="306">réparation dans notre réseau de réparateurs agréés</tspan>
+        </text>
+        <text id="Avec-cette-option-vo" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87">
+            <tspan x="477" y="371" fill="#000000">Avec cette option vous êtes remboursé de la valeur à neuf en </tspan>
+            <tspan x="477" y="385" fill="#000000">cas de vol ou casse irréparable</tspan>
+            <tspan x="477" y="399" fill="#000000">NB : sans cette option le remboursement est fait à la valeur du </tspan>
+            <tspan x="477" y="413" fill="#000000">neuf moins la vétusté </tspan>
+            <tspan x="570.87207" y="413" fill="#3A80A9">En savoir plus sur le calcul de vétusté</tspan>
+        </text>
+        <g id="Material/Light/Checkbox-off" transform="translate(424.000000, 301.000000)" fill="#010101" opacity="0.54">
+            <path d="M19,5 L19,19 L5,19 L5,5 L19,5 L19,5 Z M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 L19,3 Z" id="Shape"></path>
+        </g>
+        <text id="0,50-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="425" y="127">0,50 €</tspan>
+        </text>
+        <use id="Rectangle" stroke="#979797" mask="url(#mask-12)" stroke-width="2" fill="#259EB4" xlink:href="#path-11"></use>
+        <use id="Rectangle" stroke="#979797" mask="url(#mask-14)" stroke-width="2" fill="#259EB4" xlink:href="#path-13"></use>
+        <g id="button" transform="translate(121.000000, 1235.000000)">
+            <g id="button-bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                <use fill="#009688" fill-rule="evenodd" xlink:href="#path-16"></use>
+                <use stroke="url(#linearGradient-15)" mask="url(#mask-18)" stroke-width="2" fill="#92CBC5" fill-rule="evenodd" xlink:href="#path-16"></use>
+            </g>
+            <text id="VALIDER" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill-opacity="0.871942935" fill="#000000">
+                <tspan x="18.0610352" y="25">VALIDER</tspan>
+            </text>
+        </g>
+        <g id="button" transform="translate(141.000000, 541.000000)">
+            <g id="button-bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                <use fill="#009688" fill-rule="evenodd" xlink:href="#path-19"></use>
+                <use stroke="url(#linearGradient-15)" mask="url(#mask-21)" stroke-width="2" fill="#92CBC5" fill-rule="evenodd" xlink:href="#path-19"></use>
+            </g>
+            <text id="SUITE" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill-opacity="0.871942935" fill="#000000">
+                <tspan x="26.9555664" y="25">SUITE</tspan>
+            </text>
+        </g>
+        <g id="fab" transform="translate(283.000000, 477.000000)">
+            <g id="bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-25)" xlink:href="#path-24"></use>
+                <use stroke="url(#linearGradient-22)" mask="url(#mask-26)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-24"></use>
+                <use stroke="url(#linearGradient-23)" mask="url(#mask-27)" stroke-width="1" xlink:href="#path-24"></use>
+            </g>
+            <g id="Material/Icons-black/add" opacity="0.54" transform="translate(16.000000, 16.000000)" fill="#000000">
+                <polygon id="Shape" points="11 5 11 11 5 11 5 13 11 13 11 19 13 19 13 13 19 13 19 11 13 11 13 5"></polygon>
+            </g>
+        </g>
+        <g id="fab" transform="translate(295.000000, 440.000000)">
+            <g id="bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
+                <use stroke="url(#linearGradient-22)" mask="url(#mask-30)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-28"></use>
+                <use stroke="url(#linearGradient-23)" mask="url(#mask-31)" stroke-width="1" xlink:href="#path-28"></use>
+            </g>
+            <g id="Material/Icons-black/add" opacity="0.54" transform="translate(8.571429, 8.571429)" fill="#000000">
+                <polygon id="Shape" points="5.57142857 0 5.57142857 5.57142857 0 5.57142857 0 7.42857143 5.57142857 7.42857143 5.57142857 13 7.42857143 13 7.42857143 7.42857143 13 7.42857143 13 5.57142857 7.42857143 5.57142857 7.42857143 0"></polygon>
+            </g>
+        </g>
+        <text id="0,70-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="425" y="214">0,70 €</tspan>
+        </text>
+        <text id="0,70-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="425" y="292">0,70 €</tspan>
+        </text>
+        <rect id="row-bounds" x="407" y="417" width="360" height="56.7850467"></rect>
+        <text id="0,70-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="425" y="371">0,70 €</tspan>
+        </text>
+        <text id="2800-€" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="699" y="491">2800 €</tspan>
+        </text>
+        <text id="Valeur" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="643" y="491">Valeur</tspan>
+        </text>
+        <text id="3000-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="715.242188" y="518">3000 €</tspan>
+        </text>
+        <text id="Valeur-d’achat" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="629.22168" y="518">Valeur d’achat</tspan>
+        </text>
+        <text id="12/10/16" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="705.683105" y="534">12/10/16</tspan>
+        </text>
+        <text id="Date-d’achat" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="635.410645" y="534">Date d’achat</tspan>
+        </text>
+        <text id="-200-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="718.092285" y="553">-200 €</tspan>
+        </text>
+        <text id="Vétusté" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="656.125488" y="553">Vétusté</tspan>
+        </text>
+        <g id="screen" transform="translate(1201.000000, 0.000000)">
+            <g id="app-bar">
+                <g id="app-bar-bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-33)" xlink:href="#path-32"></use>
+                    <use fill="#6FA3AD" fill-rule="evenodd" xlink:href="#path-32"></use>
+                </g>
+                <text id="Mes-garanties" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="24" y="69">Mes garanties</tspan>
+                </text>
+                <g id="Material/Icons-black/check" transform="translate(14.000000, 140.000000)" fill="#000000">
+                    <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+                </g>
+                <text id="Dommage-subis-par-le" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill-opacity="0.87" fill="#000000">
+                    <tspan x="14" y="109">Dommage subis par le contenu de votre </tspan>
+                    <tspan x="14" y="130">habitation suite à :</tspan>
+                </text>
+                <text id="Incendie-et-évènemen" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+                    <tspan x="49" y="157">Incendie et évènements assimilés</tspan>
+                </text>
+                <g id="Material/Icons-black/check" transform="translate(14.000000, 164.000000)" fill="#000000">
+                    <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+                </g>
+                <text id="Évènements-climatiqu" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+                    <tspan x="49" y="181">Évènements climatiques dont inondations</tspan>
+                </text>
+                <g id="Material/Icons-black/check" transform="translate(14.000000, 188.000000)" fill="#000000">
+                    <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+                </g>
+                <text id="Catastrophes-naturel" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+                    <tspan x="49" y="205">Catastrophes naturelles, attentats</tspan>
+                </text>
+                <g id="Material/Icons-black/check" transform="translate(14.000000, 212.000000)" fill="#000000">
+                    <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+                </g>
+                <text id="Catastrophes-technol" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+                    <tspan x="49" y="229">Catastrophes technologiques</tspan>
+                </text>
+                <text id="€/mois" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="286" y="69">€/mois</tspan>
+                </text>
+                <text id="Mon-habitation" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="24" y="45">Mon habitation</tspan>
+                </text>
+                <text id="15,90" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="286.009766" y="45">15,90</tspan>
+                </text>
+            </g>
+            <g id="Material/Android/Status-bar-360dp-black">
+                <rect id="status-bar-bg" fill="#000000" x="0" y="0" width="360" height="24"></rect>
+                <g id="Material/Android/Status-bar-content-light" transform="translate(242.000000, 0.000000)" stroke-width="1">
+                    <g id="time" opacity="0.9" transform="translate(74.000000, 4.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                        <text id="12:30">
+                            <tspan x="0.418945312" y="15">12:30</tspan>
+                        </text>
+                    </g>
+                    <g id="battery" transform="translate(55.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="9 1.875 9 1 6 1 6 1.875 3 1.875 3 15 12 15 12 1.875"></polygon>
+                    </g>
+                    <g id="cellular" transform="translate(35.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                    </g>
+                    <g id="wifi" transform="translate(14.000000, 4.000000)">
+                        <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                        <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Material/Android/Navbar-360dp-black" transform="translate(0.000000, 592.000000)">
+                <rect id="navbar-bg" fill="#000000" fill-rule="evenodd" x="0" y="0" width="360" height="48"></rect>
+                <use id="recent" stroke="#FFFFFF" mask="url(#mask-35)" stroke-width="4" xlink:href="#path-34"></use>
+                <use id="home" stroke="#FFFFFF" mask="url(#mask-37)" stroke-width="4" xlink:href="#path-36"></use>
+                <use id="back" stroke="#FFFFFF" mask="url(#mask-39)" stroke-width="4" xlink:href="#path-38"></use>
+            </g>
+        </g>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 326.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Bris-de-glaces" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="343">Bris de glaces</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 350.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Séjour-voyage" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="367">Séjour voyage</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 373.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Défense-Recours" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="390">Défense Recours</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 396.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Recours-du-propriéta" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="413">Recours du propriétaire</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 420.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Services-Déménagemen" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="437">Services Déménagement</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 279.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Dégats-des-eaux" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="296">Dégats des eaux</tspan>
+        </text>
+        <g id="screen" transform="translate(812.000000, 0.000000)">
+            <g id="app-bar">
+                <g id="app-bar-bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-41)" xlink:href="#path-40"></use>
+                    <use fill="#6FA3AD" fill-rule="evenodd" xlink:href="#path-40"></use>
+                </g>
+                <text id="La-couverture-de-l’h" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="24" y="69">La couverture de l’habitation</tspan>
+                </text>
+                <text id="€/mois" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+                    <tspan x="286" y="69">€/mois</tspan>
+                </text>
+                <text id="Mon-habitation" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="24" y="45">Mon habitation</tspan>
+                </text>
+                <text id="15,90" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+                    <tspan x="286.009766" y="45">15,90</tspan>
+                </text>
+            </g>
+            <g id="Material/Android/Status-bar-360dp-black">
+                <rect id="status-bar-bg" fill="#000000" x="0" y="0" width="360" height="24"></rect>
+                <g id="Material/Android/Status-bar-content-light" transform="translate(242.000000, 0.000000)" stroke-width="1">
+                    <g id="time" opacity="0.9" transform="translate(74.000000, 4.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                        <text id="12:30">
+                            <tspan x="0.418945312" y="15">12:30</tspan>
+                        </text>
+                    </g>
+                    <g id="battery" transform="translate(55.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="9 1.875 9 1 6 1 6 1.875 3 1.875 3 15 12 15 12 1.875"></polygon>
+                    </g>
+                    <g id="cellular" transform="translate(35.000000, 4.000000)">
+                        <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                    </g>
+                    <g id="wifi" transform="translate(14.000000, 4.000000)">
+                        <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                        <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Material/Android/Navbar-360dp-black" transform="translate(0.000000, 592.000000)">
+                <rect id="navbar-bg" fill="#000000" fill-rule="evenodd" x="0" y="0" width="360" height="48"></rect>
+                <use id="recent" stroke="#FFFFFF" mask="url(#mask-43)" stroke-width="4" xlink:href="#path-42"></use>
+                <use id="home" stroke="#FFFFFF" mask="url(#mask-45)" stroke-width="4" xlink:href="#path-44"></use>
+                <use id="back" stroke="#FFFFFF" mask="url(#mask-47)" stroke-width="4" xlink:href="#path-46"></use>
+            </g>
+        </g>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 541.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Responsabilité-séjou" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="558">Responsabilité séjour voyage</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 517.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Responsabilité-d’occ" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="534">Responsabilité d’occupant ou non occupant</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 493.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Responsabilité-vie-p" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="510">Responsabilité vie privée</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 469.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Assistance-aux-perso" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="486">Assistance aux personnes</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 446.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Assistance-à-domicil" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="463">Assistance à domicile</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 302.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Vol-et-vandalisme" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="319">Vol et vandalisme</tspan>
+        </text>
+        <g id="Material/Icons-black/check" transform="translate(1215.000000, 237.000000)" fill="#000000">
+            <polygon id="Shape" points="8.9999939 16.2 4.7999939 12 3.3999939 13.4 8.9999939 19 20.9999939 7 19.5999939 5.6"></polygon>
+        </g>
+        <text id="Des-frais-consécutif" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill-opacity="0.87" fill="#000000">
+            <tspan x="1250" y="254">Des frais consécutifs limités à 15% de</tspan>
+            <tspan x="1250" y="273">l’indemnité</tspan>
+        </text>
+        <g id="button" transform="translate(873.000000, 533.000000)">
+            <g id="button-bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-49)" xlink:href="#path-48"></use>
+                <use fill="#009688" fill-rule="evenodd" xlink:href="#path-48"></use>
+                <use stroke="url(#linearGradient-15)" mask="url(#mask-50)" stroke-width="2" fill="#92CBC5" fill-rule="evenodd" xlink:href="#path-48"></use>
+            </g>
+            <text id="VOIR-MES-GARANTIES" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill-opacity="0.871942935" fill="#000000">
+                <tspan x="41.7397461" y="25">VOIR MES GARANTIES</tspan>
+            </text>
+        </g>
+        <g id="slider-regular" transform="translate(965.000000, 224.000000)">
+            <rect id="track" fill-opacity="0.26" fill="#000000" x="0" y="6.66666667" width="174" height="2.66666667"></rect>
+            <rect id="highlight" fill="#009688" x="0" y="6.66666667" width="103.916667" height="2.66666667"></rect>
+            <path d="M103.916667,0 C99.9291667,0 96.6666667,3.6 96.6666667,8 C96.6666667,12.4 99.9291667,16 103.916667,16 C107.904167,16 111.166667,12.4 111.166667,8 C111.166667,3.6 107.904167,0 103.916667,0" id="knob" fill="#009688"></path>
+        </g>
+        <g id="Group" transform="translate(836.000000, 316.000000)">
+            <g id="Material/Icons-black/bluetooth" opacity="0.54" transform="translate(0.000000, 1.000000)" fill="#000000">
+                <path d="M18,7.7 L12.1653543,2 L11.1417323,2 L11.1417323,9.6 L6.43307087,5 L5,6.4 L10.7322835,12 L5,17.6 L6.43307087,19 L11.1417323,14.4 L11.1417323,22 L12.1653543,22 L18,16.3 L13.5984252,12 L18,7.7 L18,7.7 Z M13,6 L15,8 L13,10 L13,6 L13,6 Z M15,16 L13,18 L13,14 L15,16 L15,16 Z" id="Shape"></path>
+            </g>
+            <text id="0,70-€" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+                <tspan x="2" y="36">0,70 €</tspan>
+            </text>
+            <g id="Material/Light/Checkbox-off" transform="translate(2.000000, 49.000000)" fill="#010101" opacity="0.54">
+                <path d="M19,5 L19,19 L5,19 L5,5 L19,5 L19,5 Z M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 L19,3 Z" id="Shape"></path>
+            </g>
+            <text id="Avec-cette-option-vo" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87">
+                <tspan x="54" y="36" fill="#000000">Avec cette option vous êtes remboursé de la valeur à neuf en </tspan>
+                <tspan x="54" y="50" fill="#000000">cas de vol ou casse irréparable</tspan>
+                <tspan x="54" y="64" fill="#000000">NB : sans cette option le remboursement est fait à la valeur du </tspan>
+                <tspan x="54" y="78" fill="#000000">neuf moins la vétusté </tspan>
+                <tspan x="147.87207" y="78" fill="#3A80A9">En savoir plus sur le calcul de vétusté</tspan>
+            </text>
+            <text id="Remplacement-à-neuf" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+                <tspan x="56" y="17">Remplacement à neuf</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(839.000000, 409.000000)">
+            <text id="La-période-d’inhabit" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+                <tspan x="38" y="15">La période d’inhabitation ne dépasse pas 90 jours </tspan>
+            </text>
+            <g id="Material/Light/Checkbox-on" fill="#009688">
+                <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(839.000000, 437.000000)">
+            <text id="Votre-habitation-n’e" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+                <tspan x="38" y="10">Votre habitation n’est pas équipée d’un insert, d’un foyer fermé, </tspan>
+                <tspan x="38" y="24">d’un poêle ou d’une cuisinière à bois</tspan>
+            </text>
+            <g id="Material/Light/Checkbox-on" transform="translate(0.000000, 3.000000)" fill="#009688">
+                <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+            </g>
+            <text id="Franchise-de-159€-sa" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+                <tspan x="38" y="46">Franchise de 159€ sauf pour les garanties suivantes : </tspan>
+                <tspan x="38" y="60">évènements climatiques (228€), inondations (380€), </tspan>
+                <tspan x="38" y="74">catastrophes naturelles (franchise légale)</tspan>
+            </text>
+            <g id="Material/Light/Checkbox-on" transform="translate(0.000000, 39.000000)" fill="#009688">
+                <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+            </g>
+        </g>
+        <g id="slider-notched-pressed" transform="translate(960.000000, 141.000000)">
+            <rect id="track" fill-opacity="0.26" fill="#000000" x="1.19178082" y="48.326087" width="171.616438" height="2.54347826"></rect>
+            <rect id="highlight" fill="#009688" x="1.19178082" y="48.326087" width="102.493151" height="2.54347826"></rect>
+            <g id="notches" opacity="0.54" transform="translate(0.000000, 48.326087)" fill="#000000">
+                <ellipse id="Oval-2" cx="137.054795" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+                <ellipse id="Oval-2" cx="172.808219" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+                <ellipse id="Oval-2" cx="34.5616438" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+                <ellipse id="Oval-2" cx="67.9315068" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+                <ellipse id="Oval-2" cx="103.684932" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+                <ellipse id="Oval-2" cx="1.19178082" cy="1.27173913" rx="1.19178082" ry="1.27173913"></ellipse>
+            </g>
+            <g id="value" transform="translate(88.191781, 0.000000)">
+                <path d="M15.4931507,0.127173913 C24.0739726,0.127173913 30.9863014,7.63043478 30.9863014,16.9141304 C30.9863014,21.6195652 28.6027397,26.5793478 22.2863014,33.3195652 L15.4931507,40.6956522 L8.58082192,33.3195652 C2.38356164,26.4521739 0,21.4923913 0,16.9141304 C-4.23405603e-15,7.63043478 6.91232877,0.127173913 15.4931507,0.127173913 L15.4931507,0.127173913 Z" id="value-bg" fill="#009688"></path>
+                <text id="3" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="11" y="22">3</tspan>
+                </text>
+            </g>
+        </g>
+        <text id="Locataire" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="869" y="118">Locataire</tspan>
+        </text>
+        <text id="Pièces" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="863" y="191">Pièces</tspan>
+        </text>
+        <text id="Valeur-du-mobiler-qu" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+            <tspan x="839" y="258">Valeur du mobiler que vous n’avez pas listés dans l’inventaire de </tspan>
+            <tspan x="839" y="272">vos objets (ex : la vaisselle, le vieux canapé de mamie, les </tspan>
+            <tspan x="839" y="286">livres…)</tspan>
+        </text>
+        <text id="Valeur-Mobilier" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="838" y="237">Valeur Mobilier</tspan>
+        </text>
+        <text id="10-000-€" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="1013" y="215">10 000 €</tspan>
+        </text>
+        <text id="Propriétaire" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#000000">
+            <tspan x="1042" y="116">Propriétaire</tspan>
+        </text>
+        <g id="Material/Light/Radio-button-on" transform="translate(839.000000, 102.000000)" fill="#009688">
+            <path d="M12,7 C9.2,7 7,9.2 7,12 C7,14.8 9.2,17 12,17 C14.8,17 17,14.8 17,12 C17,9.2 14.8,7 12,7 L12,7 Z M12,2 C6.5,2 2,6.5 2,12 C2,17.5 6.5,22 12,22 C17.5,22 22,17.5 22,12 C22,6.5 17.5,2 12,2 L12,2 Z M12,20 C7.6,20 4,16.4 4,12 C4,7.6 7.6,4 12,4 C16.4,4 20,7.6 20,12 C20,16.4 16.4,20 12,20 L12,20 Z" id="Shape"></path>
+        </g>
+        <path d="M473.555556,490 L449.427222,490 C447.525889,490 446.017222,491.591111 446.017222,493.555556 L446,518.444444 C446,520.407111 447.525889,522 449.427222,522 L473.555556,522 C475.458611,522 477,520.407111 477,518.444444 L477,493.555556 C477,491.591111 475.458611,490 473.555556,490 L473.555556,490 Z M473.555556,511.333333 L466.666667,511.333333 C466.666667,514.279111 464.353722,516.666667 461.5,516.666667 C458.646278,516.666667 456.333333,514.279111 456.333333,511.333333 L449.427222,511.333333 L449.427222,493.555556 L473.555556,493.555556 L473.555556,511.333333 L473.555556,511.333333 Z M468.388889,502.444444 L464.944444,502.444444 L464.944444,497.111111 L458.055556,497.111111 L458.055556,502.444444 L454.611111,502.444444 L461.5,509.555556 L468.388889,502.444444 L468.388889,502.444444 Z" id="Fill-1" fill="#4285F4"></path>
+        <text id="Ajouter,-Modifier-ou" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="26" y="72">Ajouter, Modifier ou Supprimer</tspan>
+        </text>
+        <text id="€/mois" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="284" y="107">€/mois</tspan>
+        </text>
+        <text id="4,90" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+            <tspan x="291.193359" y="89">4,90</tspan>
+        </text>
+        <use id="Rectangle-2" stroke="#FFFFFF" mask="url(#mask-52)" stroke-width="2" xlink:href="#path-51"></use>
+        <text id="€/mois" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="150" y="1142">€/mois</tspan>
+        </text>
+        <text id="19,90" font-family="Roboto-Medium, Roboto" font-size="36" font-weight="400" line-spacing="28" fill="#FFFFFF">
+            <tspan x="123" y="1092">19,90</tspan>
+        </text>
+        <use id="Rectangle-2" stroke="#FFFFFF" mask="url(#mask-54)" stroke-width="2" xlink:href="#path-53"></use>
+        <text id="Quels-objets-voulez" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+            <tspan x="24" y="45">Quels objets voulez vous assurer ?</tspan>
+        </text>
+        <g id="Material/Android/Status-bar-360dp-black" transform="translate(10.000000, 0.000000)">
+            <rect id="status-bar-bg" fill="#000000" x="0" y="0" width="360" height="24"></rect>
+            <g id="Material/Android/Status-bar-content-light" transform="translate(242.000000, 0.000000)" stroke-width="1">
+                <g id="time" opacity="0.9" transform="translate(74.000000, 4.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                    <text id="12:30">
+                        <tspan x="0.418945312" y="15">12:30</tspan>
+                    </text>
+                </g>
+                <g id="battery" transform="translate(55.000000, 4.000000)">
+                    <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" points="9 1.875 9 1 6 1 6 1.875 3 1.875 3 15 12 15 12 1.875"></polygon>
+                </g>
+                <g id="cellular" transform="translate(35.000000, 4.000000)">
+                    <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                </g>
+                <g id="wifi" transform="translate(14.000000, 4.000000)">
+                    <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                    <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Material/Android/Navbar-360dp-black" transform="translate(10.000000, 592.000000)">
+            <rect id="navbar-bg" fill="#000000" fill-rule="evenodd" x="0" y="0" width="360" height="48"></rect>
+            <use id="recent" stroke="#FFFFFF" mask="url(#mask-56)" stroke-width="4" xlink:href="#path-55"></use>
+            <use id="home" stroke="#FFFFFF" mask="url(#mask-58)" stroke-width="4" xlink:href="#path-57"></use>
+            <use id="back" stroke="#FFFFFF" mask="url(#mask-60)" stroke-width="4" xlink:href="#path-59"></use>
+        </g>
+        <text id="En-résumé" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+            <tspan x="24" y="785">En résumé</tspan>
+        </text>
+        <text id="3-objets-nomades-une" font-family="Roboto-Medium, Roboto" font-size="20" font-weight="400" line-spacing="28" fill="#FFFFFF">
+            <tspan x="88" y="905">3 objets nomades</tspan>
+            <tspan x="88" y="933">une habitation 3p</tspan>
+        </text>
+        <g id="Material/Android/Status-bar-360dp-black" transform="translate(0.000000, 718.000000)">
+            <rect id="status-bar-bg" fill="#000000" x="0" y="0" width="360" height="24"></rect>
+            <g id="Material/Android/Status-bar-content-light" transform="translate(242.000000, 0.000000)" stroke-width="1">
+                <g id="time" opacity="0.9" transform="translate(74.000000, 4.000000)" font-size="14" font-family="Roboto-Medium, Roboto" fill="#FFFFFF" font-weight="400">
+                    <text id="12:30">
+                        <tspan x="0.418945312" y="15">12:30</tspan>
+                    </text>
+                </g>
+                <g id="battery" transform="translate(55.000000, 4.000000)">
+                    <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" points="9 1.875 9 1 6 1 6 1.875 3 1.875 3 15 12 15 12 1.875"></polygon>
+                </g>
+                <g id="cellular" transform="translate(35.000000, 4.000000)">
+                    <polygon id="bounds" points="0 0 16 0 16 16 0 16"></polygon>
+                    <polygon id="Shape" fill="#FFFFFF" points="0 15 14 15 14 1"></polygon>
+                </g>
+                <g id="wifi" transform="translate(14.000000, 4.000000)">
+                    <polygon id="bounds" points="2 0 18 0 18 16 2 16"></polygon>
+                    <path d="M0.977372085,4.01593123 C3.48821908,2.12256382 6.61301513,1 10,1 C13.3869849,1 16.5117809,2.12256382 19.0226279,4.01593123 L10,15 L0.977372085,4.01593123 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+        <g id="Material/Android/Navbar-360dp-black" transform="translate(2.000000, 1310.000000)">
+            <rect id="navbar-bg" fill="#000000" fill-rule="evenodd" x="0" y="0" width="360" height="48"></rect>
+            <use id="recent" stroke="#FFFFFF" mask="url(#mask-62)" stroke-width="4" xlink:href="#path-61"></use>
+            <use id="home" stroke="#FFFFFF" mask="url(#mask-64)" stroke-width="4" xlink:href="#path-63"></use>
+            <use id="back" stroke="#FFFFFF" mask="url(#mask-66)" stroke-width="4" xlink:href="#path-65"></use>
+        </g>
+        <text id="Ipad-mini" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="75" y="269">Ipad mini</tspan>
+        </text>
+        <text id="objet-précieux" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="188" y="459">objet précieux</tspan>
+        </text>
+        <text id="mon-habitation" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="78" y="515">mon habitation</tspan>
+        </text>
+        <g id="fab" transform="translate(295.000000, 402.000000)">
+            <g id="bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-68)" xlink:href="#path-67"></use>
+                <use stroke="url(#linearGradient-22)" mask="url(#mask-69)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-67"></use>
+                <use stroke="url(#linearGradient-23)" mask="url(#mask-70)" stroke-width="1" xlink:href="#path-67"></use>
+            </g>
+            <g id="Material/Icons-black/add" opacity="0.54" transform="translate(8.571429, 8.571429)" fill="#000000">
+                <polygon id="Shape" points="5.57142857 0 5.57142857 5.57142857 0 5.57142857 0 7.42857143 5.57142857 7.42857143 5.57142857 13 7.42857143 13 7.42857143 7.42857143 13 7.42857143 13 5.57142857 7.42857143 5.57142857 7.42857143 0"></polygon>
+            </g>
+        </g>
+        <text id="objet-nomade" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="189" y="421">objet nomade</tspan>
+        </text>
+        <g id="fab" transform="translate(295.000000, 364.000000)">
+            <g id="bg">
+                <use fill="black" fill-opacity="1" filter="url(#filter-72)" xlink:href="#path-71"></use>
+                <use stroke="url(#linearGradient-22)" mask="url(#mask-73)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-71"></use>
+                <use stroke="url(#linearGradient-23)" mask="url(#mask-74)" stroke-width="1" xlink:href="#path-71"></use>
+            </g>
+            <g id="Material/Icons-black/add" opacity="0.54" transform="translate(8.571429, 8.571429)" fill="#000000">
+                <polygon id="Shape" points="5.57142857 0 5.57142857 5.57142857 0 5.57142857 0 7.42857143 5.57142857 7.42857143 5.57142857 13 7.42857143 13 7.42857143 7.42857143 13 7.42857143 13 5.57142857 7.42857143 5.57142857 7.42857143 0"></polygon>
+            </g>
+        </g>
+        <text id="mobilier" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="229.789062" y="384">mobilier</tspan>
+        </text>
+        <text id="Ordinateur-portable" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="73" y="165">Ordinateur portable - Objet nomade</tspan>
+        </text>
+        <circle id="Oval" fill-opacity="0.38" fill="#000000" cx="38" cy="268" r="20"></circle>
+        <text id="Samsung-S6" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="75" y="209">Samsung S6</tspan>
+        </text>
+        <circle id="Oval" fill-opacity="0.38" fill="#000000" cx="38" cy="212" r="20"></circle>
+        <text id="MacBook-Pro" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="71" y="153">MacBook Pro</tspan>
+        </text>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="143" width="14" height="12"></rect>
+        <circle id="Oval" fill-opacity="0.38" fill="#000000" cx="38" cy="156" r="20"></circle>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="143" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="164" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="164" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="340" y="164" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" transform="translate(347.000000, 149.000000) scale(-1, 1) translate(-347.000000, -149.000000) " x="340" y="143" width="14" height="12"></rect>
+        <text id="e" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="152">e</tspan>
+        </text>
+        <text id="x" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="345" y="172">x</tspan>
+        </text>
+        <text id="i" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="292" y="152">i</tspan>
+        </text>
+        <text id="1,90" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="340" y="152">1,90</tspan>
+        </text>
+        <text id="u" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="172">u</tspan>
+        </text>
+        <text id="o" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="290" y="172">o</tspan>
+        </text>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="202" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="202" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="223" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="223" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="340" y="223" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" transform="translate(347.000000, 208.000000) scale(-1, 1) translate(-347.000000, -208.000000) " x="340" y="202" width="14" height="12"></rect>
+        <text id="e" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="211">e</tspan>
+        </text>
+        <text id="x" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="345" y="231">x</tspan>
+        </text>
+        <text id="i" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="292" y="211">i</tspan>
+        </text>
+        <text id="1,90" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="340" y="211">1,90</tspan>
+        </text>
+        <text id="u" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="231">u</tspan>
+        </text>
+        <text id="o" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="290" y="231">o</tspan>
+        </text>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="261" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="261" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="286" y="282" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="313" y="282" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" x="340" y="282" width="14" height="12"></rect>
+        <rect id="Rectangle-path" fill-opacity="0.26" fill="#000000" transform="translate(347.000000, 267.000000) scale(-1, 1) translate(-347.000000, -267.000000) " x="340" y="261" width="14" height="12"></rect>
+        <text id="e" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="270">e</tspan>
+        </text>
+        <text id="x" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="345" y="290">x</tspan>
+        </text>
+        <text id="i" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="292" y="270">i</tspan>
+        </text>
+        <text id="1,90" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="340" y="270">1,90</tspan>
+        </text>
+        <text id="u" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="317" y="290">u</tspan>
+        </text>
+        <text id="o" font-family="Roboto-Regular, Roboto" font-size="9" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="290" y="290">o</tspan>
+        </text>
+        <text id="Téléphane-portable--" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="73" y="222">Téléphane portable - Objet nomade</tspan>
+        </text>
+        <text id="Tablette---Objet-nom" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="24" fill-opacity="0.87" fill="#FFFFFF">
+            <tspan x="73" y="282">Tablette - Objet nomade</tspan>
+        </text>
+        <g id="Material/Icons-white/apps" transform="translate(42.000000, 498.000000)" fill="#FFFFFF">
+            <path d="M4,8 L8,8 L8,4 L4,4 L4,8 L4,8 Z M10,20 L14,20 L14,16 L10,16 L10,20 L10,20 Z M4,20 L8,20 L8,16 L4,16 L4,20 L4,20 Z M4,14 L8,14 L8,10 L4,10 L4,14 L4,14 Z M10,14 L14,14 L14,10 L10,10 L10,14 L10,14 Z M16,4 L16,8 L20,8 L20,4 L16,4 L16,4 Z M10,8 L14,8 L14,4 L10,4 L10,8 L10,8 Z M16,14 L20,14 L20,10 L16,10 L16,14 L16,14 Z M16,20 L20,20 L20,16 L16,16 L16,20 L16,20 Z" id="Shape"></path>
+        </g>
+        <text id="Vous-n’avez-pas-eux" font-family="Roboto-Italic, Roboto" font-size="10" font-style="italic" font-weight="normal" line-spacing="14" fill-opacity="0.87" fill="#000000">
+            <tspan x="62" y="1221">Vous n’avez pas eux de sinistre au cours des 24 derniers mois</tspan>
+        </text>
+        <g id="Material/Light/Checkbox-on" transform="translate(24.000000, 1211.000000)" fill="#009688">
+            <path d="M19,3 L5,3 C3.9,3 3,3.9 3,5 L3,19 C3,20.1 3.9,21 5,21 L19,21 C20.1,21 21,20.1 21,19 L21,5 C21,3.9 20.1,3 19,3 L19,3 Z M10,17 L5,12.1923077 L6.4,10.8461538 L10,14.3076923 L17.6,7 L19,8.34615385 L10,17 L10,17 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

@@ -55,6 +55,27 @@ jQuery(document).ready(function ($) {
     var button = $(event.target);
     var image = button.data('img');
     $('#registerForm').find('.contract-img img').attr('src', image);
+    $('#emailgroup').removeClass('has-error')
     $('#registerForm').modal('toggle');
-  })
+  });
+  $('#inscription').on('click', function() {
+    var email = $('#email').val();
+    if (email) {
+      var data = {
+        city: $('#ville').val(),
+        email: email
+      }
+      $.post('subscribe.php', data, function(result) {
+        console.log(result);
+      });
+      $('#registerForm').modal('toggle');
+    } else {
+      $('#emailgroup').addClass('has-error')
+    }
+  });
+
+  var validateEmail = function(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
 });

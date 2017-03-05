@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="#registerForm" class="btn btn-default" id="change">Je change</a>
+        <a href="mailto:contact@hellovictor?subject=je change pour Hello Victor" class="btn btn-default" id="change">Je change</a>
       </div>
     </div>
   </div>
