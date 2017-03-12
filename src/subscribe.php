@@ -1,9 +1,17 @@
 <?php
 
+foreach (glob("./Dotenv/*.php") as $filename)
+{
+    require_once($filename);
+}
+use Dotenv;
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
 $email = $_POST["email"];
 $fname = isset($_POST["fname"])?$_POST["fname"]:'';
 $city = $_POST["city"];
-$apikey = '966a2e69d374b3d22790304e48edb18b-us14';
+$apikey = getenv('MAILCHIMP_APIKEY');
 $listid = '06ec1d1ca4';
 $server = 'us14.';
 
