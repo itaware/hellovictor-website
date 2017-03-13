@@ -51,4 +51,9 @@
       <a href="#" class="link" id="video-inventaire"><i class="icon icon-play"></i>Voir la vidéo</a>
     </div>-->
   </div>
+  <div class="section-content container">
+    <div class="link-bottom text-center">
+      <a href="#registerForm" class="btn btn-default" id="telecharger_app-{{page}}">En savoir plus</a>
+    </div>
+  </div>
 </section>

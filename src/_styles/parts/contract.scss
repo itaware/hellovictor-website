@@ -1,26 +1,27 @@
-.container-contract{
+.container-contract {
   padding: 40px 0;
 }
-.contract{
+
+.contract {
   padding: 25px 20px;
   text-align: center;
-  .inner{
+  .inner {
     border: 1px solid $contract-border-color;
     border-radius: $contract-border-radius;
   }
-  .top{
+  .top {
     border-radius: ($contract-border-radius - 1) ($contract-border-radius - 1) 0 0;
     padding: 20px $contract-padding-horizontal $contract-space-img;
     background: $contract-top-bg;
   }
-  .bottom{
+  .bottom {
     position: relative;
     margin-top: -$contract-border-radius;
     border-radius: $contract-border-radius;
     padding: $contract-space-img $contract-padding-horizontal 0;
     background: $contract-bottom-bg;
   }
-  &-img{
+  &-img {
     position: absolute;
     left: 0;
     right: 0;
@@ -29,41 +30,41 @@
     margin: auto;
     transform: translateY(-50%);
   }
-  &-title{
+  &-title {
     font-size: 24px;
     text-transform: uppercase;
-    @media(max-width: $screen-sm-max){
+    @media(max-width: $screen-sm-max) {
       font-size: 20px;
-    }    
+    }
   }
   h3 {
     font-size: 28px;
     font-weight: 500;
   }
-  &-price{
-    .price{
-      display:inline-block;
+  &-price {
+    .price {
+      display: inline-block;
     }
-    .price-from{
+    .price-from {
       font-size: 16px;
     }
-    .price-value{
+    .price-value {
       margin-right: 5px;
       line-height: 0.8;
       font-size: 68px;
       font-weight: 600;
     }
-    .price-infos{
+    .price-infos {
       line-height: 1;
     }
-    .price-currency{
+    .price-currency {
       font-size: 31px;
     }
-    .price-period{
+    .price-period {
       font-size: 11px;
     }
   }
-  .btn{
+  .btn-block {
     width: 100%;
     min-width: 0;
     margin: 0;

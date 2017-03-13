@@ -9,7 +9,7 @@
   <div class="slogan">Votre assureur <p></p>est un enfoiré ?</div>
   <div class="block-btn">
     <div>
-      <a href="form.html" class="btn btn-default" id="{{page}}">Changez !</a> <br>
+      <a href="#registerForm" class="btn btn-default" id="{{page}}">Changez !</a> <br>
     </div>
     <div>
       <a href="#" class="link link-video" id="video-{{page}}"><i class="icon icon-play"></i>Voir la vidéo</a>

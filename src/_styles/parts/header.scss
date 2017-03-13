@@ -1,22 +1,30 @@
+.logo {
+  margin: 0;
+  padding: 30px 0 0;
+  @media(max-width: $screen-xs-max){
+    img{
+      max-width: 60%;
+    }
+  }
+}
+
 .header-site {
   padding: 0 15px;
 
-  .logo {
-    margin: 0;
-    padding: 30px 0 0;
-    @media(max-width: $screen-xs-max){
-      img{
-        max-width: 60%;
+  .baseline {
+    margin-top: 100px;
+      @media(max-width: $screen-xs-max) {
+        margin-top: 10px;
+      }
+    h2 {
+      @media(max-width: $screen-xs-max) {
+        font-size: 16px;
       }
     }
-  }
-  .baseline {
-    font-size: 16px;
-    .emoji {
-      display:inline-block;
-      vertical-align: bottom;
-      height: 25px;
-      width: auto;
+    h3 {
+      @media(max-width: $screen-xs-max) {
+        font-size: 14px;
+      }
     }
   }
   .block-btn{
@@ -58,14 +66,14 @@
 }
 .home{
   .header-site{
-    padding: 0;
-    @media(min-width:$screen-sm-min){
-
-    height: 100vh;
-    &-top, &-bottom{
-      height: 50vh;
+   height: 100vh;
+    min-height: 680px;
+    background: url(../images/bg-header.png) center bottom repeat-x;
+    background-size: auto 30vh;
+    padding-bottom: 30vh;
+    @media(min-width: $breakpoint_mobile){
+      min-height: 845px;
     }
-  }
   }
 }
 /*body:not(.home){

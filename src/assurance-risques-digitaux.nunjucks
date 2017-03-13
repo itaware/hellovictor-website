@@ -43,7 +43,7 @@
       <div class="object-name text-center">
         <span style="font-size: 16px; font-style: italic;">à partir de <b>9,90 €/mois</b></span>
         <br>
-        <a href="form.html" class="btn btn-default" id="risque-digital-1">je choisis cette offre</a>
+        <a href="#registerForm" class="btn btn-default" id="risque-digital-1">je choisis cette offre</a>
       </div>
     </div>
   </div>
@@ -59,7 +59,7 @@
       <div class="object-name text-center">
         <span style="font-size: 16px; font-style: italic;">à partir de <b>8,90 €/mois</b></span>
         <br>
-        <a href="form.html" class="btn btn-default" id="risque-digital-2">je choisis cette offre</a>
+        <a href="#registerForm" class="btn btn-default" id="risque-digital-2">je choisis cette offre</a>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@
       <div class="object-name text-center">
         <span style="font-size: 16px; font-style: italic;">à partir de <b>6,90 €/mois</b></span>
         <br>
-        <a href="form.html" class="btn btn-default" id="risque-digital-3">je choisis cette offre</a>
+        <a href="#registerForm" class="btn btn-default" id="risque-digital-3">je choisis cette offre</a>
       </div>
     </div>
   </div>

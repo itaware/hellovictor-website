@@ -20,7 +20,7 @@
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="evolutif">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/evolutif.png" class="btn btn-default btn-block" id="evolutif">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -37,14 +37,14 @@
           <div class="contract-price">
             <div class="from">à partir de</div>
             <div class="price clearfix">
-              <span class="price-value pull-left">39,90</span>
+              <span class="price-value pull-left">34,90</span>
               <div class="price-infos pull-left text-left ">
                 <div class="price-currency">€</div>
                 <div class="price-period">/mois</div>
               </div>
             </div>
           </div>
-          <a href="form.html" class="btn btn-default btn-block" id="total">Je m'assure</a>
+          <a href="#registerForm" data-img="images/contract/total.png" class="btn btn-default btn-block" id="total">En savoir plus</a>
         </div>
       </div>
     </div>

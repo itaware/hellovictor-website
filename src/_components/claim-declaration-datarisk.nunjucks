@@ -77,7 +77,7 @@
         </div>
       </div>
       <div class="link-bottom text-center">
-        <a href="form.html" class="btn btn-default" id="declaration_sinistre-{{page}}">Je m'assure</a>
+        <a href="#registerForm" class="btn btn-default" id="declaration_sinistre-{{page}}">En savoir plus</a>
       </div>
     </div>
   </div>

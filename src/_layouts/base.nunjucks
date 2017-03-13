@@ -16,7 +16,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Hello Victor - l'assurance 100% numérique - #online #chatbot #ia</title>
-  <meta name="description" content="Hello Victor - l'assurance 100% numérique - #online #chatbot #ia" />
+  <meta name="description" content="Hello Victor - l'assurance 100% numérique - en ligne - à la demande - #chatbot #ia" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <meta property="og:url" content="http://hellovictor.fr" />
@@ -57,6 +57,30 @@
       You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
+  
+  <div class="modal fade" id="registerForm" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content contract">
+        <div class="inner">
+          <div class="top">
+            <h2 class="text-center"> 
+                  Offre bientôt disponible !
+            </h2>
+            <h4 class="text-center">
+              <b>Pour être notifié du lancement, inscrivez-vous</b>
+            </h4>
+          </div>
+          <div class="bottom">
+            <div class="contract-img">
+              <img src="images/contract/smartphone.svg" alt="evolutif" class="img-responsive" />
+            </div>
+            {% include "_components/form.nunjucks" %}             
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="main-content">
     <header class="header-site text-center">
       {% block header %}{% endblock %}
@@ -98,11 +122,11 @@
     </div>
   </footer>
 
-  <script src="{{baseUrl}}scripts/main.js"></script>
-  {% block scripts %}{% endblock %}
   {% if not config.offline %}
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
   {% endif %}
+  <script src="{{baseUrl}}scripts/main.js"></script>
+  {% block scripts %}{% endblock %}
 
   {% if not config.offline %}
   <!--Start of Tawk.to Script-->
@@ -119,6 +143,7 @@
   </script>
   <!--End of Tawk.to Script-->
   {% endif %}
+
 </body>
 
 </html>

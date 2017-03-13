@@ -7,12 +7,9 @@
 {% block header %}
   <div class="logo animated bounceIn"><a href="/" id="back-home-form-header"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
   <h2> 
-        Le succès de notre offre nous oblige à limiter les abonnements.
+        Offre bientôt disponible !
   </h2>
-  <h4><b>Inscrivez-vous sur la liste d’attente.</b></h4>
-  <p>        
-     Nous vous contacterons rapidement <br> pour vous proposer de nous rejoindre.
-  </p>
+  <h4><b>Pour être notifié du lancement, inscrivez-vous</b></h4>
 {% endblock %}
 {% block content %}
   {% include "_components/form.nunjucks" %}
