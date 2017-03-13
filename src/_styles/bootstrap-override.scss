@@ -2,7 +2,7 @@
   margin: 20px auto;
   padding: 10px 40px;
   max-width: 100%;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   position: relative;
   border: 0;
@@ -11,6 +11,7 @@
     min-width: 375px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 24px;
   }
   &:before{
     content: "";
