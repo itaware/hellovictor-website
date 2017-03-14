@@ -19,7 +19,8 @@ module.exports = function(gulp, plugins, args, config, taskTarget, browserSync) 
         precision: 10,
         includePaths: [
           path.join(dirs.source, dirs.styles),
-          path.join(dirs.source, dirs.modules)
+          path.join(dirs.source, dirs.modules),
+          'node_modules/bootstrap-sass/assets/stylesheets'
         ]
       }))
       .on('error', function(err) {
