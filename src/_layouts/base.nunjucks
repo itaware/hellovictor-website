@@ -32,6 +32,9 @@
   <meta name="twitter:description" content="couvre tous vos biens et vous rembourse rapidement" />
   <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor.png" />
 
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="{{baseUrl}}styles/main.css" />
   {% block stylesheets %}{% endblock %}
 

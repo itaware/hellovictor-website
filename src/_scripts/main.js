@@ -4,6 +4,9 @@ require('./jquery.counter');
 require('./jquery.scrollme.min');
 require('fancybox')(jQuery);
 require('bootstrap');
+require('bootstrap-material-design');
+
+jQuery.material.init();
 
 var io = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {

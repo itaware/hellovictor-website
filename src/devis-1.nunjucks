@@ -1,0 +1,83 @@
+{% extends '_layouts/form-base.nunjucks' %} {% block content %}
+<div class="navbar navbar-info">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="javascript:void(0)">&lt; Habitation</a>
+    </div>
+  </div>
+</div>
+<div>
+
+</div>
+<div class="row">
+  <div class="col-md-12 text-center">
+    Estimation de votre protection
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-2 text-center">
+    <i class="material-icons">folder</i>
+  </div>
+  <div class="col-xs-10">
+      <div>
+          <div class="radio-inline radio-primary">
+            <label class="radio-inline">
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              Location
+            </label>
+          </div>
+          <div class="radio-inline radio-primary">
+            <label class="radio-inline">
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Propriétaire
+            </label>
+          </div>
+      </div>
+  </div>
+</div>
+<div>
+  <div class="list-group">
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="material-icons">folder</i>
+      </div>
+      <div class="row-content">
+        <div class="least-content">15m</div>
+        <h4 class="list-group-item-heading">Tile with a label</h4>
+
+        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="material-icons">folder</i>
+      </div>
+      <div class="row-content">
+        <div class="least-content">10m</div>
+        <h4 class="list-group-item-heading">Tile with a label</h4>
+
+        <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+    <div class="list-group-item">
+      <div class="row-action-primary">
+        <i class="material-icons">folder</i>
+      </div>
+      <div class="row-content">
+        <div class="least-content">8m</div>
+        <h4 class="list-group-item-heading">Tile with a label</h4>
+
+        <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+      </div>
+    </div>
+    <div class="list-group-separator"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 text-center">
+    voir le détail des garanties &gt;
+  </div>
+</div>
+{% endblock %}

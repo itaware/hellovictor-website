@@ -1,7 +1,9 @@
 // Normalize Styles
 @import 'node_modules/normalize.css/normalize';
 @import 'node_modules/bootstrap/dist/css/bootstrap';
-@import 'src/_styles/iconfont';
+@import 'node_modules/bootstrap-material-design/dist/css/bootstrap-material-design';
+@import 'node_modules/bootstrap-material-design/dist/css/ripples';
+@import 'iconfont';
 @import '_theme_variables';
 @import 'bootstrap-override';
 @import 'mixins';
