@@ -1,10 +1,11 @@
 // Normalize Styles
+@import '_base_variables';
 @import 'node_modules/normalize.css/normalize';
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'node_modules/bootstrap-material-design/sass/bootstrap-material-design';
 @import 'node_modules/bootstrap-material-design/sass/ripples';
-@import 'iconfont';
 @import '_theme_variables';
+@import 'iconfont';
 @import 'bootstrap-override';
 @import 'mixins';
 @import 'common';
@@ -14,12 +15,13 @@
 @import 'parts/contract';
 @import 'parts/insurance-level';
 @import 'parts/inventory';
-@import 'parts/declaration';
+@import 'parts/block-cover';
 @import 'parts/timeline';
 @import 'parts/percentage';
 @import 'parts/product';
 @import 'parts/faq';
 @import 'parts/icon-text';
+@import 'parts/icon-desc';
 @import 'counter';
 @import 'node_modules/fancybox/dist/css/jquery.fancybox';
 //@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Work+Sans:300,400,500,600,700|Raleway:300');
@@ -121,9 +123,6 @@ header.form h3 {
   padding: 0px 10px;
 }
 
-.glyphicon-menu-down {
-  color: white;
-}
 
 // Styling on warning for users on IE7 or below
 .browsehappy {

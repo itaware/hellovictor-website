@@ -185,3 +185,11 @@
     }
   }
 }
+@media(min-width: $screen-sm-min){  
+  .product-item{
+    &.alternate-item{
+      .row > div{height: 550px;}
+
+    }
+  }
+}

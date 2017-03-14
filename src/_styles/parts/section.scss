@@ -1,8 +1,6 @@
 .section{
-  padding: 25px 0 40px 0;
-  +.section{
-    border-top: 1px solid $gallery;
-  }
+  padding: 55px 0 40px 0;
+  border-bottom: 1px solid rgba($dusty-gray, 0.35);
   &.section-gray{
     background-color: $gallery;
   }
@@ -22,24 +20,19 @@
     width: 96px;
   }
   .section-title{
+    margin: 0;
     font-size: 36px;
     text-transform: uppercase;
-    &.blue-title{
-      color: $jordy-blue;
-      font-size: 30px;
-      font-weight: 500;
-    }
-    &.small-title{
-      line-height: 1.3;
-      font-size: 18px;
-      font-weight: 400;
+    small{
+      font-size: 0.75em;
+      color: inherit;
     }
   }
   .section-text{
     font-size: 24px;
     text-align: justify;
-    p{
-      margin-bottom: 30px;
+    p+p{
+      margin-top: 30px;
     }
   }
   .text-heading{
@@ -64,15 +57,10 @@
         margin-top: 25px;
       }
     }
-    .link-bottom{
-      text-align: center;
-    }
   }
   .section-content{
     padding: 0;
-
-    .link-bottom{
-      padding: 30px 0 0;
-    }
+    font-size: 24px;
+    color: $dove-gray;
   }
 }

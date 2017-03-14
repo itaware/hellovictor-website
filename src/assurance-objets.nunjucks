@@ -11,5 +11,129 @@
 
 {% endblock %}
 {% block content %}
-
+<div class="section text-center">
+  <div class="container">
+    <div class="row">
+      <h2 class="section-title">Nous assurons vos objets</h2>
+      <div class="dash dash-center"></div>
+      <div class="section-text">
+        Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions. apitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+      </div>
+      <div class="link-bottom text-center">
+        <span class="glyphicon glyphicon-menu-down"></span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section no-padding product-item alternate-item container-fluid">
+  <div class="row">
+    <div class="block-img col-xs-12 col-sm-6 container-cover">
+        <div class="cover">
+          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+        </div>
+        <div class="icon-desc text-center cover-content">
+          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
+          <div class="dash dash-center"></div>
+          <h3 class="icon-desc-title">Appareils numériques</h3>
+          <div class="icon-desc-desc">Vol, casse, combusion</div>
+          <div class="icon-desc-price">
+            <div class="price-condition">à partir de</div>
+            <div class="price-value">7,90</div>
+            <div class="price-infos text-left">
+              <div class="text-sup currency">€</div>
+              <div class="periodicity">/mois</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 block-text valign-top">
+      <h4 class="block-text-title">L'ensemble des smartphones, ordinateurs, tablettes et consoles de jeu de la famille</h4>
+      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <div class="text-center">
+        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="block-img col-xs-12 col-sm-6 container-cover">
+        <div class="cover">
+          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+        </div>
+        <div class="icon-desc text-center cover-content">
+          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
+          <div class="dash dash-center"></div>
+          <h3 class="icon-desc-title">Matériel de loisir</h3>
+          <div class="icon-desc-desc">Vol, dégradation</div>
+          <div class="icon-desc-price">
+            <div class="price-condition">à partir de</div>
+            <div class="price-value">9,90</div>
+            <div class="price-infos text-left">
+              <div class="text-sup currency">€</div>
+              <div class="periodicity">/mois</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 block-text valign-top">
+      <h4 class="block-text-title">L'ensemble des équipements <br/> sportifs de la famille, pour le loisir et la compétion.</h4>
+      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <div class="text-center">
+        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="block-img col-xs-12 col-sm-6 container-cover">
+        <div class="cover">
+          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+        </div>
+        <div class="icon-desc text-center cover-content">
+          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>
+          <div class="dash dash-center"></div>
+          <h3 class="icon-desc-title">Objets précieux</h3>
+          <div class="icon-desc-desc">Vol, casse</div>
+          <div class="icon-desc-price">
+            <div class="price-condition">à partir de</div>
+            <div class="price-value">10,50</div>
+            <div class="price-infos text-left">
+              <div class="text-sup currency">€</div>
+              <div class="periodicity">/mois</div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 block-text valign-top">
+      <h4 class="block-text-title">Vos objets précieux, montres, bijoux, vêtements, ...</h4>
+      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <div class="text-center">
+        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-sm-5">
+      <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
+    </div>
+    <div class="col-xs-12 col-sm-7">
+      <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
+      <div class="dash"></div>
+      <div class="section-content">
+        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="link-bottom text-center">
+  <span class="glyphicon glyphicon-menu-down"></span>
+</div>
+</div>
+{% include '_components/claim-declaration.nunjucks' %}
+{% include '_components/transfer.nunjucks'%}
+{% include '_components/share.nunjucks' %}
 {% endblock %}

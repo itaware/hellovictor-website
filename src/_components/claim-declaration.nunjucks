@@ -1,44 +1,30 @@
-<section class="section section-claim-declaration">
-  <header class="section-header">
-    <h2 class="section-title">Faites-vous rembourser rapidement</h2>
-    <div class="text-heading">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé <img src="images/piggy-bank.svg" style="height: 20px;"> de suite.</div>
+<section class="block-cover block-declaration">
+  <header class="block-cover-header text-center">
+    <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
   </header>
-  <div class="section-content">
-    <div class="declaration-step step-declare" data-print="true" id="declaration-chat-{{page}}">
-      <div class="declaration-step-container align-items middle">
-        <div class="align-item declaration-step-header col-xs-12 col-sm-5">
-          <div class="declaration-step-title">Déclaration de sinistre</div>
-          <div class="declaration-step-subtitle">Par messagerie en moins de 2 mn</div>
+  <div class="block-valign-container block-cover-content section-content">
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
+          <div class="block-cover-content-subtitle">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
         </div>
-        <div class="align-item col-xs-12 col-sm-4">
-          <div class="talk clearfix">
-            <div class="message message-empty"></div>
-            <div class="message person-1">Bonjour Mathilde <br/> comment puis-je vous aider ? </div>
-            <div class="message person-2">On m'a volé mon portable !  </div>
-            <div class="message person-1">Où et quand cela <br>s'est-il passé ? </div>
-            <div class="message person-2">Hier, dans ma voiture Avenue<br/> des Champs Elysés</div>
-            <div class="message person-1">Ne vous inquiètez pas, on s'en<br/> occupe dès aujourd'hui !</div>
-            <div class="message message-empty">...</div>
+        <div class="block-valign middle" data-print="true" id="declaration-chat-{{page}}">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-5">
+                <div class="declaration-step-title">Déclaration de sinistre</div>
+                <div class="declaration-step-subtitle">Par messagerie en <strong>moins de 2 mn</strong></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="separator-check">
-      <div class="container">
-        <div class="check"><i class="icon icon-check"></i></div>
-        <div class="check"><i class="icon icon-check"></i></div>
-        <div class="check"><i class="icon icon-check"></i></div>
-        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
-        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
-        <div class="check"><i class="icon icon-check"></i></div>
-        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
-        <div class="check"><i class="icon icon-check"></i></div>
-        <div class="check hidden-xs"><i class="icon icon-check"></i></div>
-      </div>
-    </div>
+  </div>
+</section>
+<section class="section ">
     <div class="declaration-step step-payment" data-print="true" id="declaration-paiement-{{page}}">
-      <div class="houses-front houses"></div>
-      <div class="houses-back houses"></div>
       <div class="declaration-step-container align-items middle">
         <div class="align-item declaration-step-header col-xs-12 col-sm-4">
           <div class="declaration-step-title">Remboursé aussitôt</div>
@@ -52,9 +38,9 @@
               <img src="images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive" />
             </div>
         </div>
-        <div class="align-item col-xs-12 col-sm-4 declaration-process">
+        <div class="align-item col-xs-12 col-sm-4 process">
           <div class="bubble-item">...</div>
-          <ul class="declaration-instructions">
+          <ul class="list-instructions">
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
               Déclarez par chat ce qu'on vous a volé ou ce qui est déterioré

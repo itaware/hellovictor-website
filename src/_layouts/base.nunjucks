@@ -162,6 +162,9 @@
             </div>
           </div>
         </div>
+        <div class="link-bottom text-center">
+          <span class="glyphicon glyphicon-menu-down"></span>
+        </div>
       </div>
     </div>
     {% block content %}{% endblock %}

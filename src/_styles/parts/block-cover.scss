@@ -1,0 +1,98 @@
+
+.block-cover{
+  &-content{
+    min-height: 100vh;
+    background: no-repeat center center;
+    background-size: cover;
+    &-title{font-size: 36px;}
+    &-subtitle{font-size: 20px;}
+  }
+  &.block-declaration{
+    .block-cover-content{
+      background-image: url(../images/product/objets/chat-habitation.jpg);
+    }
+  }
+}
+.talk{
+  max-width: 320px;
+  margin: auto;
+  .message{
+    margin: 10px 0;
+    padding: 12px;
+    min-height: 50px;
+    min-width: 280px;
+    font-size: 18px;
+    clear: both;
+    &.message-empty{
+      @extend .person-2;
+      opacity: 0.25;
+    }
+    &.person-1{
+      float: left;
+      background: #fff;
+      border-radius: 15px 15px 15px 0;
+    }
+    &.person-2{
+      float:right;
+      background: $jordy-blue;
+      border-radius: 15px 15px 0 15px;
+    }
+
+  }
+}
+.process{
+  vertical-align: top !important;
+  margin-top: 10%;
+  @media(max-width: $screen-xs-max){
+    margin-top: 0;
+  }
+}
+.list-instructions{
+  padding: 0 0 0 22px;
+  li{
+    position: relative;
+    padding-top: 2px;
+    padding-left: 45px;
+    padding-bottom: 30px;
+    list-style: none;
+    font-size: 18px;
+    &:after{
+      content: "";
+      display:block;
+      left: ($check-size / 2) - 1;
+      top: 0;
+      width: 0;
+      height: 100%;
+      position: absolute;
+      border: 1px dashed #fff;
+    }
+    &:last-child{
+      &:after{content: none;}
+    }
+    .check{
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 10;
+      background-color:  $atlantis;
+    }
+  }
+}
+
+.houses{
+  position: absolute;
+  top:0;
+  right: 0;
+  height: 240px;
+  left: 0;
+  background: center bottom repeat-x;
+  &.houses-front{
+    background-color: $tropical-blue;
+    background-image: url(../images/declaration/house1.svg);
+
+  }
+  &.houses-back{
+    background-image: url(../images/declaration/house2.svg);
+
+  }
+}
