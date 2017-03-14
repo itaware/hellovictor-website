@@ -37,3 +37,18 @@
     }
   }
 }
+
+@mixin valign($pos: 'middle'){
+  font-size: 0;
+  > * {
+    display:inline-block;
+    float:none;
+    font-size: initial;
+    @if($pos == 'middle'){
+      vertical-align: middle;
+    }
+  }
+}
+.valign-middle{
+  @include valign('middle');
+}

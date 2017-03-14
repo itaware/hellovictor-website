@@ -86,25 +86,33 @@
       }
     }
     .slogan {
-      font-size: 26px;
+      font-size: 64px;
     }
     &-inner{
+      margin: 5vh auto;
       display: inline-block;
       line-height: 1;
-    }
-    &-inner{
-      vertical-align: middle;
+      vertical-align: bottom;
     }
     &-top{
-      margin: 0 auto 25vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right:0;
     }
+    @media(min-width: $screen-sm-min){
+      &-top{
+        margin: 0 auto 25vh;
+      }
+    }
+
     .glyphicon{
-      font-size: 22px;
+      font-size: 14px;
     }
   }
   &.product-objects{
     .header-site{
-      background-image: url(../images/product-type/product-object.jpg);
+      background-image: url(../images/product-type/objets.jpg);
     }
   }
   &.product-house{
@@ -115,6 +123,22 @@
   &.product-digital{
     .header-site{
       background-image: url(../images/product-type/product-digital.jpg);
+    }
+  }
+  .content-top{
+    padding: 40px 15px;
+    background: $shakespeare;
+    color:#fff;
+    .page-title{
+      margin: 0 0 35px;
+      font-size: 44px;
+      font-weight: 300;
+      text-transform: uppercase;
+      .subtitle{
+        margin-top: 15px;
+        display:block;
+        font-size: 24px;
+      }
     }
   }
 }

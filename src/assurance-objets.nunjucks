@@ -1,0 +1,15 @@
+{% extends '_layouts/base.nunjucks' %}
+{% block config %}
+{# Setup site's base URL to match the "baseUrl" key within `package.json` #}
+{# Otherwise default to relative pathing #}
+{% set bodyClass = 'product-page product-objects' %}
+{% set page = 'objets' %}
+{% set slogan = "L'assurance 100% NUMÉRIQUE" %}
+{% set pageTitle = "" %}
+{% endblock %}
+{% block header %}
+
+{% endblock %}
+{% block content %}
+
+{% endblock %}

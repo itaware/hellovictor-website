@@ -15,7 +15,7 @@
 <div class="header-site-bottom">
   <div class="container-object">
       <div class="object-item">
-        <img src="{{baseUrl}}images/product-type/OBJETS-lh.svg" />
+        <img src="{{baseUrl}}images/product-type/OBJETS-lh.svg" class="center-block img-responsive" />
       </div>
       <div class="object-name">
         <a href="#detail" class="btn btn-default" id="assure-objets">Assurez vos objets</a>

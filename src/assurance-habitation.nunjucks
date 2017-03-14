@@ -15,7 +15,7 @@
 <div class="header-site-bottom">
   <div class="container-object">
       <div class="object-item">
-        <img src="{{baseUrl}}images/product-type/house.svg" alt="Maison" />
+        <img src="{{baseUrl}}images/product-type/house.svg" alt="Maison" class="center-block img-responsive" />
       </div>
       <div class="object-name">
         <a href="#detail" class="btn btn-default" id="assure-habitation">Assurez votre habitation</a>

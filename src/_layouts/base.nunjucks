@@ -57,13 +57,13 @@
       You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
-  
+
   <div class="modal fade" id="registerForm" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content contract">
         <div class="inner">
           <div class="top">
-            <h2 class="text-center"> 
+            <h2 class="text-center">
                   Offre bientôt disponible !
             </h2>
             <h4 class="text-center">
@@ -74,7 +74,7 @@
             <div class="contract-img">
               <img src="images/contract/smartphone.svg" alt="evolutif" class="img-responsive" />
             </div>
-            {% include "_components/form.nunjucks" %}             
+            {% include "_components/form.nunjucks" %}
           </div>
         </div>
       </div>
@@ -83,8 +83,84 @@
 
   <div class="main-content">
     <header class="header-site text-center">
+        <div class="header-site-inner">
+        <div class="header-site-top">
+          <div class="logo animated bounceIn"><a href="/" id="back-home-habitation-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+        </div>
+        <div class="header-site-bottom">
+          <div class="slogan">{{slogan}}</div>
+          <div>
+          <a class="link-video" href="#">
+            <span class="glyphicon glyphicon-play"></span>
+            <span class="center-block video-text">Voir la vidéo</span>
+          </a>
+          </div>
+          <div>
+          <a class="btn-down" href="#detail">
+            <span class="glyphicon glyphicon-menu-down"></span>
+          </a>
+          </div>
+        </div>
+        </div>
       {% block header %}{% endblock %}
     </header>
+    <div class="content-top text-center">
+      <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
+      <div class="container list-icon-text">
+        <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
+          <a href="#">
+          <div class="img"><img src="images/product-type/objets-courants.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="list-text">
+            Objets
+            {% if page == 'objets' %}
+              <div class="glyphicon glyphicon-menu-down"></div>
+            {% endif %}
+          </div>
+          </a>
+        </div>
+        <div class="icon-text-item col-xs-12 col-sm-4">
+          <a href="#">
+            <div class="img"><img src="images/product-type/habitation.svg" alt="Habitation" class="img-responsive center-block" /></div>
+            <div class="list-text">
+              Habitation
+              {% if page == 'habitation' %}
+                <div class="glyphicon glyphicon-menu-down"></div>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+        <div class="icon-text-item col-xs-12 col-sm-4">
+          <a href="#">
+            <div class="img"><img src="images/product-type/sante.svg" alt="Santé" class="img-responsive center-block" /></div>
+            <div class="list-text">
+              Santé
+              {% if page == 'sante' %}
+                <div class="glyphicon glyphicon-menu-down"></div>
+              {% endif %}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="section section-gray section-hello">
+      <div class="container">
+        <div class="row valign-middle">
+          <div class="col-xs-12 col-sm-5">
+            <img src="images/hello.svg" alt="Hello" class="img-responsive center-block " />
+          </div>
+          <div class="col-xs-12 col-sm-7">
+            <h2 class="section-title">
+              &Agrave; propos de nous
+            </h2>
+            <div class="dash"></div>
+            <div class="section-text">
+              <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+              <p>Going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     {% block content %}{% endblock %}
   </div>
   <footer class="footer-site clearfix">
