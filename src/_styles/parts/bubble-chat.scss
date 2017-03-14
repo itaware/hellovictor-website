@@ -1,0 +1,53 @@
+.bubble-chat{
+  padding: 20px $bubble-chat-pointer-width;
+  &-container{
+    &:nth-child(odd){
+      .bubble-chat-item{
+        padding-left: 5px;
+        border-radius: 0 $bubble-chat-pointer-radius $bubble-chat-pointer-radius 0;
+        &:before{
+          left: -$bubble-chat-pointer-width + 1;
+        }
+      }
+    }
+    &:nth-child(even){
+      text-align: right;
+      .bubble-chat-item{
+        padding-right: 5px;
+        border-radius: $bubble-chat-pointer-radius  0 0 $bubble-chat-pointer-radius;
+        &:before{
+          transform: rotatey(180deg);
+          right: -$bubble-chat-pointer-width + 1;
+        }
+      }
+    }
+  }
+  &-item{
+    position: relative;
+    display:inline-block;
+    margin-bottom: -10px;
+    padding: 15px 28px;
+    background: rgba($hint-of-red, 0.5);
+
+    text-align: center;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: $bubble-chat-pointer-width;
+      background: url(../images/bubble-pointer.svg) no-repeat right center;
+      background-size: auto 100%;
+    }
+  }
+}
+  .social-icon{
+    padding: 10px 0;
+    white-space: nowrap;
+    img{
+      display:block;
+      margin: 0 2px;
+      float: left;
+      width: 26px;
+    }
+}
