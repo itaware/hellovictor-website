@@ -15,7 +15,7 @@
 <div class="section text-center">
   <div class="container">
     <div class="row">
-      <h2 class="section-title">Nous assurons votre logement</h2>
+      <h2 class="section-title">Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.</h2>
       <div class="dash dash-center"></div>
       <div class="section-text">
         <p>Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.
@@ -44,7 +44,7 @@
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover block-anim">
           <div class="anim-zoom">
-            <img src="{{baseUrl}}images/product/habitation/studio.png" alt="Appareils numériques" />
+            <img src="{{baseUrl}}images/product/habitation/studio.png" alt="Studio" />
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
@@ -86,7 +86,7 @@
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/appartement-icon.png" alt="Vélo" /></div>
+          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/appartement-icon.png" alt="Appartement" /></div>
           <div class="dash dash-center"></div>
           <h3 class="icon-desc-title">Appartement</h3>
           <div class="icon-desc-desc">Au fil de vos acquisitions</div>

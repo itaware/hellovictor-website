@@ -145,7 +145,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="#registerForm" class="btn btn-raised btn-default btn-lg" id="declaration_sinistre-{{page}}">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-raised btn-default btn-lg btn-raised" id="declaration_sinistre-{{page}}">En savoir plus</a>
       </div>
       <div class="link-bottom text-center">
         <div class="glyphicon glyphicon-menu-down"></div>

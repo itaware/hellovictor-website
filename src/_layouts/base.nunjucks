@@ -120,7 +120,7 @@
           </a>
         </div>
         <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
-          <a href="assurance-habitation.html">
+          <a href="assurance-habitation.html#content">
             <div class="img col-xs-8 col-sm-12"><div class="center-block"><img src="images/picto/maison.svg" alt="Habitation" class="img-responsive center-block" /></div></div>
             <div class="list-text">
               Habitation

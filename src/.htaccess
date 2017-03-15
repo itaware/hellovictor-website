@@ -1,6 +1,6 @@
 ErrorDocument 404 /index.html
-Redirect 301 /assurance-biens-on-demand.html http://hellovictor.fr
-Redirect 301 /assurance-habitation.html http://hellovictor.fr
+#Redirect 301 /assurance-biens-on-demand.html http://hellovictor.fr
+#Redirect 301 /assurance-habitation.html http://hellovictor.fr
 
 
 # MOD_DEFLATE COMPRESSION
