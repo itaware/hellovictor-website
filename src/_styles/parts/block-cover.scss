@@ -2,15 +2,25 @@
 .block-cover{
   &-content{
     min-height: 100vh;
+    padding: 15px 40px;
     background: no-repeat center center;
     background-size: cover;
+    &-inner{
+      position: relative;
+      height: 100%;
+    }
     &-title{font-size: 22px;}
     &-subtitle{font-size: 16px;}
-  }
-  &.block-declaration{
-    .block-cover-content{
-      background-image: url(../images/product/objets/chat-habitation.jpg);
+    &-desc{
+      font-size: $text-md;
+      text-align: justify;
     }
+  }
+  .block-declaration{
+    background-image: url(../images/product/objets/chat-habitation.jpg);
+  }
+  .block-inventaire{
+    background-image: url(../images/product/objets/app-mobile.jpg);
   }
   @media(min-width: $screen-sm-min){
     &-content{

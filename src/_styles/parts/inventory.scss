@@ -1,15 +1,14 @@
-.container-inventory{
+.step{
   padding: 0;
 }
-.inventory-step{
+.step-item{
   margin: 30px 0;
   &-number{
-
   }
   &-preview{
     padding: 0;
   }
-  &-instructions{
+  &-text{
     padding: 10px;
     line-height: 1.25;
     font-weight: 400;
@@ -20,7 +19,7 @@
   width: 68px;
   height: 78px;
   margin-bottom: 20px;
-  background: url(../images/inventory/bubble.svg) center center no-repeat;
+  background: url(../images/bulle.svg) center center no-repeat;
   background-size: contain;
   line-height: 60px;
   font-size: 52px;

@@ -66,8 +66,9 @@
 @mixin block-valign(){
   position: absolute;
   top: 50%;
-  left: 0;
-  right: 0;
+  left: 40px;
+  right: 40px;
+  @include clearfix;
 }
 @mixin block-valign-pos($align: 'middle'){
   @if($align == 'middle'){
@@ -75,7 +76,7 @@
   }
 }
 @media(min-width: $screen-sm-max){
-    
+
   .block-valign-container{
     position: relative;
   }

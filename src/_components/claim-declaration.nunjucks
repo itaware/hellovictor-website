@@ -1,11 +1,57 @@
-<section class="block-cover block-declaration">
+<section class="block-cover ">
   <header class="block-cover-header text-center">
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
   </header>
-  <div class="block-valign-container block-cover-content section-content">
+  <div class="text-white  block-cover-content block-inventaire">
+      <div class="">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-7">
+          <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
+          <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
+          <div class="steps">
+            <div class="step-item col-xs-6 col-sm-6">
+              <div class="bubble-item step-item-number">1</div>
+              <div class="step-item-preview col-xs-4">
+                <img src="images/step/phone-1.png" alt="étape 1" class="img-responsive">
+              </div>
+              <div class="step-item-text col-xs-8">
+                Lancer l'application Hello Victor sur votre smartphone
+              </div>
+            </div>
+            <div class="step-item col-xs-6 col-sm-6">
+              <div class="bubble-item step-item-number">2</div>
+              <div class="step-item-preview col-xs-4">
+                <img src="images/step/phone-2.png" alt="étape 2" class="img-responsive">
+              </div>
+              <div class="step-item-text col-xs-8">
+                Cadrez l'objet à ajouter à votre inventaire
+              </div>
+            </div>
+            <div class="step-item col-xs-6 col-sm-6">
+              <div class="bubble-item step-item-number">3</div>
+              <div class="step-item-preview col-xs-4">
+                <img src="images/step/phone-3.png" alt="étape 3" class="img-responsive">
+              </div>
+              <div class="step-item-text col-xs-8">
+                L'application reconnait l'objet vous avez juste à valider
+              </div>
+            </div>
+            <div class="step-item col-xs-6 col-sm-6">
+              <div class="bubble-item step-item-number">3</div>
+              <div class="step-item-preview col-xs-4">
+                <img src="images/step/phone-4.png" alt="étape 4" class="img-responsive">
+              </div>
+              <div class="step-item-text col-xs-8">
+                Ajouter éventuellement une description et une pièce jointe (facture, expertise) <strong>et voila ! </strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
       <div class="row">
-        <div class="block-cover-header text-center">
+        <div class="text-center">
           <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
           <div class="block-cover-content-subtitle">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
         </div>
@@ -52,8 +98,10 @@
           <div class="text-lg"><strong>Hello victor vous <br/>rembourse rapidement !</strong></div>
         </div>
         <div class="scrollme align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
+            <img class="sticker"src="{{baseUrl}}/images/billet.png" alt="billet" />
+
             <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">
-              <img src="images/declaration/Smartphone-TOP.png" alt="Validation" class="img-responsive animateme"/>
+              <img src="images/declaration/smartphone-top.png" alt="Validation" class="img-responsive animateme"/>
             </div>
             <div class="animateme col-xs-7 no-padding element-2 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="500">
               <img src="images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive" />

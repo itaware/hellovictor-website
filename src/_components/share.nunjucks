@@ -1,5 +1,7 @@
-<section class="section container" id="share-{{page}}">
-  <header class="section-header">
+<section class="section section-gray" id="share-{{page}}">
+  <div class="container">
+    <div class="row">
+        <header class="section-header">
     <h2 class="section-title">
       <img src="/images/happy.svg" alt="" style="height: 20px;">
       <br>
@@ -25,5 +27,7 @@
         target="_blank" id="partage_mail">
       <img src="/images/email.svg" alt="" style="height: 30px">
     </a>
+  </div>
+  </div>
   </div>
 </section>

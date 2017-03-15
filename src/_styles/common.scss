@@ -1,17 +1,22 @@
 .text-bold {
-  font-weight: 400;
+  font-weight: 500;
 }
 .text-light {
   font-weight: 300;
 }
-.text-lg{
-  font-size: 28px;
+.text-sm, .text-md, .text-lg{
   line-height: 1.1;
+}
+.text-sm{
+  font-size: $text-sm;
 }
 .text-md{
-  font-size: 20px;
-  line-height: 1.1;
+  font-size: $text-md;
 }
+.text-lg{
+  font-size: $text-lg;
+}
+.text-white{color:#fff;}
 .link{
   font-size: 22px;
   color: $main-color;
@@ -247,4 +252,11 @@ $max-element : 4;
   bottom: 0;
   left: 0;
   background: rgba(255,255,255,0.7);
+}
+
+.sticker{
+  position: absolute;
+  top: 50%;
+  transform: translate(-90%, -70%);
+  max-width: 90px;
 }
