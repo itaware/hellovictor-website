@@ -10,6 +10,7 @@
     "gulp-iconfont-css": "^2.1.0",
     "jquery": "^2.2.4",
     "normalize.css": "~3.0.3",
+    "nouislider": "^9.2.0",
     "scrollme": "^0.1.1"
   },
   "devDependencies": {

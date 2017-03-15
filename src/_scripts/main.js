@@ -2,11 +2,21 @@
 global.jQuery = require('jquery');
 require('./jquery.counter');
 require('./jquery.scrollme.min');
+var noui = require('nouislider');
 require('fancybox')(jQuery);
 require('bootstrap');
 require('bootstrap-material-design');
 
 jQuery.material.init();
+
+noui.create(document.getElementById('room-number-slider'), {
+    start: 40,
+    connect: "lower",
+    range: {
+        min: 0,
+        max: 100
+    }
+  });
 
 var io = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
@@ -81,4 +91,5 @@ jQuery(document).ready(function ($) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
   }
+
 });

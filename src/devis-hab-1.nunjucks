@@ -10,15 +10,13 @@
 
 </div>
 <div class="row">
-  <div class="col-md-12 text-center">
-    Estimation de votre protection
+  <div class="col-md-4">
+    C'est parti !
+    Votre devis en 3mn
+    <br>  
+    Vous êtes ?
   </div>
-</div>
-<div class="row">
-  <div class="col-xs-2 text-center">
-    <i class="material-icons">folder</i>
-  </div>
-  <div class="col-xs-10">
+  <div class="col-md-8">
       <div>
           <div class="radio-inline radio-primary">
             <label class="radio-inline">
@@ -35,29 +33,40 @@
       </div>
   </div>
 </div>
-<div>
-  <div class="list-group">
+<div class="row">
+  <div class="col-md-4">
+    Combien de pièces ?
+  </div>
+  <div class="col-md-8">
+    <div class="slider shor" id="room-number-slider"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    Approximativement quelle valeur pour votre mobilier ?
+  </div>
+  <div class="col-md-8">
+    <div class="slider shor" id="flat-value"></div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    Avec quelles conditions ?
+  </div>
+  <div class="list-group col-md-8">
     <div class="list-group-item">
       <div class="row-action-primary">
-        <i class="material-icons">folder</i>
+        <img src="images/devis/condition.svg" alt="">
       </div>
       <div class="row-content">
-        <div class="least-content">15m</div>
-        <h4 class="list-group-item-heading">Tile with a label</h4>
-
-        <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus.</p>
-      </div>
-    </div>
-    <div class="list-group-separator"></div>
-    <div class="list-group-item">
-      <div class="row-action-primary">
-        <i class="material-icons">folder</i>
-      </div>
-      <div class="row-content">
-        <div class="least-content">10m</div>
-        <h4 class="list-group-item-heading">Tile with a label</h4>
-
-        <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+        <div class="least-content">+0,50€</div>
+        <h4 class="list-group-item-heading">Remplacement à neuf</h4>
+        <p class="list-group-item-text">Suite à un sinistre garanti (vol, incendie, dégât des eaux…), vos biens électroménagers, audiovisuels et informatiques de moins de 5 ans sont remboursés à leur valeur de remplacement à neuf sans application de vétusté.</p>
+        <div class="togglebutton">
+          <label>
+            <input type="checkbox" checked=""> Toggle button
+          </label>
+        </div>
       </div>
     </div>
     <div class="list-group-separator"></div>
