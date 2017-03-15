@@ -98,11 +98,9 @@
             <span class="center-block video-text">Voir la vidéo</span>
           </a>
           </div>
-          <div>
           <a class="btn-down" href="#detail">
             <span class="glyphicon glyphicon-menu-down"></span>
           </a>
-          </div>
         </div>
         </div>
       {% block header %}{% endblock %}

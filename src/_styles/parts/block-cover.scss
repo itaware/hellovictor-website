@@ -1,6 +1,7 @@
 
 .block-cover{
   &-content{
+    position: relative;
     min-height: 100vh;
     padding: 15px 40px;
     background: no-repeat center center;

@@ -1,3 +1,6 @@
+section, .section{
+  position: relative;
+}
 .section{
   padding: 55px 0 40px 0;
   border-bottom: 1px solid rgba($dusty-gray, 0.35);
@@ -29,7 +32,7 @@
     }
   }
   .section-text{
-    font-size: 24px;
+    font-size: $text-md;
     text-align: justify;
     p+p{
       margin-top: 30px;
@@ -60,7 +63,7 @@
   }
   .section-content{
     padding: 0;
-    font-size: 24px;
+    font-size: $text-md;
     color: $dove-gray;
   }
 }

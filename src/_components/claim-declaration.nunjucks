@@ -1,9 +1,9 @@
-<section class="block-cover ">
+<section class="block-cover">
   <header class="block-cover-header text-center">
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
   </header>
-  <div class="text-white  block-cover-content block-inventaire">
-      <div class="">
+  <div class="container-fluid text-white block-cover-content block-inventaire">
+      <div class="row">
         <div class="col-xs-12 col-sm-5 col-sm-offset-7">
           <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
           <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
@@ -47,6 +47,9 @@
           </div>
         </div>
       </div>
+      <div class="link-bottom">
+        <span class="glyphicon glyphicon-menu-down"></span>
+      </div>
   </div>
   <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
@@ -86,6 +89,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="link-bottom">
+        <span class="glyphicon glyphicon-menu-down"></span>
       </div>
     </div>
   </div>
@@ -130,7 +136,7 @@
           </ul>
         </div>
       </div>
-      <div class="link-bottom text-center">
+      <div class="text-center">
         <a href="#registerForm" class="btn btn-raised btn-default btn-lg" id="declaration_sinistre-{{page}}">En savoir plus</a>
       </div>
       <div class="link-bottom text-center">

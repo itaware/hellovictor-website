@@ -36,7 +36,7 @@
         <br><br>
         Dorénavant assurez vous en quelques minutes et payez le juste prix au travers d’une offre claire.
         <br><br>
-        En cas de sinistre ne perdez plus des heures au téléphone déclarez le en ligne 24h/24 7j/7 via votre messagerie préférée (Messenger, Kik, ...) et soyez remboursé rapidement. 
+        En cas de sinistre ne perdez plus des heures au téléphone déclarez le en ligne 24h/24 7j/7 via votre messagerie préférée (Messenger, Kik, ...) et soyez remboursé rapidement.
       </div>
       <div class="link-bottom text-center">
         <span class="glyphicon glyphicon-menu-down"></span>
@@ -151,9 +151,9 @@
       </div>
     </div>
   </div>
-</div>
-<div class="link-bottom text-center">
-  <span class="glyphicon glyphicon-menu-down"></span>
+  <div class="link-bottom text-center">
+    <span class="glyphicon glyphicon-menu-down"></span>
+  </div>
 </div>
 </div>
 {% include '_components/claim-declaration.nunjucks' %}

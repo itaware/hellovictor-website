@@ -36,8 +36,15 @@
   }
 }
 .link-bottom{
-  padding-top: 30px;
-  color: $silver;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  a{
+    color: inherit;
+  }
 }
 .no-padding{
   padding: 0 !important;
@@ -176,11 +183,12 @@ $max-element : 4;
 .block-text{
   padding: 25px 40px;
   &-title{
+    font-size: $text-lg;
     margin-bottom: 40px;
   }
 
   p{
-    font-size: 18px;
+    font-size: $text-md;
     color:$tundora;
     text-align: justify;
   }
