@@ -1,5 +1,6 @@
 // Normalize Styles
 @import '_base_variables';
+@import 'twemoji-awesome';
 @import 'node_modules/normalize.css/normalize';
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'node_modules/bootstrap-material-design/sass/bootstrap-material-design';
@@ -20,9 +21,10 @@
 @import 'parts/percentage';
 @import 'parts/product';
 @import 'parts/faq';
-@import 'parts/icon-text';
 @import 'parts/icon-desc';
 @import 'parts/bubble-chat';
+@import 'parts/icon-text';
+@import 'parts/object';
 @import 'counter';
 @import 'node_modules/fancybox/dist/css/jquery.fancybox';
 //@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Work+Sans:300,400,500,600,700|Raleway:300');

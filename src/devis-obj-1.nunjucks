@@ -1,0 +1,143 @@
+{% extends '_layouts/form-base.nunjucks' %}
+{% block content %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <img src="{{baseUrl}}images/picto/arrow-left.svg" alt="Retour"/>
+      </a>
+      <span class="panel-heading-title text-md">
+        <strong>Appareils numérique</strong>
+      </span>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-xs-12 col-md-4">
+      <div class="row">
+        <div class="text-lg">
+          Hello victor une assurance super facile à utliser !
+          <br/>
+          <span class="text-md twa twa-ok-hand"></span>
+          <span class="text-md twa twa-wink"></span>
+          <br/>
+          Vous n'auriez pas un Samsung S8 à assurer ?
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8">
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <div class="row">
+          <div class="object-preview container-fluid">
+            <div class="row">
+              <div class="col-xs-4">
+                <div class="row">
+                  <img src="{{baseUrl}}images/form/samsung-s8.jpg" alt="Samsung S8" class="img-responsive" />
+                </div>
+              </div>
+              <div class="col-xs-8">
+                <div class="object-preview-title text-lg text-bold text-uppercase">Samsung S8</div>
+                <p class="text-info text-xs">Téléphone portable - Objet nomade</p>
+                <div class="object-preview-price">
+                  <div>A partir de</div>
+                  <span class="text-lg price-value"><strong>4,90</strong></span>
+                  <span class="text-top">€/mois</span>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-info btn-fab text-lg"><i class="material-icons">add</i></a>
+                </div>
+              </div></div>
+            </div>
+          </div>
+          <div class="row">
+          <div class="text-center text-md">Vous pouvez aussi choisir d'ajouter</div>
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="text-md text-bold">Ordinateur portable</div>
+                      <div class="text-info text-xs">Ordinateur portable - Objet nomade</div>
+                      <div class="object-preview-price">
+                        <div>A partir de</div>
+                        <span class="text-lg price-value"><strong>4,90</strong></span>
+                        <span class="text-top">€/mois</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <a class="btn btn-xs btn-info"><i class="material-icons text-lg">add</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="text-md text-bold">Smartphone</div>
+                      <div class="text-info text-xs">Smartphone - Objet nomade</div>
+                      <div class="object-preview-price">
+                        <div>A partir de</div>
+                        <span class="text-lg price-value"><strong>4,90</strong></span>
+                        <span class="text-top">€/mois</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <a class="btn btn-xs btn-info"><i class="material-icons text-lg">add</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="text-md text-bold">Tablette</div>
+                      <div class="text-info text-xs">Tablette - Objet nomade</div>
+                      <div class="object-preview-price">
+                        <div>A partir de</div>
+                        <span class="text-lg price-value"><strong>4,90</strong></span>
+                        <span class="text-top">€/mois</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <a class="btn btn-xs btn-info"><i class="material-icons text-lg">add</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left text-center">
+                    <div class="row-content">
+                      <div class="text-md text-bold">Autre appareils numériques</div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <a class="btn btn-xs btn-info"><i class="material-icons text-lg">add</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

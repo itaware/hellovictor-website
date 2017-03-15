@@ -7,6 +7,9 @@
 .text-sm, .text-md, .text-lg{
   line-height: 1.1;
 }
+.text-xs{
+  font-size: $text-xs;
+}
 .text-sm{
   font-size: $text-sm;
 }
@@ -15,6 +18,9 @@
 }
 .text-lg{
   font-size: $text-lg;
+}
+.text-top{
+  vertical-align: top;
 }
 .text-white{color:#fff;}
 .link{
@@ -185,6 +191,8 @@ $max-element : 4;
   &-title{
     font-size: $text-lg;
     margin-bottom: 40px;
+    font-weight: 400;
+    text-transform:none;
   }
 
   p{
@@ -267,4 +275,8 @@ $max-element : 4;
   top: 50%;
   transform: translate(-90%, -70%);
   max-width: 90px;
+}
+
+.flex-item{
+  display:flex;
 }

@@ -54,7 +54,7 @@
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
           <div class="dash dash-center"></div>
           <h3 class="icon-desc-title">Appareils numériques</h3>
-          <div class="icon-desc-desc">Vol, casse, combusion</div>
+          <div class="icon-desc-desc">Vol, casse, combustion</div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
             <div class="price-value">7,90</div>
