@@ -11,13 +11,32 @@
 
 {% endblock %}
 {% block content %}
+<a name="content"></a>
 <div class="section text-center">
   <div class="container">
     <div class="row">
-      <h2 class="section-title">Nous assurons vos objets</h2>
+      <h2 class="section-title">Certains de vos objets sont plus importants que d’autres.</h2>
       <div class="dash dash-center"></div>
       <div class="section-text">
-        Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions. apitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+        Hello Victor assure tous vos objets qui ne sont généralement pas pris en compte dans votre assurance habitation :
+        <ul>
+          <li>appareils numériques (ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, photo ...)</li>
+          <li>matériels de loisir (instrument de musique, raquette, ski, surf, vélo, ...)</li>
+          <li>objets de valeurs ou précieux (montre, bijoux, mobilier ancien…) </li>
+        </ul>
+        Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
+        <br>
+        Le saviez-vous ? 43% des assurés sont mal ou pas remboursé du fait qu’il n’est pas transmis les factures à leur assurance. Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
+        <br>
+        Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : soyez récompensé !
+        <br>
+        Une gestion souple et claire de votre assurance : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
+        <br><br>
+        En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
+        <br><br>
+        Dorénavant assurez vous en quelques minutes et payez le juste prix au travers d’une offre claire.
+        <br><br>
+        En cas de sinistre ne perdez plus des heures au téléphone déclarez le en ligne 24h/24 7j/7 via votre messagerie préférée (Messenger, Kik, ...) et soyez remboursé rapidement. 
       </div>
       <div class="link-bottom text-center">
         <span class="glyphicon glyphicon-menu-down"></span>
@@ -47,9 +66,9 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 block-text valign-top">
-      <h4 class="block-text-title">L'ensemble des smartphones, ordinateurs, tablettes et consoles de jeu de la famille</h4>
-      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <h4 class="block-text-title">Assurez tous vos appareils numériques et nomades pour vous ou toute votre famille.</h4>
+      <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
+      <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions, Hello Victor adaptera pour vous le prix au plus juste.</p>
       <div class="text-center">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
@@ -58,7 +77,7 @@
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+          <img src="{{baseUrl}}images/product/objets/materiel-loisir.jpg" alt="Matériel de loisir" />
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
@@ -76,9 +95,11 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 block-text valign-top">
-      <h4 class="block-text-title">L'ensemble des équipements <br/> sportifs de la famille, pour le loisir et la compétion.</h4>
-      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <h4 class="block-text-title">Assurez tout votre matériel de loisir pour vous ou votre famille.</h4>
+      <p>Enfin une couverture d’assurance adaptée à votre usage.</p>
+      <p>Sportifs ? assurez votre vélo, votre raquette de tennis, votre matériel de golf, vos skis, votre snowboard, votre surf ou votre kite surf, ...</p>
+      <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
+      <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
       <div class="text-center">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
@@ -87,7 +108,7 @@
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+          <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>
@@ -105,9 +126,9 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 block-text valign-top">
-      <h4 class="block-text-title">Vos objets précieux, montres, bijoux, vêtements, ...</h4>
-      <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-      <p>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+      <h4 class="block-text-title">Assurez vos objets de valeurs et vos objets précieux au travers d’une couverture adaptée.</h4>
+      <p>Les objets de valeurs : peintures et œuvres d’art, collections de livres rares ou anciens, mobilier ancien et pierres précieuses, ainsi que vos objets précieux : lingots d’or, bijoux, accessoires en métaux précieux (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
+      <p>En cas d’absence de facture, ou de doute sur la valeur, faites appel à nos experts pour estimer vos biens.</p>
       <div class="text-center">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
@@ -124,7 +145,9 @@
       <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
       <div class="dash"></div>
       <div class="section-content">
-        <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.</p>
+        <p><b>CHEZ VOUS</b> : vos objets sont assurés en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
+        <p><b>EN DEHORS</b> : vos objets sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
+        <p><b>EN EXTENSION DE GARANTIE</b> : vos objets sont assurés en cas de panne au delà de sa période de garantie.</p>
       </div>
     </div>
   </div>
