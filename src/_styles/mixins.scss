@@ -74,12 +74,15 @@
     transform: translateY(-50%);
   }
 }
-.block-valign-container{
-  position: relative;
-}
-.block-valign{
-  @include block-valign();
-  &.middle{
-    @include block-valign-pos('middle');
+@media(min-width: $screen-sm-max){
+    
+  .block-valign-container{
+    position: relative;
+  }
+  .block-valign{
+    @include block-valign();
+    &.middle{
+      @include block-valign-pos('middle');
+    }
   }
 }

@@ -4,12 +4,18 @@
     min-height: 100vh;
     background: no-repeat center center;
     background-size: cover;
-    &-title{font-size: 36px;}
-    &-subtitle{font-size: 20px;}
+    &-title{font-size: 22px;}
+    &-subtitle{font-size: 16px;}
   }
   &.block-declaration{
     .block-cover-content{
       background-image: url(../images/product/objets/chat-habitation.jpg);
+    }
+  }
+  @media(min-width: $screen-sm-min){
+    &-content{
+      &-title{font-size: 36px;}
+      &-subtitle{font-size: 20px;}
     }
   }
 }

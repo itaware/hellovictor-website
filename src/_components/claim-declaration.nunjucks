@@ -5,7 +5,7 @@
   <div class="block-valign-container block-cover-content section-content">
     <div class="container">
       <div class="row">
-        <div class="text-center">
+        <div class="block-cover-header text-center">
           <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
           <div class="block-cover-content-subtitle">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
         </div>
@@ -44,12 +44,12 @@
     </div>
   </div>
 </section>
-<section class="section ">
-    <div class="declaration-step step-payment" data-print="true" id="declaration-paiement-{{page}}">
-      <div class="declaration-step-container align-items middle">
-        <div class="align-item declaration-step-header col-xs-12 col-sm-4">
-          <div class="declaration-step-title">Remboursé aussitôt</div>
-          <div class="declaration-step-subtitle">en quelques heures !</div>
+<section class="section alert alert-info ">
+    <div class="container" data-print="true" id="declaration-paiement-{{page}}">
+      <div class="row align-items middle">
+        <div class="align-item  col-xs-12 col-sm-4">
+          <div class="text-lg">En cas de sinistre</div>
+          <div class="text-lg"><strong>Hello victor vous <br/>rembourse rapidement !</strong></div>
         </div>
         <div class="scrollme align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
             <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">
@@ -83,7 +83,10 @@
         </div>
       </div>
       <div class="link-bottom text-center">
-        <a href="#registerForm" class="btn btn-default" id="declaration_sinistre-{{page}}">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-raised btn-default btn-lg" id="declaration_sinistre-{{page}}">En savoir plus</a>
+      </div>
+      <div class="link-bottom text-center">
+        <div class="glyphicon glyphicon-menu-down"></div>
       </div>
     </div>
   </div>
