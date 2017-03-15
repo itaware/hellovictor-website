@@ -112,12 +112,12 @@
   }
   &.product-objects{
     .header-site{
-      background-image: url(../images/product-type/objets.jpg);
+      background-image: url(../images/product/objets/objets.jpg);
     }
   }
-  &.product-house{
+  &.product-habitation{
     .header-site{
-      background-image: url(../images/product-type/product-house.jpg);
+      background-image: url(../images/product/habitation/habitation.jpg);
     }
   }
   &.product-digital{
@@ -177,7 +177,7 @@
     &.objects{
       background-image: url(../images/product-type/product-object.jpg);
     }
-    &.house{
+    &.habitation{
       background-image: url(../images/product-type/product-house.jpg);
     }
     &.digital{
@@ -185,7 +185,7 @@
     }
   }
 }
-@media(min-width: $screen-sm-min){  
+@media(min-width: $screen-sm-min){
   .product-item{
     &.alternate-item{
       .row > div{height: 550px;}

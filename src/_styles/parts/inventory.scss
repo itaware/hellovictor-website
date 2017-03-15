@@ -26,4 +26,7 @@
   font-family: $font-raleway;
   color: #fff;
   text-align: center;
+  &.bubble-step{
+    background-image: url(../images/bulle-step.svg);
+  }
 }

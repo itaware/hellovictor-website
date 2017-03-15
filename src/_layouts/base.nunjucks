@@ -115,31 +115,31 @@
           <div class="list-text">
             Objets
             {% if page == 'objets' %}
-              <div class="glyphicon glyphicon-menu-down"></div>
+            <div class="glyphicon glyphicon-menu-down"></div>
             {% endif %}
           </div>
           </a>
         </div>
-        <div class="icon-text-item col-xs-12 col-sm-4">
-          <a href="#">
+        <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
+          <a href="assurance-habitation.html">
             <div class="img"><img src="images/product-type/habitation.svg" alt="Habitation" class="img-responsive center-block" /></div>
             <div class="list-text">
               Habitation
               {% if page == 'habitation' %}
-                <div class="glyphicon glyphicon-menu-down"></div>
+              <div class="glyphicon glyphicon-menu-down"></div>
               {% endif %}
             </div>
           </a>
         </div>
-        <div class="icon-text-item col-xs-12 col-sm-4">
+        <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
           <a href="#">
             <div class="img"><img src="images/product-type/sante.svg" alt="Santé" class="img-responsive center-block" /></div>
             <div class="list-text">
               Santé
-              {% if page == 'sante' %}
-                <div class="glyphicon glyphicon-menu-down"></div>
-              {% endif %}
             </div>
+            {% if page == 'sante' %}
+            <div class="glyphicon glyphicon-menu-down"></div>
+            {% endif %}
           </a>
         </div>
       </div>
