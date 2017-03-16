@@ -1,0 +1,145 @@
+{% extends '_layouts/form-base.nunjucks' %}
+{% block content %}
+  <div class="panel-page-header panel panel-default no-margin">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Ma sélection</strong>
+      </span>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="text-lg padding-vertical">Pour <strong>12,70</strong>€/mois <br/> vous avez assuré vos...</div>
+    <div class="row">
+      <div class="list-group">
+        <div class="list-group-item">
+          <div class="row">
+            <div class="flex-item">
+              <div class="row-content-left">
+                <div class="row-picture">
+                  <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                  <div class="pull-right">
+                    <span class="text-lg material-icons">photo_camera</span>
+                  </div>
+                </div>
+                <div class="row-content">
+                  <div class="text-lg text-semibold">Mac book Pro Papa</div>
+                  <div class="text-xs text-info">Ordinateur portable - Objet nomade</div>
+                </div>
+              </div>
+              <div class="row-content-right">
+                <div class="text-sm text-center">Tarif mensuel</div>
+                <div class="text-lg"><strong>3,90</strong>€</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="row">
+            <div class="flex-item">
+              <div class="row-content-left">
+                <div class="row-picture">
+                  <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                  <div class="pull-right">
+                    <span class="text-lg material-icons">photo_camera</span>
+                  </div>
+                </div>
+                <div class="row-content">
+                  <div class="text-lg text-semibold">Mac book Pro Paul</div>
+                  <div class="text-xs text-info">Ordinateur portable - Objet nomade</div>
+                </div>
+              </div>
+              <div class="row-content-right">
+                <div class="text-sm text-center">Tarif mensuel</div>
+                <div class="text-lg"><strong>5,90</strong>€</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="row">
+            <div class="flex-item">
+              <div class="row-content-left">
+                <div class="row-picture">
+                  <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                  <div class="pull-right">
+                    <span class="text-lg material-icons">photo_camera</span>
+                  </div>
+                </div>
+                <div class="row-content">
+                  <div class="text-lg text-semibold">PC Lenovo Sandra</div>
+                  <div class="text-xs text-info">Tablette - Objet nomade</div>
+                </div>
+              </div>
+              <div class="row-content-right">
+                <div class="text-sm text-center">Tarif mensuel</div>
+                <div class="text-lg"><strong>2,90</strong>€</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-lg">
+      Vous pouvez compléter avec ...
+    </div>
+    <div class="row">
+      <div class="list-group">
+        <div class="list-group-item">
+          <div class="row flex-item">
+            <div class="row-content-left">
+              <div class="row-content text-lg col-xs-12">
+                <strong>Un autre objet</strong>
+              </div>
+            </div>
+            <div class="row-content-right no-border">
+              <div class="row-picture">
+                <div class="btn btn-fab btn-info text-lg">
+                  <span class="btn-fab btn-info icon icon-phone-icon"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="row flex-item">
+            <div class="row-content-left">
+              <div class="row-content text-lg col-xs-12">
+                <strong>Une assurance habitation</strong>
+              </div>
+            </div>
+            <div class="row-content-right no-border">
+              <div class="row-picture">
+                <div class="btn btn-fab btn-info text-lg">
+                  <img src="{{baseUrl}}images/picto/maison.svg" alt="Maison" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="list-group-item">
+          <div class="row flex-item">
+            <div class="row-content-left">
+              <div class="row-content text-lg col-xs-12">
+                <strong>Une assurance santé</strong>
+              </div>
+            </div>
+            <div class="row-content-right no-border">
+              <div class="row-picture">
+                <div class="btn btn-fab btn-success text-lg">
+                  <img src="{{baseUrl}}images/picto/coeur.svg" alt="Santé" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-lg btn-info btn-raised">Valider ma sélection</a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
