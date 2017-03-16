@@ -256,3 +256,21 @@ $max-element : 4;
 .flex-item{
   display:flex;
 }
+.summary-fixed-bottom{
+  padding-bottom: 100px;
+}
+
+
+.dropdown-title{
+  cursor: pointer;
+}
+.dropdown-content{
+  display:none;
+  .list-group{
+    padding-top: 0;
+  }
+  .list-group-item{
+    border-top: 0;
+    border-bottom: 1px solid rgba($alto, 0.36);
+  }
+}

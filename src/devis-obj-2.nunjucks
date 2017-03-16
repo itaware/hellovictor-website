@@ -1,5 +1,6 @@
 {% extends '_layouts/form-base.nunjucks' %}
 {% block content %}
+<div class="summary-fixed-bottom">
   <div class="panel panel-default">
     <div class="panel-heading">
       <a class="picto" href="javascript:void(0)">
@@ -65,9 +66,11 @@
               </div>
             </div>
           </div>
-          <div class="form-group">
-            <div class="dropdown-title text-md text-bold">Ou simplement à l'aide de la facture</div>
-            <div class="dropdown-content">
+          <div class="form-group dropdown-title container-fluid text-md text-bold">
+            <div class="pull-right"><span class="material-icons">more_horiz</span></div>
+            Ou simplement à l'aide de la facture
+          </div>
+          <div class="dropdown-content">
               <div class="list-group">
                 <div class="list-group-item">
                 <div class="list-group-item-inner">
@@ -84,20 +87,150 @@
                 <div class="list-group-item">
                   <div class="list-group-item-inner">
                   <div class="row">
-                    <div class="row-action-primary">
+                    <div class="row-picture">
                       <i class="material-icons">cloud_upload</i>
                     </div>
                     <div class="row-content">
                       <div class="text-semibold">Télécharger un document</div>
+                      <div>(Google Drive, Dropbox, Disque local...)</div>
                     </div>
                   </div>
                 </div>
                 </div>
               </div>
             </div>
+
+          <div class="container-fluid padding-vertical">
+            <div class="row">
+              <div class="col-xs-5">
+                <p class="text-sm">Vétusté<p>
+                <div class="text-lg"><span class=" text-danger">- 200,00</span> €</div>
+              </div>
+              <div class="col-xs-5">
+                <p class="text-sm">Valeur estimée</p>
+                <div class="text-lg"><span class="text-success text-semibold">2 800,00 </span>€</div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <p class="text-lg">Optimisez votre protection</p>
+            <div class="row">
+              <div class="list-group list-group-gray">
+                <div class="list-group-item">
+                  <div class="row flex-item">
+                    <div class="row-content-left">
+                      <div class="row-action-primary">
+                        <div class="text-large text-info">
+                          <img src="{{baseUrl}}images/picto/voleur.svg" alt="Voleur" class="img-responsive" />
+                        </div>
+                      </div>
+                      <div class="row-content">
+                        <div class="list-group-item-heading text-semibold">Protection contre le vol</div>
+                        <div class="list-group-item-text">
+                          Vous êtes couvert en cas de vol en tout lieu, remboursement sur justificatif et description écrite des circonstances du vol avec témoignange d'un tiers
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-content-right">
+                      <div class="togglebutton row-picture text-center">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-group-item">
+                  <div class="row flex-item">
+                    <div class="row-content-left">
+                      <div class="row-action-primary">
+                        <div class="text-icon-xl text-info">
+                          <i class="material-icons no-raised">flash_on</i>
+                        </div>
+                      </div>
+                      <div class="row-content">
+                        <div class="list-group-item-heading text-semibold">Protection contre les courts-circuits</div>
+                        <div class="list-group-item-text">
+                          Un dommage causé par une surtension ou par un courts-circuit, par exemple, quand la foudre a provoqué une augmentation de la tension dans le réseau électrique - pendant que le téléphone est en charge.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-content-right">
+                      <div class="togglebutton row-picture  text-center">
+                        <label>
+                          <input type="checkbox" checked="">
+                          <br/>
+                          <span class="text-xs">+&nbsp;0,50€</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-group-item">
+                  <div class="row flex-item">
+                    <div class="row-content-left">
+                      <div class="row-action-primary">
+                        <div class="text-large text-info">
+                          <img src="{{baseUrl}}images/picto/water.svg" alt="Goutte" class="img-responsive" />
+                        </div>
+                      </div>
+                      <div class="row-content">
+                        <div class="list-group-item-heading text-semibold">Protection contre les courts-circuits</div>
+                        <div class="list-group-item-text">
+                          En contact avec un liquide, que ce soit en renversant une boisson ou en le faisant tomber dans les toilettes. Par la suite, le téléphone portable ne fonctionne plus.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-content-right">
+                      <div class="togglebutton row-picture text-center">
+                        <label>
+                          <input type="checkbox" checked="">
+                          <br/>
+                          <span class="text-xs">+&nbsp;0,50€</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <div class="summary-container">
+            <div class="text-lg text-semibold">
+              <p>
+                Le détail de vos garanties <br/>
+                <span class="text-info">c'est par ici</span>
+                <span class=" twa twa-thumbsup"></span>
+                <span class=" twa twa-relaxed"></span>
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="container-fluid navbar navbar-fixed-bottom navbar-primary">
+              <div class="pull-left padding-vertical">
+                <div class="text-lg"><span class="text-semibold">Notre proposition</span>
+                <div class="block-price text-xl">
+                  <span class=" text-bold">3,90</span>
+                  <span class="text-top">€/mois</span>
+                </div>
+                </div>
+              </div>
+              <div class="pull-right">
+                <div class="row">
+                  <a href="#" class="btn btn-primary btn-raised">
+                    <span class="material-icons">done</span>
+                    <br/>
+                    <div class="text-uppercase">Valider</div>
+                  </a>
+                </div>
+              </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </div>
 {% endblock %}

@@ -53,7 +53,16 @@ strong {
     max-width: calc(100% - 55px);
   }
 }
-
+.togglebutton{
+  label{
+  }
+  &.text-center{
+    .toggle{
+      margin-right: 5px;
+      text-align: center;
+    }
+  }
+}
 .form-group{
   @include clearfix();
   margin: 0 0 -1px;
@@ -87,7 +96,16 @@ strong {
   }
 }
 .list-group{
-  margin: 15px 0;
+  padding: 15px 0;
+  margin: 0;
+
+  &.list-group-gray{
+    margin: 0;
+    padding: 0;
+    .list-group-item{
+      background:$wild-sand;
+    }
+  }
   & &-separator{
     &:before{
       width: 100%;
@@ -96,18 +114,15 @@ strong {
 
   & &-item{
     border-top: 1px solid $alto;
+    .list-group-item-heading{
+      line-height: 1.1;
+    }
+    .list-group-item-text{
+      font-size: 13px;
+    }
     .flex-item{
       .row-content-left{
         flex-grow: 1;
-        .row-picture,
-        .row-action-primary,
-        .row-content{
-          display:flex;
-          align-items: flex-start;
-        }
-        .row-content{
-          flex-grow: 1;
-        }
       }
       .row-content-left,
       .row-content-right{
@@ -118,11 +133,17 @@ strong {
     &-inner{
       padding: 15px 0;
     }
+    .row-picture{
+      width: 80px;
+    }
+    .row-action-primary{
+      width: 60px;
+    }
     .row-picture,
     .row-action-primary{
       padding: 0 10px;
       img, i, label{
-        width: 80px;
+        width: auto;
         height: auto;
         padding: 0;
         margin: auto;
@@ -134,9 +155,14 @@ strong {
         height: 50px;
         line-height: 50px;
         font-size: 25px;
+        &.no-raised{
+          background:none;
+          color: $brand-info;
+          font-size: 50px;
+        }
       }
       + .row-content{
-        width: unquote("calc(100% - 110px)");
+        width: unquote("calc(100% - 90px)");
       }
     }
     .row-content{
@@ -151,4 +177,9 @@ strong {
       border-left: 1px solid rgba(0, 0, 0, 0.1);
     }
   }
+}
+
+.padding-vertical{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

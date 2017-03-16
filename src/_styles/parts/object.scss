@@ -5,3 +5,12 @@
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.block-price{
+  &.text-xl{
+    font-size: $text-xl;
+    .text-top{
+      font-size: $text-xl * 0.5;
+      line-height: 1.5;
+    }
+  }
+}

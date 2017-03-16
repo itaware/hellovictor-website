@@ -20,14 +20,15 @@
   font-size: $text-sm;
 }
 .text-md{
-  font-size: $text-md - 5px;
+  font-size: $text-md - 3px;
 }
 .text-lg{
   font-size: $text-lg - 6px;
 }
-.text-top{
-  vertical-align: top;
+.text-xl{
+  font-size: $text-xl;
 }
+
 
 @media(min-width: $screen-sm-min){
   .text-md{
@@ -37,6 +38,15 @@
     font-size: $text-lg;
   }
 }
+// align
+.text-top{
+  vertical-align: top;
+}
 
 // colors
 .text-white{color:#fff;}
+
+// icon size
+.text-icon-xl{
+  font-size: $text-icon-xl;
+}
