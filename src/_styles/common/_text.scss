@@ -1,0 +1,42 @@
+// weight
+.text-bold {
+  font-weight: 500;
+}
+.text-semibold {
+  font-weight: 400;
+}
+.text-light {
+  font-weight: 300;
+}
+
+// size
+.text-sm, .text-md, .text-lg{
+  line-height: 1.1;
+}
+.text-xs{
+  font-size: $text-xs;
+}
+.text-sm{
+  font-size: $text-sm;
+}
+.text-md{
+  font-size: $text-md - 5px;
+}
+.text-lg{
+  font-size: $text-lg - 6px;
+}
+.text-top{
+  vertical-align: top;
+}
+
+@media(min-width: $screen-sm-min){
+  .text-md{
+    font-size: $text-md;
+  }
+  .text-lg{
+    font-size: $text-lg;
+  }
+}
+
+// colors
+.text-white{color:#fff;}

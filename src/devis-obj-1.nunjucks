@@ -3,16 +3,16 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       <a class="picto" href="javascript:void(0)">
-        <img src="{{baseUrl}}images/picto/arrow-left.svg" alt="Retour"/>
+        <span class="material-icons text-info">arrow_back</span>
       </a>
-      <span class="panel-heading-title text-md">
+      <span class="panel-heading-title text-lg">
         <strong>Appareils numérique</strong>
       </span>
     </div>
   </div>
   <div class="container-fluid">
-    <div class="col-xs-12 col-md-4">
-      <div class="row">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
         <div class="text-lg">
           Hello victor une assurance super facile à utliser !
           <br/>
@@ -22,12 +22,9 @@
           Vous n'auriez pas un Samsung S8 à assurer ?
         </div>
       </div>
-    </div>
-    <div class="col-xs-12 col-md-8">
-    <div class="row">
       <div class="col-xs-12 col-md-8">
         <div class="row">
-          <div class="object-preview container-fluid">
+          <div class="object-infos container-fluid">
             <div class="row">
               <div class="col-xs-4">
                 <div class="row">
@@ -35,9 +32,9 @@
                 </div>
               </div>
               <div class="col-xs-8">
-                <div class="object-preview-title text-lg text-bold text-uppercase">Samsung S8</div>
+                <div class="object-infos-title text-lg text-bold text-uppercase">Samsung S8</div>
                 <p class="text-info text-xs">Téléphone portable - Objet nomade</p>
-                <div class="object-preview-price">
+                <div class="object-infos-price">
                   <div>A partir de</div>
                   <span class="text-lg price-value"><strong>4,90</strong></span>
                   <span class="text-top">€/mois</span>
@@ -45,12 +42,11 @@
                 <div class="pull-right">
                   <a href="#" class="btn btn-info btn-fab text-lg"><i class="material-icons">add</i></a>
                 </div>
-              </div></div>
+              </div>
             </div>
           </div>
-          <div class="row">
           <div class="text-center text-md">Vous pouvez aussi choisir d'ajouter</div>
-          <div class="list-group">
+          <div class="list-group list-group-valign-top">
             <div class="list-group-item">
               <div class="row">
                 <div class="flex-item">
@@ -59,9 +55,9 @@
                       <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
                     </div>
                     <div class="row-content">
-                      <div class="text-md text-bold">Ordinateur portable</div>
+                      <div class="text-lg text-bold">Ordinateur portable</div>
                       <div class="text-info text-xs">Ordinateur portable - Objet nomade</div>
-                      <div class="object-preview-price">
+                      <div class="object-infos-price">
                         <div>A partir de</div>
                         <span class="text-lg price-value"><strong>4,90</strong></span>
                         <span class="text-top">€/mois</span>
@@ -82,9 +78,9 @@
                       <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
                     </div>
                     <div class="row-content">
-                      <div class="text-md text-bold">Smartphone</div>
+                      <div class="text-lg text-bold">Smartphone</div>
                       <div class="text-info text-xs">Smartphone - Objet nomade</div>
-                      <div class="object-preview-price">
+                      <div class="object-infos-price">
                         <div>A partir de</div>
                         <span class="text-lg price-value"><strong>4,90</strong></span>
                         <span class="text-top">€/mois</span>
@@ -105,9 +101,9 @@
                       <img src="{{baseUrl}}images/form/hv-ordinateur.jpg" alt="Ordinateur portable" class="img-responsive" />
                     </div>
                     <div class="row-content">
-                      <div class="text-md text-bold">Tablette</div>
+                      <div class="text-lg text-bold">Tablette</div>
                       <div class="text-info text-xs">Tablette - Objet nomade</div>
-                      <div class="object-preview-price">
+                      <div class="object-infos-price">
                         <div>A partir de</div>
                         <span class="text-lg price-value"><strong>4,90</strong></span>
                         <span class="text-top">€/mois</span>
@@ -125,7 +121,7 @@
                 <div class="flex-item">
                   <div class="row-content-left text-center">
                     <div class="row-content">
-                      <div class="text-md text-bold">Autre appareils numériques</div>
+                      <div class="container-fluid text-lg text-bold">Autre appareils numériques</div>
                     </div>
                   </div>
                   <div class="row-content-right">
@@ -134,7 +130,6 @@
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

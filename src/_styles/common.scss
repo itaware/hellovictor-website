@@ -1,28 +1,4 @@
-.text-bold {
-  font-weight: 500;
-}
-.text-light {
-  font-weight: 300;
-}
-.text-sm, .text-md, .text-lg{
-  line-height: 1.1;
-}
-.text-xs{
-  font-size: $text-xs;
-}
-.text-sm{
-  font-size: $text-sm;
-}
-.text-md{
-  font-size: $text-md;
-}
-.text-lg{
-  font-size: $text-lg;
-}
-.text-top{
-  vertical-align: top;
-}
-.text-white{color:#fff;}
+@import 'common/text';
 .link{
   font-size: 22px;
   color: $main-color;

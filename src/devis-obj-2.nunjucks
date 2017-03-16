@@ -1,0 +1,103 @@
+{% extends '_layouts/form-base.nunjucks' %}
+{% block content %}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Détail appareil</strong>
+      </span>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+          <div class="text-lg">
+            On a besoin de quelques détails ...
+            <br/>
+            <span class="text-md twa twa-ok-hand"></span>
+            <span class="text-md twa twa-wink"></span>
+          </div>
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <div class="row">
+          <div class="form-group form-group-md label-placeholder">
+            <div class="col-xs-7">
+              <div class="row">
+                <label class="control-label">Choisissez un intitulé</label>
+                <input class="form-control" type="text" />
+                <span class="text-info text-xs">Ordinateur portable - Object nomade</span>
+              </div>
+            </div>
+            <div class="col-xs-4 col-xs-offset-1">
+              <div class="row">
+                <div class=" object-preview">
+                  <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                  <div class="pull-right">
+                    <span class="text-lg material-icons">photo_camera</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <p class="text-lg">Calculez la valeur de votre appareil</p>
+            <div class="text-md"><strong>En indiquand le montant et la date d'achat</strong></div>
+          </div>
+          <div class="form-group form-group-md">
+            <div class="row col-xs-9">
+              <label class="control-label">Montant de l'achat</label>
+              <div class="">
+                <div class="form-control-infos"><span class="text-semibold text-lg">€</span></div>
+                <input type="text" class="form-control" placeholder="Saisissez le montant" />
+              </div>
+            </div>
+          </div>
+          <div class=" form-group form-group-md">
+            <div class="row col-xs-9 ">
+              <label class="control-label">Date de l'achat</label>
+              <div class="">
+                <div class="form-control-infos"><span class="text-lg icon icon-calendar"></span></div>
+                <input type="date" class="form-control" placeholder="Saisissez le montant" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="dropdown-title text-md text-bold">Ou simplement à l'aide de la facture</div>
+            <div class="dropdown-content">
+              <div class="list-group">
+                <div class="list-group-item">
+                <div class="list-group-item-inner">
+                  <div class="row">
+                    <div class="row-picture">
+                      <i class="material-icons">photo_camera</i>
+                    </div>
+                    <div class="row-content">
+                      <div class="text-semibold">Prendre une photo avec votre appareil.</div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="list-group-item">
+                  <div class="list-group-item-inner">
+                  <div class="row">
+                    <div class="row-action-primary">
+                      <i class="material-icons">cloud_upload</i>
+                    </div>
+                    <div class="row-content">
+                      <div class="text-semibold">Télécharger un document</div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
