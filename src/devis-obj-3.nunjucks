@@ -1,0 +1,104 @@
+{% extends '_layouts/form-base.nunjucks' %}
+{% block content %}
+  <div class="panel-page-header panel panel-default no-margin">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Détail des garanties incluses</strong>
+      </span>
+    </div>
+  </div>
+  <div class="panel panel-memo">
+    <div class="panel-heading text-uppercase text-semibold">Dommage subis par le contenu de votre habitation</div>
+    <div class="panel-body">
+      <ul class="text-list-with-icon">
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Prendre une photo avec votre appareil.</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Évènements climatiques dont inondations</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Catastrophes naturelles, attentats</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Des frais consécutifs limités à 15% de l'indemnité</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Dégats des eaux</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Vol et vandalisme</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Bris de glaces</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Séjour voyage</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Défense Recours</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Recours du propriétaire</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Services Déménagement</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Assistance à domicile</span>
+      </li>
+      <li class="text-md">
+        <span class="material-icons">done</span>
+        <span>Assistance aux personnes</span>
+      </li>
+    </div>
+  </div>
+  <div class="panel panel-memo">
+    <div class="panel-heading text-uppercase text-semibold">Responsabilités</div>
+    <div class="panel-body">
+      <ul class="text-list-with-icon">
+        <li class="text-md">
+          <span class="material-icons">done</span>
+          <span>Responsabilité vie privée</span>
+        </li>
+        <li class="text-md">
+          <span class="material-icons">done</span>
+          <span>Responsabilité d'occupant ou non occupant</span>
+        </li>
+        <li class="text-md">
+          <span class="material-icons">done</span>
+          <span>Responsabilité séjour voyage</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel panel-memo">
+    <div class="panel-heading text-uppercase text-semibold">Capital garanti</div>
+    <div class="panel-body">
+      <p>
+        <span class="text-lg"><strong>80 000</strong> €</span>
+        <span class="text-sm"> - Incendie / Évènements climatiques / Catastrophes naturelles
+      </p>
+      <p>
+        <span class="text-lg"><strong>10 000</strong> €</span>
+        <span class="text-sm"> - Dégats des eaux / Vol et vandalisme
+      </div>
+    </p>
+  </div>
+
+{% endblock %}

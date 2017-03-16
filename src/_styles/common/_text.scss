@@ -50,3 +50,18 @@
 .text-icon-xl{
   font-size: $text-icon-xl;
 }
+.text-list-with-icon{
+  padding: 0;
+  margin: 0;
+  li{
+    line-height: 1.3;
+    list-style:none;
+    @include clearfix();
+    margin-bottom: 5px;
+    .material-icons{
+      float:left;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+}

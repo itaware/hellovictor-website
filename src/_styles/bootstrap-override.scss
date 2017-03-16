@@ -79,6 +79,7 @@ strong {
 
 
 .panel{
+  position: relative;
   &-heading{
     span, a{
       display:inline-block;
@@ -91,7 +92,7 @@ strong {
       }
     }
     &-title{
-      padding: 10px 30px;
+      padding: 10px 0px 10px 10px;
     }
   }
 }
@@ -182,4 +183,17 @@ strong {
 .padding-vertical{
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.no-margin{
+  margin: 0 !important;
+}
+.panel-page-header{
+  z-index: 15;
+}
+.panel.panel-memo {
+  box-shadow: none;
+  > .panel-heading{
+    background-color: $link-water;
+    color: #000;
+  }
 }
