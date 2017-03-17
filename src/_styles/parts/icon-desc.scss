@@ -1,7 +1,10 @@
 .icon-desc{
   padding: 40px 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
+  @media(min-width: $screen-lg-min){
+    font-size: 20px;
+  }
   .dash{
     background-color: #fff;
   }
