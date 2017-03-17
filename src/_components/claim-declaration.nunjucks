@@ -4,6 +4,9 @@
   </header>
   <div class="container-fluid text-white block-cover-content block-inventaire">
       <div class="row">
+      <!--  <div class="cover">
+          <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
+        </div>-->
         <div class="col-xs-12 col-sm-5 col-sm-offset-7">
           <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
           <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
@@ -56,7 +59,7 @@
       <div class="row">
         <div class="text-center">
           <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
-          <div class="block-cover-content-subtitle">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
+          <div class="block-cover-content-subtitle text-semibold">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
         </div>
         <div class="block-valign middle" data-print="true" id="declaration-chat-{{page}}">
           <div class="container">
@@ -118,7 +121,7 @@
           <ul class="list-instructions">
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
-              Déclarez par chat ce qu'on vous a volé ou ce qui est déterioré
+              Déclarez par chat ce qu'on vous a volé ou ce qui est déterioré.
             </li>
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
@@ -126,7 +129,7 @@
             </li>
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
-              Vous êtes remboursé immédiatement et sans délais
+              Vous êtes remboursé immédiatement et sans délais.
             </li>
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
