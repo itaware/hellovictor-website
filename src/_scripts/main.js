@@ -8,15 +8,27 @@ require('bootstrap');
 require('bootstrap-material-design');
 
 jQuery.material.init();
+if(document.getElementById('room-number-slider')){
 
-/*noui.create(document.getElementById('room-number-slider'), {
+noui.create(document.getElementById('room-number-slider'), {
     start: 40,
     connect: "lower",
     range: {
         min: 0,
         max: 100
     }
-  });*/
+  });
+}
+if(document.getElementById('flat-value')){
+noui.create(document.getElementById('flat-value'), {
+    start: 3,
+    connect: "lower",
+    range: {
+        min: 1,
+        max: 5
+    }
+  });
+}
 
 var io = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {

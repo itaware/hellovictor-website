@@ -198,16 +198,14 @@
         </div>
         <div class="row">
           <div class="form-group">
-            <div class="summary-container">
             <div class="text-lg text-semibold">
               <p>
                 Le détail de vos garanties <br/>
-                <span class="text-info">c'est par ici</span>
+                <a href="devis-obj-3.html"><span class="text-info">c'est par ici</span></a>
                 <span class=" twa twa-thumbsup"></span>
                 <span class=" twa twa-relaxed"></span>
               </p>
             </div>
-          </div>
           </div>
           <div class="container-fluid navbar navbar-fixed-bottom navbar-primary">
               <div class="pull-left padding-vertical">

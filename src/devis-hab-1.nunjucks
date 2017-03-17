@@ -1,23 +1,28 @@
 {% extends '_layouts/form-base.nunjucks' %} {% block content %}
-<div class="navbar navbar-info">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="javascript:void(0)">&lt; Habitation</a>
-    </div>
+<div class="summary-fixed-bottom">
+<div class="panel-page-header panel panel-default no-margin">
+  <div class="panel-heading">
+    <a class="picto" href="javascript:void(0)">
+      <span class="material-icons text-info">arrow_back</span>
+    </a>
+    <span class="panel-heading-title text-lg">
+      <strong>Habitation</strong>
+    </span>
   </div>
 </div>
-<div>
 
-</div>
-<div class="row">
-  <div class="col-md-4">
-    C'est parti !
-    Votre devis en 3mn
-    <br>  
-    Vous êtes ?
-  </div>
-  <div class="col-md-8">
-      <div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 form-group">
+      <div class="text-lg">
+        <p>Votre devis en 3mn chrono <span class="twa twa-relaxed"></span></p>
+        Vous êtes ?
+      </div>
+    </div>
+
+    <div class="col-md-8">
+      <div class="row">
+        <div class="form-group">
           <div class="radio-inline radio-primary">
             <label class="radio-inline">
               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
@@ -30,63 +35,174 @@
               Propriétaire
             </label>
           </div>
-      </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    Combien de pièces ?
-  </div>
-  <div class="col-md-8">
-    <div class="slider shor" id="room-number-slider"></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    Approximativement quelle valeur pour votre mobilier ?
-  </div>
-  <div class="col-md-8">
-    <div class="slider shor" id="flat-value"></div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-4">
-    Avec quelles conditions ?
-  </div>
-  <div class="list-group col-md-8">
-    <div class="list-group-item">
-      <div class="row-action-primary">
-        <img src="images/devis/condition.svg" alt="">
-      </div>
-      <div class="row-content">
-        <div class="least-content">+0,50€</div>
-        <h4 class="list-group-item-heading">Remplacement à neuf</h4>
-        <p class="list-group-item-text">Suite à un sinistre garanti (vol, incendie, dégât des eaux…), vos biens électroménagers, audiovisuels et informatiques de moins de 5 ans sont remboursés à leur valeur de remplacement à neuf sans application de vétusté.</p>
-        <div class="togglebutton">
-          <label>
-            <input type="checkbox" checked=""> Toggle button
-          </label>
         </div>
-      </div>
-    </div>
-    <div class="list-group-separator"></div>
-    <div class="list-group-item">
-      <div class="row-action-primary">
-        <i class="material-icons">folder</i>
-      </div>
-      <div class="row-content">
-        <div class="least-content">8m</div>
-        <h4 class="list-group-item-heading">Tile with a label</h4>
+        <div class="form-group">
+          <div class="text-lg">Combien de pièces ?</div>
+          <div class="slider shor" id="room-number-slider"></div>
+        </div>
+        <div class="form-group">
+          <div class="text-lg">
+            Approximativement quelle valeur pour votre mobilier ?
+          </div>
+          <div class="slider shor" id="flat-value"></div>
+        </div>
+        <div class="form-group">
+          <div class="text-lg">Avec quelles conditions ?</div>
+          <div class="row">
+            <div class="list-group list-group-gray">
+              <div class="list-group-item">
+                <div class="row flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="images/devis/condition.svg" alt="" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="list-group-item-heading"><strong>Remplacement à neuf</strong></div>
+                      <p class="list-group-item-text">Suite à un sinistre garanti (vol, incendie, dégât des eaux…), vos biens électroménagers, audiovisuels et informatiques de moins de 5 ans sont remboursés à leur valeur de remplacement à neuf sans application de vétusté.</p>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="row-action-primary">
+                      <div class="togglebutton">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                        <div class="text-xs text-semibold">-0,70€</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group-item">
+                <div class="row flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="images/devis/condition.svg" alt="" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="list-group-item-heading"><strong>Dépendances de -50m2</strong></div>
+                      <p class="list-group-item-text">Locaux privatifs et inhabituels ne communiquant pas directement avec votre habitation.</p>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="row-action-primary">
+                      <div class="togglebutton">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                        <div class="text-xs text-semibold">+0,50€</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group-item">
+                <div class="row flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="images/devis/condition.svg" alt="" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="list-group-item-heading"><strong>Période d'inhabitation</strong></div>
+                      <p class="list-group-item-text">Un logement a le droit d'être inoccupé dirant une période de 90 jours edictée dans le contrat. Passé ce délai, le logement ne sera plus couvert.</p>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="row-action-primary">
+                      <div class="togglebutton">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                        <div class="text-xs text-semibold">+0,50€</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group-item">
+                <div class="row flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="images/devis/condition.svg" alt="" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="list-group-item-heading"><strong>Poêle ou cheminée avec insert</strong></div>
+                      <p class="list-group-item-text">Votre habitation n'est pas équipée d'un insert, d'un foyer fermé, d'un poêle ou d'une cuisinière à bois.</p>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="row-action-primary">
+                      <div class="togglebutton">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                        <div class="text-xs text-semibold">+0,50€</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="list-group-item">
+                <div class="row flex-item">
+                  <div class="row-content-left">
+                    <div class="row-action-primary">
+                      <img src="images/devis/condition.svg" alt="" class="img-responsive" />
+                    </div>
+                    <div class="row-content">
+                      <div class="list-group-item-heading"><strong>Franchise</strong></div>
+                      <p class="list-group-item-text">Franchise de 159€ sauf pour les garanties suivantes: évènements climatiques (225€), inondations(380€).</p>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="row-action-primary">
+                      <div class="togglebutton">
+                        <label>
+                          <input type="checkbox" checked="">
+                        </label>
+                        <div class="text-xs text-semibold">+0,50€</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <p class="list-group-item-text">Maecenas sed diam eget risus varius blandit.</p>
+            </div>
+          </div>
+      </div>
+  </div>
+
+
+</div>
+
+  <div class="form-group">
+    <div class="text-lg text-semibold">
+      <p>
+        Le détail de vos garanties <br/>
+        <a href="devis-obj-3.html"><span class="text-info">c'est par ici</span></a>
+        <span class=" twa twa-thumbsup"></span>
+        <span class=" twa twa-relaxed"></span>
+      </p>
+    </div>
+  </div>
+<div class="container-fluid navbar navbar-fixed-bottom navbar-primary">
+    <div class="pull-left padding-vertical">
+      <div class="text-lg"><span class="text-semibold">Notre proposition</span>
+      <div class="block-price text-xl">
+        <span class=" text-bold">3,90</span>
+        <span class="text-top">€/mois</span>
+      </div>
       </div>
     </div>
-    <div class="list-group-separator"></div>
-  </div>
+    <div class="pull-right">
+      <div class="row">
+        <a href="#" class="btn btn-primary btn-raised">
+          <span class="material-icons">done</span>
+          <br/>
+          <div class="text-uppercase">Valider</div>
+        </a>
+      </div>
+    </div>
 </div>
-<div class="row">
-  <div class="col-md-12 text-center">
-    voir le détail des garanties &gt;
-  </div>
+</div>
 </div>
 {% endblock %}
