@@ -107,9 +107,9 @@
     </header>
     <div class="content-top text-center">
       <a name="detail"></a>
-      <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
+      <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle text-lowercase">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
       <div class="container list-icon-text">
-        <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
+        <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="assurance-objets.html#content">
           <div class="img"><img src="images/product-type/objets-courants.svg" alt="Objects courants" class="img-responsive center-block" /></div>
           <div class="list-text">
@@ -120,9 +120,9 @@
           </div>
           </a>
         </div>
-        <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
+        <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="assurance-habitation.html">
-            <div class="img"><img src="images/product-type/habitation.svg" alt="Habitation" class="img-responsive center-block" /></div>
+            <div class="img col-xs-8 col-sm-12"><img src="images/product-type/habitation.svg" alt="Habitation" class="img-responsive center-block" /></div>
             <div class="list-text">
               Habitation
               {% if page == 'habitation' %}
@@ -131,9 +131,9 @@
             </div>
           </a>
         </div>
-        <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-12 col-sm-4">
+        <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="#">
-            <div class="img"><img src="images/product-type/sante.svg" alt="Santé" class="img-responsive center-block" /></div>
+            <div class="img col-xs-8 col-sm-12"><img src="images/product-type/sante.svg" alt="Santé" class="img-responsive center-block" /></div>
             <div class="list-text">
               Santé
             </div>
@@ -147,8 +147,11 @@
     <div class="section section-gray section-hello">
       <div class="container">
         <div class="row valign-middle">
-          <div class="col-xs-12 col-sm-5">
-            <img src="images/hello.svg" alt="Hello" class="img-responsive center-block " />
+          <div class="col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
+            <p>
+              <img src="images/hello.svg" alt="Hello" class="img-responsive center-block " />
+              <br/>
+            </p>
           </div>
           <div class="col-xs-12 col-sm-7">
             <h2 class="section-title">

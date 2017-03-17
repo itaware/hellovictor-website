@@ -4,11 +4,13 @@
   text-align: center;
   .list-text{
     margin-top: 10px;
-    font-size: 36px;
+    padding: 0;
+    font-size: 22px;
     font-weight: 300;
     text-transform: uppercase;
   }
   .icon-text-item{
+
     a{
       color: inherit;
       &:hover{
@@ -29,26 +31,47 @@
         }
       }
     }
-    @media(min-width: $screen-sm-min){
-      display:inline-block;
+  }
+  @media(max-width: $screen-xs-max){
+    .icon-text-item{
       float:none;
-      vertical-align: baseline;
-      + .icon-text-item {
-        .img{
-          position: relative;
-          &:before{
-            content: "";
-            position: absolute;
-            display: inline-block;
-            bottom: 0;
-            left: 0;
-            width: 1px;
-            height: 70%;
-            background: #fff;
-            opacity: 0.5;
-          }
+      margin-left: auto;
+      margin-right: auto;
+      + .icon-text-item{
+        margin-top: 45px;
+      }
+      .img{
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  @media(min-width: $screen-sm-min){
+    .list-text{
+      font-size: 36px;
+    }
+    .icon-text-item{
+    margin: 0;
+    display:inline-block;
+    float:none;
+    vertical-align: baseline;
+    + .icon-text-item {
+      .img{
+        position: relative;
+        &:before{
+          content: "";
+          position: absolute;
+          display: inline-block;
+          bottom: 0;
+          left: 0;
+          width: 1px;
+          height: 70%;
+          background: #fff;
+          opacity: 0.5;
         }
       }
+    }
     }
   }
 }

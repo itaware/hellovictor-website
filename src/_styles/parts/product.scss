@@ -85,9 +85,6 @@
         height: auto;
       }
     }
-    .slogan {
-      font-size: 64px;
-    }
     &-inner{
       margin: 5vh auto;
       display: inline-block;
@@ -131,13 +128,19 @@
     color:#fff;
     .page-title{
       margin: 0 0 35px;
-      font-size: 44px;
+      font-size: 26px;
       font-weight: 300;
       text-transform: uppercase;
       .subtitle{
         margin-top: 15px;
         display:block;
-        font-size: 24px;
+        font-size: 16px;
+      }
+      @media(min-width: $screen-sm-min){
+        font-size: 44px;
+        .subtitle{
+          font-size: 24px;
+        }
       }
     }
   }

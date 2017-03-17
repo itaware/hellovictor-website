@@ -4,7 +4,7 @@
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-objects' %}
 {% set page = 'objets' %}
-{% set slogan = "L'assurance 100% NUMÉRIQUE" %}
+{% set slogan = "L'ASSURANCE 100% NUMÉRIQUE" %}
 {% set pageTitle = "" %}
 {% endblock %}
 {% block header %}
@@ -14,34 +14,37 @@
 <a name="content"></a>
 <div class="section text-center">
   <div class="container">
-    <div class="row">
       <h2 class="section-title">Certains de vos objets sont plus importants que d’autres.</h2>
       <div class="dash dash-center"></div>
       <div class="section-text">
-        Hello Victor assure tous vos objets qui ne sont généralement pas pris en compte dans votre assurance habitation :
-        <ul>
-          <li>appareils numériques (ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, photo ...)</li>
-          <li>matériels de loisir (instrument de musique, raquette, ski, surf, vélo, ...)</li>
-          <li>objets de valeurs ou précieux (montre, bijoux, mobilier ancien…) </li>
+        <p class="text-md"><strong>Hello Victor assure tous vos objets qui ne sont généralement pas pris en compte dans votre assurance habitation :</strong></p>
+        <br/>
+        <ul class="list-text">
+          <li class="text-md text-semibold">appareils numériques (ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, photo ...)</li>
+          <li class="text-md text-semibold">matériels de loisir (instrument de musique, raquette, ski, surf, vélo, ...)</li>
+          <li class="text-md text-semibold">objets de valeurs ou précieux (montre, bijoux, mobilier ancien…) </li>
         </ul>
-        Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
-        <br>
-        Le saviez-vous ? 43% des assurés sont mal ou pas remboursé du fait qu’il n’est pas transmis les factures à leur assurance. Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
-        <br>
-        Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : soyez récompensé !
-        <br>
-        Une gestion souple et claire de votre assurance : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
+        <br/>
+        <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
+        </p>
+        <p>
+          <span class="text-semibold">Le saviez-vous ? 43% des assurés sont mal ou pas remboursé du fait qu’il n’est pas transmis les factures à leur assurance. </span>
+            <br/>Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
+        </p>
+        <p>
+          Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : <span class="text-semibold">soyez récompensé !</span>
+        </p>
+        <span class="text-semibold">Une gestion souple et claire de votre assurance</span> : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
         <br><br>
         En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
         <br><br>
         Dorénavant assurez vous en quelques minutes et payez le juste prix au travers d’une offre claire.
         <br><br>
-        En cas de sinistre ne perdez plus des heures au téléphone déclarez le en ligne 24h/24 7j/7 via votre messagerie préférée (Messenger, Kik, ...) et soyez remboursé rapidement.
+        <span class="text-semibold">En cas de sinistre ne perdez plus des heures au téléphone déclarez le en ligne 24h/24 7j/7 via votre messagerie préférée (Messenger, Kik, ...) et soyez remboursé rapidement.</span>
       </div>
       <div class="link-bottom text-center">
         <span class="glyphicon glyphicon-menu-down"></span>
       </div>
-    </div>
   </div>
 </div>
 <div class="section no-padding product-item alternate-item container-fluid">
@@ -69,7 +72,7 @@
       <h4 class="block-text-title">Assurez tous vos appareils numériques et nomades pour vous ou toute votre famille.</h4>
       <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
       <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions, Hello Victor adaptera pour vous le prix au plus juste.</p>
-      <div class="text-center">
+      <div class="text-center block-text-button">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
@@ -100,7 +103,7 @@
       <p>Sportifs ? assurez votre vélo, votre raquette de tennis, votre matériel de golf, vos skis, votre snowboard, votre surf ou votre kite surf, ...</p>
       <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
       <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
-      <div class="text-center">
+      <div class="text-center block-text-button">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
@@ -129,7 +132,7 @@
       <h4 class="block-text-title">Assurez vos objets de valeurs et vos objets précieux au travers d’une couverture adaptée.</h4>
       <p>Les objets de valeurs : peintures et œuvres d’art, collections de livres rares ou anciens, mobilier ancien et pierres précieuses, ainsi que vos objets précieux : lingots d’or, bijoux, accessoires en métaux précieux (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
       <p>En cas d’absence de facture, ou de doute sur la valeur, faites appel à nos experts pour estimer vos biens.</p>
-      <div class="text-center">
+      <div class="text-center block-text-button">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>

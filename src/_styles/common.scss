@@ -1,5 +1,9 @@
 @import 'common/text';
 @import 'components/block-note';
+
+.icon-lg{
+  font-size: 31px;
+}
 .link{
   font-size: 22px;
   color: $main-color;
@@ -171,7 +175,10 @@ $max-element : 4;
     font-weight: 400;
     text-transform:none;
   }
-
+  &-button{
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
   p{
     font-size: $text-md;
     color:$tundora;
@@ -277,5 +284,12 @@ $max-element : 4;
   .list-group-item{
     border-top: 0;
     border-bottom: 1px solid rgba($alto, 0.36);
+  }
+}
+
+.list-text{
+  padding: 0 30px;
+  li{
+    margin-bottom: 15px;
   }
 }

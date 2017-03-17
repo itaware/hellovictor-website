@@ -17,11 +17,17 @@
         <div class="text-lg padding-vertical">
           <p>Pour <strong>12.90</strong>€/mois vous êtes assuré en tant que <strong>locataire</strong> d'un <strong>3 pièces</strong>dont la valeur mobilère est de <strong>10 000</strong>€</p>
         </div>
+        <div class="block-note block-info">
+          <div class="block-note-icon"><span class="material-icons">info_outline</span></div>
+          <div class="block-note-text">
+            Cette valeur n'inclu pas certains objets tel que les objets précieux, ou les objets numériques/loisirs que vous emmenez à l'extérieur de votre habitation.
+          </div>
+        </div>
       </div>
 
       <div class="col-md-8">
         <div class="padding-vertical">
-          <div class="text-lg">Y compris</div>
+          <div class="text-lg">Si besoin, étendez la garantie à vos objets les plus importants ...</div>
         </div>
         <div class="row">
           <div class="list-group">
