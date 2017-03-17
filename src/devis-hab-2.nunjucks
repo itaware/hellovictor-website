@@ -1,0 +1,140 @@
+{% extends '_layouts/form-base.nunjucks' %} {% block content %}
+<div class="summary-fixed-bottom">
+  <div class="panel-page-header panel panel-default no-margin">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Ma sélection</strong>
+      </span>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-lg padding-vertical">
+          <p>Pour <strong>12.90</strong>€/mois vous êtes assuré en tant que <strong>locataire</strong> d'un <strong>3 pièces</strong>dont la valeur mobilère est de <strong>10 000</strong>€</p>
+        </div>
+        <div class="block-note block-info">
+          <div class="block-note-icon"><span class="material-icons">info_outline</span></div>
+          <div class="block-note-text">
+            Cette valeur n'inclu pas certains objets tel que les objets précieux, ou les objets numériques/loisirs que vous emmenez à l'extérieur de votre habitation.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="padding-vertical">
+          <div class="text-lg">Si besoin, étendez la garantie à vos objets les plus importants ...</div>
+        </div>
+        <div class="row">
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="row flex-item">
+                <div class="row-content-left">
+                  <div class="row-content text-lg col-xs-12">
+                    <strong>Extension sur un objet numérique</strong>
+                  </div>
+                </div>
+                <div class="row-content-right no-border">
+                  <div class="row-picture">
+                    <div class="btn btn-fab btn-info text-lg">
+                      <span class="icon icon-phone-icon"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row flex-item">
+                <div class="row-content-left">
+                  <div class="row-content text-lg col-xs-12">
+                    <strong>Extension sur un objet de loisir</strong>
+                  </div>
+                </div>
+                <div class="row-content-right no-border">
+                  <div class="row-picture">
+                    <div class="btn btn-fab btn-info text-lg">
+                      <img src="{{baseUrl}}images/picto/velo.svg" alt="Vélo" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row flex-item">
+                <div class="row-content-left">
+                  <div class="row-content text-lg col-xs-12">
+                    <strong>Extension sur un objet précieux</strong>
+                  </div>
+                </div>
+                <div class="row-content-right no-border">
+                  <div class="row-picture">
+                    <div class="btn btn-fab btn-info text-lg">
+                      <img src="{{baseUrl}}images/picto/montre.svg" alt="Montre" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-lg">Et même vous assurer pour votre santé</div>
+        <div class="row">
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="row flex-item">
+                <div class="row-content-left">
+                  <div class="row-content text-lg col-xs-12">
+                    <strong>Complémentaire santé</strong>
+                  </div>
+                </div>
+                <div class="row-content-right no-border">
+                  <div class="row-picture">
+                    <div class="btn btn-fab btn-success text-lg">
+                      <img src="{{baseUrl}}images/picto/coeur.svg" alt="santé" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+      <div class="text-lg text-semibold">
+        <p>
+          Le détail de vos garanties<br/>
+          <a href="devis-obj-3.html"><span class="text-info">c'est par ici</span></a>
+          <span class=" twa twa-thumbsup"></span>
+          <span class=" twa twa-relaxed"></span>
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container-fluid navbar navbar-fixed-bottom navbar-primary">
+    <div class="pull-left padding-vertical">
+      <div class="text-lg"><span class="text-semibold">Notre proposition</span>
+      <div class="block-price text-xl">
+        <span class=" text-bold">3,90</span>
+        <span class="text-top">€/mois</span>
+      </div>
+      </div>
+    </div>
+    <div class="pull-right">
+      <div class="row">
+        <a href="#" class="btn btn-primary btn-raised">
+          <span class="material-icons">done</span>
+          <br/>
+          <div class="text-uppercase">Valider</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
