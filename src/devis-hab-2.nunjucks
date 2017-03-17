@@ -102,39 +102,16 @@
             </div>
           </div>
         </div>
+        <div class="form-group">
+          <a href="#" class="btn btn-lg btn-raised btn-primary center-block">
+            Je m'assure
+          </a>
+        </div>
       </div>
 
-      <div class="form-group">
-      <div class="text-lg text-semibold">
-        <p>
-          Le détail de vos garanties<br/>
-          <a href="devis-obj-3.html"><span class="text-info">c'est par ici</span></a>
-          <span class=" twa twa-thumbsup"></span>
-          <span class=" twa twa-relaxed"></span>
-        </p>
-      </div>
-    </div>
     </div>
   </div>
 
-  <div class="container-fluid navbar navbar-fixed-bottom navbar-primary">
-    <div class="pull-left padding-vertical">
-      <div class="text-lg"><span class="text-semibold">Notre proposition</span>
-      <div class="block-price text-xl">
-        <span class=" text-bold">3,90</span>
-        <span class="text-top">€/mois</span>
-      </div>
-      </div>
-    </div>
-    <div class="pull-right">
-      <div class="row">
-        <a href="#" class="btn btn-primary btn-raised">
-          <span class="material-icons">done</span>
-          <br/>
-          <div class="text-uppercase">Valider</div>
-        </a>
-      </div>
-    </div>
-  </div>
+
 </div>
 {% endblock %}
