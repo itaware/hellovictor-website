@@ -1,0 +1,51 @@
+{% extends '_layouts/form-base.nunjucks' %} {% block content %}
+<div class="summary-fixed-bottom">
+  <div class="panel-page-header panel panel-default no-margin">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Ma sélection</strong>
+      </span>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-lg padding-vertical">
+          <p>On va prendre vos coordonnées pour vous envoyer tout ça rapidement ... <span class="twa twa-wink"></span></p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+          <div class="group-container">
+            <div class="form-group form-group-info form-group-md ">
+              <input class="form-control" type="text" placeholder="Adresse e-mail" class="text-info" />
+            </div>
+            <div class="form-group form-group-info form-group-md ">
+              <input class="form-control" type="text" placeholder="Nom" />
+            </div>
+            <div class="form-group form-group-info form-group-md ">
+              <input class="form-control" type="text" placeholder="Prénom" />
+            </div>
+            <div class="form-group form-group-info form-group-md ">
+              <input class="form-control" type="text" placeholder="Téléphone" />
+            </div>
+          </div>
+        </div>
+        <div class="form-group text-center">
+          <button href="devis-hab-4.html" class="btn btn-lg btn-raised btn-primary">
+            Envoyer ma demande
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+{% endblock %}

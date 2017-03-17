@@ -1,0 +1,108 @@
+{% extends '_layouts/form-base.nunjucks' %} {% block content %}
+<div class="summary-fixed-bottom">
+  <div class="panel-page-header panel panel-default no-margin">
+    <div class="panel-heading">
+      <a class="picto" href="javascript:void(0)">
+        <span class="material-icons text-info">arrow_back</span>
+      </a>
+      <span class="panel-heading-title text-lg">
+        <strong>Ma sélection</strong>
+      </span>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="text-lg padding-vertical">
+          <p>Pour <strong>19.90</strong>€/mois vous êtes assuré en tant que <strong>locataire</strong> d'un <strong>3 pièces</strong>dont la valeur mobilère est de <strong>10 000</strong>€</p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="padding-vertical">
+          <div class="text-lg">Y compris</div>
+        </div>
+        <div class="row">
+          <div class="list-group">
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-picture">
+                      <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                      <div class="pull-right">
+                        <span class="text-lg material-icons">photo_camera</span>
+                      </div>
+                    </div>
+                    <div class="row-content">
+                      <div class="text-lg text-semibold">Mac book Pro Papa</div>
+                      <div class="text-xs text-info">Ordinateur portable - Objet nomade</div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="text-sm text-center">Tarif mensuel</div>
+                    <div class="text-lg"><strong>3,90</strong>€</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-picture">
+                      <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                      <div class="pull-right">
+                        <span class="text-lg material-icons">photo_camera</span>
+                      </div>
+                    </div>
+                    <div class="row-content">
+                      <div class="text-lg text-semibold">Mac book Pro Paul</div>
+                      <div class="text-xs text-info">Ordinateur portable - Objet nomade</div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="text-sm text-center">Tarif mensuel</div>
+                    <div class="text-lg"><strong>5,90</strong>€</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group-item">
+              <div class="row">
+                <div class="flex-item">
+                  <div class="row-content-left">
+                    <div class="row-picture">
+                      <img src="{{baseUrl}}images/form/macbook.jpg" alt="Macbook" class="img-responsive center-block" />
+                      <div class="pull-right">
+                        <span class="text-lg material-icons">photo_camera</span>
+                      </div>
+                    </div>
+                    <div class="row-content">
+                      <div class="text-lg text-semibold">PC Lenovo Sandra</div>
+                      <div class="text-xs text-info">Tablette - Objet nomade</div>
+                    </div>
+                  </div>
+                  <div class="row-content-right">
+                    <div class="text-sm text-center">Tarif mensuel</div>
+                    <div class="text-lg"><strong>2,90</strong>€</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-container">
+          <a href="devis-hab-4.html" class="btn btn-lg btn-raised btn-primary center-block">
+            Je valide
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+{% endblock %}

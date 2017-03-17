@@ -76,12 +76,14 @@ strong {
     }
   }
 }
-.form-group{
-  @include clearfix();
+.group-container{
   margin: 0 0 -1px;
   padding: 15px;
   border-top: 1px solid rgba($alto, 0.36);
   border-bottom: 1px solid rgba($alto, 0.36);
+}
+.form-group{
+  @include clearfix();
 
   label,
   label.control-label{
@@ -128,6 +130,10 @@ strong {
 
   & &-item{
     border-top: 1px solid $alto;
+
+    &:last-child{
+      border-bottom: 1px solid $alto;      
+    }
     .list-group-item-heading{
       line-height: 1.1;
     }

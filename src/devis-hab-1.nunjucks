@@ -13,7 +13,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-4 form-group">
+    <div class="col-md-4 group-container">
       <div class="text-lg">
         <p>Votre devis en 3mn chrono <span class="twa twa-relaxed"></span></p>
         Vous êtes ?
@@ -22,7 +22,7 @@
 
     <div class="col-md-8">
       <div class="row">
-        <div class="form-group">
+        <div class="group-container">
           <div class="radio-inline radio-primary">
             <label class="radio-inline">
               <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
@@ -36,17 +36,17 @@
             </label>
           </div>
         </div>
-        <div class="form-group">
+        <div class="group-container">
           <div class="text-lg">Combien de pièces ?</div>
           <div class="slider shor" id="room-number-slider"></div>
         </div>
-        <div class="form-group">
+        <div class="group-container">
           <div class="text-lg">
             Approximativement quelle valeur pour votre mobilier ?
           </div>
           <div class="slider shor" id="flat-value"></div>
         </div>
-        <div class="form-group">
+        <div class="group-container">
           <p class="text-lg">Avec quelles conditions ?</p>
         </div>
           <div class="list-group list-group-gray">
@@ -169,7 +169,7 @@
       </div>
   </div>
 
-  <div class="form-group">
+  <div class="group-container">
     <div class="text-lg text-semibold">
       <p>
         Le détail de vos garanties <br/>
@@ -193,7 +193,7 @@
     </div>
     <div class="pull-right">
       <div class="row">
-        <a href="#" class="btn btn-primary btn-raised">
+        <a href="devis-hab-2.html" class="btn btn-primary btn-raised">
           <span class="material-icons">done</span>
           <br/>
           <div class="text-uppercase">Valider</div>
