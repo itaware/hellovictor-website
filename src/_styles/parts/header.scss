@@ -74,6 +74,10 @@
   display: inline-block;
   margin: 5vh auto 0;
   color: #fff;
+  transition: all 0.3s;
+  &:hover{
+    transform: translateY(10%);
+  }
 }
 .form-title {
   @extend .slogan;

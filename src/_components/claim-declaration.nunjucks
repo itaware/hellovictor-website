@@ -107,21 +107,21 @@
 <section class="section alert alert-info ">
     <div class="container" data-print="true" id="declaration-paiement-{{page}}">
       <div class="row align-items middle">
-        <div class="align-item  col-xs-12 col-sm-4">
+        <div class="align-item  col-xs-12 col-sm-6 col-md-4">
           <div class="text-lg">En cas de sinistre</div>
           <div class="text-lg"><strong>Hello victor vous <br/>rembourse rapidement !</strong></div>
         </div>
-        <div class="scrollme align-item col-xs-12 col-sm-4 clearfix no-padding declaration-step-content">
-            <img class="sticker"src="{{baseUrl}}/images/billet.png" alt="billet" />
+        <div class="scrollme align-item col-xs-12 col-sm-6 col-md-4 clearfix no-padding declaration-step-content">
+            <img class="animateme sticker"src="{{baseUrl}}/images/billet.png" alt="billet" data-when="enter" data-from="0" data-to="1" data-translatex="-40" />
 
-            <div class="animateme col-xs-7 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">
+            <div class="animateme col-xs-6 col-xs-offset-1 no-padding element-1 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="300">
               <img src="images/declaration/smartphone-top.png" alt="Validation" class="img-responsive animateme"/>
             </div>
-            <div class="animateme col-xs-7 no-padding element-2 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="500">
+            <div class="animateme col-xs-6 no-padding element-2 element-overlap" data-when="enter" data-from="1" data-to="0" data-translatey="500">
               <img src="images/declaration/smartphone-2.svg" alt="Paiement" class="img-responsive" />
             </div>
         </div>
-        <div class="align-item col-xs-12 col-sm-4 process">
+        <div class="align-item col-xs-12 col-md-4 process">
           <div class="bubble-item">...</div>
           <ul class="list-instructions">
             <li>

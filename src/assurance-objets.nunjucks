@@ -54,8 +54,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="block-img col-xs-12 col-sm-6 container-cover">
-          <div class="cover">
-            <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+          <div class="cover block-anim">
+            <div class="anim-zoom">
+              <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+            </div>
           </div>
           <div class="icon-desc text-center cover-content">
             <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
@@ -83,8 +85,10 @@
     </div>
     <div class="row">
       <div class="block-img col-xs-12 col-sm-6 container-cover">
-          <div class="cover">
-            <img src="{{baseUrl}}images/product/objets/materiel-loisir.jpg" alt="Matériel de loisir" />
+          <div class="cover block-anim">
+            <div class="anim-zoom">
+              <img src="{{baseUrl}}images/product/objets/materiel-loisir.jpg" alt="Matériel de loisir" />
+            </div>
           </div>
           <div class="icon-desc text-center cover-content">
             <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
@@ -114,8 +118,10 @@
     </div>
     <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
+        <div class="cover block-anim">
+          <div class="anim-zoom">
+            <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
+          </div>
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>

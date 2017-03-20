@@ -42,8 +42,10 @@
   <div class="container-fluid">
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/habitation/studio.png" alt="Appareils numériques" />
+        <div class="cover block-anim">
+          <div class="anim-zoom">
+            <img src="{{baseUrl}}images/product/habitation/studio.png" alt="Appareils numériques" />
+          </div>
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/studio-icon.png" alt="Studio" /></div>
@@ -78,8 +80,10 @@
   </div>
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/habitation/appartement.jpg" alt="Appartement" />
+        <div class="cover block-anim">
+          <div class="anim-zoom">
+            <img src="{{baseUrl}}images/product/habitation/appartement.jpg" alt="Appartement" />
+          </div>
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/appartement-icon.png" alt="Vélo" /></div>
@@ -107,8 +111,10 @@
   </div>
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/habitation/serenite.jpg" alt="Sérénité" />
+        <div class="cover block-anim">
+          <div class="anim-zoom">
+            <img src="{{baseUrl}}images/product/habitation/serenite.jpg" alt="Sérénité" />
+          </div>
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/serenite-icon.svg" alt="Sérénité" /></div>
@@ -134,8 +140,9 @@
       </div>
     </div>
   </div>
+  </div>
 </div>
-</div>
+<div class="section">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-5">
@@ -155,6 +162,8 @@
   <div class="link-bottom text-center">
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
+
+
 </div>
 {% include '_components/claim-declaration.nunjucks' %}
 {% include '_components/transfer.nunjucks'%}

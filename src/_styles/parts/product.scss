@@ -192,7 +192,12 @@
   .product-item{
     &.alternate-item{
       .row > div{height: 550px;}
-
+      .cover{
+        img{
+          top:0;
+          transform: translate(-50%, 0);
+        }
+      }
     }
   }
 }

@@ -69,9 +69,58 @@ jQuery(document).ready(function ($) {
         position += '%';
         $('.home .header-site').css('background-position', position + ' bottom');
       }
+
     });
   }
+  $('.slogan').addClass('anim');
+  $(window).on('scroll', function(){
+    // parallax
+    if($('.bg-parallax').size() > 0){
+      var position = get_position($('.bg-parallax'));
+      $('.bg-parallax').css({
+        'background-position': 'center ' + position
+      });
+    }
+    // slogan animate
+    if($('.slogan').size() > 0){
+      var position = get_position($('.header-site'), 1.5);
+      $('.slogan').css({
+        'transform': 'translateY(' + position + ')'
+      });
+    }
 
+    // Block anim
+    $('.block-anim').each(function(){
+      if($(this).offset().top + $(this).height() * 0.8 < $(window).scrollTop() + $(window).height()){
+        $(this).addClass('anim');
+      }
+      else if($(this).offset().top + $(this).height() * 0.1 > $(window).scrollTop() + $(window).height()){
+        $(this).removeClass('anim');
+      }
+    });
+  });
+
+  function get_position(element, vitesse = 1){
+    offsetTop = element.offset().top;
+    var position = -parseInt(((($(window).scrollTop()) - offsetTop) * 100 /  element.height()));
+    position = position * vitesse;
+    position += '%';
+
+    return position;
+  }
+  // Anim scroll
+  $('a[href*="#"]:not([href="#"])').on('click', function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 700);
+          return false;
+        }
+      }
+  });
   // video modal fancybox
   $('a[id^="video"]').fancybox({
     padding: 0

@@ -1,0 +1,18 @@
+.block-anim{
+  .anim-zoom{
+      transform: scale(1);
+      transition: all 0.5s;
+  }
+  &.anim{
+    .anim-zoom{
+      transform: scale(1.03);
+    }
+  }
+  &.text-zoom{
+    transform: scale(0.90);
+    transition: all 0.4s;
+    &.anim{
+      transform: scale(1);
+    }
+  }
+}

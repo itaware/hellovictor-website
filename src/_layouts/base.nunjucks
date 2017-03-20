@@ -85,13 +85,13 @@
   </div>
 
   <div class="main-content">
-    <header class="header-site text-center">
+    <header class="header-site text-center bg-parallax">
         <div class="header-site-inner">
         <div class="header-site-top">
           <div class="logo animated bounceIn"><a href="/" id="back-home-habitation-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
         </div>
         <div class="header-site-bottom">
-          <div class="slogan">{{slogan}}</div>
+          <div class="slogan block-anim text-zoom">{{slogan}}</div>
           <div>
           <a class="link-video fancybox fancybox.iframe" href="https://www.youtube.com/embed/YmbaM0gYACc?autoplay=1" id="video-{{page}}">
             <span class="glyphicon glyphicon-play"></span>
@@ -105,8 +105,7 @@
         </div>
       {% block header %}{% endblock %}
     </header>
-    <div class="content-top text-center">
-      <a name="detail"></a>
+    <div id="detail" class="content-top text-center">
       <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle text-lowercase">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
       <div class="container list-icon-text">
         <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">

@@ -32,6 +32,10 @@
   a{
     color: inherit;
   }
+  transition: all 0.3s;
+  &:hover{
+    transform: translateY(10%);
+  }
 }
 .no-padding{
   padding: 0 !important;
@@ -53,7 +57,10 @@
   position: relative;
   z-index: 10;
   + .element-overlap{
-    margin-left: -18%;
+    margin-left: -16.7%;
+  }
+  img{
+    width: 100%;
   }
 }
 
@@ -256,7 +263,7 @@ $max-element : 4;
 
 .sticker{
   position: absolute;
-  top: 50%;
+  top: 35%;
   transform: translate(-90%, -70%);
   max-width: 90px;
 }

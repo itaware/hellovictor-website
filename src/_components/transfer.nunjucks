@@ -54,7 +54,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="mailto:contact@hellovictor?subject=je change pour Hello Victor" class="btn btn-info btn-md btn-raised " id="change">Je change</a>
+        <a href="mailto:contact@hellovictor?subject=je change pour Hello Victor" class="btn btn-lg btn-info btn-md btn-raised " id="change">Je change</a>
       </div>
     </div>
   </div>
