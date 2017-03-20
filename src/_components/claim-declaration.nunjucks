@@ -6,9 +6,10 @@
     <div class="cover">
       <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
     </div>
-    <div class="col-xs-12 col-sm-5 col-sm-offset-7">
+    <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-lg-5 col-lg-offset-7">
       <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
       <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
+      <hr class="visible-xs" />
       <div class="steps">
         <div class="step-item col-xs-6 col-sm-6">
           <div class="bubble-item bubble-step step-item-number">1</div>
@@ -55,23 +56,24 @@
   <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
       <div class="row">
-        <div class="cover">
+        <div class="cover cover-top">
           <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
         </div>
         <div class="col-xs-12 text-center">
           <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
           <div class="block-cover-content-subtitle text-semibold"><p>Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</p></div>
         </div>
-        <div class="block-valign middle" data-print="true" id="declaration-chat-{{page}}">
+      </div>
+      <div class="row">
+        <div class="block-valign middle " data-print="true" id="declaration-chat-{{page}}">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-sm-5">
+              <hr class="visible-xs" />
+              <div class="center-block-xs col-sm-5">
                 <div class="text-lg"><strong>Déclaration d'un sinistre</strong></div>
                 <div class="text-md">Par messagerie en <strong>moins de 2 mn</strong></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-7 col-sm-3 bubble-chat">
+              <div class="clearfix">
+              <div class="bubble-chat">
                 <div class="bubble-chat-container">
                   <div class="bubble-chat-item">
                     <img src="{{baseUrl}}images/hello-victor-color.svg" alt="Hello Victor" class="img-responsive center-block" />
@@ -90,6 +92,8 @@
                   </div>
                 </div>
               </div>
+                </div>
+            </div>
             </div>
           </div>
         </div>

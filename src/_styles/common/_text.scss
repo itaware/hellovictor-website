@@ -28,7 +28,11 @@
 .text-xl{
   font-size: $text-xl;
 }
-
+@media(max-width: $screen-xs-max){
+  .text-center-xs{
+    text-align: center;
+  }
+}
 
 @media(min-width: $screen-sm-min){
   .text-md{

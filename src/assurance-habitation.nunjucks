@@ -42,7 +42,7 @@
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+          <img src="{{baseUrl}}images/product/habitation/studio.png" alt="Appareils numériques" />
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/studio-icon.png" alt="Studio" /></div>

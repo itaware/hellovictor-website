@@ -1,6 +1,9 @@
 .block-cover{
   padding: 0;
-
+  &-title{
+    margin: 0;
+    padding: 20px 15px;
+  }
   &-content{
     padding: 0;
     min-height: 100vh;
@@ -10,7 +13,9 @@
       position: relative;
       height: 100%;
     }
-    &-title{font-size: 22px;}
+    &-title{
+      font-size: $text-lg;
+    }
     &-subtitle{font-size: 16px;}
     &-desc{
       font-size: $text-md;
@@ -22,7 +27,7 @@
     &-content{
       position: relative;
       padding: 15px 40px;
-      &-title{font-size: 36px;}
+      &-title{font-size: 30px;}
       &-subtitle{font-size: 20px;}
     }
     @include cover();

@@ -111,7 +111,7 @@
       <div class="container list-icon-text">
         <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="assurance-objets.html#content">
-          <div class="img"><img src="images/product-type/objets-courants.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="img"><img src="images/picto/objets.svg" alt="Objects courants" class="img-responsive center-block" /></div>
           <div class="list-text">
             Objets
             {% if page == 'objets' %}
@@ -122,7 +122,7 @@
         </div>
         <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="assurance-habitation.html">
-            <div class="img col-xs-8 col-sm-12"><img src="images/product-type/habitation.svg" alt="Habitation" class="img-responsive center-block" /></div>
+            <div class="img col-xs-8 col-sm-12"><div class="center-block"><img src="images/picto/maison.svg" alt="Habitation" class="img-responsive center-block" /></div></div>
             <div class="list-text">
               Habitation
               {% if page == 'habitation' %}
@@ -133,7 +133,7 @@
         </div>
         <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="#">
-            <div class="img col-xs-8 col-sm-12"><img src="images/product-type/sante.svg" alt="Santé" class="img-responsive center-block" /></div>
+            <div class="img col-xs-8 col-sm-12"><img src="images/picto/coeur.svg" alt="Santé" class="img-responsive center-block" /></div>
             <div class="list-text">
               Santé
             </div>
@@ -154,10 +154,12 @@
             </p>
           </div>
           <div class="col-xs-12 col-sm-7">
-            <h2 class="section-title">
-              &Agrave; propos de nous
-            </h2>
-            <div class="dash"></div>
+            <div class="section-header">
+              <h2 class="section-title">
+                &Agrave; propos de nous
+              </h2>
+              <div class="dash"></div>
+            </div>
             <div class="section-text">
               <p>Ce qui nous distingue.<br/>
               Nous sommes perfectionnistes, passionnés, novateurs. <br/>

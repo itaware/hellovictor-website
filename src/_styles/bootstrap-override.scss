@@ -1,7 +1,7 @@
 @media(min-width: $screen-sm-min){
   .btn.btn-lg{
-    padding: 15px 50px;
-    font-size: 28px;
+    padding: 10px 30px;
+    font-size: 20px;
   }
 }
 .btn{
@@ -39,9 +39,9 @@ h6,
 
 h2 {
   margin-bottom: 30px;
-  font-size: 28px;
+  font-size: $text-lg;
   @media(min-width: $screen-sm-min){
-    font-size: 38px;
+    font-size: $text-xl;
   }
 }
 h3{
@@ -57,6 +57,13 @@ strong {
   @media(max-width: $screen-xs-max) {
     margin: 20px 20px;
   }
+}
+
+hr{
+  margin-top: 35px;
+  margin-bottom: 25px;
+  opacity: 0.5;
+  max-width: 70%;
 }
 
 .form-control-infos {

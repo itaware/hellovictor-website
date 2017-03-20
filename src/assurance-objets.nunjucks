@@ -12,10 +12,12 @@
 {% endblock %}
 {% block content %}
 <a name="content"></a>
-<div class="section text-center">
+<div class="section">
   <div class="container">
-      <h2 class="section-title">Certains de vos objets sont plus importants que d’autres.</h2>
-      <div class="dash dash-center"></div>
+      <div class="section-header">
+        <h2 class="section-title text-center">Certains de vos objets sont plus importants que d’autres.</h2>
+        <div class="dash dash-center"></div>
+      </div>
       <div class="section-text">
         <p class="text-md"><strong>Hello Victor assure tous vos objets qui ne sont généralement pas pris en compte dans votre assurance habitation :</strong></p>
         <br/>
@@ -41,6 +43,7 @@
         Dorénavant assurez-vous en quelques minutes et payez le juste prix au travers d’une offre claire.
         <br><br>
         En cas de sinistre ne perdez plus des heures au téléphone <span class="text-semibold">déclarez le en ligne 24h/24 7j/7</span> via votre messagerie préférée (Messenger, Kik, ...) et <span class="text-semibold">soyez remboursé rapidement.</span>
+        <br><br>
       </div>
       <div class="link-bottom text-center">
         <span class="glyphicon glyphicon-menu-down"></span>
