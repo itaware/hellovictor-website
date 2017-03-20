@@ -15,4 +15,30 @@
       transform: scale(1);
     }
   }
+  &.discover-radius{
+    position: relative;
+    .discover-inner{
+     clip-path: circle(0 at center);
+     transition: clip-path 4s;
+
+      .discover-anim{
+
+      }
+    }
+  }
+  &.anim{
+    .discover-inner{
+      clip-path: circle(100% at center);
+    }
+  }
+}
+
+.cover-parallax{
+  .cover-inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
 }

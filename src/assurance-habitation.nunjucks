@@ -145,8 +145,10 @@
 <div class="section">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-5">
-        <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
+      <div class="col-xs-12 col-sm-5 block-anim discover-radius">
+        <div class="discover-inner">
+          <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
+        </div>
       </div>
       <div class="col-xs-12 col-sm-7">
       <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>

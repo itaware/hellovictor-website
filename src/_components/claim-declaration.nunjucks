@@ -3,8 +3,8 @@
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
   </header>
   <div class="container-fluid text-white block-cover-content block-inventaire">
-    <div class="cover">
-      <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
+    <div class="cover cover-parallax">
+        <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
     </div>
     <div class="col-xs-12 col-sm-6 col-sm-offset-6 col-lg-5 col-lg-offset-7">
       <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>

@@ -81,6 +81,14 @@ jQuery(document).ready(function ($) {
         'background-position': 'center ' + position
       });
     }
+    /*if($('.cover-parallax').size() > 0){
+      var position = get_position($('.cover-parallax'), 1);
+      position = parseInt(position) - 50;
+    //  position = -position;
+      $('.cover-parallax img').css({
+        transform: 'translate(-50%, ' + position + '%)'
+      })
+    }*/
     // slogan animate
     if($('.slogan').size() > 0){
       var position = get_position($('.header-site'), 1.5);
@@ -90,7 +98,7 @@ jQuery(document).ready(function ($) {
     }
 
     // Block anim
-    $('.block-anim').each(function(){
+    $('.block-anim, .dash').each(function(){
       if($(this).offset().top + $(this).height() * 0.8 < $(window).scrollTop() + $(window).height()){
         $(this).addClass('anim');
       }
@@ -98,6 +106,14 @@ jQuery(document).ready(function ($) {
         $(this).removeClass('anim');
       }
     });
+  /*  $('.dash').each(function(){
+      if($(this).offset().top + $(this).height() * 0.8 < $(window).scrollTop() + $(window).height()){
+        $(this).addClass('anim');
+      }
+      else if($(this).offset().top + $(this).height() * 0.1 > $(window).scrollTop() + $(window).height()){
+        $(this).removeClass('anim');
+      }
+    });*/
   });
 
   function get_position(element, vitesse = 1){
