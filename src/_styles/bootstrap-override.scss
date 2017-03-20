@@ -78,6 +78,7 @@ hr{
 }
 .togglebutton{
   label{
+    margin-bottom: 10px;
   }
   &.text-center{
     .toggle{
@@ -177,11 +178,17 @@ hr{
     .row-picture,
     .row-action-primary{
       padding: 0 10px;
+      .togglebutton{
+        label{
+          margin-bottom: 10px;
+        }
+      }
       img, i, label{
         width: auto;
         height: auto;
         padding: 0;
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         background: none;
       }
       i{

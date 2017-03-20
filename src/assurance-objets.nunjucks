@@ -50,68 +50,69 @@
       </div>
   </div>
 </div>
-<div class="section no-padding product-item alternate-item container-fluid">
-  <div class="row">
-    <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
-        </div>
-        <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Appareils numériques</h3>
-          <div class="icon-desc-desc">Vol, casse, combustion</div>
-          <div class="icon-desc-price">
-            <div class="price-condition">à partir de</div>
-            <div class="price-value">7,90</div>
-            <div class="price-infos text-left">
-              <div class="text-sup currency">€</div>
-              <div class="periodicity">/mois</div>
+<div class="section product-item alternate-item no-padding">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="block-img col-xs-12 col-sm-6 container-cover">
+          <div class="cover">
+            <img src="{{baseUrl}}images/product/objets/appareils-numeriques.jpg" alt="Appareils numériques" />
+          </div>
+          <div class="icon-desc text-center cover-content">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Appareils numériques</h3>
+            <div class="icon-desc-desc">Vol, casse, combustion</div>
+            <div class="icon-desc-price">
+              <div class="price-condition">à partir de</div>
+              <div class="price-value">7,90</div>
+              <div class="price-infos text-left">
+                <div class="text-sup currency">€</div>
+                <div class="periodicity">/mois</div>
+              </div>
             </div>
           </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 block-text valign-top">
+        <h4 class="block-text-title">Assurez tous vos appareils numériques et nomades pour vous ou toute votre famille.</h4>
+        <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
+        <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions. Hello Victor adaptera pour vous le prix au plus juste.</p>
+        <div class="text-center block-text-button">
+          <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
         </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
-      <h4 class="block-text-title">Assurez tous vos appareils numériques et nomades pour vous ou toute votre famille.</h4>
-      <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
-      <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions. Hello Victor adaptera pour vous le prix au plus juste.</p>
-      <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/materiel-loisir.jpg" alt="Matériel de loisir" />
-        </div>
-        <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Matériel de loisir</h3>
-          <div class="icon-desc-desc">Vol, dégradation</div>
-          <div class="icon-desc-price">
-            <div class="price-condition">à partir de</div>
-            <div class="price-value">9,90</div>
-            <div class="price-infos text-left">
-              <div class="text-sup currency">€</div>
-              <div class="periodicity">/mois</div>
+    <div class="row">
+      <div class="block-img col-xs-12 col-sm-6 container-cover">
+          <div class="cover">
+            <img src="{{baseUrl}}images/product/objets/materiel-loisir.jpg" alt="Matériel de loisir" />
+          </div>
+          <div class="icon-desc text-center cover-content">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Matériel de loisir</h3>
+            <div class="icon-desc-desc">Vol, dégradation</div>
+            <div class="icon-desc-price">
+              <div class="price-condition">à partir de</div>
+              <div class="price-value">9,90</div>
+              <div class="price-infos text-left">
+                <div class="text-sup currency">€</div>
+                <div class="periodicity">/mois</div>
+              </div>
             </div>
           </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 block-text valign-top">
+        <h4 class="block-text-title">Assurez tout votre matériel de loisir pour vous ou votre famille.</h4>
+        <p>Enfin une couverture d’assurance adaptée à votre usage.</p>
+        <p>Sportifs ? assurez votre vélo, votre raquette de tennis, votre matériel de golf, vos skis, votre snowboard, votre surf ou votre kite surf, ...</p>
+        <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
+        <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
+        <div class="text-center block-text-button">
+          <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
         </div>
-    </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
-      <h4 class="block-text-title">Assurez tout votre matériel de loisir pour vous ou votre famille.</h4>
-      <p>Enfin une couverture d’assurance adaptée à votre usage.</p>
-      <p>Sportifs ? assurez votre vélo, votre raquette de tennis, votre matériel de golf, vos skis, votre snowboard, votre surf ou votre kite surf, ...</p>
-      <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
-      <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
-      <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
-  </div>
-  <div class="row">
+    <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover">
           <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
@@ -139,6 +140,7 @@
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
+  </div>
   </div>
 </div>
 <div class="section">

@@ -2,7 +2,7 @@ section, .section{
   position: relative;
 }
 .section{
-  padding: 55px 0 40px 0;
+  padding: 55px 15px 40px 15px;
   border-bottom: 1px solid rgba($dusty-gray, 0.35);
   @include clearfix();
   &.section-gray{
@@ -46,8 +46,6 @@ section, .section{
   }
   @media(max-width: $screen-sm-max){
     .section-header{
-      padding-left: 15px;
-      padding-right: 15px;
       padding-bottom: 10px;
       br:not(.no-hidden){
         display:none;

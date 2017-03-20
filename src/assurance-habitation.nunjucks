@@ -38,7 +38,8 @@
     </div>
   </div>
 </div>
-<div class="section no-padding product-item alternate-item container-fluid">
+<div class="section no-padding product-item alternate-item">
+  <div class="container-fluid">
   <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover">
@@ -61,14 +62,15 @@
     </div>
     <div class="col-xs-12 col-sm-6 block-text valign-top">
       <h4 class="block-text-title">Avec l’assurance habitation étudiant, je suis couvert dans tous Les cas, que je sois responsable ou non.</h4>
-      <p>Assurez l’essentiel rapidement et simplement.
+      <p>
+        Assurez l’essentiel rapidement et simplement.
       </p>
       <p>
         Vous emménagez dans un studio ? Vous n’avez que peu de mobilier mais vous l’aimez ? Vous ne voulez pas perdre de temps ? Assurez-vous avec Hello Victor en 3mn.
       </p>
       <p>
         Listez votre mobilier avec vos factures et obtenez le prix le plus adapté à vos besoins. Complétez avec vos objets nomades (ordinateur portable, téléphone, vélo, ...) pour être couvert aussi en cas de vol en dehors de l’habitation, de casse et de dégradation et de panne.
-</p>
+      </p>
       <div class="text-center block-text-button">
         <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
@@ -133,13 +135,13 @@
     </div>
   </div>
 </div>
-<div class="section">
+</div>
   <div class="container">
     <div class="row">
-    <div class="col-xs-12 col-sm-5">
-      <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
-    </div>
-    <div class="col-xs-12 col-sm-7">
+      <div class="col-xs-12 col-sm-5">
+        <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
+      </div>
+      <div class="col-xs-12 col-sm-7">
       <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
       <div class="dash"></div>
       <div class="section-content">
@@ -148,11 +150,11 @@
         <p><b>EN EXTENSION DE GARANTIE</b> : vos objets sont assurés en cas de panne au delà de sa période de garantie.</p>
       </div>
     </div>
+    </div>
   </div>
   <div class="link-bottom text-center">
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
-</div>
 </div>
 {% include '_components/claim-declaration.nunjucks' %}
 {% include '_components/transfer.nunjucks'%}
