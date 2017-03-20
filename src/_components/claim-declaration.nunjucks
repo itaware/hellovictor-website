@@ -1,65 +1,66 @@
-<section class="block-cover">
+<section class="block-cover block-cover-no-xs">
   <header class="block-cover-header text-center">
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
   </header>
   <div class="container-fluid text-white block-cover-content block-inventaire">
-      <div class="row">
-      <!--  <div class="cover">
-          <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
-        </div>-->
-        <div class="col-xs-12 col-sm-5 col-sm-offset-7">
-          <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
-          <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
-          <div class="steps">
-            <div class="step-item col-xs-6 col-sm-6">
-              <div class="bubble-item bubble-step step-item-number">1</div>
-              <div class="step-item-preview col-xs-4">
-                <img src="images/step/phone-1.png" alt="étape 1" class="img-responsive">
-              </div>
-              <div class="step-item-text col-xs-8">
-                Lancer l'application Hello Victor sur votre smartphone
-              </div>
-            </div>
-            <div class="step-item col-xs-6 col-sm-6">
-              <div class="bubble-item bubble-step step-item-number">2</div>
-              <div class="step-item-preview col-xs-4">
-                <img src="images/step/phone-2.png" alt="étape 2" class="img-responsive">
-              </div>
-              <div class="step-item-text col-xs-8">
-                Cadrez l'objet à ajouter à votre inventaire
-              </div>
-            </div>
-            <div class="step-item col-xs-6 col-sm-6">
-              <div class="bubble-item bubble-step step-item-number">3</div>
-              <div class="step-item-preview col-xs-4">
-                <img src="images/step/phone-3.png" alt="étape 3" class="img-responsive">
-              </div>
-              <div class="step-item-text col-xs-8">
-                L'application reconnait l'objet vous avez juste à valider
-              </div>
-            </div>
-            <div class="step-item col-xs-6 col-sm-6">
-              <div class="bubble-item bubble-step step-item-number">4</div>
-              <div class="step-item-preview col-xs-4">
-                <img src="images/step/phone-4.png" alt="étape 4" class="img-responsive">
-              </div>
-              <div class="step-item-text col-xs-8">
-                Ajouter éventuellement une description et une pièce jointe (facture, expertise) <strong>et voila ! </strong>
-              </div>
-            </div>
+    <div class="cover">
+      <img src="{{baseUrl}}images/product/objets/app-mobile.jpg" />
+    </div>
+    <div class="col-xs-12 col-sm-5 col-sm-offset-7">
+      <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
+      <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
+      <div class="steps">
+        <div class="step-item col-xs-6 col-sm-6">
+          <div class="bubble-item bubble-step step-item-number">1</div>
+          <div class="step-item-preview col-xs-4">
+            <img src="images/step/phone-1.png" alt="étape 1" class="img-responsive">
+          </div>
+          <div class="step-item-text col-xs-8">
+            Lancer l'application Hello Victor sur votre smartphone
+          </div>
+        </div>
+        <div class="step-item col-xs-6 col-sm-6">
+          <div class="bubble-item bubble-step step-item-number">2</div>
+          <div class="step-item-preview col-xs-4">
+            <img src="images/step/phone-2.png" alt="étape 2" class="img-responsive">
+          </div>
+          <div class="step-item-text col-xs-8">
+            Cadrez l'objet à ajouter à votre inventaire
+          </div>
+        </div>
+        <div class="step-item col-xs-6 col-sm-6">
+          <div class="bubble-item bubble-step step-item-number">3</div>
+          <div class="step-item-preview col-xs-4">
+            <img src="images/step/phone-3.png" alt="étape 3" class="img-responsive">
+          </div>
+          <div class="step-item-text col-xs-8">
+            L'application reconnait l'objet vous avez juste à valider
+          </div>
+        </div>
+        <div class="step-item col-xs-6 col-sm-6">
+          <div class="bubble-item bubble-step step-item-number">4</div>
+          <div class="step-item-preview col-xs-4">
+            <img src="images/step/phone-4.png" alt="étape 4" class="img-responsive">
+          </div>
+          <div class="step-item-text col-xs-8">
+            Ajouter éventuellement une description et une pièce jointe (facture, expertise) <strong>et voila ! </strong>
           </div>
         </div>
       </div>
-      <div class="link-bottom">
-        <span class="glyphicon glyphicon-menu-down"></span>
-      </div>
+    </div>
+    <div class="link-bottom">
+      <span class="glyphicon glyphicon-menu-down"></span>
+    </div>
   </div>
   <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
       <div class="row">
-        <div class="text-center">
+        <div class="cover">
+          <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
+        </div>
+        <div class="col-xs-12 text-center">
           <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
-          <div class="block-cover-content-subtitle text-semibold">Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie<br/> préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</div>
+          <div class="block-cover-content-subtitle text-semibold"><p>Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</p></div>
         </div>
         <div class="block-valign middle" data-print="true" id="declaration-chat-{{page}}">
           <div class="container">
