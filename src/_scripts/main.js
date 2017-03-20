@@ -101,19 +101,31 @@ jQuery(document).ready(function ($) {
     $('.block-anim, .dash').each(function(){
       if($(this).offset().top + $(this).height() * 0.8 < $(window).scrollTop() + $(window).height()){
         $(this).addClass('anim');
+        if($(this).hasClass('pop-item')){
+          $(this).children().each(function(index){
+            var item = $(this);
+            setTimeout(function(){
+              item.addClass('anim');
+            }, (index+1) * 150);
+          });
+        }
+        if($(this).find('.pop-item').size() > 0){
+          $(this).find('.pop-item').children().each(function(index){
+            var item = $(this);
+            setTimeout(function(){
+              item.addClass('anim');
+            }, (index+1) * 150);
+          });
+        }
       }
       else if($(this).offset().top + $(this).height() * 0.1 > $(window).scrollTop() + $(window).height()){
         $(this).removeClass('anim');
+        $(this).find('.pop-item').children().each(function(){
+          $(this).removeClass('anim');
+
+        });
       }
     });
-  /*  $('.dash').each(function(){
-      if($(this).offset().top + $(this).height() * 0.8 < $(window).scrollTop() + $(window).height()){
-        $(this).addClass('anim');
-      }
-      else if($(this).offset().top + $(this).height() * 0.1 > $(window).scrollTop() + $(window).height()){
-        $(this).removeClass('anim');
-      }
-    });*/
   });
 
   function get_position(element, vitesse = 1){

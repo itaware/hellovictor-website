@@ -73,16 +73,16 @@
                 <div class="text-lg"><strong>Déclaration d'un sinistre</strong></div>
                 <div class="text-md">Par messagerie en <strong>moins de 2 mn</strong></div>
               <div class="clearfix">
-              <div class="bubble-chat">
+              <div class="bubble-chat block-anim">
                 <div class="bubble-chat-container">
                   <div class="bubble-chat-item">
-                    <img src="{{baseUrl}}images/hello-victor-color.svg" alt="Hello Victor" class="img-responsive center-block" />
+                    <img src="{{baseUrl}}images/hello-victor-color.svg" alt="Hello Victor" class="zoom-full img-responsive center-block" />
                     compatible avec
                   </div>
                 </div>
                 <div class="bubble-chat-container">
                   <div class=" bubble-chat-item">
-                    <div class="container-fluid social-icon">
+                    <div class="container-fluid social-icon pop-item">
                       <img src="{{baseUrl}}images/social/kik.svg" alt="kik" />
                       <img src="{{baseUrl}}images/social/line.svg" alt="line" />
                       <img src="{{baseUrl}}images/social/imessage.svg" alt="imessage" />
@@ -123,7 +123,7 @@
         </div>
         <div class="align-item col-xs-12 col-md-4 process">
           <div class="bubble-item">...</div>
-          <ul class="list-instructions">
+          <ul class="list-instructions block-anim">
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
               Déclarez par chat ce qu'on vous a volé ou ce qui est déterioré.
