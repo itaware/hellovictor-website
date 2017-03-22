@@ -27,19 +27,19 @@
         max-height: 80px;
         width: auto;
       }
-      .sticker-waiting{
-        position: absolute;
-        bottom: -20px;
-        background: $brand-success;
-        font-size: 16px;
-        left: 50%;
-        right: 0;
-        margin: auto;
-        width: 70%;
-        min-width: 150px;
-        padding: 5px 0;
-        transform: translateX(-50%);
-      }
+    }
+    .sticker-waiting{
+      position: absolute;
+      top: 100%;
+      background: $brand-success;
+      font-size: 16px;
+      left: 50%;
+      right: 0;
+      margin: auto;
+      width: 70%;
+      min-width: 150px;
+      padding: 5px 0;
+      transform: translateX(-50%);
     }
     &:hover:not(.active){
       .img{

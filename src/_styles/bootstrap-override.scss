@@ -19,6 +19,11 @@
       vertical-align: middle;
     }
   }
+  &[disabled]{
+    background: whitesmoke;
+    color: #000 !important;
+    
+  }
 }
 
 h1,

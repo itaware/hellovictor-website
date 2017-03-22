@@ -138,11 +138,11 @@
           <a href="#">
             <div class="img col-xs-8 col-sm-12">
               <img src="images/picto/coeur.svg" alt="Santé" class="img-responsive center-block" />
-              <div class="sticker-waiting">Bientôt disponible</div>
             </div>
             <div class="list-text">
               Santé
             </div>
+            <div class="sticker-waiting">Bientôt disponible</div>
             {% if page == 'sante' %}
             <div class="glyphicon glyphicon-menu-down"></div>
             {% endif %}

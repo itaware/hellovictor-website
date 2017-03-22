@@ -55,7 +55,7 @@
       </a>
     </div>
     <div class="blocks-home-item-link">
-      <a href="#" class="btn btn-success btn-lg btn-raised">
+      <a href="#" disabled class="btn btn-lg btn-raised">
         Bientôt disponible
       </a>
     </div>
