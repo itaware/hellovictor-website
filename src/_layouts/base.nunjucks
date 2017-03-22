@@ -185,6 +185,11 @@
     {% block content %}{% endblock %}
   </div>
   <footer class="footer-site clearfix">
+    {% if page == 'accueil' %}
+      <div class="text-center legal-text">Marque(s) & Concept Liberty Finances, Sarl au capital de 1.000.000 d’euros, immatriculée auprès du Registre du Commerce et des Sociétés de Strasbourg sous le numéro 49991285500024</div>
+    {% else %}
+
+
     <div class="footer-block pull-left">
       <div class="footer-block-inner">
         <div>&copy;Hello Victor 2017</div>
@@ -217,6 +222,7 @@
     <div class="legal-text">
       Concept Marque & Projet : Liberty Finances, société au capital de 1 000 000 €
     </div>
+      {% endif %}
   </footer>
 
   {% if not config.offline %}

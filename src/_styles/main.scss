@@ -47,9 +47,10 @@ body {
   font-family: $font-sans-serif;
   font-weight: 300;
 }
-
-.main-content {
-  min-height: 680px;
+body:not(.home){  
+    .main-content {
+      min-height: 680px;
+    }
 }
 
 .terms {
