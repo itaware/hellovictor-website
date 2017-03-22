@@ -74,6 +74,8 @@ jQuery(document).ready(function ($) {
   }
   $('.slogan').addClass('anim');
     var timeout = new Array();
+    var bubble_tab = new Array();
+    var bubble_interval = new Array();
   $(window).on('scroll', function(){
     // parallax
     if($('.bg-parallax').size() > 0){
@@ -114,7 +116,6 @@ jQuery(document).ready(function ($) {
               timeout[index_anim][index] = setTimeout(function(){
                 item.addClass('anim');
               }, (index) * timer);
-
             }
           });
         }
@@ -144,7 +145,51 @@ jQuery(document).ready(function ($) {
       }
 
     });
+
+    $('.pop-bubble').each(function(index_anim){
+        if( element_visible_value($(this)) > 0.5 ){
+          bubble_tab[index_anim] = new Array();
+      //    $(this).addClass('anim');
+          anim_bubble($(this), index_anim);
+          bubble_interval[index_anim] = anim_bubble_interval($(this), index_anim);
+        }
+        else if ( element_visible_value($(this)) < 0.1 ){
+          anim_bubble_clear(bubble_tab, index_anim);
+        }
+    });
   });
+  function anim_bubble_clear(bubble_tab, index_anim){console.log(bubble_tab[index_anim]);
+    if(bubble_interval[index_anim] !== undefined){
+      for (var i=0; i < bubble_interval[index_anim].length; i++ ){
+        clearInterval(bubble_interval[i]);
+      }
+    }
+  }
+  function anim_bubble_interval(element, index_anim){
+    var timer = 400;
+    return setInterval(function(){
+      element.children().removeClass('anim');
+      element.children().each(function(index){
+        var item = $(this);
+        if(!$(this).hasClass('anim')){
+          bubble_tab[index_anim][index] = setTimeout(function(){
+            item.addClass('anim');
+          }, (index+1) * timer);
+        }
+      });
+    },6000);
+  }
+  function anim_bubble(element, index_anim){
+    var timer = 400;
+      element.children().each(function(index){
+        var item = $(this);
+        if(!$(this).hasClass('anim')){
+          bubble_tab[index_anim][index] = setTimeout(function(){
+            item.addClass('anim');
+          }, (index+1) * timer);
+        }
+      });
+  }
 
   function element_visible_value(element){
     var percentage = ($(window).scrollTop() + $(window).height() - element.offset().top ) / element.height();

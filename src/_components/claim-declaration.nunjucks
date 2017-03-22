@@ -16,7 +16,7 @@
       <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
       <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
       <hr class="visible-xs" />
-      <div class="steps block-anim fade-item">
+      <div class="steps pop-bubble">
         <div class="step-item col-xs-6 col-sm-6">
           <div class="bubble-item bubble-step step-item-number">1</div>
           <div class="step-item-preview col-xs-4">

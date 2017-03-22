@@ -58,11 +58,20 @@
       }
     }
   }
-
-
 }
 
-
+.pop-bubble{
+  .bubble-item{
+    transform: scale(0);
+    transition: all 0.4s;
+  }
+  .anim{
+    .bubble-item{
+      transition: all 1s;
+      transform: scale(1);
+    }
+  }
+}
 .cover-parallax{
   .cover-inner{
     position: absolute;
