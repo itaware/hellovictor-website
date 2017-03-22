@@ -1,0 +1,23 @@
+.blocks-home{
+  @include clearfix();
+  &-item{
+    color: #fff;
+    height: 90vh;
+    @media(min-width: $screen-sm-min){
+      height: 100vh;
+    }
+    &-link{
+      position: absolute;
+      bottom: 10vh;
+      left:0;
+      right: 0;
+      margin: auto;
+    }
+    @media(max-width: $screen-xs-max){
+      padding: 80px 20px;
+      &:first-child{
+        padding-top: 150px;
+      }
+    }
+  }
+}

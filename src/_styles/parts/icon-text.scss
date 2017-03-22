@@ -11,7 +11,6 @@
     transition: all 0.3s;
   }
   .icon-text-item{
-
     a{
       color: inherit;
       &:hover, &:focus{
@@ -28,10 +27,25 @@
         max-height: 80px;
         width: auto;
       }
+      .sticker-waiting{
+        position: absolute;
+        bottom: -20px;
+        background: $brand-success;
+        font-size: 16px;
+        left: 50%;
+        right: 0;
+        margin: auto;
+        width: 70%;
+        min-width: 150px;
+        padding: 5px 0;
+        transform: translateX(-50%);
+      }
     }
     &:hover:not(.active){
       .img{
-        transform: scale(1.05);
+        img{
+          transform: scale(1.05);
+        }
       }
     }
     &.active{
@@ -50,10 +64,11 @@
     }
   }
   @media(max-width: $screen-xs-max){
-    .icon-text-item{
+    .icon-text-item:not(.align-xs){
       float:none;
       margin-left: auto;
       margin-right: auto;
+      position: relative;
       + .icon-text-item{
         margin-top: 45px;
       }

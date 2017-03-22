@@ -86,6 +86,7 @@
 
   <div class="main-content">
     <header class="header-site text-center bg-parallax">
+        {% if page != 'accueil' %}
         <div class="header-site-inner">
         <div class="header-site-top">
           <div class="logo animated bounceIn"><a href="/" id="back-home-habitation-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
@@ -103,8 +104,11 @@
           </a>
         </div>
         </div>
+        {% else %}
+        {% endif %}
       {% block header %}{% endblock %}
     </header>
+    {% if page != 'accueil' %}
     <div id="detail" class="content-top text-center">
       <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle text-lowercase">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
       <div class="container list-icon-text">
@@ -132,7 +136,10 @@
         </div>
         <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
           <a href="#">
-            <div class="img col-xs-8 col-sm-12"><img src="images/picto/coeur.svg" alt="Santé" class="img-responsive center-block" /></div>
+            <div class="img col-xs-8 col-sm-12">
+              <img src="images/picto/coeur.svg" alt="Santé" class="img-responsive center-block" />
+              <div class="sticker-waiting">Bientôt disponible</div>
+            </div>
             <div class="list-text">
               Santé
             </div>
@@ -174,6 +181,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
     {% block content %}{% endblock %}
   </div>
   <footer class="footer-site clearfix">

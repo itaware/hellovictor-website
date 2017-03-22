@@ -86,32 +86,18 @@
     font-size: 18px;
   }
 }
+
 .home{
   .header-site{
-   height: 100vh;
-    min-height: 680px;
-    background: url(../images/bg-header.png) center bottom repeat-x;
-    background-size: auto 30vh;
-    padding-bottom: 30vh;
-    @media(min-width: $breakpoint_mobile){
-      min-height: 845px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  .logo{
+    img{
+      width: 250px;
     }
   }
 }
-/*body:not(.home){
-  .header-site{
-    position: fixed;
-    top: 0;
-    z-index: 500;
-    width: 100%;
-    padding: 15px;
-    background: #fff;
-    .logo{
-      img{
-        height: 68px;
-        width: auto;
-      }
-    }
-
-  }
-}*/

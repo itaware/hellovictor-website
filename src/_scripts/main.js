@@ -166,19 +166,22 @@ jQuery(document).ready(function ($) {
     }
   }
   function anim_bubble_interval(element, index_anim){
-    var timer = 500;
+    var timer = 1000;
+    var time2 = 500;
     return setInterval(function(){
       element.children().removeClass('anim');
       element.children().each(function(index){
+        if(index==0) time2 = 300;
+        else time2 = 500;
         var item = $(this);
         clearTimeout(bubble_tab[index_anim][index]);
         if(!$(this).hasClass('anim')){
           bubble_tab[index_anim][index] = setTimeout(function(){
             item.addClass('anim');
-          }, (index+1) * timer);
+          }, (index+1) * time2);
         }
       });
-    }, timer * (element.children().size()+1) );
+    }, timer * (element.children().size()) );
   }
   function anim_bubble(element, index_anim){
     var timer = 500;

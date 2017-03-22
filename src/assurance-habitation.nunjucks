@@ -11,8 +11,8 @@
 
 {% endblock %}
 {% block content %}
-<a name="content"></a>
-<div class="section text-center">
+
+<div id="content" class="section text-center">
   <div class="container">
     <div class="row">
       <div class="section-header">
