@@ -49,7 +49,7 @@
       <img src="{{baseUrl}}images/home/pics_sante.png" alt="objets" />
     </div>
     <div class="block-valign middle align-xs-bottom align-xs icon-text-item">
-      <a href="assurance-objets.html#content">
+      <a href="#">
         <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="Objects courants" class="img-responsive center-block" /></div>
         <div class="list-text">Santé</div>
       </a>
