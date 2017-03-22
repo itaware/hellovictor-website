@@ -38,12 +38,23 @@
       transform: scale(1);
     }
   }
+  &.pop-item,
   .pop-item{
     > * {
       transform: scale(0);
       transition: all 0.6s;
       &.anim{
         transform: scale(1);
+      }
+    }
+  }
+  &.fade-item,
+  .fade-item{
+    > * {
+    opacity: 0;
+      transition: all 1.5s;
+      &.anim{
+        opacity: 1;
       }
     }
   }

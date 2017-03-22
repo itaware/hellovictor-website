@@ -15,21 +15,17 @@
 <div class="section text-center">
   <div class="container">
     <div class="row">
-      <h2 class="section-title">Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.</h2>
-      <div class="dash dash-center"></div>
+      <div class="section-header">
+        <h2 class="section-title">Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.</h2>
+        <div class="dash dash-center"></div>
+      </div>
       <div class="section-text">
-        <p>Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.
+        <p>
         Vous êtes locataire dans une habitation de moins de 5 pièces ? <span class="text-semibold">Ne perdez plus de temps</span> pour assurer votre logement. Avec Hello Victor <span class="text-semibold">assurez l’essentiel</span> en moins de 5mn avec une couverture adaptée à vos besoins.</p>
         <p>Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est <span class="text-semibold">la première assurance à proposer un bonus / malus pour votre habitation.</span>
         Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre.</p>
         <p>
-        En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté de votre mobilier. Par exemple un canapé IKEA acheté fin 2015 pour une valeur de 780€ ne vaut en réalité aujourd’hui que 550€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
-        </p>
-        <p>
-        Dorénavant assurez-vous en quelques minutes et payez le juste prix au travers d’une offre claire.
-        </p>
-        <p>
-        En cas de sinistre ne perdez plus des heures au téléphone <span class="text-semibold">déclarez le en ligne 24h/24 7j/7</span> via votre messagerie préférée (Messenger, Kik, ...) et <span class="text-semibold">soyez remboursé rapidement.</span>
+        <span class="text-semibold">En plus et grâce à l’algorithme d’intelligence artificielle</span> d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté de votre mobilier. Par exemple un canapé IKEA acheté fin 2015 pour une valeur de 780€ ne vaut en réalité aujourd’hui que 550€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
         </p>
       </div>
       <div class="link-bottom text-center">

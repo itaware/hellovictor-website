@@ -1,8 +1,9 @@
 section, .section{
   position: relative;
+  margin: 0;
 }
 .section{
-  padding: 55px 15px 40px 15px;
+  padding: 80px 0;
   border-bottom: 1px solid rgba($dusty-gray, 0.35);
   @include clearfix();
   &.section-gray{
@@ -14,7 +15,6 @@ section, .section{
     background-position: center bottom;
     background-size: cover;
   }
-
   .section-header{
     padding-bottom: 30px;
   }
@@ -43,6 +43,7 @@ section, .section{
   }
   .text-heading{
     font-size: 20px;
+    margin-bottom: 30px;
   }
   @media(max-width: $screen-sm-max){
     .section-header{

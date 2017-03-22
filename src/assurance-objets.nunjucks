@@ -27,23 +27,6 @@
           <li class="text-md text-semibold">objets de valeurs ou précieux (montre, bijoux, mobilier ancien…) </li>
         </ul>
         <br/>
-        <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
-        </p>
-        <p>
-          <span class="text-semibold">Le saviez-vous ? 43% des assurés sont mal ou pas remboursé du fait qu’il n’est pas transmis les factures à leur assurance. </span>
-            <br/>Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
-        </p>
-        <p>
-          Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : <span class="text-semibold">soyez récompensé !</span>
-        </p>
-        <span class="text-semibold">Une gestion souple et claire de votre assurance</span> : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
-        <br><br>
-        En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
-        <br><br>
-        Dorénavant assurez-vous en quelques minutes et payez le juste prix au travers d’une offre claire.
-        <br><br>
-        En cas de sinistre ne perdez plus des heures au téléphone <span class="text-semibold">déclarez le en ligne 24h/24 7j/7</span> via votre messagerie préférée (Messenger, Kik, ...) et <span class="text-semibold">soyez remboursé rapidement.</span>
-        <br><br>
       </div>
       <div class="link-bottom text-center">
         <span class="glyphicon glyphicon-menu-down"></span>
@@ -118,7 +101,7 @@
     </div>
     <div class="row">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
-        <div class="cover block-anim">
+        <div class="cover cover-bottom block-anim">
           <div class="anim-zoom">
             <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
           </div>
@@ -158,8 +141,10 @@
       </div>
     </div>
     <div class="col-xs-12 col-sm-7">
-      <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
-      <div class="dash"></div>
+      <div class="section-header">
+        <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
+        <div class="dash"></div>
+      </div>
       <div class="section-content">
         <p><b>CHEZ VOUS</b> : vos objets sont assurés en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
         <p><b>EN DEHORS</b> : vos objets sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
@@ -173,6 +158,25 @@
 </div>
 </div>
 {% include '_components/claim-declaration.nunjucks' %}
+<div class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center text-semibold">Notre démarche</h2>
+      <div class="dash dash-center"></div>
+    </div>
+    <div class="section-content">
+      <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
+      </p>
+      <p>
+        Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : <span class="text-semibold">soyez récompensé !</span>
+      </p>
+      <span class="text-semibold">Une gestion souple et claire de votre assurance</span> : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
+      <br><br>
+      En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
+      <br><br>
+    </div>
+  </div>
+</div>
 {% include '_components/transfer.nunjucks'%}
 {% include '_components/share.nunjucks' %}
 {% endblock %}

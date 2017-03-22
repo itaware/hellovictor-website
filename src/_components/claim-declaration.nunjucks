@@ -1,6 +1,12 @@
 <section class="block-cover block-cover-no-xs">
   <header class="block-cover-header text-center">
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
+    <div class="container">
+      <p class="text-md">
+        <span class="text-semibold">Le saviez-vous ? <span class="text-extrabold">43% des assurés sont mal ou pas remboursé</span> du fait qu’il n’est pas transmis les factures à leur assurance. </span>
+          <br/>Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
+      </p>
+    </div>
   </header>
   <div class="container-fluid text-white block-cover-content block-inventaire">
     <div class="cover cover-parallax">
@@ -10,7 +16,7 @@
       <h3 class="block-cover-content-title">Une application mobile de reconnaissance d'objets</h3>
       <div class="block-cover-content-desc text-md">Photographiez tous vos biens, enregistrez vos factures, paramétrez chacun de vos biens avec le niveau de couverture adaptée. Chaque bien est automatiquement valorisé et le calcul de vétusté nous perment de reévaluer annuellement votre prime à la baisse.</div>
       <hr class="visible-xs" />
-      <div class="steps">
+      <div class="steps block-anim fade-item">
         <div class="step-item col-xs-6 col-sm-6">
           <div class="bubble-item bubble-step step-item-number">1</div>
           <div class="step-item-preview col-xs-4">
@@ -55,19 +61,18 @@
   </div>
   <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
-      <div class="row">
-        <div class="cover cover-top">
-          <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
-        </div>
-        <div class="col-xs-12 text-center">
-          <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
-          <div class="block-cover-content-subtitle text-semibold"><p>Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</p></div>
-        </div>
+
+      <div class="cover cover-top">
+        <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
       </div>
-      <div class="row">
+      <div class="col-xs-12 text-center">
+            <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
+            <div class="block-cover-content-subtitle text-semibold"><p>Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</p></div>
+      </div>
+    </div>
+
         <div class="block-valign middle " data-print="true" id="declaration-chat-{{page}}">
-          <div class="container">
-            <div class="row">
+
               <hr class="visible-xs" />
               <div class="center-block-xs col-sm-5">
                 <div class="text-lg"><strong>Déclaration d'un sinistre</strong></div>
@@ -93,11 +98,9 @@
                 </div>
               </div>
                 </div>
-            </div>
-            </div>
+
           </div>
         </div>
-      </div>
       <div class="link-bottom">
         <span class="glyphicon glyphicon-menu-down"></span>
       </div>
@@ -122,7 +125,7 @@
             </div>
         </div>
         <div class="align-item col-xs-12 col-md-4 process">
-          <div class="bubble-item">...</div>
+          <div class="bubble-item bubble-etc">...</div>
           <ul class="list-instructions block-anim">
             <li>
               <div class="check"><i class="icon icon-check"></i></div>
