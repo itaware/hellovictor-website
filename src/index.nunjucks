@@ -19,7 +19,7 @@
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
         <a href="assurance-objets.html#content">
-          <div class="img"><img src="{{baseUrl}}images/picto/objets.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="img"><img src="{{baseUrl}}images/picto/objets.svg" alt="objets" class="img-responsive center-block" /></div>
           <div class="list-text">Objets</div>
         </a>
       </div>
@@ -37,7 +37,7 @@
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
         <a href="assurance-objets.html#content">
-          <div class="img"><img src="{{baseUrl}}images/picto/maison.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="img"><img src="{{baseUrl}}images/picto/maison.svg" alt="habitation" class="img-responsive center-block" /></div>
           <div class="list-text">Habitation</div>
         </a>
       </div>
@@ -55,12 +55,12 @@
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
         <a href="#">
-          <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="sante" class="img-responsive center-block" /></div>
           <div class="list-text">Santé</div>
         </a>
       </div>
       <div class="link">
-        <a href="#" disabled class="btn btn-lg btn-raised">
+        <a href="#" disabled class="btn btn-lg btn-raised" style="font-size: 12px; background-color: whitesmoke;">
           Bientôt disponible
         </a>
       </div>
