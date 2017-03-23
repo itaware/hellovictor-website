@@ -12,6 +12,10 @@
       left:0;
       right: 0;
       margin: auto;
+
+      .link{
+        margin-top: 30px;
+      }
     }
     @media(max-width: $screen-xs-max){
       padding: 80px 20px;

@@ -16,48 +16,54 @@
     <div class="cover">
       <img src="{{baseUrl}}images/home/pics_objets.png" alt="objets" />
     </div>
-    <div class="block-valign middle align-xs-bottom align-xs icon-text-item">
-      <a href="assurance-objets.html#content">
-        <div class="img"><img src="{{baseUrl}}images/picto/objets.svg" alt="Objects courants" class="img-responsive center-block" /></div>
-        <div class="list-text">Objets</div>
-      </a>
-    </div>
     <div class="blocks-home-item-link">
-      <a href="assurance-objets.html#content" class="btn btn-primary btn-lg btn-raised">
-        En savoir plus
-      </a>
+      <div class="icon-text-item">
+        <a href="assurance-objets.html#content">
+          <div class="img"><img src="{{baseUrl}}images/picto/objets.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="list-text">Objets</div>
+        </a>
+      </div>
+      <div class="link">
+        <a href="assurance-objets.html#content" class="btn btn-primary btn-lg btn-raised">
+          En savoir plus
+        </a>
+      </div>
     </div>
   </div>
   <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text">
     <div class="cover cover-right">
       <img src="{{baseUrl}}images/home/pics_habitation.png" alt="objets" />
     </div>
-    <div class="block-valign middle align-xs-bottom align-xs icon-text-item">
-      <a href="assurance-objets.html#content">
-        <div class="img"><img src="{{baseUrl}}images/picto/maison.svg" alt="Objects courants" class="img-responsive center-block" /></div>
-        <div class="list-text">Habitation</div>
-      </a>
-    </div>
     <div class="blocks-home-item-link">
-      <a href="assurance-habitation.html#content" class="btn btn-primary btn-lg btn-raised">
-        En savoir plus
-      </a>
+      <div class="icon-text-item">
+        <a href="assurance-objets.html#content">
+          <div class="img"><img src="{{baseUrl}}images/picto/maison.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="list-text">Habitation</div>
+        </a>
+      </div>
+      <div class="link">
+        <a href="assurance-habitation.html#content" class="btn btn-primary btn-lg btn-raised">
+          En savoir plus
+        </a>
+      </div>
     </div>
   </div>
   <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text">
     <div class="cover cover-left">
       <img src="{{baseUrl}}images/home/pics_sante.png" alt="objets" />
     </div>
-    <div class="block-valign middle align-xs-bottom align-xs icon-text-item">
-      <a href="#">
-        <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="Objects courants" class="img-responsive center-block" /></div>
-        <div class="list-text">Santé</div>
-      </a>
-    </div>
     <div class="blocks-home-item-link">
-      <a href="#" disabled class="btn btn-lg btn-raised">
-        Bientôt disponible
-      </a>
+      <div class="icon-text-item">
+        <a href="#">
+          <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="Objects courants" class="img-responsive center-block" /></div>
+          <div class="list-text">Santé</div>
+        </a>
+      </div>
+      <div class="link">
+        <a href="#" disabled class="btn btn-lg btn-raised">
+          Bientôt disponible
+        </a>
+      </div>
     </div>
   </div>
 </div>

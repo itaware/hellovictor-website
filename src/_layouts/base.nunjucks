@@ -86,7 +86,7 @@
 
   <div class="main-content">
     <header class="header-site text-center bg-parallax">
-        {% if page != 'accueil' %}
+        {% if pageType == 'produit' %}
         <div class="header-site-inner">
         <div class="header-site-top">
           <div class="logo animated bounceIn"><a href="/" id="back-home-habitation-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
@@ -108,7 +108,7 @@
         {% endif %}
       {% block header %}{% endblock %}
     </header>
-    {% if page != 'accueil' %}
+    {% if pageType == 'produit' %}
     <div id="detail" class="content-top text-center">
       <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle text-lowercase">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
       <div class="container list-icon-text">

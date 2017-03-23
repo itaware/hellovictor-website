@@ -47,15 +47,24 @@ body {
   font-family: $font-sans-serif;
   font-weight: 300;
 }
-body:not(.home){  
+body:not(.home){
     .main-content {
       min-height: 680px;
     }
 }
 
-.terms {
-  margin-top: 100px;
-  margin-bottom: 100px;
+.page-basic {
+  .page-content{
+    padding-bottom: 80px;
+  }
+  .page-header{
+    padding: 30px 0;
+    border: 0;
+  }
+  .page-title{
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
 }
 
 .form {

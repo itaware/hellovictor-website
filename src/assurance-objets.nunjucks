@@ -4,6 +4,7 @@
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-objects' %}
 {% set page = 'objets' %}
+{% set pageType = 'produit' %}
 {% set slogan = "L'ASSURANCE 100% NUMÉRIQUE" %}
 {% set pageTitle = "" %}
 {% endblock %}
