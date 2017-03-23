@@ -34,9 +34,9 @@
       </div>
   </div>
 </div>
-<div class="section product-item alternate-item no-padding">
+<div class="section alternate-item no-padding">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row product-item">
       <div class="block-img col-xs-12 col-sm-6 container-cover">
           <div class="cover block-anim">
             <div class="anim-zoom">
@@ -44,9 +44,11 @@
             </div>
           </div>
           <div class="icon-desc text-center cover-content">
-            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
-            <div class="dash dash-center"></div>
-            <h3 class="icon-desc-title">Appareils numériques</h3>
+            <div class="icon-desc-header">
+              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
+              <div class="dash dash-center"></div>
+              <h3 class="icon-desc-title">Appareils numériques</h3>
+            </div>
             <div class="icon-desc-desc">Vol, casse, combustion</div>
             <div class="icon-desc-price">
               <div class="price-condition">à partir de</div>
@@ -63,11 +65,11 @@
         <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
         <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions. Hello Victor adaptera pour vous le prix au plus juste.</p>
         <div class="text-center block-text-button">
-          <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+          <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row product-item">
       <div class="block-img col-xs-12 col-sm-6 container-cover">
           <div class="cover block-anim">
             <div class="anim-zoom">
@@ -75,9 +77,11 @@
             </div>
           </div>
           <div class="icon-desc text-center cover-content">
-            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
-            <div class="dash dash-center"></div>
-            <h3 class="icon-desc-title">Matériel de loisir</h3>
+            <div class="icon-desc-header">
+              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
+              <div class="dash dash-center"></div>
+              <h3 class="icon-desc-title">Matériel de loisir</h3>
+            </div>
             <div class="icon-desc-desc">Vol, dégradation</div>
             <div class="icon-desc-price">
               <div class="price-condition">à partir de</div>
@@ -96,11 +100,11 @@
         <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
         <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
         <div class="text-center block-text-button">
-          <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+          <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row product-item">
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover cover-bottom block-anim">
           <div class="anim-zoom">
@@ -108,9 +112,11 @@
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Objets précieux</h3>
+          <div class="icon-desc-header">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Objets précieux</h3>
+          </div>
           <div class="icon-desc-desc">Vol, casse</div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
@@ -127,7 +133,7 @@
       <p>Les objets de valeurs : peintures et œuvres d’art, collections de livres rares ou anciens, mobilier ancien et pierres précieuses, ainsi que vos objets précieux : lingots d’or, bijoux, accessoires en métaux précieux (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
       <p>En cas d’absence de facture, ou de doute sur la valeur, faites appel à nos experts pour estimer vos biens.</p>
       <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
   </div>

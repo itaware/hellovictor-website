@@ -68,22 +68,10 @@ body:not(.home){
 }
 
 .form {
-  a {
-    text-decoration: underline;
-  }
   @media(max-width: $screen-sm-max) {
     h2 {
       font-size: 20px;
     }
-  }
-}
-
-.modal-dialog {
-  .contract {
-    padding: 0;
-  }
-  .bottom {
-    padding:15% 15px 0;
   }
 }
 

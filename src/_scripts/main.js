@@ -225,13 +225,18 @@ jQuery(document).ready(function ($) {
   $('a[id^="video"]').fancybox({
     padding: 0
   });
+
   $('a[href="#registerForm"]').on('click', function(event) {
     var button = $(event.target);
-    var image = button.data('img');
-    $('#registerForm').find('.contract-img img').attr('src', image);
+    var image = $(this).parents('.product-item').find('.block-img .cover img').attr('src');
+    var icon_desc = $(this).parents('.product-item').find('.icon-desc-header').html();
+    console.log(icon_desc);
+    $('#registerForm').find('.cover img').attr('src', image);
+    $('#registerForm').find('.icon-desc').html(icon_desc);
     $('#emailgroup').removeClass('has-error')
     $('#registerForm').modal('toggle');
   });
+
   $('#inscription').on('click', function() {
     var email = $('#email').val();
     if (email) {

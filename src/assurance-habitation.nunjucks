@@ -45,9 +45,11 @@
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/studio-icon.png" alt="Studio" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Studio</h3>
+          <div class="icon-desc-header">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/studio-icon.png" alt="Studio" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Studio</h3>
+          </div>
           <div class="icon-desc-desc">Juste l'essentiel, pour étudiant</div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
@@ -71,7 +73,7 @@
         Listez votre mobilier avec vos factures et obtenez le prix le plus adapté à vos besoins. Complétez avec vos objets nomades (ordinateur portable, téléphone, vélo, ...) pour être couvert aussi en cas de vol en dehors de l’habitation, de casse et de dégradation et de panne.
       </p>
       <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -83,9 +85,11 @@
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/appartement-icon.png" alt="Appartement" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Appartement</h3>
+          <div class="icon-desc-header">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/appartement-icon.png" alt="Appartement" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Appartement</h3>
+          </div>
           <div class="icon-desc-desc">Au fil de vos acquisitions</div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
@@ -102,7 +106,7 @@
       <p>Assurez-vous au juste prix au fil de vos acquisitions.</p>
       <p>Votre mobilier évolue au fil du temps, assurez le au juste prix en 5 mn avec Hello Victor. Listez votre mobilier avec vos factures, ajoutez ou supprimez quand vous voulez ce que vous voulez, votre prime s’adaptera à la prochaine échéance mensuelle. Complétez avec vos objets nomades (ordinateur portable, téléphone, vélo, ...) pour être couvert aussi en cas de vol en dehors de l’habitation, de casse et de dégradation et de panne.</p>
       <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -114,9 +118,11 @@
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
-          <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/serenite-icon.svg" alt="Sérénité" /></div>
-          <div class="dash dash-center"></div>
-          <h3 class="icon-desc-title">Sérénité</h3>
+          <div class="icon-desc-header">
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/habitation/serenite-icon.svg" alt="Sérénité" /></div>
+            <div class="dash dash-center"></div>
+            <h3 class="icon-desc-title">Sérénité</h3>
+          </div>
           <div class="icon-desc-desc">Votre appartement et son contenu <br/><strong>+ télésurveillance inclus 24/24h </strong></div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
@@ -133,7 +139,7 @@
         <p>Assurez votre logement en protégeant efficacement votre famille et vos biens.</p>
         <p>Avec Hello Victor vous pouvez sécuriser votre logement au travers de notre partenariat avec le n°1 de la Télésurveillance français. Une offre tout compris, qui vous permet de profiter en toute sérénité de votre famille.</p>
       <div class="text-center block-text-button">
-        <a class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
       </div>
     </div>
   </div>

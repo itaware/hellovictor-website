@@ -58,6 +58,7 @@ strong {
   font-weight: 500;
 }
 .form-container {
+  @include clearfix();
   margin: 20px 100px;
   @media(max-width: $screen-xs-max) {
     margin: 20px 20px;
@@ -244,5 +245,14 @@ hr{
   > .panel-heading{
     background-color: $link-water;
     color: #000;
+  }
+}
+.modal{
+  .modal-contents{
+    background: #fff;
+  }
+  .top, .bottom{
+    display:flex;
+    flex-direction: column;
   }
 }

@@ -63,20 +63,15 @@
 
   <div class="modal fade" id="registerForm" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
-      <div class="modal-content contract">
+      <div class="modal-contents">
         <div class="inner">
-          <div class="top">
-            <h2 class="text-center">
-                  Offre bientôt disponible !
-            </h2>
-            <h4 class="text-center">
-              <b>Pour être notifié du lancement, inscrivez-vous</b>
-            </h4>
+          <div class="top container-cover">
+            <div class="cover">
+              <img class=""/>
+            </div>
+            <div class="icon-desc"></div>
           </div>
           <div class="bottom">
-            <div class="contract-img">
-              <img src="images/contract/smartphone.svg" alt="evolutif" class="img-responsive" />
-            </div>
             {% include "_components/form.nunjucks" %}
           </div>
         </div>
