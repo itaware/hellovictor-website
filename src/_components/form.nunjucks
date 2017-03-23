@@ -2,10 +2,10 @@
     <div class="form-container">
       <div class="clearfix">
         <div class="form-group col-md-12" id="emailgroup">
-          <input type="email" placeholder="MON ADRESSE EMAIL" name="email" id="email" class="form-control" required/>
+          <input type="email" placeholder="MON ADRESSE EMAIL" name="email" id="email" class="form-control text-info" required/>
         </div>
         <div class="form-group col-md-12">
-          <input type="text" placeholder="MA VILLE" name="city" id="ville" class="form-control" />
+          <input type="text" placeholder="MA VILLE" name="city" id="ville" class="form-control text-info" />
         </div>
       </div>
       <div class="form-submit text-center">

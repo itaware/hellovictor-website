@@ -107,6 +107,12 @@ hr{
     margin-top: 0;
     color: #000;
   }
+  &.has-error{
+    .form-control{
+      background-image: linear-gradient($brand-danger, $brand-danger), linear-gradient(#D2D2D2, #D2D2D2);
+      background-size: 100% 2px, 100% 1px;
+    }
+  }
 }
 
 
