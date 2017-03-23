@@ -230,7 +230,7 @@ jQuery(document).ready(function ($) {
     var button = $(event.target);
     var image = $(this).parents('.product-item').find('.block-img .cover img').attr('src');
     var icon_desc = $(this).parents('.product-item').find('.icon-desc-header').html();
-    console.log(icon_desc);
+
     $('#registerForm').find('.cover img').attr('src', image);
     $('#registerForm').find('.icon-desc').html(icon_desc);
     $('#emailgroup').removeClass('has-error')
