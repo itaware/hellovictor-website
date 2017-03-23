@@ -147,7 +147,7 @@
         <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
       </div>
     </div>
-    <div class="col-xs-12 col-sm-7" data-print="true" id="niveau-couverture">
+    <div class="col-xs-12 col-sm-7" data-print="true" id="niveau-couverture-objets">
       <div class="section-header">
         <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
         <div class="dash"></div>
@@ -171,7 +171,7 @@
       <h2 class="section-title text-center text-semibold">Notre démarche</h2>
       <div class="dash dash-center"></div>
     </div>
-    <div class="section-content" data-print="true" id="demarche">
+    <div class="section-content" data-print="true" id="demarche-objets">
       <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
       </p>
       <p>

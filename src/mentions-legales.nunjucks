@@ -5,7 +5,7 @@
 {% set pageType = 'page-basic'%}
 {% endblock %}
 {% block header %}
-  <div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+  <div class="logo animated bounceIn"><a href="/" id="back-home-mentions-legales"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
 {% endblock %}
 {% block content %}
 <div class="page-basic">

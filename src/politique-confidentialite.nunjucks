@@ -3,7 +3,7 @@
 {% set page = 'politique-confidentialite'%}
 {% endblock %}
 {% block header %}
-<div class="logo animated bounceIn"><a href="/"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
+<div class="logo animated bounceIn"><a href="/" id="back-home-confidentialite"><img src="{{baseUrl}}images/logo-hello-victor.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
 {% endblock %}
 {% block content %}
 <div class="page-basic">
@@ -69,7 +69,7 @@
     Conformément à la Loi Informatique, Fichiers et Libertés n°78-17 du 6 janvier 1978 modifiée, Vous disposez d'un droit d'accès,
     de rectification et d’opposition concernant vos données personnelles, dont le traitement a fait l'objet d'une déclaration
     préalable auprès de la CNIL. Ces droits peuvent être exercés soit directement en contactant Hello Victor à l’adresse suivante
-    : <a href="mailto:contact@hellovictor.fr">contact@hellovictor.fr</a> Hello Victor peut être amenée à communiquer vos
+    : <a href="mailto:contact@hellovictor.fr" id="contact_mail_confidentialite">contact@hellovictor.fr</a> Hello Victor peut être amenée à communiquer vos
     données personnelles, dans les conditions prévues par la loi, à une autorité judiciaire ou administrative dûment habilitée.
   </div>
 </div>

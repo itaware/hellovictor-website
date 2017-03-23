@@ -12,26 +12,24 @@
 
 {% endblock %}
 {% block content %}
-
-<div id="content" class="section text-center">
+<a name="content"></a>
+<div class="section text-center" data-print="true" id="habitation">
   <div class="container">
-    <div class="row">
-      <div class="section-header">
-        <h2 class="section-title">Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.</h2>
-        <div class="dash dash-center"></div>
-      </div>
-      <div class="section-text">
-        <p>
-        Vous êtes locataire dans une habitation de moins de 5 pièces ? <span class="text-semibold">Ne perdez plus de temps</span> pour assurer votre logement. Avec Hello Victor <span class="text-semibold">assurez l’essentiel</span> en moins de 5mn avec une couverture adaptée à vos besoins.</p>
-        <p>Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est <span class="text-semibold">la première assurance à proposer un bonus / malus pour votre habitation.</span>
-        Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre.</p>
-        <p>
-        <span class="text-semibold">En plus et grâce à l’algorithme d’intelligence artificielle</span> d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté de votre mobilier. Par exemple un canapé IKEA acheté fin 2015 pour une valeur de 780€ ne vaut en réalité aujourd’hui que 550€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
-        </p>
-      </div>
-      <div class="link-bottom text-center">
-        <span class="glyphicon glyphicon-menu-down"></span>
-      </div>
+    <div class="section-header">
+      <h2 class="section-title">Parce que personne d’autre ne sait mieux que vous ce qui est important à protéger.</h2>
+      <div class="dash dash-center"></div>
+    </div>
+    <div class="section-text">
+      <p>
+      Vous êtes locataire dans une habitation de moins de 5 pièces ? <span class="text-semibold">Ne perdez plus de temps</span> pour assurer votre logement. Avec Hello Victor <span class="text-semibold">assurez l’essentiel</span> en moins de 5mn avec une couverture adaptée à vos besoins.</p>
+      <p>Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est <span class="text-semibold">la première assurance à proposer un bonus / malus pour votre habitation.</span>
+      Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre.</p>
+      <p>
+      <span class="text-semibold">En plus et grâce à l’algorithme d’intelligence artificielle</span> d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté de votre mobilier. Par exemple un canapé IKEA acheté fin 2015 pour une valeur de 780€ ne vaut en réalité aujourd’hui que 550€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
+      </p>
+    </div>
+    <div class="link-bottom text-center">
+      <span class="glyphicon glyphicon-menu-down"></span>
     </div>
   </div>
 </div>
@@ -61,7 +59,7 @@
           </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
+    <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="studio">
       <h4 class="block-text-title">Avec l’assurance habitation étudiant, je suis couvert dans tous Les cas, que je sois responsable ou non.</h4>
       <p>
         Assurez l’essentiel rapidement et simplement.
@@ -73,7 +71,7 @@
         Listez votre mobilier avec vos factures et obtenez le prix le plus adapté à vos besoins. Complétez avec vos objets nomades (ordinateur portable, téléphone, vélo, ...) pour être couvert aussi en cas de vol en dehors de l’habitation, de casse et de dégradation et de panne.
       </p>
       <div class="text-center block-text-button">
-        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="studio-click">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -101,12 +99,12 @@
           </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
+    <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="appartement">
       <h4 class="block-text-title">Une assurance habitation ÉVOLUTIVE, adaptée à votre profil, pour protéger efficacement votre appartement</h4>
       <p>Assurez-vous au juste prix au fil de vos acquisitions.</p>
       <p>Votre mobilier évolue au fil du temps, assurez le au juste prix en 5 mn avec Hello Victor. Listez votre mobilier avec vos factures, ajoutez ou supprimez quand vous voulez ce que vous voulez, votre prime s’adaptera à la prochaine échéance mensuelle. Complétez avec vos objets nomades (ordinateur portable, téléphone, vélo, ...) pour être couvert aussi en cas de vol en dehors de l’habitation, de casse et de dégradation et de panne.</p>
       <div class="text-center block-text-button">
-        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="appartement-click">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -134,12 +132,12 @@
           </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
+    <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="serenite">
       <h4 class="block-text-title">Protégez votre résidence des risques de cambriolage, de vandalisme et d’incendie, Système de Télésurveillance INCLUS.</h4>
         <p>Assurez votre logement en protégeant efficacement votre famille et vos biens.</p>
         <p>Avec Hello Victor vous pouvez sécuriser votre logement au travers de notre partenariat avec le n°1 de la Télésurveillance français. Une offre tout compris, qui vous permet de profiter en toute sérénité de votre famille.</p>
       <div class="text-center block-text-button">
-        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="serenite-click">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -153,13 +151,13 @@
           <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
         </div>
       </div>
-      <div class="col-xs-12 col-sm-7">
+      <div class="col-xs-12 col-sm-7" data-print="true" id="niveau-couverture-habitation">
       <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
       <div class="dash"></div>
       <div class="section-content">
-        <p><b>CHEZ VOUS</b> : vos objets sont assurés en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
-        <p><b>EN DEHORS</b> : vos objets sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
-        <p><b>EN EXTENSION DE GARANTIE</b> : vos objets sont assurés en cas de panne au delà de sa période de garantie.</p>
+        <p><b>CHEZ VOUS</b> : votre mobilier est assuré en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
+        <p><b>EN DEHORS</b> : vos objets importants sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
+        <p><b>EN EXTENSION DE GARANTIE</b> : vos objets importants sont assurés en cas de panne au delà de sa période de garantie.</p>
       </div>
     </div>
     </div>
@@ -167,10 +165,27 @@
   <div class="link-bottom text-center">
     <span class="glyphicon glyphicon-menu-down"></span>
   </div>
-
-
 </div>
 {% include '_components/claim-declaration.nunjucks' %}
+<div class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title text-center text-semibold">Notre démarche</h2>
+      <div class="dash dash-center"></div>
+    </div>
+    <div class="section-content" data-print="true" id="demarche-objets">
+      <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
+      </p>
+      <p>
+        Si vous êtes soigneux et attentionné ou que simplement vous êtes né sous une bonne étoile alors vous payez moins cher. Hello Victor est la première assurance à proposer un bonus / malus pour vos objets. Ne payez plus plein tarif toute votre vie sans avoir jamais eu de sinistre. Vous êtes responsable de la protection de vos objets : <span class="text-semibold">soyez récompensé !</span>
+      </p>
+      <span class="text-semibold">Une gestion souple et claire de votre assurance</span> : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
+      <br><br>
+      En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
+      <br><br>
+    </div>
+  </div>
+</div>
 {% include '_components/transfer.nunjucks'%}
 {% include '_components/share.nunjucks' %}
 {% endblock %}

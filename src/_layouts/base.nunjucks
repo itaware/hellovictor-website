@@ -104,11 +104,11 @@
       {% block header %}{% endblock %}
     </header>
     {% if pageType == 'produit' %}
-    <div id="detail" class="content-top text-center">
+    <div id="detail" class="content-top text-center" data-print="true" id="offre-block">
       <h1 class="page-title">Assurez à la demande ce que vous voulez,<br/> quand vous voulez<span class="subtitle text-lowercase">et ce entièrement depuis votre mobile <img src="images/mobile.png" style="height: 30px"></span></h1>
       <div class="container list-icon-text">
         <div class="{% if page == 'objets' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
-          <a href="assurance-objets.html#content">
+          <a href="assurance-objets.html#content" id="objets-click-head-button">
           <div class="img"><img src="images/picto/objets.svg" alt="Objects courants" class="img-responsive center-block" /></div>
           <div class="list-text">
             Objets
@@ -119,7 +119,7 @@
           </a>
         </div>
         <div class="{% if page == 'habitation' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
-          <a href="assurance-habitation.html#content">
+          <a href="assurance-habitation.html#content" id="habitation-click-head-button">
             <div class="img col-xs-8 col-sm-12"><div class="center-block"><img src="images/picto/maison.svg" alt="Habitation" class="img-responsive center-block" /></div></div>
             <div class="list-text">
               Habitation
@@ -130,7 +130,7 @@
           </a>
         </div>
         <div class="{% if page == 'sante' %}active{% endif %} icon-text-item col-xs-6 col-sm-4">
-          <a href="#">
+          <a href="#" id="sante-click-head-button">
             <div class="img col-xs-8 col-sm-12">
               <img src="images/picto/coeur.svg" alt="Santé" class="img-responsive center-block" />
             </div>
@@ -154,7 +154,7 @@
               <br/>
             </p>
           </div>
-          <div class="col-xs-12 col-sm-7">
+          <div class="col-xs-12 col-sm-7" data-print="true" id="a-propos">
             <div class="section-header">
               <h2 class="section-title">
                 &Agrave; propos de nous

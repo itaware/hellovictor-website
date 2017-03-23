@@ -245,7 +245,7 @@ jQuery(document).ready(function ($) {
         email: email
       }
       $.post('subscribe.php', data, function(result) {
-        console.log(result);
+        //console.log(result);
       });
       $('#registerForm').modal('toggle');
     } else {

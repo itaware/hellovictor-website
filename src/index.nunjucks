@@ -12,55 +12,55 @@
 {% endblock %}
 {% block content %}
 <div class="blocks-home">
-  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text">
+  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text" data-print="true" id="objets-home">
     <div class="cover">
       <img src="{{baseUrl}}images/home/pics_objets.png" alt="objets" />
     </div>
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
-        <a href="assurance-objets.html#content">
+        <a href="assurance-objets.html#content" id="objets-home">
           <div class="img"><img src="{{baseUrl}}images/picto/objets.svg" alt="objets" class="img-responsive center-block" /></div>
           <div class="list-text">Objets</div>
         </a>
       </div>
       <div class="link">
-        <a href="assurance-objets.html#content" class="btn btn-primary btn-lg btn-raised">
+        <a href="assurance-objets.html#content" class="btn btn-primary btn-lg btn-raised" id="objets-home-button">
           En savoir plus
         </a>
       </div>
     </div>
   </div>
-  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text">
+  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text" data-print="true" id="habitation-home">
     <div class="cover cover-right">
       <img src="{{baseUrl}}images/home/pics_habitation.png" alt="objets" />
     </div>
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
-        <a href="assurance-objets.html#content">
+        <a href="assurance-habitation.html#content" id="habitation-home">
           <div class="img"><img src="{{baseUrl}}images/picto/maison.svg" alt="habitation" class="img-responsive center-block" /></div>
           <div class="list-text">Habitation</div>
         </a>
       </div>
       <div class="link">
-        <a href="assurance-habitation.html#content" class="btn btn-primary btn-lg btn-raised">
+        <a href="assurance-habitation.html#content" class="btn btn-primary btn-lg btn-raised" id="habitation-home-button">
           En savoir plus
         </a>
       </div>
     </div>
   </div>
-  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text">
+  <div class=" blocks-home-item col-xs-12 col-md-4 container-cover list-icon-text" data-print="true" id="sante-home">
     <div class="cover cover-left">
       <img src="{{baseUrl}}images/home/pics_sante.png" alt="objets" />
     </div>
     <div class="blocks-home-item-link">
       <div class="icon-text-item">
-        <a href="#">
+        <a href="#" id="sante-home">
           <div class="img"><img src="{{baseUrl}}images/picto/coeur.svg" alt="sante" class="img-responsive center-block" /></div>
           <div class="list-text">Santé</div>
         </a>
       </div>
       <div class="link">
-        <a href="#" disabled class="btn btn-lg btn-raised" style="font-size: 12px; background-color: whitesmoke;">
+        <a href="#" disabled class="btn btn-lg btn-raised" style="font-size: 12px; background-color: whitesmoke;" id="sante-home-button">
           Service Bientôt disponible
         </a>
       </div>
