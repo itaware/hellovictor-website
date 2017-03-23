@@ -3,7 +3,7 @@
     <h2 class="block-cover-title">Faire l'inventaire de ses objets n'a <strong>jamais été aussi simple</strong></h2>
     <div class="container">
       <p class="text-md">
-        <span class="text-semibold">Le saviez-vous ? <span class="text-extrabold">43% des assurés sont mal ou pas remboursé</span> du fait qu’il n’est pas transmis les factures à leur assurance. </span>
+        <span class="text-semibold">Le saviez-vous ? <span class="text-extrabold">43% des assurés sont mal ou pas remboursé</span> du fait qu’ils n'ont pas pu transmettre les factures à leur assurance. </span>
           <br/>Avec Hello Victor vous pouvez désormais de manière simple et rapide transmettre et sauvegarder vos factures objets par objets en les photographiant ou en les téléchargeant.
       </p>
     </div>
@@ -50,7 +50,7 @@
             <img src="images/step/phone-4.png" alt="étape 4" class="img-responsive">
           </div>
           <div class="step-item-text col-xs-8">
-            Ajouter éventuellement une description et une pièce jointe (facture, expertise) <strong>et voila ! </strong>
+            Ajouter la facture <strong>et voila ! </strong>
           </div>
         </div>
       </div>
