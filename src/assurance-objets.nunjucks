@@ -60,12 +60,12 @@
             </div>
           </div>
       </div>
-      <div class="col-xs-12 col-sm-6 block-text valign-top">
+      <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="appareils-numeriques">
         <h4 class="block-text-title">Assurez tous vos appareils numériques et nomades pour vous ou toute votre famille.</h4>
         <p>Ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, appareil photo ...</p>
         <p>Assurez ce qui est important pour vous au travers d’une offre claire aux meilleures conditions. Hello Victor adaptera pour vous le prix au plus juste.</p>
         <div class="text-center block-text-button">
-          <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+          <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="appareils-numeriques-click">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -93,14 +93,14 @@
             </div>
           </div>
       </div>
-      <div class="col-xs-12 col-sm-6 block-text valign-top">
+      <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="materiel-loisir">
         <h4 class="block-text-title">Assurez tout votre matériel de loisir pour vous ou votre famille.</h4>
         <p>Enfin une couverture d’assurance adaptée à votre usage.</p>
         <p>Sportifs ? assurez votre vélo, votre raquette de tennis, votre matériel de golf, vos skis, votre snowboard, votre surf ou votre kite surf, ...</p>
         <p>Musiciens ? assurez votre guitare, votre ampli, votre piano, votre contrebasse, ...</p>
         <p>Que vous soyez amateurs ou professionnels adaptez la couverture à votre besoin : vol et vandalisme, casse et dégradations, extensions de garanties avec remplacement à neuf ou pas.</p>
         <div class="text-center block-text-button">
-          <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+          <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="materiel-loisir-click">En savoir plus</a>
         </div>
       </div>
     </div>
@@ -128,12 +128,12 @@
           </div>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 block-text valign-top">
+    <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="objets-precieux">
       <h4 class="block-text-title">Assurez vos objets de valeurs et vos objets précieux au travers d’une couverture adaptée.</h4>
       <p>Les objets de valeurs : peintures et œuvres d’art, collections de livres rares ou anciens, mobilier ancien et pierres précieuses, ainsi que vos objets précieux : lingots d’or, bijoux, accessoires en métaux précieux (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
       <p>En cas d’absence de facture, ou de doute sur la valeur, faites appel à nos experts pour estimer vos biens.</p>
       <div class="text-center block-text-button">
-        <a href="#registerForm" class="btn btn-info btn-lg btn-raised ">En savoir plus</a>
+        <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="objets-precieux-click">En savoir plus</a>
       </div>
     </div>
   </div>
@@ -147,7 +147,7 @@
         <img src="{{baseUrl}}images/product/objets/niveau-couverture.svg" alt="Niveau de couverture" class="img-responsive center-block" />
       </div>
     </div>
-    <div class="col-xs-12 col-sm-7">
+    <div class="col-xs-12 col-sm-7" data-print="true" id="niveau-couverture">
       <div class="section-header">
         <h2 class="section-title text-info"><strong>Définissez</strong><br/><small>votre niveau de couverture</small></h2>
         <div class="dash"></div>
@@ -171,7 +171,7 @@
       <h2 class="section-title text-center text-semibold">Notre démarche</h2>
       <div class="dash dash-center"></div>
     </div>
-    <div class="section-content">
+    <div class="section-content" data-print="true" id="demarche">
       <p>Hello Victor vous propose des couvertures adaptées pour le vol et vandalisme, la casse et les dégradations chez vous et en dehors, et même des extensions de garanties en cas de panne.
       </p>
       <p>

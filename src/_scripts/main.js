@@ -35,7 +35,7 @@ var io = new IntersectionObserver(function (entries) {
     if (entry.intersectionRatio > 0.5) {
       dataLayer.push({
         event: 'impression',
-        elementID: entry.target.id
+        elementID: entry.target.id+'-impr'
       });
     }
   });
