@@ -23,10 +23,7 @@
   }
 }
 .link-bottom{
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  right: 0;
+  padding: 10px 0;
   color: #fff;
   text-align: center;
   a{
@@ -35,6 +32,12 @@
   transition: all 0.3s;
   &:hover{
     transform: translateY(10%);
+  }
+  @media(min-width: $screen-sm-min){
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
   }
 }
 .no-padding{

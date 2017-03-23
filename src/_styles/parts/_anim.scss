@@ -21,6 +21,9 @@
      clip-path: circle(0 at center);
      transition: clip-path 4s;
     }
+    @media(max-width: $screen-xs-max){
+      margin-bottom: 50px;
+    }
   }
   &.anim{
     .discover-inner{

@@ -61,7 +61,7 @@
   </div>
   <div class="block-valign-container block-declaration block-cover-content section-content">
     <div class="container">
-
+      <div class="row">
       <div class="cover cover-top">
         <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
       </div>
@@ -69,6 +69,7 @@
             <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
             <div class="block-cover-content-subtitle text-semibold"><p>Déclarez votre sinistre en ligne à Victoria, disponible 24h/24 7j/7 via votre messagerie préférée (Messenger, WhatsApp, Kik, ...) et soyez remboursé de suite.</p></div>
       </div>
+    </div>
     </div>
 
         <div class="block-valign middle " data-print="true" id="declaration-chat-{{page}}">
