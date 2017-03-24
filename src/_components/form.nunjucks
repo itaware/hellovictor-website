@@ -1,5 +1,6 @@
 <div class="form form-subscribe">
     <div class="form-container">
+      Le service d'assurance à la demande Hello Victor est bientôt disponible, inscrivez-vous. <img src="/images/kiss.svg" style="width: 16px;">
       <div class="clearfix">
         <div class="form-group col-md-12" id="emailgroup">
           <input type="email" placeholder="MON ADRESSE EMAIL" name="email" id="email" class="form-control text-info" required/>
@@ -9,7 +10,7 @@
         </div>
       </div>
       <div class="form-submit text-center">
-        <a href="javascript://" class="btn btn-primary btn-raised" id="inscription">Je m'inscris</button>
+        <a href="javascript://" class="btn btn-primary btn-raised" id="inscription">être informé</button>
         <br>
         <a href="javascript://" class="btn-primary btn btn-link text-xs" data-dismiss="modal" id="pas_interesse">Non merci, ça ne m'intéresse pas</a>
       </div>

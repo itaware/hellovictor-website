@@ -8,7 +8,7 @@
 {% endblock %}
 {% block header %}
   <div class="logo animated bounceIn"><a href="/" id="back-home-header"><img src="{{baseUrl}}images/logo-hello-victor-white.svg" alt="Hello victor" class="img-responsive center-block" /></a></div>
-  <h1 class="slogan hidden">L'assurance 100% numérique</h1>
+  <h1 class="slogan" style="color: #ffffff; font-size: 38px;">L'assurance 100% numérique</h1>
 {% endblock %}
 {% block content %}
 <div class="blocks-home">

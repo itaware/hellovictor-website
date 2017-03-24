@@ -63,7 +63,7 @@
     <div class="container">
       <div class="row">
       <div class="cover cover-top">
-        <img src="{{baseUrl}}images/product/objets/chat-habitation.jpg" />
+        <img src="{{baseUrl}}images/product/objets/chat-{{page}}.jpg" />
       </div>
       <div class="col-xs-12 text-center">
             <h3 class="block-cover-content-title">Faites-vous rembourser <strong>rapidement</strong></h3>
