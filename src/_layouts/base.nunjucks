@@ -19,18 +19,18 @@
   <meta name="description" content="Hello Victor - l'assurance 100% numérique - en ligne - à la demande - #chatbot #ia" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta property="og:url" content="http://hellovictor.fr" />
+  <meta property="og:url" content="http://hellovictor.fr{{uri}}" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="L'assurance 100% numérique" />
   <meta property="og:description" content="couvre tous vos biens et vous rembourse rapidement" />
-  <meta property="og:image" content="http://hellovictor.fr/images/hello-victor.png" />
+  <meta property="og:image" content="http://hellovictor.fr/images/hello-victor{{suffix}}.jpg" />
   <meta property="og:locale" content="fr_FR" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@_myvictor" />
   <meta name="twitter:title" content="L'assurance 100% numérique" />
   <meta name="twitter:description" content="couvre tous vos biens et vous rembourse rapidement" />
-  <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor.png" />
+  <meta name="twitter:image" content="http://hellovictor.fr/images/hello-victor{{suffix}}.jpg" />
 
   <!-- Material Design fonts -->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">

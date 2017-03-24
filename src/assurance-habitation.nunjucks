@@ -3,6 +3,8 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-habitation' %}
+{% set uri = '/assurance-habitation.html' %}
+{% set suffix = '-habitation' %}
 {% set page = 'habitation' %}
 {% set pageType = 'produit' %}
 {% set slogan = "L'ASSURANCE 100% NUMÉRIQUE" %}
@@ -154,7 +156,7 @@
       <div class="dash"></div>
       <div class="section-content">
         <p><b>CHEZ VOUS</b> : votre mobilier est assuré en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
-        <p><b>EN DEHORS</b> : vos objets importants sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
+        <p><b>EN DEHORS</b> : vos objets importants sont assurés en cas de vol ou de dégâts survenus en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
         <p><b>EN EXTENSION DE GARANTIE</b> : vos objets importants sont assurés en cas de panne au delà de sa période de garantie.</p>
       </div>
     </div>
@@ -179,7 +181,7 @@
       </p>
       <span class="text-semibold">Une gestion souple et claire de votre assurance</span> : ajouter ou supprimer des objets quand vous le souhaitez, votre prime sera recalculée instantanément.
       <br><br>
-      En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objets par objets. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
+      En plus et grâce à l’algorithme d’intelligence artificielle d’Hello Victor nous devenons la première assurance à adapter dynamiquement votre prime mensuelle pour être toujours au plus juste. Nous prenons en compte votre usage ainsi que la vétusté objet par objet. Par exemple votre iPhone 6s acheté fin 2015 pour une valeur de 659€ ne vaut en réalité aujourd’hui que 290€. Votre prime sera basée sur la valeur actuelle et non la valeur à neuf.
       <br><br>
     </div>
   </div>

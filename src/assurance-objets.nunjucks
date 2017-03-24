@@ -3,6 +3,8 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'product-page product-objects' %}
+{% set uri = '/assurance-objets.html' %}
+{% set suffix = '-objets' %}
 {% set page = 'objets' %}
 {% set pageType = 'produit' %}
 {% set slogan = "L'ASSURANCE 100% NUMÉRIQUE" %}

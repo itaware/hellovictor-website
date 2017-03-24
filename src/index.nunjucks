@@ -3,6 +3,8 @@
 {# Setup site's base URL to match the "baseUrl" key within `package.json` #}
 {# Otherwise default to relative pathing #}
 {% set bodyClass = 'home' %}
+{% set uri = '' %}
+{% set suffix = '' %}
 {% set page = 'accueil' %}
 {% set slogan = "L'assurance 100% en ligne qui couvre tous vos biens" %}
 {% endblock %}
