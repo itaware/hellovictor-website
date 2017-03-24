@@ -201,7 +201,8 @@ jQuery(document).ready(function ($) {
     return percentage;
   }
 
-  function get_position(element, vitesse = 1){
+  function get_position(element, vitesse){
+    if (!vitesse) vitesse = 1;
     offsetTop = element.offset().top;
     var position = -parseInt(((($(window).scrollTop()) - offsetTop) * 100 /  element.height()));
     position = position * vitesse;
