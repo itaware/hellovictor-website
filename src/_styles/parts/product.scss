@@ -189,9 +189,15 @@
   }
 }
 @media(min-width: $screen-sm-min){
-  .product-item{
-    &.alternate-item{
-      .row > div{height: 550px;}
+
+    .alternate-item{
+      .row.product-item {
+        > div {
+          // min-height: 550px;
+          // height: 100%;
+        }
+        
+      }
       .cover{
         img{
           top:0;
@@ -199,5 +205,5 @@
         }
       }
     }
-  }
+
 }
