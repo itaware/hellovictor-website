@@ -220,9 +220,7 @@
       {% endif %}
   </footer>
 
-  {% if not config.offline %}
-  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-  {% endif %}
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es5,getComputedStyle"></script>
   <script src="{{baseUrl}}scripts/main.js"></script>
   {% block scripts %}{% endblock %}
 

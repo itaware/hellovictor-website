@@ -25,7 +25,7 @@
         <ul class="list-text">
           <li class="text-md text-semibold">appareils numériques (ordinateur portable, téléphone et smartphone, enceinte, télévision, ampli, photo ...)</li>
           <li class="text-md text-semibold">matériels de loisir (instrument de musique, raquette, ski, surf, vélo, ...)</li>
-          <li class="text-md text-semibold">objets de valeurs ou précieux (montre, bijoux, mobilier ancien…) </li>
+          <li class="text-md text-semibold">objets de valeur ou précieux (montre, bijoux, mobilier ancien…) </li>
         </ul>
         <br/>
       </div>
@@ -52,7 +52,7 @@
             <div class="icon-desc-desc">Vol, casse, combustion</div>
             <div class="icon-desc-price">
               <div class="price-condition">à partir de</div>
-              <div class="price-value">7,90</div>
+              <div class="price-value">2,90</div>
               <div class="price-infos text-left">
                 <div class="text-sup currency">€</div>
                 <div class="periodicity">/mois</div>
@@ -85,7 +85,7 @@
             <div class="icon-desc-desc">Vol, dégradation</div>
             <div class="icon-desc-price">
               <div class="price-condition">à partir de</div>
-              <div class="price-value">9,90</div>
+              <div class="price-value">1,90</div>
               <div class="price-infos text-left">
                 <div class="text-sup currency">€</div>
                 <div class="periodicity">/mois</div>
@@ -120,7 +120,7 @@
           <div class="icon-desc-desc">Vol, casse</div>
           <div class="icon-desc-price">
             <div class="price-condition">à partir de</div>
-            <div class="price-value">10,50</div>
+            <div class="price-value">5,90</div>
             <div class="price-infos text-left">
               <div class="text-sup currency">€</div>
               <div class="periodicity">/mois</div>
@@ -129,8 +129,8 @@
         </div>
     </div>
     <div class="col-xs-12 col-sm-6 block-text valign-top" data-print="true" id="objets-precieux">
-      <h4 class="block-text-title">Assurez vos objets de valeurs et vos objets précieux au travers d’une couverture adaptée.</h4>
-      <p>Les objets de valeurs : <b>peintures</b> et <b>œuvres d’art</b>, <b>collections de livres rares ou anciens</b>, <b>mobilier ancien</b> et <b>pierres précieuses</b>, ainsi que vos objets précieux : <b>lingots d’or</b>, <b>bijoux</b>, <b>accessoires en métaux précieux</b> (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
+      <h4 class="block-text-title">Assurez vos objets de valeur et vos objets précieux au travers d’une couverture adaptée.</h4>
+      <p>Les objets de valeur : <b>peintures</b> et <b>œuvres d’art</b>, <b>collections de livres rares ou anciens</b>, <b>mobilier ancien</b> et <b>pierres précieuses</b>, ainsi que vos objets précieux : <b>lingots d’or</b>, <b>bijoux</b>, <b>accessoires en métaux précieux</b> (l’or, l’argent, le platine, l’ivoire…) ne sont pas pris en charge par votre assurance habitation de base et nécessite une couverture adaptée.</p>
       <p>En cas d’absence de facture, ou de doute sur la valeur, faites appel à nos experts pour estimer vos biens.</p>
       <div class="text-center block-text-button">
         <a href="#registerForm" class="btn btn-info btn-lg btn-raised" id="objets-precieux-click">En savoir plus</a>
@@ -154,7 +154,7 @@
       </div>
       <div class="section-content">
         <p><b>CHEZ VOUS</b> : vos objets sont assurés en cas de bris, de vol, incendie, dégats des eaux (ex télévision, appareil photo, livres ...) à l'intérieur du domicile.</p>
-        <p><b>EN DEHORS</b> : vos objets sont assurés en cas de vol ou de dégâts survenu en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
+        <p><b>EN DEHORS</b> : vos objets sont assurés en cas de vol ou de dégâts survenus en dehors du domicile (smartphone, vélo, ordinateur portable).</p>
         <p><b>EN EXTENSION DE GARANTIE</b> : vos objets sont assurés en cas de panne au delà de sa période de garantie.</p>
       </div>
     </div>

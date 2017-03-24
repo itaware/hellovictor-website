@@ -6,6 +6,7 @@ var noui = require('nouislider');
 require('fancybox')(jQuery);
 require('bootstrap');
 require('bootstrap-material-design');
+require('intersection-observer');
 
 jQuery.material.init();
 if(document.getElementById('room-number-slider')){
