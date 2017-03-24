@@ -166,6 +166,7 @@ $max-element : 4;
         }
         &.block-text{
           .block-inner{
+            width: 100%;
             flex-direction: column;
           }
         }
