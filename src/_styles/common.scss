@@ -154,7 +154,7 @@ $max-element : 4;
   .alternate-item{
     .row{
       display:flex;
-      flex-wrap: wrap;
+      //flex-wrap: wrap; // mauvais affichage sous safari
       > div{
         justify-content: center;
         align-items: center;
