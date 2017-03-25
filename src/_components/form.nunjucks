@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="form-submit text-center">
-        <a href="javascript://" class="btn btn-primary btn-raised" id="inscription">être informé</button>
+        <a href="javascript://" class="btn btn-primary btn-raised" id="inscription">être informé</a>
         <br>
         <a href="javascript://" class="btn-primary btn btn-link text-xs" data-dismiss="modal" id="pas_interesse">Non merci, ça ne m'intéresse pas</a>
       </div>

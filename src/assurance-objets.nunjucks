@@ -47,7 +47,7 @@
           </div>
           <div class="icon-desc text-center cover-content">
             <div class="icon-desc-header">
-              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" /></div>
+              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/phone-icon.svg" alt="Télépone" style="width:47px; height:86px;"/></div>
               <div class="dash dash-center"></div>
               <h3 class="icon-desc-title">Appareils numériques</h3>
             </div>
@@ -82,7 +82,7 @@
           </div>
           <div class="icon-desc text-center cover-content">
             <div class="icon-desc-header">
-              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" /></div>
+              <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/velo.svg" alt="Vélo" style="width:90px; height:51px;"/></div>
               <div class="dash dash-center"></div>
               <h3 class="icon-desc-title">Matériel de loisir</h3>
             </div>
@@ -114,12 +114,12 @@
     <div class="block-img col-xs-12 col-sm-6 container-cover">
         <div class="cover cover-bottom block-anim">
           <div class="anim-zoom">
-            <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux" />
+            <img src="{{baseUrl}}images/product/objets/objets-precieux.jpg" alt="Objets précieux"/>
           </div>
         </div>
         <div class="icon-desc text-center cover-content">
           <div class="icon-desc-header">
-            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" /></div>
+            <div class="icon-desc-picto"><img src="{{baseUrl}}images/product/objets/montre.svg" alt="Montre" style="width:50px; height:88px;"/></div>
             <div class="dash dash-center"></div>
             <h3 class="icon-desc-title">Objets précieux</h3>
           </div>
